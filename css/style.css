@@ -863,7 +863,7 @@ p {
 
 .over-item p {
   font-size: 17px;
-  color: #787878;
+  color: #D1D5CE;
   line-height: 26px;
 }
 
@@ -916,7 +916,7 @@ over-btn a i {
 }
 
 .about-item {
-  padding-top: 90px;
+  padding-top: 40px;
 }
 
 .about-img {
@@ -993,8 +993,8 @@ over-btn a i {
 }
 
 .about-txt p {
-  font-size: 17px;
-  color: #787878;
+  font-size: 1.125rem;
+  color: #D1D5CE;
   line-height: 27px;
   padding-bottom: 30px;
 }
