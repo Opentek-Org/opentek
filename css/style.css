@@ -399,7 +399,6 @@ p {
   -webkit-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
   transition: all linear 0.3s;
-  padding-top: 30px;
   background: transparent !important;
 }
 
@@ -863,7 +862,7 @@ p {
 
 .over-item p {
   font-size: 17px;
-  color: #D1D5CE;
+  color: #d1d5ce;
   line-height: 26px;
 }
 
@@ -976,9 +975,14 @@ over-btn a i {
 
 .separet-span {
   font-family: pr;
-  font-size: 19px;
-  color: #aa80ff;
+  letter-spacing: 2px;
+  font-size: 21px;
+  font-weight: bold;
+  background: linear-gradient(to right, #e633da 25%, #2bfa97 50%, #3acdff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 
 .about-txt {
   padding-top: 30px;
@@ -989,7 +993,7 @@ over-btn a i {
   font-size: 26px;
   color: #fff;
   padding-bottom: 16px;
-  padding-top: 8px;
+  padding-top: 12px;
 }
 
 .about-txt p {
@@ -1034,7 +1038,51 @@ over-btn a i {
   top: 6px;
 }
 
-.p-bar span {
+.list {
+  color: #D1D5CE;
+}
+
+.ul-about {
+  list-style: none;
+  padding-top: 25px;
+  position: relative;
+  padding-bottom: 45px;
+}
+
+li {
+  line-height: 2;
+  font-size: 1.1rem;
+}
+
+.ul-about ::before {
+  content: "\2022";
+  color: #aa80ff;
+  font-weight: bolder;
+  font-size: medium;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+.contribute {
+  padding-top: 30px;
+}
+
+.contribute h3 {
+  font-family: pb;
+  font-size: 26px;
+  color: #fff;
+  padding-bottom: 16px;
+  padding-top: 12px;
+}
+
+.contribute a {
+  color: #fff;
+  display: block;
+}
+
+/* .p-bar span {
   font-size: 18px;
   color: #787878;
 }
@@ -1070,7 +1118,7 @@ over-btn a i {
 .counter-1 span {
   font-size: 18px;
   color: #787878;
-}
+} */
 
 /*===========================
 5.0 *** GALLERY AREA START ***

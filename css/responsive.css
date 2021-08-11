@@ -191,6 +191,10 @@
     font-size: 24px;
   }
 
+  .list {
+    margin-left: 1em;
+  }
+
   #gallery {
     padding: 60px 0;
   }
