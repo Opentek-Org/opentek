@@ -7,16 +7,12 @@
 2.0 BANNER AREA START
 3.0 FEATURE AREA START
 4.0 ABOUT AREA START
-5.0 GALLERY AREA START
-6.0 PRODUCT AREA START
-7.0 TEAM AREA START
-8.0 PRICE AREA START
-9.0 REVIEW AREA START
-10.0 CONTACT AREA START 
-11.0 BLOG AREA START 
-12.0 SUBSCRIBE AREA START 
-13.0 FOOTER AREA START 
-14.0 COPY_RIGHT AREA START 
+5.0 PRODUCT AREA START ( Not Used )
+6.0 TEAM AREA START
+7.0 REVIEW AREA START ( Not Used )
+8.0 SUBSCRIBE AREA START 
+9.0 FOOTER AREA START 
+10.0 COPY_RIGHT AREA START 
  
 /*===========================
 0.0 *** Common CSS START ***
@@ -76,6 +72,7 @@ ol {
   font-size: 4rem;
   text-transform: uppercase;
   background: linear-gradient(to right, #e633da 25%, #2bfa97 50%, #3acdff 100%);
+  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -861,7 +858,8 @@ p {
 }
 
 .over-item p {
-  font-size: 17px;
+  font-size: clamp(1rem, 4vw, 1.15rem);
+  max-width: 50ch;
   color: #d1d5ce;
   line-height: 26px;
 }
@@ -915,7 +913,7 @@ over-btn a i {
 }
 
 .about-item {
-  padding-top: 40px;
+  padding-top: 35px;
 }
 
 .about-img {
@@ -983,7 +981,6 @@ over-btn a i {
   -webkit-text-fill-color: transparent;
 }
 
-
 .about-txt {
   padding-top: 30px;
 }
@@ -998,7 +995,7 @@ over-btn a i {
 
 .about-txt p {
   font-size: 1.125rem;
-  color: #D1D5CE;
+  color: #d1d5ce;
   line-height: 27px;
   padding-bottom: 30px;
 }
@@ -1039,7 +1036,7 @@ over-btn a i {
 }
 
 .list {
-  color: #D1D5CE;
+  color: #d1d5ce;
 }
 
 .ul-about {
@@ -1063,7 +1060,6 @@ li {
   width: 1em;
   margin-left: -1em;
 }
-
 
 .contribute {
   padding-top: 30px;
@@ -1121,42 +1117,14 @@ li {
 } */
 
 /*===========================
-5.0 *** GALLERY AREA START ***
-=============================*/
-#gallery {
-  padding: 80px 0;
-}
-
-.gallery-pa {
-  padding-top: 80px;
-}
-
-.gallery-img img {
-  border-radius: 5px;
-}
-
-.g-mar {
-  margin-top: 25px;
-}
-
-.sp-img2 {
-  height: 340px;
-}
-
-.sp-img {
-  height: 320px;
-}
-
-/*===========================
 6.0 *** PRODUCT AREA START ***
 =============================*/
-#product {
+/* #product {
   padding: 80px 0;
 }
 
 .product-pa {
-  padding-top: 145px;
-  padding-bottom: 110px;
+  padding-top: 185px;
 }
 
 .product-item {
@@ -1256,10 +1224,10 @@ li {
 
 .pro-info {
   padding: 20px 0 0;
-}
+} */
 
 /*===========================
-7.0 *** TEAM AREA START ***
+6.0 *** TEAM AREA START ***
 =============================*/
 #team {
   padding: 80px 0;
@@ -1385,98 +1353,9 @@ li {
 }
 
 /*===========================
-8.0 *** PRICE AREA START ***
+7.0 *** REVIEW AREA START ***
 =============================*/
-#price {
-  padding: 80px 0;
-}
-
-.price-pa {
-  padding-top: 80px;
-}
-
-.price-table {
-  background: #101822;
-  -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
-  padding: 30px 0 45px;
-  border-radius: 4px;
-}
-
-.price-table h3 {
-  color: white;
-  font-family: pb;
-  font-size: 18px;
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-.gold {
-  color: #aa80ff !important;
-}
-
-.gold-bg {
-  border: 2px solid #aa80ff;
-}
-
-.price-table h4 {
-  font-size: 40px;
-  font-family: pb;
-  color: white;
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-.price-table sub {
-  font-family: pr;
-  color: #aa80ff;
-  font-size: 16px;
-}
-
-.price-table p {
-  color: #787878;
-  font-family: pr;
-  padding-bottom: 15px;
-  padding-left: 35px;
-}
-
-.price-table p i {
-  color: #aa80ff;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.price-table a {
-  padding: 14px 20px;
-  font-family: pb;
-  font-size: 16px;
-  color: #101822;
-  background: white;
-  text-align: center;
-  border-radius: 50px;
-  -webkit-transition: all linear 0.3s;
-  -o-transition: all linear 0.3s;
-  transition: all linear 0.3s;
-}
-
-.price-table a:hover {
-  background: #aa80ff;
-  color: white;
-}
-
-.price-btn {
-  padding-top: 35px;
-}
-
-.gold-bg2 a {
-  background: #aa80ff;
-  color: white;
-}
-
-/*===========================
-9.0 *** REVIEW AREA START ***
-=============================*/
-#review {
+/* #review {
   padding: 80px 0;
   position: relative;
 }
@@ -1550,201 +1429,10 @@ li {
 .star2 i {
   color: #fbaa33;
   margin: 0 4px;
-}
+} */
 
 /*===========================
-10.0 *** CONTACT AREA START ***
-=============================*/
-#contact {
-  padding: 80px 0;
-  position: relative;
-}
-
-.contact-pa {
-  padding-top: 80px;
-}
-
-.faq-icon {
-  background: #101822;
-  border: 1px solid #101822;
-}
-
-.faq-icon i {
-  color: #aa80ff;
-}
-
-.contact-icon i {
-  color: #aa80ff;
-}
-
-.form-control:focus {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-.zom {
-  font-size: 17px;
-}
-
-.box-bg {
-  background: #101822;
-  border: 1px solid #101822;
-  color: #fffbfb;
-}
-
-.box-bg:focus {
-  color: #fff;
-  background: #101822;
-  border: 1px solid #101822;
-}
-
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder,
-input:focus,
-input:hover,
-input::-moz-placeholder,
-textarea::-moz-placeholder,
-input:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
-  color: white !important;
-}
-
-.contact-input {
-  height: 55px;
-  margin-bottom: 29px !important;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-.con-btn {
-  padding: 15px 40px;
-  color: white;
-  font-family: pb;
-  background: #aa80ff;
-  border-radius: 50px;
-  font-size: 18px;
-  border: none;
-  -webkit-transition: all linear 0.3s;
-  -o-transition: all linear 0.3s;
-  transition: all linear 0.3s;
-}
-
-.con-btn:hover {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  cursor: pointer;
-}
-
-.card-header {
-  background: #101822;
-  border: 1px solid #101822;
-}
-
-.card-body {
-  background: #101822;
-  color: #ccc;
-  padding: 26px 40px;
-  line-height: 28px;
-  font-family: pr;
-}
-
-.card {
-  border: none;
-}
-
-.btn-link {
-  color: #aa80ff;
-  font-family: pb;
-}
-
-.btn-link:hover,
-.btn-link:focus {
-  text-decoration: none;
-  color: #aa80ff;
-}
-
-input::placeholder,
-textarea::placeholder {
-  color: white !important;
-}
-
-/*===========================
-11.0 *** BLOG AREA START ***
-=============================*/
-#blog {
-  padding: 80px 0;
-}
-
-.blog-header h3:after {
-  width: 186px;
-}
-
-.blog-pa {
-  padding-top: 80px;
-}
-
-.tags {
-  padding-top: 60px;
-}
-
-.tags h4 {
-  color: white;
-  font-family: pb;
-  padding-bottom: 45px;
-  font-size: 21px;
-}
-
-.tags a {
-  padding: 12px 17px;
-  background: #101822;
-  color: #787878;
-  margin-right: 8px;
-}
-
-.tag-pa {
-  padding-top: 48px;
-}
-
-.blog-item-txt h3 {
-  color: white;
-  font-size: 24px;
-  font-family: pb;
-  padding: 22px 0 16px;
-}
-
-.blog-item-txt p {
-  color: #787878;
-  padding-bottom: 14px;
-}
-
-.blog-item-txt a {
-  color: #aa80ff;
-  font-size: 17px;
-  font-family: pb;
-  padding-top: 5px;
-}
-
-.blog-shadow {
-  background: #101822;
-  border-radius: 6px;
-}
-
-.blog-item-txt {
-  padding-left: 23px;
-  padding-bottom: 25px;
-}
-
-.search-btn {
-  width: 60px;
-  background: #aa80ff;
-  color: white;
-  border: 1px solid #aa80ff;
-}
-
-/*===========================
-12.0 *** SUBSCRIBE AREA START ***
+8.0 *** SUBSCRIBE AREA START ***
 =============================*/
 #subscribe {
   padding: 30px 0;
@@ -1759,22 +1447,34 @@ textarea::placeholder {
 
 .sub-main h3 {
   padding-left: 60px;
-  font-size: 26px;
+  font-size: 23px;
   color: white;
   font-family: pb;
+  letter-spacing: 2px;
+  padding-bottom: 15px;
 }
 
 .sub-main a {
   background: white;
-  padding: 15px 25px;
-  border-radius: 50px;
+  padding: 10px 20px;
+  border-radius: 70px;
   font-family: pb;
   color: #aa80ff;
   font-size: 18px;
 }
 
+.sub-main a:hover {
+  color: #101822;
+}
+
+.sub-main p {
+  font-family: pl;
+  text-align: center;
+  padding-top: 5px;
+}
+
 /*===========================
-13.0 *** FOOTER AREA START ***
+9.0 *** FOOTER AREA START ***
 =============================*/
 
 #footer {
@@ -1785,7 +1485,7 @@ textarea::placeholder {
 }
 
 .footer-logo p {
-  color: #787878;
+  color: #d1d5ce;
   font-family: pr;
   padding-top: 10px;
   line-height: 29px;
@@ -1804,7 +1504,7 @@ textarea::placeholder {
   line-height: 45px;
   text-align: center;
   border-radius: 50%;
-  color: #aa80ff;
+  color: #101822;
   background: white;
   font-size: 20px;
   margin-right: 13px;
@@ -1825,11 +1525,11 @@ textarea::placeholder {
   color: #fff;
   font-weight: 600;
   text-transform: capitalize;
-  padding-bottom: 4px;
+  padding-bottom: 15px;
 }
 
 .links ul li a {
-  color: #787878;
+  color: #d1d5ce;
   text-transform: capitalize;
   line-height: 38px;
   font-size: 16px;
@@ -1844,19 +1544,11 @@ textarea::placeholder {
   padding-left: 10px;
 }
 
-.location p {
-  padding-bottom: 5px;
-}
-
-.location a {
-  color: #ccc;
-  font-size: 15px;
-  line-height: 25px;
-}
-
 .f-logo {
   font-size: 27px;
-  color: #aa80ff;
+  background: linear-gradient(to right, #e633da 25%, #2bfa97 50%, #3acdff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: pb;
 }
 
@@ -1864,56 +1556,8 @@ textarea::placeholder {
   color: #aa80ff;
 }
 
-.insta-item {
-  color: white;
-}
-
-.fg2 input {
-  border-radius: 50px;
-  background: none;
-  color: #fff;
-  border: 1px solid #ff416c;
-}
-
-.fg2 input:focus {
-  background: none;
-  border: 1px solid #ff416c;
-  position: relative;
-  right: 0;
-}
-
-.fg2 input:hover {
-  border-radius: 50px;
-  border: 1px solid #ff416c;
-}
-
-.fg2 button i {
-  -webkit-transition: all linear 0.3s;
-  -o-transition: all linear 0.3s;
-  transition: all linear 0.3s;
-}
-
-.fg2 button {
-  border-radius: 50px;
-  position: absolute;
-  right: 16px;
-  top: 65px;
-  border: none;
-  background: #ff416c;
-  color: #fff;
-}
-
-.fg2 button:hover {
-  border: none;
-  background: #ff416c;
-}
-
-.fg2 button:hover i {
-  padding-right: 8px;
-}
-
 /*===========================
-14.0 *** COPY_RIGHT AREA START ***
+10.0 *** COPY_RIGHT AREA START ***
 =============================*/
 
 #footer-btm {
