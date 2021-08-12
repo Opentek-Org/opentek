@@ -99,7 +99,7 @@
   }
 }
 
-@media (max-width: 1000px) and (min-width: 580px) {
+@media (max-width: 1000px) and (min-width: 575px) {
   #text {
     font-size: 2.5rem;
   }
@@ -233,12 +233,6 @@
     padding-top: 45px;
   }
 
-  #price,
-  #review,
-  #contact,
-  #blog {
-    padding: 60px 0;
-  }
 
   /* .review-item {
     background: none;
@@ -285,7 +279,8 @@
   } */
 
   .sub-main {
-    border-radius: 2px;
+    border-radius: 12px;
+    text-align: center;
   }
 
   .sub-main h3 {
@@ -295,15 +290,15 @@
     padding-bottom: 30px;
   }
 
+  .sub-main p {
+    display: none;
+  }
+
   .sub-main a {
     background: white;
     padding: 14px 20px;
     font-size: 16px;
     margin-left: 10px;
-  }
-
-  .subscripe-btn {
-    text-align: center;
   }
 
   .links h3 {
@@ -456,7 +451,9 @@
   .tags {
     padding-top: 45px;
   } */
-
+  .sub-main {
+    text-align: center;
+  }
   .sub-main h3 {
     padding-left: 0;
     text-align: center;
@@ -470,6 +467,10 @@
   .sub-main a {
     padding: 15px 20px;
     font-size: 16px;
+  }
+
+  .sub-main p {
+    display: none;
   }
 
   .links h3 {
