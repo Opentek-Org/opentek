@@ -57,7 +57,7 @@ const getData = async () => {
       <span class="separet-span">${data[i].title}</span>
       <h5 style="color: white; padding:8px 0px 8px 0px;">${data[i].subtitle}</h5>
       <div>
-          <p>${data[i].para}</p>
+          <p style="text-align: justify;">${data[i].para}</p>
           
       </div>
         </div></div>`;
