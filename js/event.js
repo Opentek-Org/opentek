@@ -153,11 +153,12 @@ let data = [
       {
         event: "1",
         details: {
-          eventName: "Eventsddddd Name",
-          eventDate: "",
-          eventDesc: "",
-          eventurl: "",
-          eventImg: "",
+          eventName: "Wikimania ",
+          eventDate: "13/08/2021 - 17/08/2021",
+          eventDesc:
+            "Wikimania is the Wikimedia movement’s annual conference celebrating the free knowledge projects made possible by the volunteer community and hosted by the Wikimedia Foundation",
+          eventurl: "https://wikimania.wikimedia.org/wiki/About",
+          eventImg: "../images/events/wikimania.png",
         },
       },
     ],
@@ -168,11 +169,36 @@ let data = [
       {
         event: "1",
         details: {
-          eventName: "Eventsddddd Name",
-          eventDate: "",
-          eventDesc: "",
-          eventurl: "",
-          eventImg: "",
+          eventName: "Open Source Summit",
+          eventDate: "27/09/2021 - 30/09/2021",
+          eventDesc:
+            "Open Source Summit connects the open source ecosystem under one roof. It’s a unique environment for cross-collaboration between developers, sysadmins, devops, architects and others who are driving technology forward.",
+          eventurl:
+            "https://events.linuxfoundation.org/open-source-summit-north-america/",
+          eventImg: "../images/events/oss.png",
+        },
+      },
+      {
+        event: "2",
+        details: {
+          eventName: "Linux Security Summit",
+          eventDate: "29/09/2021 - 01/10/2021",
+          eventDesc:
+            "Open Source Summit connects the open source ecosystem under one roof. It’s a unique environment for cross-collaboration between developers, sysadmins, devops, architects and others who are driving technology forward.",
+          eventurl:
+            "https://events.linuxfoundation.org/linux-security-summit-north-america/",
+          eventImg: "../images/events/lss.png",
+        },
+      },
+      {
+        event: "3",
+        details: {
+          eventName: "PyCon India",
+          eventDate: "17/09/2021 - 20/09/2021",
+          eventDesc:
+            "PyCon India is the largest annual gathering of Python aficionados and experts in India where Pythonistas come from around the world to celebrate their use of Python, and share their knowledge and experience.",
+          eventurl: "https://in.pycon.org/2021/#tickets",
+          eventImg: "../images/events/pycon.png",
         },
       },
     ],
@@ -183,12 +209,58 @@ let data = [
       {
         event: "1",
         details: {
+          eventName: "Open Source India (OSI)",
+          eventDate: "07/10/2021 - 08/10/2021",
+          eventDesc:
+            "Open Source India (OSI) is an attempt by the team at Open Source For You magazine in partnership with India’s Open Source community and industry—to bring various stake-holders under one roof.",
+          eventurl: "https://www.opensourceindia.in/",
+          eventImg: "../images/events/osi.png",
+        },
+      },
+      {
+        event: "2",
+        details: {
           eventName: "DrupalCon",
           eventDate: "04/10/2021 - 07/10/2021",
           eventDesc:
             "DrupalCon unites experts from around the globe who create ambitious digital experiences.Network, learn, and be inspired.",
           eventurl: "https://events.drupal.org/",
           eventImg: "../images/events/drupalcon.png",
+        },
+      },
+      {
+        event: "3",
+        details: {
+          eventName: "WordCamp US Online",
+          eventDate: "01/10/2021",
+          eventDesc:
+            "WordCamps are casual, locally-organized conferences covering everything related to WordPress, the free and open source personal publishing software that powers over 75 million sites on the web",
+          eventurl: "https://us.wordcamp.org/2021/",
+          eventImg: "../images/events/wordcamp.png",
+        },
+      },
+      {
+        event: "4",
+        details: {
+          eventName: "KubeCon + CloudNativeCon North America",
+          eventDate: "11/10/2021 - 15/10/2021",
+          eventDesc:
+            "CNCF’s flagship conference gathers adopters & technologists from leading OS and cloud native communities (Kubernetes, Prometheus, Envoy, CoreDNS and more) for education and advancement of cloud native computing.",
+          eventurl:
+            "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/",
+          eventImg: "../images/events/kubecon.png",
+        },
+      },
+      {
+        event: "5",
+        details: {
+          eventName: "Open Networking & Edge Summit",
+          eventDate: "11/10/2021 - 12/10/2021",
+          eventDesc:
+            "Open Networking & Edge Summit is the ONE event for End to End Connectivity Solutions powered by Open Source. It enables the collaborative development necessary to shape the future of networking and edge computing.",
+          eventurl:
+            "https://events.linuxfoundation.org/open-networking-edge-summit-north-america/",
+          eventImg: "../images/events/ones.png",
         },
       },
     ],
@@ -246,15 +318,15 @@ $(function () {
 
             html += `<div class="col-lg-9 col-12 m-auto">
                     
-                            <div class="over-item txt-right unique-style3">
+                            <div class="over-item txt-right unique-style3 rounded-3">
                                   <div class="row">
-                                      <div class="col-md-8 col-12">
+                                      <div class="col-md-8 col-12 ">
                                       <div class="break"></div>
                                       <h3 class="text-left" >${data[index].Data[i].details.eventName}</h3>
                                       <h6 class="text-left text-light" >${data[index].Data[i].details.eventDate}</h6></br>
                                       <p class="text-left">${data[index].Data[i].details.eventDesc}</p>
                                       <div class="over-btn text-left">
-                                          <a href="${data[index].Data[i].details.eventurl}">Read More</a>
+                                          <a href ="${data[index].Data[i].details.eventurl}" target="blank">Website</a>
                                       </div>
                                       </div>
                                       <div class="col-md-4 col-12">
