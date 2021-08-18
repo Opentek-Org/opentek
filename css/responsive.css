@@ -116,11 +116,11 @@
   }
 
   .banner-txt h3 {
-    font-size: 30px !important;
+    font-size: 50px !important;
   }
 
   .banner-txt h1 {
-    font-size: 15px;
+    font-size: 20px !important; 
   }
 
   .banner-txt {
