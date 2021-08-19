@@ -138,11 +138,23 @@ let data = [
       {
         event: "1",
         details: {
-          eventName: "EventAug Name",
-          eventDate: "",
-          eventDesc: "",
-          eventurl: "",
-          eventImg: "",
+          eventName: "GUADEC",
+          eventDate: "21-07-2021 - 25/07/2021",
+          eventDesc:
+            "GUADEC is the GNOME community’s largest conference, bringing together hundreds of users, contributors, community members, and enthusiastic supporters together for a week of talks and workshops.",
+          eventurl: "https://events.gnome.org/event/9/",
+          eventImg: "../images/events/guadec.png",
+        },
+      },
+      {
+        event: "2",
+        details: {
+          eventName: "BOSC",
+          eventDate: "29-07-2021 - 31/07/2021",
+          eventDesc:
+            "The Bioinformatics Open Source Conference promotes and facilitates the open source development of bioinformatics tools and open science.",
+          eventurl: "https://www.open-bio.org/events/bosc-2021/about/",
+          eventImg: "../images/events/bosc.png",
         },
       },
     ],
@@ -159,6 +171,50 @@ let data = [
             "Wikimania is the Wikimedia movement’s annual conference celebrating the free knowledge projects made possible by the volunteer community and hosted by the Wikimedia Foundation",
           eventurl: "https://wikimania.wikimedia.org/wiki/About",
           eventImg: "../images/events/wikimania.png",
+        },
+      },
+      {
+        event: "2",
+        details: {
+          eventName: "GitLab Commit Virtual",
+          eventDate: "03/08/2021 - 04/08/2021",
+          eventDesc:
+            "During this two-day conference, attendees will learn how they can instill modern DevOps practices at their organizations.",
+          eventurl: "https://gitlabcommitvirtual2021.com/",
+          eventImg: "../images/events/gitlab.png",
+        },
+      },
+      {
+        event: "3",
+        details: {
+          eventName: "ApacheCon Asia",
+          eventDate: "06/08/2021 - 09/08/2021",
+          eventDesc:
+            "Join us from the comfort of your own home for three days of Apache project content across dozens of categories, from Big Data to Search to Web Frameworks and more.",
+          eventurl: "https://hopin.com/events/apachecon-asia-2021",
+          eventImg: "../images/events/apache.png",
+        },
+      },
+      {
+        event: "4",
+        details: {
+          eventName: "DebConf21",
+          eventDate: "06/08/2021 - 09/08/2021",
+          eventDesc:
+            "DebConf is the Debian Project's developer conference. In addition to a full schedule of technical, social and policy talks, DebConf provides an opportunity for developers, contributors and other interested people to meet in person and work together more closely.",
+          eventurl: "https://debconf21.debconf.org/",
+          eventImg: "../images/events/debcon.png",
+        },
+      },
+      {
+        event: "5",
+        details: {
+          eventName: "BornHack",
+          eventDate: "19/08/2021 - 26/08/2021",
+          eventDesc:
+            "BornHack is a 7 day outdoor tent camp where hackers, makers and people with an interest in technology or security come together to celebrate technology, socialise, learn and have fun.",
+          eventurl: "https://bornhack.dk/bornhack-2021/",
+          eventImg: "../images/events/bornhack.png",
         },
       },
     ],
