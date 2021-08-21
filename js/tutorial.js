@@ -65,10 +65,18 @@ const getData = async () => {
         html += "</div>";
         html += '<div class="row">';
       }
-      html += `<div class="col-md-4 col-12">`;
-      html += `<div class=" card  mt-5 card_red text-center">
-            <iframe  height="215" src="https://www.youtube.com/embed/${data[i].id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-                         </div>   `;
+      html += `<div class="col-lg-4 col-sm-4">`;
+      // html += `<div class=" card  mt-5 card_red text-center">
+      //       <iframe  height="215" src="https://www.youtube.com/embed/${data[i].id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      //                    </div>   `;
+      html += `<div class="mt-5 card text-center">
+      <a href=https://www.youtube.com/embed/${data[i].id}?autoplay=1>
+      <img id="ytimg" height="215" width="100%" src=https://img.youtube.com/vi/${data[i].id}/hqdefault.jpg alt='ytvideo'>
+      <div class" text-center" >
+      <span id="butt">▶</span>
+      </div>
+      </a>
+      </div>   `;
       html += `<div class="about-txt">
       <span class="separet-span">${data[i].title}</span>
       <h5 style="color: white; padding:8px 0px 8px 0px;">${data[i].subtitle}</h5>
