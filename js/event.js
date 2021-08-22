@@ -399,8 +399,8 @@ $(function () {
         }
       }
     } else {
-      var htmlz = `<div class= "container">`;
-      htmlz += `<p class="text-light text-center">No data found please select another month</p>`;
+      var htmlz = `<div class= "container unique-style3  mb-5 pb-5">`;
+      htmlz += `<p class="text-light text-center text-no-data">No data found please select another month</p>`;
       htmlz += `</div>`;
       $("#error").append(htmlz);
     }
