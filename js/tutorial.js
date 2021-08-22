@@ -71,9 +71,9 @@ const getData = async () => {
       //                    </div>   `;
       html += `<div class="mt-5 card text-center">
       <a href=https://www.youtube.com/embed/${data[i].id}?autoplay=1>
-      <img id="ytimg" height="215" width="100%" src=https://img.youtube.com/vi/${data[i].id}/hqdefault.jpg alt='ytvideo'>
+      <img id="ytimg" height="100%" width="100%" src=https://img.youtube.com/vi/${data[i].id}/hqdefault.jpg alt='ytvideo'>
       <div class" text-center" >
-      <span id="butt">▶</span>
+      <span id="butt"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></span>
       </div>
       </a>
       </div>   `;

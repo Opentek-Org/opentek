@@ -1604,14 +1604,16 @@ li {
 
 #butt {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* position: absolute;
   top: 0;
   bottom: 0;
   margin: auto;
   height: 1.5em;
-  text-align: center;
-  font: 48px/1.5 sans-serif;
-  color: red;
-  text-shadow: 0 0 0.5em black;
+  text-align: center; */
+  /* font: 48px/1.5 sans-serif; */
 }
 .text-no-data{
   font-size: 20px;
