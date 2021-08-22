@@ -1613,3 +1613,6 @@ li {
   color: red;
   text-shadow: 0 0 0.5em black;
 }
+.text-no-data{
+  font-size: 20px;
+}
