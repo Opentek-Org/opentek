@@ -319,6 +319,17 @@ let data = [
           eventImg: "../images/events/ones.png",
         },
       },
+      {
+        event: "6",
+        details: {
+          eventName: "api hacks",
+          eventDate: "15/10/2021 - 16/10/2021",
+          eventDesc:
+            "Our objective is to build a digital footprint for the student developers and encourage them to integrate APIs within their solutions.",
+          eventurl: "https://apihacks.co/",
+          eventImg: "../images/events/api.png",
+        },
+      },
     ],
   },
   {
@@ -327,10 +338,10 @@ let data = [
       {
         event: "1",
         details: {
-          eventName: "Eventsddddd Name",
-          eventDate: "",
-          eventDesc: "",
-          eventurl: "",
+          eventName: "Lorem Ipsum",
+          eventDate: "Lorem ipsum",
+          eventDesc: "Lorem Ipsum",
+          eventurl: "Lorem ipsum",
           eventImg: "",
         },
       },
