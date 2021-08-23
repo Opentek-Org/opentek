@@ -29,8 +29,6 @@ const getData = async () => {
       title: "Kunal Kushwaha",
       subtitle: "About the Video",
       para: "This tutorial will help you with using Git & GitHub for your personal projects and contributing to Open Source, with no prerequisites, in an easy to understand language.",
-      // button: "Contribute",
-      // buttonurl: "http://",
     },
     {
       id: "yzeVMecydCE",
@@ -67,7 +65,7 @@ const getData = async () => {
       }
       html += `<div class="col-lg-4 col-sm-4">`;
       // html += `<div class=" card  mt-5 card_red text-center">
-      //       <iframe  height="215" src="https://www.youtube.com/embed/${data[i].id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      //       <iframe  height="215" src="https://www.youtube.com/embed/${data[i].id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       //                    </div>   `;
       html += `<div class="mt-5 card text-center">
       <a href=https://www.youtube.com/embed/${data[i].id}?autoplay=1>
