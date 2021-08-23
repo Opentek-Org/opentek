@@ -1,4 +1,3 @@
-
 let months = [
   "January",
   "February",
