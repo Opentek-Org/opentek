@@ -59,13 +59,19 @@
 						<a class="nav-link" href="#banner">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#rowdy">Videos</a>
+						<a class="nav-link" href="#team">Team</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="./event.html">Events</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Programs</a>
+						<a class="nav-link" href="./program.html">Programs</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./projects.html">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./tutorial.html">Tutorials</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#footer">Contact</a>
@@ -117,37 +123,37 @@
 		</div>
 	</div>
 
-		<!-- TEAM AREA START -->
-		<section id="team">
-			<div class="container">
-				<div class="row header-text text-center team-header">
-					<div class="col-lg-12">
-						<h3>TE<span>A</span>M</h3>
-					</div>
-				</div>
-				<div class="row team-pa">
-					<div class="col-lg-3 col-md-3 col-sm-4 m-auto team-item text-center">
-						<img src="../images/t1.jpg" alt="team-member" class="img-fluid">
-						<h3>Samanthz</h3>
-						<p>CEO Founder</p>
-						<a href="#">Profile</a>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-4 m-auto team-item text-center">
-						<img src="../images/t2.jpg" alt="team-member" class="img-fluid">
-						<h3>Anderson</h3>
-						<p>Senior Designer</p>
-						<a href="#">Profile</a>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-4 m-auto team-item text-center">
-						<img src="../images/t3.jpg" alt="team-member" class="img-fluid">
-						<h3>Margaret</h3>
-						<p>Cartoon Artist</p>
-						<a href="#">Profile</a>
-					</div>
+	<!-- TEAM AREA START -->
+	<section id="team">
+		<div class="container">
+			<div class="row header-text text-center team-header">
+				<div class="col-lg-12">
+					<h3>TE<span>A</span>M</h3>
 				</div>
 			</div>
-		</section>
-		<!-- TEAM AREA ENDS -->
+			<div class="row team-pa">
+				<div class="col-lg-3 col-md-3 col-sm-4 m-auto team-item text-center">
+					<img src="../images/t1.jpg" alt="team-member" class="img-fluid">
+					<h3>Samanthz</h3>
+					<p>CEO Founder</p>
+					<a href="#">Profile</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-4 m-auto team-item text-center">
+					<img src="../images/t2.jpg" alt="team-member" class="img-fluid">
+					<h3>Anderson</h3>
+					<p>Senior Designer</p>
+					<a href="#">Profile</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-4 m-auto team-item text-center">
+					<img src="../images/t3.jpg" alt="team-member" class="img-fluid">
+					<h3>Margaret</h3>
+					<p>Cartoon Artist</p>
+					<a href="#">Profile</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- TEAM AREA ENDS -->
 
 	<!-- FOOTER AREA START -->
 	<footer id="footer">
@@ -177,9 +183,9 @@
 						<ul>
 							<li><a href="../index.html">About Us</a></li>
 							<li><a href="./event.html">Events</a></li>
-							<li><a href="#">Programs</a></li>
-							<li><a href="#">Projects</a></li>
-							<li><a href="#">Team</a></li>
+							<li><a href="./program.html">Programs</a></li>
+							<li><a href="./projects.html">Projects</a></li>
+							<li><a href="#team">Team</a></li>
 						</ul>
 					</div>
 				</div>
@@ -217,6 +223,8 @@
 		</div>
 	</section>
 	<!-- COPY_RIGHT AREA END -->
+
+
 	<script type="module">
 
 		import { annotate } from 'https://unpkg.com/rough-notation?module';
@@ -234,20 +242,7 @@
 	<script defer src="../js/jquery-3.3.1.min.js"></script>
 	<script defer src="../js/bootstrap.min.js"></script>
 	<script defer src="../js/slick.min.js"></script>
-	<!-- <script defer src="../js/jquery.isotope.min.html"></script> -->
 	<script defer src="../js/circular.js"></script>
 	<script defer src="../js/custom.js"></script>
-	<!-- <script defer src="../js/about.js"></script> -->
-	<!-- <script defer src="../js/tutorial.js"></script> -->
 
-	<!-- <script type="module" src="https://unpkg.com/rough-notation?module"></script> -->
-
-	<script>
-		var video_id = 'VA770wpLX-Q';
-
-		$.getJSON('http://gdata.youtube.com/feeds/api/videos/' + video_id + '?v=2&alt=jsonc', function (data, status, xhr) {
-			alert(data.data.title);
-			// data contains the JSON-Object below
-		});
-	</script>
 </body>

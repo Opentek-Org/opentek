@@ -16,7 +16,7 @@ var d = new Date();
 var n = months[d.getMonth()];
 
 let htmlc = `<select class="custom-select mr-sm-2 " id="type">`;
-htmlc += `<option>This month is ${n}. Check if any event is happening!!</option>`;
+htmlc += `<option value="This month is ${n}. Check if any event is happening!!" disabled selected>This month is ${n}. Check if any event is happening!!</option>`;
 for (let index = 0; index < months.length; index++) {
   htmlc += `<option value="${index}">${months[index]}</option>`;
 }

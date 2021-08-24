@@ -1,7 +1,7 @@
 let domain = ["WEBDEV", "ML", "RESTAPI","DSA","NODEJS"];
 
 let htmlc = `<select class="custom-select mr-sm-2 " id="type">`;
-htmlc += `<option>Choose your Domain</option>`;
+htmlc += `<option value="Choose your Domain" disabled selected>Choose your Domain</option>`;
 for (let index = 0; index < domain.length; index++) {
   htmlc += `<option value="${index}">${domain[index]}</option>`;
 }
