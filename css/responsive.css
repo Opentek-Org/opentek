@@ -115,6 +115,10 @@
     padding: 154px 0 93px;
   }
 
+  #text-down {
+    font-size: small !important;
+  }
+
   .banner-txt h3 {
     font-size: 30px !important;
   }

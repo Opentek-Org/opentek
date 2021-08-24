@@ -156,8 +156,20 @@ li {
 .team-item p {
   font-family: pr;
   font-size: 18px;
+  /* font-size: clamp(1rem, 2.5vw, 2rem);  */
   color: #787878;
   padding-bottom: 14px;
+}
+
+@media screen and (max-width: 800px) {
+    #p-tag-right {
+        right: 0%;
+        padding: 5px;
+    }
+    .ul-tag {
+        padding: 0 1em;
+    }
+
 }
 
 .team-item a {
