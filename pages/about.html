@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="keywords" content="HTML5 Template,Animation Studio, Cartoon" />
 	<meta name="description" content="Animado - Animation & Cartoon Studio Template" />
-	<title>Opentek | 404</title>
+	<title>Opentek | About US</title>
 	<link rel="icon" href="../images/Opentek.png" type="image/gif" sizes="16x16">
 	<!--font-awesome icons link-->
 	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
@@ -17,13 +17,22 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 	<!-- Bootstrap CSS -->
+
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/slick.css">
 
 	<!--main style file-->
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/responsive.css">
+	<link rel="stylesheet" href="../css/about.css">
 </head>
+
+<style>
+	html {
+		scroll-behavior: smooth;
+	}
+</style>
+
 <body id="dark-mode">
 	<!-- Preloader Part Start -->
 	<div class="preloader">
@@ -47,13 +56,16 @@
 			<div class="collapse navbar-collapse menu-main" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto menu-item">
 					<li class="nav-item">
-						<a class="nav-link" href="../index.html">Home</a>
+						<a class="nav-link" href="#banner">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="../pages/event.html">Events</a>
+						<a class="nav-link" href="#rowdy">Videos</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="../pages/tutorial.html">Tutorials</a>
+						<a class="nav-link" href="./event.html">Events</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Programs</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#footer">Contact</a>
@@ -62,9 +74,81 @@
 			</div>
 		</div>
 	</nav>
-	<div class="container pt-5 ">
-                <div class="d-flex justify-content-center"><img src="../images/error.svg" alt="" width="400" height="400" srcset=""></div>  
-        </div>
+	<section id="banner">
+		<div class="design-layer"></div>
+		<div class="backtotop">
+			<a href="#banner"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+		</div>
+		<div class="container zindex">
+			<div class="row">
+				<div class="col-lg-12 banner-txt">
+					<h3 id="text">ABOUT US</h3>
+					<h1 id="text-down" class="fs-5 text-center m-4">Inclusive <span style="color: #2DF5A3;">Open Source
+							Community</span> to spread awareness about Open Source and create a collaborative
+						environment.</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div class="row justify-content-around">
+		<div class="col-4 banner-about">
+			<h4 id="h4-annotate">Who are we and What we do?</h4>
+			<p id="p-tag-left">If it about Open Source, it is on Opentek</p>
+			<img id="image-team" src="../images/team.svg" alt="team-picture">
+		</div>
+		<div class="col-4">
+			<p id="p-tag-right">Welcome to Opentek, your number one source for Open Source Development. We're dedicated
+				to giving you the very best of tools, resources, and projects, with a focus on Collaboration, Code, and
+				Networking.</p>
+			<p id="p-tag-right">
+				The problems we are trying to solve:
+			<ul class="ul-tag">
+				<li>No need of excessive Google search to find events, programs or resources.</li>
+				<li>This organization is completely devoted to Open Source and Networking.</li>
+				<li>Language specific projects where an absolute beginner can also contribute.</li>
+				<li>Coding and Collaborating in an inclusive environment</li>
+			</ul>
+			</p>
+			<p id="p-tag-right">This community is going to help accelerate students' learning, and bring them closer to
+				like-minded individuals, who could all be a valuable asset in their journey towards a better future in
+				technology.</p>
+		</div>
+	</div>
+
+		<!-- TEAM AREA START -->
+		<section id="team">
+			<div class="container">
+				<div class="row header-text text-center team-header">
+					<div class="col-lg-12">
+						<h3>TE<span>A</span>M</h3>
+					</div>
+				</div>
+				<div class="row team-pa">
+					<div class="col-lg-3 col-md-3 col-sm-4 m-auto team-item text-center">
+						<img src="../images/t1.jpg" alt="team-member" class="img-fluid">
+						<h3>Samanthz</h3>
+						<p>CEO Founder</p>
+						<a href="#">Profile</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-4 m-auto team-item text-center">
+						<img src="../images/t2.jpg" alt="team-member" class="img-fluid">
+						<h3>Anderson</h3>
+						<p>Senior Designer</p>
+						<a href="#">Profile</a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-4 m-auto team-item text-center">
+						<img src="../images/t3.jpg" alt="team-member" class="img-fluid">
+						<h3>Margaret</h3>
+						<p>Cartoon Artist</p>
+						<a href="#">Profile</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- TEAM AREA ENDS -->
+
 	<!-- FOOTER AREA START -->
 	<footer id="footer">
 		<div class="container">
@@ -82,18 +166,18 @@
 							<a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
 							<a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
 							<a href="mailto:opentekorg@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i></a>
-	
+
 						</div>
 					</div>
 				</div>
-	
+
 				<div class="col-lg-2 col-sm-3">
 					<div class="links">
 						<h3>Quick Links</h3>
 						<ul>
-							<li><a href="#">About Us</a></li>
-							<li><a href="../pages/event.html">Events</a></li>
-							<li><a href="../pages/program.html">Programs</a></li>
+							<li><a href="../index.html">About Us</a></li>
+							<li><a href="./event.html">Events</a></li>
+							<li><a href="#">Programs</a></li>
 							<li><a href="#">Projects</a></li>
 							<li><a href="#">Team</a></li>
 						</ul>
@@ -110,7 +194,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-4">
+				<div class="col-lg-3 col-sm-4 ">
 					<iframe src="https://discord.com/widget?id=876369146961596428&theme=dark" width="300" height="350"
 						allowtransparency="true" frameborder="0"
 						sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
@@ -133,6 +217,15 @@
 		</div>
 	</section>
 	<!-- COPY_RIGHT AREA END -->
+	<script type="module">
+
+		import { annotate } from 'https://unpkg.com/rough-notation?module';
+
+		const e1 = document.querySelector("#h4-annotate");
+		const a1 = annotate(e1, { type: "underline", color: "#aa80ff" });
+		a1.show();
+
+	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
@@ -144,7 +237,17 @@
 	<!-- <script defer src="../js/jquery.isotope.min.html"></script> -->
 	<script defer src="../js/circular.js"></script>
 	<script defer src="../js/custom.js"></script>
-	<script defer src="../js/event.js"></script>
-</body>
+	<!-- <script defer src="../js/about.js"></script> -->
+	<!-- <script defer src="../js/tutorial.js"></script> -->
 
-</html>
+	<!-- <script type="module" src="https://unpkg.com/rough-notation?module"></script> -->
+
+	<script>
+		var video_id = 'VA770wpLX-Q';
+
+		$.getJSON('http://gdata.youtube.com/feeds/api/videos/' + video_id + '?v=2&alt=jsonc', function (data, status, xhr) {
+			alert(data.data.title);
+			// data contains the JSON-Object below
+		});
+	</script>
+</body>
