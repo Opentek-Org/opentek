@@ -982,8 +982,8 @@ over-btn a i {
 }
 
 .about-img img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(40%);
+  filter: grayscale(40%);
   -webkit-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
   transition: all linear 0.3s;
