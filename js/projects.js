@@ -126,7 +126,6 @@ let data = [
       },
     ],
   },
-//   DSA BELOW id 3
   {
     domainId: "3",
     Data: [
@@ -163,11 +162,12 @@ let data = [
         langurl: "https://github.com/Manthan933/Manthan",
         langAdmin: "Manthan",
       },
-    ],
-  },
-  {
-
+    ]
+  },{
+    domainId: "3",
+    Data: []
   }
+  
 ];
 
 let valu;
@@ -178,10 +178,11 @@ $(function () {
     let index = valu;
     $("#project").empty();
     $("#error").empty();
-    if (valu < data.length && valu < data[index].Data.length) {
+    console.log(data[index].Data.length);
+    if (valu < data.length && data[index].Data.length>0) {
       for (let i = 0; i < data[index].Data.length; i++) {
         try {
-          // console.log(data);
+          console.log(data);
           var html = "";
           for (i = 0; i < data[index].Data.length; i++) {
             html += `
