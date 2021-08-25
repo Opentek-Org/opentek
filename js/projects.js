@@ -1,4 +1,4 @@
-let domain = ["Web Development", "Machine Learning", "API", "DSA", "NODEJS"];
+let domain = ["Web Development", "Machine Learning", "API", "DSA", "NODEJS", "App Development"];
 
 let htmlc = `<select class="custom-select mr-sm-2 " id="type">`;
 htmlc += `<option value="Choose your Domain" disabled selected>Choose your Domain</option>`;
@@ -131,14 +131,14 @@ let data = [
     Data: [
       {
         langId: "0",
-        langTitle: ["HTML", "SCSS", "JS"],
-        // langImg: "../images/projects/doc2pen.gif",
-        langName: "DSAAAAA",
+        langTitle: ["DS", "Algorithms"],
+        // langImg: "../images/projects/jina.gif",
+        langName: "NeoAlgo",
         langDesc:
-          "Doc2Pen is the 1 stop shop for getting all your handmade assignments ready for submission digitally. <br/>Check it out and contribute!",
+          "Bringing all Data Structures and Algorithms under one Roof ⚡",
         // langLevel: "basic",
-        langurl: "https://github.com/smaranjitghose/doc2pen",
-        langAdmin: "Smaranjit Ghose",
+        langurl: "https://github.com/TesseractCoding/NeoAlgo",
+        langAdmin: "Tesseract Coding",
       },
       {
         langId: "1",
@@ -162,12 +162,40 @@ let data = [
         langurl: "https://github.com/Manthan933/Manthan",
         langAdmin: "Manthan",
       },
-    ]
-  },{
-    domainId: "3",
-    Data: []
-  }
-  
+    ],
+  },
+  {
+    domainId: "4",
+    Data: [
+      {
+        langId: "0",
+        langTitle: ["JavaScript"],
+        // langImg: "https://picsum.photos/500/300/?image=5",
+        langName: "Manthan",
+        langDesc:
+          "We provide an online testing platform that can be used to conduct tests that are wrapped with all the necessary precautions to reduce the chances of cheating.",
+        // langLevel: "basic",
+        langurl: "https://github.com/Manthan933/Manthan",
+        langAdmin: "Manthan",
+      },
+    ],
+  },
+  {
+    domainId: "5",
+    Data: [
+      {
+        langId: "0",
+        langTitle: ["Dart"],
+        // langImg: "https://picsum.photos/500/300/?image=5",
+        langName: "Simulate",
+        langDesc:
+          "A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)",
+        // langLevel: "basic",
+        langurl: "https://github.com/cod-ed/simulate",
+        langAdmin: "cod-ed",
+      },
+    ],
+  },
 ];
 
 let valu;

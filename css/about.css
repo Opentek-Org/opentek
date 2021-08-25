@@ -186,3 +186,12 @@ li {
   font-family: pb;
   position: relative;
 }
+
+
+.contributors {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  width: 100%;
+  object-fit: cover;
+}
