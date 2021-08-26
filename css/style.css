@@ -1249,7 +1249,6 @@ li {
   padding: 20px 0 0;
 } */
 
-
 /*===========================
 7.0 *** REVIEW AREA START ***
 =============================*/
@@ -1483,6 +1482,25 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.text-no-data{
+.text-no-data {
   font-size: 20px;
+}
+
+.avatar {
+  /* vertical-align: middle; */
+  position: relative;
+  left: 10px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.hidden {
+  pointer-events: none;
+}
+.hidden-icon {
+  display: none;
+}
+.hidden-p {
+  display: none;
 }
