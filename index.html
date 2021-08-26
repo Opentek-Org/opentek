@@ -24,6 +24,14 @@
 	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+	<!-- MDB -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
+
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/slick.css">
@@ -67,6 +75,19 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#footer">Contact</a>
 					</li>
+					<li class="nav-item">
+						<!-- <a class="nav-link bor" href="#" data-toggle="modal" data-target="#exampleModal">Contact</a> -->
+						<button id="btn-login" disabled="true" class="btn btn-outline-light" onclick="login()">Log
+							In</button>
+						<button id="btn-logout" disabled="true" class="btn btn-outline-light" onclick="logout()">Log
+							Out</button>
+					</li>
+					<li class="nav-item">
+						<div id="avatar-img-div" class="hidden-icon">
+							<img id="avatar-img" class="avatar" src="">
+						</div>
+					</li>
+
 				</ul>
 			</div>
 		</div>
@@ -108,8 +129,16 @@
 								<h3>Events</h3>
 								<p>Find all the Open Source Events happening around the globe month-wise and never miss
 									any opportunity to learn and grow from the experts 😉</p>
-								<div class="over-btn">
+								<div class="hidden over-btn" id="gated-content-1">
 									<a href="./pages/event.html">Tune In</a>
+								</div>
+								<div id="gated-content-2">
+									<p style="font-family: 'Caveat', cursive; font-size: large;">Log In
+										Required!</p>
+									<p class="hidden-icon" style="font-family: 'Caveat', cursive; font-size: large;">Log
+										In
+										Required!</p>
+
 								</div>
 							</div>
 						</div>
@@ -120,8 +149,16 @@
 								<h3>Programs</h3>
 								<p>Participate in these programs listed month-wise and take your Open Source journey to
 									the next level and earn some swags 😍</p>
-								<div class="over-btn">
+								<div class="hidden over-btn" id="gated-content-3">
 									<a href="./pages/program.html">Participate</a>
+								</div>
+								<div id="gated-content-4">
+									<p style="font-family: 'Caveat', cursive; font-size: large;">Log In
+										Required!</p>
+									<p class="hidden-icon" style="font-family: 'Caveat', cursive; font-size: large;">Log
+										In
+										Required!</p>
+
 								</div>
 							</div>
 						</div>
@@ -481,7 +518,8 @@
 							- Linus Torvalds
 						</p>
 						<div class="footer-social">
-							<a href="https://discord.gg/9qyr4Mdc3Y" target="_blank"><i class="fab fa-discord" aria-hidden="true"></i></a>
+							<a href="https://discord.gg/9qyr4Mdc3Y" target="_blank"><i class="fab fa-discord"
+									aria-hidden="true"></i></a>
 							<a href="https://twitter.com/opentekorg" target="blank"><i class="fab fa-twitter"
 									aria-hidden="true"></i></a>
 							<a href="https://www.linkedin.com/company/opentekorg/" target="blank"><i
@@ -496,8 +534,8 @@
 						<h3>Quick Links</h3>
 						<ul>
 							<li><a href="./pages/about.html">About Us</a></li>
-							<li><a href="./pages/event.html">Events</a></li>
-							<li><a href="./pages/program.html">Programs</a></li>
+							<li><a id="gated-content-5" class="hidden" href="./pages/event.html">Events</a></li>
+							<li><a id="gated-content-6" class="hidden" href="./pages/program.html">Programs</a></li>
 							<li><a href="./pages/projects.html">Projects</a></li>
 							<li><a href="https://github.com/Opentek-Org/opentek/graphs/contributors"
 									target="_blank">Contributors</a></li>
@@ -541,13 +579,15 @@
 	<!-- COPY_RIGHT AREA END -->
 
 	<!-- Optional JavaScript -->
-
+	<script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
+	<script src="js/auth0.js"></script>
 	<script defer src="js/jquery-3.3.1.min.js"></script>
 	<script defer src="js/bootstrap.min.js"></script>
 	<script defer src="js/slick.min.js"></script>
 	<!-- <script defer src="js/jquery.isotope.min.html"></script> -->
 	<script defer src="js/circular.js"></script>
 	<script defer src="js/custom.js"></script>
+	<script src="js/auth0.js"></script>
 </body>
 
 </html>
