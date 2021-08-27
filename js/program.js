@@ -135,7 +135,7 @@ let data = [
       {
         event: "1",
         details: {
-          eventName: "Eventsddddd Name",
+          eventName: "Event Name",
           eventDate: "",
           eventDesc: "",
           eventurl: "",

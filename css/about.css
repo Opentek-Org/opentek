@@ -134,6 +134,7 @@ li {
  .team-item img {
   border-radius: 30% 84% 28% 76% / 87% 23% 69% 29%;
   border: 6px solid #aa80ff;
+  width: 40vh;
   /* -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   -webkit-transition: all linear 0.3s;
@@ -157,7 +158,7 @@ li {
   font-family: pr;
   font-size: 18px;
   /* font-size: clamp(1rem, 2.5vw, 2rem);  */
-  color: #787878;
+  color: #a19999;
   padding-bottom: 14px;
 }
 

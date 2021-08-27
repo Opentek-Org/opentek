@@ -93,17 +93,6 @@ let data = [
     Data: [
       {
         langId: "0",
-        langTitle: ["DS", "Algorithms"],
-        // langImg: "../images/projects/jina.gif",
-        langName: "NeoAlgo",
-        langDesc:
-          "Bringing all Data Structures and Algorithms under one Roof ⚡",
-        // langLevel: "basic",
-        langurl: "https://github.com/TesseractCoding/NeoAlgo",
-        langAdmin: "Tesseract Coding",
-      },
-      {
-        langId: "1",
         langTitle: ["Jupyter Notebook"],
         // langImg: "https://picsum.photos/500/300/?image=5",
         langName: "FACE-X",
@@ -112,17 +101,6 @@ let data = [
         // langLevel: "basic",
         langurl: "https://github.com/akshitagupta15june/Face-X",
         langAdmin: "AKSHITA GUPTA",
-      },
-      {
-        langId: "2",
-        langTitle: ["Python", "Flask", "Numpy"],
-        // langImg: "https://picsum.photos/500/300/?image=5",
-        langName: "Breast-Cancer-Predictor",
-        langDesc: "A Flask based web application to predict breast cancer.",
-        // langLevel: "basic",
-        langurl:
-          "https://github.com/srimani-programmer/Breast-Cancer-Predictor",
-        langAdmin: "Srimani",
       },
     ],
   },
@@ -139,28 +117,6 @@ let data = [
         // langLevel: "basic",
         langurl: "https://github.com/TesseractCoding/NeoAlgo",
         langAdmin: "Tesseract Coding",
-      },
-      {
-        langId: "1",
-        langTitle: ["HTML", "CSS", "JS"],
-        // langImg: "https://picsum.photos/500/300/?image=5",
-        langName: "Awesome Portfolio Website",
-        langDesc:
-          "A community maintained open source project aimed at making personal portfolio for researchers, developers and analysts simple, fast and less cumbersome.",
-        // langLevel: "basic",
-        langurl: "https://github.com/smaranjitghose/awesome-portfolio-websites",
-        langAdmin: "Smaranjit Ghose",
-      },
-      {
-        langId: "2",
-        langTitle: ["JavaScript"],
-        // langImg: "https://picsum.photos/500/300/?image=5",
-        langName: "Manthan",
-        langDesc:
-          "We provide an online testing platform that can be used to conduct tests that are wrapped with all the necessary precautions to reduce the chances of cheating.",
-        // langLevel: "basic",
-        langurl: "https://github.com/Manthan933/Manthan",
-        langAdmin: "Manthan",
       },
     ],
   },
