@@ -92,7 +92,7 @@ let data = [
       {
         event: "1",
         details: {
-          eventName: "Eventsddddd Name",
+          eventName: "Event Name",
           eventDate: "",
           eventDesc: "",
           eventurl: "",
@@ -107,7 +107,7 @@ let data = [
       {
         event: "1",
         details: {
-          eventName: "Eventsddddd Name",
+          eventName: "Event Name",
           eventDate: "",
           eventDesc: "",
           eventurl: "",
@@ -122,7 +122,7 @@ let data = [
       {
         event: "1",
         details: {
-          eventName: "Eventsddddd Name",
+          eventName: "Events Name",
           eventDate: "",
           eventDesc: "",
           eventurl: "",

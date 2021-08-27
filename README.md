@@ -57,7 +57,11 @@ Welcome to Opentek, your number one source for Open Source Development. We're de
 - 🌈 **ANYONE!! YES ANYONE can contribute to this project and can make a difference.**
 - 💥 **Never miss out on any Events and Programs anymore and say bye-bye to the tedious google searches to find a tutorial or a Beginner-friendly project**
 
-OPEN SOURCE TO THE MOOON 🚀
+**OPEN SOURCE TO THE MOOON 🚀 [ Join Discord ]**
+
+<a href="https://discord.com/invite/9qyr4Mdc3Y" target="blank">
+<img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
+</a>
 
 ## 🛠️ Installation Steps
 
@@ -97,7 +101,7 @@ git pull upstream main
 ```
 git checkout -b <your_branch_name>
 ```
-**You are all set! Open [localhost:3000](http://localhost:3000/) to see the app.** (Authenticated)
+**You are all set! Open [localhost:3000](http://localhost:3000/) to see the app.** (Authenticated via Auth0)
 
 8. Perfom your desired changes to the code base.
 
@@ -128,6 +132,9 @@ git push -u origin <your_branch_name>
 
 Please read our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
+## 🤷‍♂️ Want to submit an event, program, project or a tutorial to our Website?
+Please read [CONTRIBUTE.md]()
+
 ## 💻 Built with
 - **Auth0:** User Authentication
 - **HTML5:** Skeleton
@@ -142,6 +149,8 @@ Please read our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for sub
 
 ## 👀 Future Plans
 - Conducting Community Own OPEN SOURCE PROGRAM
+- Sorting out projects according to beginners, intermediate and advanced levels.
+- Participating in various Open Source programs with this project.
 - Collaborating with various communities and create opportunities.
 - Adding Hackathon Page and Updating it according to month-wise.
 - Animations
@@ -165,6 +174,9 @@ It will motivate us!!
 
 ---
 
-<h3 align="center">
-Let's *Open Source*
-</h3>
+
+## ✌ Our Socials
+
+<a href="https://twitter.com/opentekorg" target="blank">
+<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+</a>
