@@ -38,7 +38,7 @@
 
 Welcome to Opentek, your number one source for Open Source Development. We're dedicated to giving you the very best of tools, resources, and projects, with a focus on Collaboration, Code, and Networking. Try out [Opentek](https://opentek.live/) 🙌
 
-[Read blog 📖]()
+[Read blog 📖](https://anirudhpanda.hashnode.dev/introducing-opentek)
 
 ## 🚀 Demo
 
@@ -133,7 +133,7 @@ git push -u origin <your_branch_name>
 Please read our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
 ## 🤷‍♂️ Want to submit an event, program, project or a tutorial to our Website?
-Please read [CONTRIBUTE.md]()
+Please read [CONTRIBUTE.md](https://github.com/Opentek-Org/opentek/blob/main/CONTRIBUTE.md)
 
 ## 💻 Built with
 - **Auth0:** User Authentication
