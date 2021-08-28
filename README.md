@@ -36,6 +36,10 @@
 
 ### Introducing Opentek 🎉
 
+<a href="https://opentek.live/" target="blank">
+<img src="https://i.postimg.cc/qMpTrLpd/1.png" />
+</a>
+
 Welcome to Opentek, your number one source for Open Source Development. We're dedicated to giving you the very best of tools, resources, and projects, with a focus on Collaboration, Code, and Networking. Try out [Opentek](https://opentek.live/) 🙌
 
 [Read blog 📖](https://anirudhpanda.hashnode.dev/introducing-opentek)
@@ -43,8 +47,10 @@ Welcome to Opentek, your number one source for Open Source Development. We're de
 ## 🚀 Demo
 
 <a href="https://opentek.live/" target="blank">
-<img src="https://i.postimg.cc/HxF7vD5R/opentek-desk.png" />
+<img src="images/demo.gif" />
 </a>
+
+
 
 ## 😎 Features
 
@@ -170,6 +176,8 @@ This project is [MIT](https://github.com/Opentek-Org/opentek/blob/main/LICENSE) 
 
 This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
 It will motivate us!!
+
+<a href="https://www.producthunt.com/posts/opentek?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-opentek" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=310285&theme=dark" alt="Opentek - If it is about Open Source, it is on Opentek. | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 
 ---

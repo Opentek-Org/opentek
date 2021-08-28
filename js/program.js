@@ -186,7 +186,19 @@ let data = [
   },
   {
     monthId: "8",
-    Data: [],
+    Data: [
+      {
+        event: "1",
+        details: {
+          eventName: "Script Winter of Code",
+          eventDate: "5th August",
+          eventDesc:
+            "Script Winter of Code is an open-source program envisioned by the Script Foundation. It aims to bring students into the world of open source development and see the power of unified problem-solving in real time.",
+          eventurl: "https://swoc.scriptindia.org/#/",
+          eventImg: "../images/programs/swoc.png",
+        },
+      },
+    ],
   },
   {
     monthId: "9",
