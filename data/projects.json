@@ -1,130 +1,120 @@
 [
-    {
-      "domainId": "0",
-      "Data": [
-        {
-          "langId": "0",
-          "langTitle": ["HTML", "SCSS", "JS"],
-          "langName": "Doc2Pen",
-          "langDesc":
-            "Doc2Pen is the 1 stop shop for getting all your handmade assignments ready for submission digitally. <br/>Check it out and contribute!",
-          "langurl": "https://github.com/smaranjitghose/doc2pen",
-          "langAdmin": "Smaranjit Ghose"
-        },
-        {
-          "langId": "1",
-          "langTitle": ["HTML", "CSS", "JS"],
-          "langName": "Awesome Portfolio Website",
-          "langDesc":
-            "A community maintained open source project aimed at making personal portfolio for researchers, developers and analysts simple, fast and less cumbersome.",
-          "langurl": "https://github.com/smaranjitghose/awesome-portfolio-websites",
-          "langAdmin": "Smaranjit Ghose"
-        },
-        {
-          "langId": "2",
-          "langTitle": ["JavaScript"],
-          "langName": "Manthan",
-          "langDesc":
-            "We provide an online testing platform that can be used to conduct tests that are wrapped with all the necessary precautions to reduce the chances of cheating.",
-          "langurl": "https://github.com/Manthan933/Manthan",
-          "langAdmin": "Manthan"
-        }
-          {
-          "langId": "3",
-          "langTitle": ["JavaScript"],
-          "langName": "2-DEGREE",
-          "langDesc":
-            "Project 2° has simulated to design the most opitimal scenario to restrain the rise in global temperature due to global warming.",
-          "langurl": "https://github.com/The-CODE-Plus-Plus-Community/2-Degree-HackACode",
-          "langAdmin": "The-CODE-Plus-Plus-Community"
-        }
-      ]
-    },
-    {
-      "domainId": "1",
-      "Data": [
-        {
-          "langId": "0",
-          "langTitle": ["Python"],
-          "langName": "Jina",
-          "langDesc": "Cloud-native neural search framework for 𝙖𝙣𝙮 kind of Data",
-          "langurl": "https://github.com/jina-ai/jina",
-          "langAdmin": "Jina AI"
-        },
-        {
-          "langId": "1",
-          "langTitle": ["Jupyter Notebook"],
-          "langName": "FACE-X",
-          "langDesc":
-            "Demonstration of different algorithms and operations on faces.",
-          "langurl": "https://github.com/akshitagupta15june/Face-X",
-          "langAdmin": "AKSHITA GUPTA"
-        },
-        {
-          "langId": "2",
-          "langTitle": ["Python", "Flask", "Numpy"],
-          "langName": "Breast-Cancer-Predictor",
-          "langDesc": "A Flask based web application to predict breast cancer.",
-          "langurl":
-            "https://github.com/srimani-programmer/Breast-Cancer-Predictor",
-          "langAdmin": "Srimani"
-        }
-      ]
-    },
-    {
-      "domainId": "2",
-      "Data": [
-        {
-          "langId": "0",
-          "langTitle": ["Jupyter Notebook"],
-          "langName": "FACE-X",
-          "langDesc":
-            "Demonstration of different algorithms and operations on faces.",
-          "langurl": "https://github.com/akshitagupta15june/Face-X",
-          "langAdmin": "AKSHITA GUPTA"
-        }
-      ]
-    },
-    {
-      "domainId": "3",
-      "Data": [
-        {
-          "langId": "0",
-          "langTitle": ["DS", "Algorithms"],
-          "langName": "NeoAlgo",
-          "langDesc":
-            "Bringing all Data Structures and Algorithms under one Roof ⚡",
-          "langurl": "https://github.com/TesseractCoding/NeoAlgo",
-          "langAdmin": "Tesseract Coding"
-        }
-      ]
-    },
-    {
-      "domainId": "4",
-      "Data": [
-        {
-          "langId": "0",
-          "langTitle": ["JavaScript"],
-          "langName": "Manthan",
-          "langDesc":
-            "We provide an online testing platform that can be used to conduct tests that are wrapped with all the necessary precautions to reduce the chances of cheating.",
-          "langurl": "https://github.com/Manthan933/Manthan",
-          "langAdmin": "Manthan"
-        }
-      ]
-    },
-    {
-      "domainId": "5",
-      "Data": [
-        {
-          "langId": "0",
-          "langTitle": ["Dart"],
-          "langName": "Simulate",
-          "langDesc":
-            "A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)",
-          "langurl": "https://github.com/cod-ed/simulate",
-          "langAdmin": "cod-ed"
-        }
-      ]
-    }
-  ]
+  {
+    "domainId": "0",
+    "Data": [
+      {
+        "langId": "0",
+        "langTitle": ["HTML", "SCSS", "JS"],
+        "langName": "Doc2Pen",
+        "langDesc": "Doc2Pen is the 1 stop shop for getting all your handmade assignments ready for submission digitally. <br/>Check it out and contribute!",
+        "langurl": "https://github.com/smaranjitghose/doc2pen",
+        "langAdmin": "Smaranjit Ghose"
+      },
+      {
+        "langId": "1",
+        "langTitle": ["HTML", "CSS", "JS"],
+        "langName": "Awesome Portfolio Website",
+        "langDesc": "A community maintained open source project aimed at making personal portfolio for researchers, developers and analysts simple, fast and less cumbersome.",
+        "langurl": "https://github.com/smaranjitghose/awesome-portfolio-websites",
+        "langAdmin": "Smaranjit Ghose"
+      },
+      {
+        "langId": "2",
+        "langTitle": ["JavaScript"],
+        "langName": "Manthan",
+        "langDesc": "We provide an online testing platform that can be used to conduct tests that are wrapped with all the necessary precautions to reduce the chances of cheating.",
+        "langurl": "https://github.com/Manthan933/Manthan",
+        "langAdmin": "Manthan"
+      },
+      {
+        "langId": "3",
+        "langTitle": ["JavaScript"],
+        "langName": "2-DEGREE",
+        "langDesc": "Project 2° has simulated to design the most opitimal scenario to restrain the rise in global temperature due to global warming.",
+        "langurl": "https://github.com/The-CODE-Plus-Plus-Community/2-Degree-HackACode",
+        "langAdmin": "The-CODE-Plus-Plus-Community"
+      }
+    ]
+  },
+  {
+    "domainId": "1",
+    "Data": [
+      {
+        "langId": "0",
+        "langTitle": ["Python"],
+        "langName": "Jina",
+        "langDesc": "Cloud-native neural search framework for 𝙖𝙣𝙮 kind of Data",
+        "langurl": "https://github.com/jina-ai/jina",
+        "langAdmin": "Jina AI"
+      },
+      {
+        "langId": "1",
+        "langTitle": ["Jupyter Notebook"],
+        "langName": "FACE-X",
+        "langDesc": "Demonstration of different algorithms and operations on faces.",
+        "langurl": "https://github.com/akshitagupta15june/Face-X",
+        "langAdmin": "AKSHITA GUPTA"
+      },
+      {
+        "langId": "2",
+        "langTitle": ["Python", "Flask", "Numpy"],
+        "langName": "Breast-Cancer-Predictor",
+        "langDesc": "A Flask based web application to predict breast cancer.",
+        "langurl": "https://github.com/srimani-programmer/Breast-Cancer-Predictor",
+        "langAdmin": "Srimani"
+      }
+    ]
+  },
+  {
+    "domainId": "2",
+    "Data": [
+      {
+        "langId": "0",
+        "langTitle": ["Jupyter Notebook"],
+        "langName": "FACE-X",
+        "langDesc": "Demonstration of different algorithms and operations on faces.",
+        "langurl": "https://github.com/akshitagupta15june/Face-X",
+        "langAdmin": "AKSHITA GUPTA"
+      }
+    ]
+  },
+  {
+    "domainId": "3",
+    "Data": [
+      {
+        "langId": "0",
+        "langTitle": ["DS", "Algorithms"],
+        "langName": "NeoAlgo",
+        "langDesc": "Bringing all Data Structures and Algorithms under one Roof ⚡",
+        "langurl": "https://github.com/TesseractCoding/NeoAlgo",
+        "langAdmin": "Tesseract Coding"
+      }
+    ]
+  },
+  {
+    "domainId": "4",
+    "Data": [
+      {
+        "langId": "0",
+        "langTitle": ["JavaScript"],
+        "langName": "Manthan",
+        "langDesc": "We provide an online testing platform that can be used to conduct tests that are wrapped with all the necessary precautions to reduce the chances of cheating.",
+        "langurl": "https://github.com/Manthan933/Manthan",
+        "langAdmin": "Manthan"
+      }
+    ]
+  },
+  {
+    "domainId": "5",
+    "Data": [
+      {
+        "langId": "0",
+        "langTitle": ["Dart"],
+        "langName": "Simulate",
+        "langDesc": "A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)",
+        "langurl": "https://github.com/cod-ed/simulate",
+        "langAdmin": "cod-ed"
+      }
+    ]
+  }
+]
