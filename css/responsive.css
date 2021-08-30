@@ -35,10 +35,6 @@
   .row {
     padding-top: 35px;
   }
-
-  /* .product-pa {
-    padding-top: 90px;
-  } */
 }
 
 @media (max-width: 991px) {
@@ -208,19 +204,6 @@
     margin-top: 30px;
   }
 
-  /* #product {
-    padding: 60px 0;
-  }
-
-  .product-pa {
-    padding-top: 100px;
-    padding-bottom: 30px;
-  }
-
-  .product-txt h3 {
-    font-size: 30px;
-  } */
-
   .mob-mar-bottom {
     margin-bottom: 30px;
   }
@@ -235,93 +218,6 @@
 
   .team-item {
     padding-top: 45px;
-  }
-
-  /* .review-item {
-    background: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding-top: 0;
-  } */
-
-  .comment {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  .user {
-    padding: 30px 0 0;
-  }
-
-  .user-txt h3 {
-    padding-top: 25px;
-  }
-
-  .card-body {
-    padding: 26px 28px;
-  }
-
-  .zom {
-    padding-left: 0;
-  }
-
-  /* .mobile-space {
-    padding-top: 45px;
-  }
-
-  .tags {
-    padding-top: 40px;
-  }
-
-  .tags a {
-    padding: 10px 14px;
-  }
-
-  .blog-text {
-    padding-top: 45px;
-  } */
-
-  .sub-main {
-    border-radius: 12px;
-    text-align: center;
-  }
-
-  .sub-main h3 {
-    padding-left: 0px;
-    font-size: 21px;
-    text-align: center;
-    padding-bottom: 30px;
-  }
-
-  .sub-main p {
-    display: none;
-  }
-
-  .sub-main a {
-    background: white;
-    padding: 14px 20px;
-    font-size: 16px;
-    margin-left: 10px;
-  }
-
-  .links h3 {
-    padding-top: 40px;
-  }
-
-  .fop-btm h2 {
-    line-height: 26px;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 575px) {
-  .sub-main h3 {
-    font-size: 25px;
-  }
-
-  .price-table p {
-    padding-left: 0;
-    text-align: center;
-    font-size: 18px;
   }
 }
 
@@ -374,35 +270,6 @@
     padding-top: 75px;
   }
 
-  .counter-1 span {
-    font-size: 16px;
-  }
-
-  .sm-hide {
-    display: none;
-  }
-
-  .sm-reduce-pa {
-    padding-top: 30px;
-  }
-
-  /* #product {
-    padding: 50px 0;
-  } */
-
-  .mob-img-hide {
-    display: none;
-  }
-
-  /* .product-pa {
-    padding-top: 60px;
-    padding-bottom: 20px;
-  }
-
-  .product-item {
-    margin-top: 30px;
-  } */
-
   .team-item h3 {
     font-size: 22px;
   }
@@ -423,63 +290,6 @@
     border: 4px solid #aa80ff;
   }
 
-  /* .price-pa {
-    padding-top: 60px;
-  }
-
-  .price-table {
-    margin-top: 30px;
-  }
-
-  #review::after {
-    display: none;
-  } */
-
-  /* .mobile-space {
-    margin-top: 50px;
-  }
-
-  #blog {
-    padding: 60px 0;
-  }
-
-  .blog-item-txt h3 {
-    font-size: 22px;
-  }
-
-  .blog-text {
-    margin-top: 45px;
-  }
-
-  .tags {
-    padding-top: 45px;
-  } */
-  .sub-main {
-    text-align: center;
-  }
-  .sub-main h3 {
-    padding-left: 0;
-    text-align: center;
-    padding-bottom: 30px;
-  }
-
-  .subscripe-btn {
-    text-align: center;
-  }
-
-  .sub-main a {
-    padding: 15px 20px;
-    font-size: 16px;
-  }
-
-  .sub-main p {
-    display: none;
-  }
-
-  .links h3 {
-    font-size: 19px;
-  }
-
   .footer-social {
     padding-bottom: 35px;
   }
@@ -490,10 +300,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* #banner {
-        padding: 155px 0 100px;
-    } */
-
   #banner::before {
     display: none;
   }
@@ -525,31 +331,9 @@
     font-size: 13px;
   }
 
-  .ai-two::after {
-    right: 9px;
-  }
-
   .about-txt p {
     padding-bottom: 45px;
   }
-
-  .tab-hider,
-  .tab-view-hide {
-    display: none;
-  }
-
-  .sp-img {
-    height: 240px;
-  }
-
-  /* .product-pa {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
-  .product-item {
-    margin-top: 50px;
-  } */
 
   #team::before {
     top: 530px;
@@ -558,30 +342,6 @@
   #team::after {
     top: 488px;
   }
-
-  /* .price-pa {
-    padding-top: 55px;
-  }
-
-  .price-table {
-    margin-top: 35px;
-  }
-
-  #review::after {
-    display: none;
-  }
-
-  .mobile-space {
-    padding-top: 60px;
-  }
-
-  #blog {
-    padding: 60px 0;
-  }
-
-  .blog-text {
-    padding-top: 45px;
-  } */
 
   .footer-social {
     padding-top: 11px;
@@ -617,42 +377,12 @@
     display: none;
   }
 
-  /* #product {
-    padding: 65px 0;
-  }
-
-  .stars i {
-    font-size: 12px;
-  } */
-
   #team::before {
     top: 600px;
   }
 
   #team::after {
     top: 562px;
-  }
-
-  /* .price-table p {
-    padding-bottom: 15px;
-    padding-left: 20px;
-  }
-
-  #review::after {
-    display: none;
-  }
-
-  .tags a {
-    padding: 12px 15px;
-  }
-
-  .blog-item-txt {
-    padding-left: 13px;
-  } */
-
-  .sub-main a {
-    padding: 15px 19px;
-    font-size: 15px;
   }
 
   .links h3 {
