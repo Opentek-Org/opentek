@@ -76,7 +76,7 @@ const getData = async () => {
       </a>
       </div>   `;
       html += `<div class="about-txt">
-      <span class="separet-span">${data[i].title}</span>
+      <span class="style-span">${data[i].title}</span>
       <h5 style="color: white; padding:8px 0px 8px 0px;">${data[i].subtitle}</h5>
       <div>
           <p style="text-align: justify;">${data[i].para}</p>

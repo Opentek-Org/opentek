@@ -72,7 +72,6 @@ ol {
   font-size: 4rem;
   text-transform: uppercase;
   background: linear-gradient(to right, #e633da 25%, #2bfa97 50%, #3acdff 100%);
-
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -108,62 +107,7 @@ p {
   font-family: pl;
 }
 
-/* model */
-.modal-content {
-  background: #121212;
-}
 
-.modal-title {
-  font-size: 26px;
-  color: white;
-  font-family: pb;
-}
-
-.modal-header {
-  border-bottom: 1px dashed #222;
-}
-
-.modal-body {
-  padding: 42px 30px 30px;
-}
-
-.dropboxx {
-  background: #101822;
-}
-
-.dropboxx,
-.dropboxx2 {
-  padding: 12px 20px;
-  font-size: 17px;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  font-family: pb;
-}
-
-.dropboxx:focus,
-.dropboxx2:focus {
-  outline: 0;
-}
-
-.dropboxx2 {
-  background: #aa80ff;
-}
-
-.close {
-  color: white;
-}
-
-.close:hover,
-.close:focus {
-  color: #fff;
-  outline: 0;
-}
-
-.modal-footer {
-  border-top: 1px dashed #222;
-  padding: 25px;
-}
 
 /* preloader */
 .preloader {
@@ -381,6 +325,8 @@ p {
 /*===========================
  *** HEADER AREA START ***
 =============================*/
+
+
 .navbar {
   position: fixed;
   width: 100%;
