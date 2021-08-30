@@ -6,7 +6,6 @@
   /* padding-top: 16px; */
 }
 
-
 #p-tag-left {
   padding-top: 20px;
   color: #f0e0d0;
@@ -17,7 +16,7 @@
   position: relative;
   right: 60px;
   padding-top: 40px;
-  
+
   /* padding-bottom: 23px; */
 }
 
@@ -48,9 +47,8 @@ li {
   line-height: 1.5rem;
 }
 
-
 /*===========================
-6.0 *** TEAM AREA START ***
+*** TEAM AREA START ***
 =============================*/
 #team {
   padding: 80px 0;
@@ -131,21 +129,11 @@ li {
   padding-top: 85px;
 }
 
- .team-item img {
+.team-item img {
   border-radius: 30% 84% 28% 76% / 87% 23% 69% 29%;
   border: 6px solid #aa80ff;
   width: 40vh;
-  /* -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: all linear 0.3s;
-  -o-transition: all linear 0.3s;
-  transition: all linear 0.3s; */
 }
-
-/* .team-item:hover img {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
-}  */
 
 .team-item h3 {
   font-family: pb;
@@ -163,14 +151,13 @@ li {
 }
 
 @media screen and (max-width: 800px) {
-    #p-tag-right {
-        right: 0%;
-        padding: 5px;
-    }
-    .ul-tag {
-        padding: 0 1em;
-    }
-
+  #p-tag-right {
+    right: 0%;
+    padding: 5px;
+  }
+  .ul-tag {
+    padding: 0 1em;
+  }
 }
 
 .team-item a {
@@ -187,7 +174,6 @@ li {
   font-family: pb;
   position: relative;
 }
-
 
 .contributors {
   display: flex;

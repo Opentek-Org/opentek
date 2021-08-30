@@ -1,19 +1,3 @@
-/* =============================================================================
-
-[Table of contents]
-
-0.0 Common CSS START 
-1.0 HEADER AREA START 
-2.0 BANNER AREA START
-3.0 FEATURE AREA START
-4.0 ABOUT AREA START
-5.0 PRODUCT AREA START ( Not Used )
-6.0 TEAM AREA START
-7.0 REVIEW AREA START ( Not Used )
-8.0 SUBSCRIBE AREA START 
-9.0 FOOTER AREA START 
-10.0 COPY_RIGHT AREA START 
- 
 /*===========================
 0.0 *** Common CSS START ***
 =============================*/
@@ -394,15 +378,8 @@ p {
   cursor: pointer;
 }
 
-/* Version 4 */
-#ckLine {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
 /*===========================
-1.0 *** HEADER AREA START ***
+ *** HEADER AREA START ***
 =============================*/
 .navbar {
   position: fixed;
@@ -536,7 +513,7 @@ p {
 }
 
 /*===========================
-2.0 *** BANNER AREA START ***
+ *** BANNER AREA START ***
 =============================*/
 #banner {
   padding: 260px 0 100px;
@@ -697,7 +674,7 @@ p {
 }
 
 /*===========================
-3.0 *** FEATURE AREA START ***
+ *** FEATURE AREA START ***
 =============================*/
 #overview {
   padding: 80px 0;
@@ -913,7 +890,7 @@ over-btn a i {
 }
 
 /*===========================
-4.0 *** ABOUT AREA START ***
+*** ABOUT AREA START ***
 =============================*/
 
 #about {
@@ -922,13 +899,6 @@ over-btn a i {
 
 .about-header h3:after {
   width: 192px;
-}
-
-.about-img {
-  background: #101822;
-  -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
 }
 
 .about-pa {
@@ -943,58 +913,16 @@ over-btn a i {
   position: relative;
 }
 
-.ai-one::after {
-  position: absolute;
-  content: "";
-  top: 350px;
-  left: -65px;
-  width: 120px;
-  height: 120px;
-  border: 25px solid #101822;
-  z-index: -1;
-  border-radius: 50%;
-}
-
-.ai-two::after {
-  position: absolute;
-  content: "";
-  top: 344px;
-  right: -55px;
-  width: 120px;
-  height: 120px;
-  border: 25px solid #101822;
-  z-index: -1;
-  -webkit-transform: rotate(35deg);
-  -ms-transform: rotate(35deg);
-  transform: rotate(35deg);
-}
-
-.ai-three::after {
-  position: absolute;
-  content: "";
-  top: 350px;
-  left: -65px;
-  width: 120px;
-  height: 120px;
-  border: 25px solid #101822;
-  z-index: -1;
-  border-radius: 50%;
-}
-
 .about-img img {
-  -webkit-filter: grayscale(40%);
-  filter: grayscale(40%);
-  -webkit-transition: all linear 0.3s;
-  -o-transition: all linear 0.3s;
-  transition: all linear 0.3s;
+  position: relative;
+  top: 35px;
+}
+.about-img-2 img {
+  position: relative;
+  top: 120px;
 }
 
-.about-img:hover img {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
-}
-
-.separet-span {
+.style-span {
   font-family: pr;
   letter-spacing: 2px;
   font-size: 21px;
@@ -1023,7 +951,7 @@ over-btn a i {
   padding-bottom: 30px;
 }
 
-.separate-p {
+.style-p {
   padding-bottom: 50px !important;
 }
 
@@ -1101,277 +1029,8 @@ li {
   display: block;
 }
 
-/* .p-bar span {
-  font-size: 18px;
-  color: #787878;
-}
-
-.p-bars {
-  padding-top: 35px;
-}
-
-.progress-bar {
-  background: #aa80ff;
-}
-
-.progress {
-  background: #101822;
-}
-
-.p-bar {
-  margin-bottom: 20px;
-}
-
-.counter-main {
-  padding-top: 50px;
-}
-
-.counter-1 h5 {
-  font-size: 18px;
-  color: #aa80ff;
-  margin-top: -56px;
-  margin-left: 28px;
-  padding-bottom: 38px;
-}
-
-.counter-1 span {
-  font-size: 18px;
-  color: #787878;
-} */
-
 /*===========================
-6.0 *** PRODUCT AREA START ***
-=============================*/
-/* #product {
-  padding: 80px 0;
-}
-
-.product-pa {
-  padding-top: 185px;
-}
-
-.product-item {
-  background: #101822;
-  -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  padding: 40px 30px;
-  position: relative;
-}
-
-.product-item img {
-  position: absolute;
-  top: -100px;
-}
-
-.product-txt span {
-  color: #aa80ff;
-  font-family: pr;
-  font-size: 18px;
-}
-
-.product-txt h3 {
-  font-size: 25px;
-  font-family: pb;
-  color: white;
-  padding-top: 6px;
-  padding-bottom: 23px;
-}
-
-.product-txt p {
-  color: #787878;
-  font-family: pr;
-  padding-bottom: 33px;
-}
-
-.next-p {
-  padding-right: 17px;
-  padding-top: 0;
-}
-
-.product-txt a {
-  padding: 14px 20px;
-  background: #aa80ff;
-  color: #fff;
-  font-size: 18px;
-  font-family: pb;
-}
-
-.product-slider {
-  background: #101822;
-  -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  padding: 30px 0 20px;
-}
-
-.pro-img {
-  padding: 30px 0;
-}
-
-.pro-img img {
-  border: 5px solid #aa80ff;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.product-slider h3 {
-  font-size: 26px;
-  color: white;
-  font-family: pb;
-  padding-bottom: 6px;
-}
-
-.product-slider a {
-  color: #aa80ff;
-}
-
-.stars {
-  padding-right: 35px;
-}
-
-.stars i {
-  color: #fbaa33;
-  margin: 0 1px;
-}
-
-.product-slider span {
-  color: #787878;
-  font-family: pr;
-}
-
-.border-style {
-  border-bottom: 1px dashed #222;
-  padding-bottom: 30px;
-}
-
-.pro-info {
-  padding: 20px 0 0;
-} */
-
-/*===========================
-7.0 *** REVIEW AREA START ***
-=============================*/
-/* #review {
-  padding: 80px 0;
-  position: relative;
-}
-
-#review:after {
-  position: absolute;
-  content: "";
-  top: -40px;
-  right: -280px;
-  width: 800px;
-  height: 800px;
-  border: 80px solid #101822;
-  border-radius: 50%;
-  z-index: -1;
-  -webkit-box-shadow: 0 25px 60px rgba(0, 0, 0, 0.67),
-    inset 0 25px 60px rgba(0, 0, 0, 0.67);
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.67),
-    inset 0 25px 60px rgba(0, 0, 0, 0.67);
-}
-
-.review-pa {
-  padding-top: 80px;
-}
-
-.review-item {
-  background: #101822;
-  -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
-  padding: 40px 0 30px;
-  border-radius: 3px;
-}
-
-.comment {
-  padding: 0 25px 30px;
-}
-
-.comment p {
-  color: #787878;
-  font-family: pr;
-  font-size: 17px;
-}
-
-.comment p i {
-  color: #aa80ff;
-  font-size: 22px;
-  padding: 0 3px;
-}
-
-.user {
-  padding: 30px 40px 0;
-  border-top: 2px dashed #222;
-}
-
-.user-img img {
-  background: #aa80ff;
-  border: 2px solid #aa80ff;
-  border-radius: 50%;
-}
-
-.user-txt h3 {
-  font-size: 24px;
-  font-family: pb;
-  color: white;
-  padding-bottom: 10px;
-}
-
-.user-txt span {
-  color: #787878;
-}
-
-.star2 i {
-  color: #fbaa33;
-  margin: 0 4px;
-} */
-
-/*===========================
-8.0 *** SUBSCRIBE AREA START ***
-=============================*/
-#subscribe {
-  padding: 30px 0;
-  margin-bottom: -70px;
-}
-
-.sub-main {
-  padding: 30px 0;
-  background: #aa80ff;
-  border-radius: 50px;
-}
-
-.sub-main h3 {
-  padding-left: 60px;
-  font-size: 23px;
-  color: white;
-  font-family: pb;
-  letter-spacing: 2px;
-  padding-bottom: 15px;
-}
-
-.sub-main a {
-  background: white;
-  padding: 10px 20px;
-  border-radius: 70px;
-  font-family: pb;
-  color: #aa80ff;
-  font-size: 18px;
-}
-
-.sub-main a:hover {
-  color: #101822;
-}
-
-.sub-main p {
-  font-family: pl;
-  text-align: center;
-  padding-top: 5px;
-}
-
-/*===========================
-9.0 *** FOOTER AREA START ***
+ *** FOOTER AREA START ***
 =============================*/
 
 #footer {
@@ -1455,7 +1114,7 @@ li {
 }
 
 /*===========================
-10.0 *** COPY_RIGHT AREA START ***
+ *** COPY_RIGHT AREA START ***
 =============================*/
 
 #footer-btm {

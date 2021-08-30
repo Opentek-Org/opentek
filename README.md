@@ -46,9 +46,9 @@ Welcome to Opentek, your number one source for Open Source Development. We're de
 
 ## 🚀 Demo
 
-<a href="https://opentek.live/" target="blank">
+<!-- <a href="https://opentek.live/" target="blank">
 <img src="images/demo.gif" />
-</a>
+</a> -->
 
 
 
@@ -163,10 +163,6 @@ Please read [CONTRIBUTE.md](https://github.com/Opentek-Org/opentek/blob/main/CON
 - In-Built blog posts related to Open Source and Networking.
 - Creating projects under Opentek and Open Sourcing them.
 
-## 📝 License
-
-Copyright © 2021 [Opentek](https://github.com/Opentek-Org/opentek). <br />
-This project is [MIT](https://github.com/Opentek-Org/opentek/blob/main/LICENSE) licensed.
 
 ## 🌟 Deploy
 
