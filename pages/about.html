@@ -145,7 +145,7 @@
 					<img src="https://i.postimg.cc/gJcNBrQP/mu.jpg" alt="team-member" class="img-fluid">
 					<h3>Anirudh</h3>
 					<p>Admin</p>
-					<a  href="https://twitter.com/anirudhpandaaa" target="_blank"><i class="fab fa-twitter"></i></a>
+					<a href="https://twitter.com/anirudhpandaaa" target="_blank"><i class="fab fa-twitter"></i></a>
 				</div>
 				<div class="col-6 m-auto team-item text-center">
 					<img src="https://avatars.githubusercontent.com/u/62615392?v=4" alt="team-member" class="img-fluid">
@@ -154,7 +154,8 @@
 					<a href="https://twitter.com/NishikantaRay5" target="_blank"><i class="fab fa-twitter"></i></a>
 				</div>
 				<div class="col-6 m-auto team-item text-center">
-					<img src="https://pbs.twimg.com/profile_images/1411965872478965760/feXUU4ng.jpg" alt="team-member" class="img-fluid">
+					<img src="https://pbs.twimg.com/profile_images/1411965872478965760/feXUU4ng.jpg" alt="team-member"
+						class="img-fluid">
 					<h3>Sunil</h3>
 					<p>Mantainer</p>
 					<a href="https://twitter.com/SunilPanda13" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -163,18 +164,34 @@
 		</div>
 	</section>
 	<!-- TEAM AREA ENDS -->
-
+	<script>
+		const getData = async () => {
+			const api = "https://api.github.com/repos/Opentek-Org/opentek/contributors";
+			try {
+				let data = await fetch(api);
+				realData = await data.json();
+				var html = '';
+				realData.forEach(element => {
+					html += `
+						<a href="${element.html_url}">
+							<img id="imgid" src="${element.avatar_url}" />
+						</a>;`
+				});
+				$('#contributors').append(html);
+			} catch (error) {
+				console.log(error);
+			}
+		};
+		getData();
+	</script>
 	<div class="banner-about text-center">
 		<h4 class="d-inline-flex" id="underline-h4">⚡ Our Energetic Contributors ⚡</h4>
 	</div>
-	<div class="contributors">
-		<a href="https://github.com/Opentek-Org/opentek/graphs/contributors">
-			<img style="max-width: 90vw;" src="https://contrib.rocks/image?repo=Opentek-Org/opentek"
-				alt="contributors" />
-		</a>
+	<div class="contributors text-center">
+		<div class="col-md-12 col-12" id="contributors">
+
+		</div>
 	</div>
-
-
 	<!-- FOOTER AREA START -->
 	<footer id="footer">
 		<div class="container">
@@ -269,6 +286,6 @@
 	<script defer src="../js/slick.min.js"></script>
 	<script defer src="../js/circular.js"></script>
 	<script defer src="../js/custom.js"></script>
-	
+
 
 </body>
