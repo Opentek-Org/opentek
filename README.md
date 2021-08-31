@@ -109,7 +109,7 @@ git checkout -b <your_branch_name>
 ```
 **You are all set! Open [localhost:3000](http://localhost:3000/) to see the app.** (Authenticated via Auth0)
 
-If you are using **VS Code** you can use the [live server](https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/) extension to set up your local environment. Make sure to keep your Port number as [**3000**](https://stackoverflow.com/questions/55429643/where-to-set-value-of-liveserver-settings-port-in-live-server-extension-of-visua) if you want to use the Authentication feature.
+If you are using **VS Code**, you can use the [live server](https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/) extension to set up your local environment. Make sure to keep your Port number as [**3000**](https://stackoverflow.com/questions/55429643/where-to-set-value-of-liveserver-settings-port-in-live-server-extension-of-visua). This is required in order to use the authentication feature via Auth0 in your local env, for which the allowed port is set to 3000 as of now .More common ports will be added ASAP.
 
 8. Perfom your desired changes to the code base.
 
