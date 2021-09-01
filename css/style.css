@@ -330,8 +330,8 @@ p {
   transition: all linear 0.3s;
   --tw-bg-opacity: 1;
   background-color: rgba(88, 101, 242, var(--tw-bg-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
 }
 
 .discord-banner p {
@@ -340,6 +340,7 @@ p {
   font-size: 1rem;
   font-weight: 500;
 }
+
 
 /*===========================
  *** DISCORD BANNER AREA END ***
@@ -483,7 +484,7 @@ p {
  *** BANNER AREA START ***
 =============================*/
 #banner {
-  padding: 260px 0 100px;
+  padding: 200px 0 100px;
   position: relative;
   width: 100%;
 }
