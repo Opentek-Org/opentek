@@ -1,6 +1,8 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
+
+
 h1 {
   font-size: 24px;
   font-weight: 400;
@@ -14,21 +16,27 @@ img {
 }
 
 .btn {
-  color: #ffffff;
-  padding: 0.8rem;
+  position: relative;
+  display: block;
+  background: #e1c1f3;
+  color: rgb(3, 0, 0);
+  padding: 0.3rem;
   font-size: 14px;
   text-transform: uppercase;
-  border-radius: 4px;
   font-weight: 400;
   display: block;
   width: 100%;
   cursor: pointer;
-  border: 1.5px solid rgba(27, 24, 24, 0.2);
-  background: transparent;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.9);
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+  border: 1.5px solid rgba(27, 24, 24, 0.2); 
 }
 
 .btn:hover {
-  background-color: rgba(8, 8, 8, 0.12);
+    background:  #d59cf7;
+    border-radius: 40px;
 }
 
 .cards {
@@ -59,31 +67,25 @@ img {
 
 .card {
   background-color: #080c11;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
 
+
 .card_content {
   padding: 1rem;
   background: #aa80ff;
+  backdrop-filter:  blur(50px);
 }
 
-.card_title {
-  color: #080c11;
-  font-size: 1rem;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  margin: 0px;
-  line-height: 2rem;
-}
+
 .cardtitle {
   color: #080c11;
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: 500;
   letter-spacing: 1px;
   text-transform: capitalize;
   margin: 0px;
@@ -92,7 +94,7 @@ img {
 
 .card_text {
   color: #080c11;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
   font-weight: 400;
