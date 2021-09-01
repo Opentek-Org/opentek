@@ -107,8 +107,6 @@ p {
   font-family: pl;
 }
 
-
-
 /* preloader */
 .preloader {
   position: fixed;
@@ -323,12 +321,36 @@ p {
 }
 
 /*===========================
+ *** DISCORD BANNER AREA START ***
+=============================*/
+.discord-banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  transition: all linear 0.3s;
+  --tw-bg-opacity: 1;
+  background-color: rgba(88, 101, 242, var(--tw-bg-opacity));
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.discord-banner p {
+  color: white;
+  font-family: pr;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+/*===========================
+ *** DISCORD BANNER AREA END ***
+=============================*/
+
+/*===========================
  *** HEADER AREA START ***
 =============================*/
 
-
 .navbar {
-  position: fixed;
   width: 100%;
   z-index: 9999;
   -weebkit-transition: all linear 0.3s;
@@ -462,7 +484,7 @@ p {
  *** BANNER AREA START ***
 =============================*/
 #banner {
-  padding: 260px 0 100px;
+  padding: 200px 0 100px;
   position: relative;
   width: 100%;
 }
