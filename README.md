@@ -54,6 +54,7 @@ Welcome to Opentek, your number one source for Open Source Development. We're de
 
 ## 😎 Features
 
+- 📱 **Progressive Web App(PWA) Supported**
 - ✨ **User Authentication**
 - ⭐ **Open Source EVENTS displayed Month-Wise (with a short desc, logo, and Website)**
 - ✔ **Open Source PROGRAMS displayed Month-Wise (with a short desc, logo, and Website)**
