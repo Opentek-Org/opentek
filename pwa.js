@@ -1,11 +1,11 @@
 if ("serviceWorker" in navigator) {
-    window.addEventListener("load", () => {
-      navigator.serviceWorker
-        .register("./sw.js")
-        .then((reg) => console.log("Registered! ", reg))
-        .catch((err) => console.log("Registeration Failed", err));
-    });
-  }
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("./sw.js")
+      .then((reg) => console.log("Registered! ", reg))
+      .catch((err) => console.log("Registeration Failed", err));
+  });
+}
 
 // Use this in case you want to add install button popup
 //   let deferredPrompt;
@@ -32,8 +32,8 @@ if ("serviceWorker" in navigator) {
 //       });
 //     });
 //   });
-  
-  // Analytics
-  window.addEventListener("appinstalled", (e) =>
-    app.logEvent("a2hs", "installed")
-  );
+
+// Analytics
+window.addEventListener("appinstalled", (e) =>
+  app.logEvent("a2hs", "installed")
+);
