@@ -34,7 +34,7 @@ fetch("../data/projects.json")
               var html = "";
               for (i = 0; i < data[index].Data.length; i++) {
                 html += `
-                <li class="custom-card-item m-3">
+                <li class="custom-card-item col-12 col-lg-4 m-auto">
                     <div class="custom-card text-white d-flex flex-column justify-content-between position-relative">
                         <div>
                             <p class="custom-card-title text-capitalize fs-3 mb-2 text-truncate">${data[index].Data[i].langName}</p>

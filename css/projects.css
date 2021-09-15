@@ -40,19 +40,20 @@ img {
 }
 
 .cards-container {
-  display: -webkit-box;
+  /* display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   list-style: none;
   margin: 0;
   padding: 0;
   height: 100;
 }
 .custom-card-item {
-  width: 330px;
+  max-width: 330px;
   height: 380px;
+  /* flex:none; */
 }
 .custom-card {
   width: 100%;
