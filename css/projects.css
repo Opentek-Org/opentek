@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
 h1 {
@@ -26,18 +25,18 @@ img {
   width: 100%;
   cursor: pointer;
   border-radius: 10px;
-  -webkit-box-shadow: rgba(0,0,0,0.9);
-          box-shadow: rgba(0,0,0,0.9);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.9);
+  box-shadow: rgba(0, 0, 0, 0.9);
   -webkit-transition: all 200ms ease-in-out;
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   text-decoration: none;
-  border: 1.5px solid rgba(27, 24, 24, 0.2); 
+  border: 1.5px solid rgba(27, 24, 24, 0.2);
 }
 
 .btn:hover {
-    background:  #d59cf7;
-    border-radius: 40px;
+  background: #d59cf7;
+  border-radius: 40px;
 }
 
 .cards-container {
@@ -45,7 +44,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -65,7 +64,7 @@ img {
 
 .custom-card-title {
   font-size: 3rem;
-  color: #9771DF !important; 
+  color: #9771df !important;
   font-weight: 700;
 }
 .custom-card-description {
@@ -79,16 +78,16 @@ img {
   background-color: transparent;
 }
 .custom-card-description::-webkit-scrollbar-thumb {
-  background-color: #9771DF;
+  background-color: #9771df;
   border-radius: 10px;
 }
 .custom-card-link {
   width: 60px;
   height: 60px;
-  background-color: #9771DF;
+  background-color: #9771df;
   color: white;
   bottom: 30px;
-  right:30px;
+  right: 30px;
   -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
   -o-transition: transform 0.2s;
@@ -97,12 +96,12 @@ img {
 }
 .custom-card-link:hover {
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .headline {
   font-size: 1rem;
-  color: #A078EB;
+  color: #a078eb;
   font-weight: 600;
 }
 
