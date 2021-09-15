@@ -1,0 +1,40 @@
+name: Bug
+description: Report a bug found in the Opentek source code
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of the question or issue, also include what you tried and what didn't work
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Please add screenshots if applicable (recommended)
+    validations:
+      required: false
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this bug?
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Do you want to work on this issue?
+      description: We are here to assist you
+      options:
+        - label: I want to work on this issue.
+          required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        You can also join the Discord community [here](https://discord.gg/9qyr4Mdc3Y)
+        Feel free to check out other amazing repositories of the Opentek [here](https://github.com/Opentek-Org)
+        
