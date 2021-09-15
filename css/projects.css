@@ -1,7 +1,5 @@
-/* Font */
+
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
-
-
 
 h1 {
   font-size: 24px;
@@ -28,7 +26,10 @@ img {
   width: 100%;
   cursor: pointer;
   border-radius: 10px;
-  box-shadow: rgba(0,0,0,0.9);
+  -webkit-box-shadow: rgba(0,0,0,0.9);
+          box-shadow: rgba(0,0,0,0.9);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   text-decoration: none;
   border: 1.5px solid rgba(27, 24, 24, 0.2); 
@@ -40,8 +41,11 @@ img {
 }
 
 .cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -68,6 +72,15 @@ img {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+  padding: 0px 8px 0 0;
+}
+.custom-card-description::-webkit-scrollbar {
+  width: 4px;
+  background-color: transparent;
+}
+.custom-card-description::-webkit-scrollbar-thumb {
+  background-color: #9771DF;
+  border-radius: 10px;
 }
 .custom-card-link {
   width: 60px;
@@ -76,56 +89,23 @@ img {
   color: white;
   bottom: 30px;
   right:30px;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  -o-transition: transform 0.2s;
   transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 .custom-card-link:hover {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .headline {
   font-size: 1rem;
   color: #A078EB;
   font-weight: 600;
 }
-/* .cards_item {
-  display: flex;
-  padding: 1rem;
-} */
 
-/* .card {
-  background-color: #080c11;
-  border-radius: 1rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-
-
-.card_content {
-  padding: 1rem;
-  background: #aa80ff;
-  backdrop-filter:  blur(50px);
-}
-
-
-.cardtitle {
-  color: #080c11;
-  font-size: 1.1rem;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  margin: 0px;
-  line-height: 10px;
-}
-
-.card_text {
-  color: #080c11;
-  font-size: 0.8rem;
-  line-height: 1.5;
-  margin-bottom: 1.25rem;
-  font-weight: 400;
-   */
-}
 .made_by {
   font-weight: 400;
   font-size: 13px;
