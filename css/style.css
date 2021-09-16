@@ -1,7 +1,15 @@
 /*===========================
+0.0 *** Custom Color Classes ***
+=============================*/
+.color-theme-purple {
+  background-color: #aa80ff;
+}
+.color-theme-purple::after {
+  background-color: rgb(148, 84, 194);
+}
+/*===========================
 0.0 *** Common CSS START ***
 =============================*/
-
 html::-webkit-scrollbar-track {
   border: 1px solid black;
   background-color: #f5f5f5;
@@ -20,6 +28,7 @@ html::-webkit-scrollbar-thumb {
   margin: 0;
   padding: 0;
   outline: 0;
+  box-sizing: border-box;
 }
 
 ul,
@@ -375,6 +384,7 @@ p {
   position: relative;
   margin-right: 18px;
 }
+
 
 .bor {
   background: #101822;
@@ -1031,17 +1041,18 @@ li {
   border-radius: 50%;
   color: #101822;
   background: white;
-  font-size: 20px;
+  font-size: 1.5rem;
   margin-right: 13px;
-  -webkit-transition: all linear 0.3s;
-  -o-transition: all linear 0.3s;
-  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
 }
 
 .footer-social i:hover {
   background: #aa80ff;
   color: #fff;
   border: 1px solid #aa80ff;
+  transform: translateY(-3px);
 }
 
 .links h3 {
@@ -1058,15 +1069,29 @@ li {
   text-transform: capitalize;
   line-height: 38px;
   font-size: 16px;
-  -webkit-transition: all linear 0.3s;
-  -o-transition: all linear 0.3s;
-  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
   font-family: pr;
+  position: relative;
+}
+.links ul li a::after {
+  content: "";
+  border: 1px solid #aa80ff;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  opacity: 0;
+  transition: 0.2s ease-out;
+  width: 0%;
 }
 
 .links ul li a:hover {
   color: #aa80ff;
-  padding-left: 10px;
+}
+.links ul li a:hover::after {
+  opacity: 1;
+  width: 100%;
 }
 
 .f-logo {
