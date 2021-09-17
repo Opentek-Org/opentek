@@ -213,11 +213,11 @@
         href="icons/apple-splash-1136-640.jpg"
         media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
       />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     </head>
-
     <body id="dark-mode">
       <!-- Preloader Part Start -->
-      <div class="preloader">
+      <!-- <div class="preloader">
         <div class="frame">
           <div class="center">
             <div class="dot-1"></div>
@@ -225,7 +225,7 @@
             <div class="dot-3"></div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- Preloader Part End -->
 
       <!-- Discord Banner Start-->
@@ -257,7 +257,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="fa fa-bars" aria-hidden="true"></span>
+            <i class="bi bi-list navbar-custom-toggler-icon"></i>
           </button>
           <div
             class="collapse navbar-collapse menu-main"
@@ -281,7 +281,7 @@
                 <button
                   id="btn-login"
                   disabled="true"
-                  class="btn btn-outline-light"
+                  class="btn btn-outline-light nav-button"
                   onclick="login()"
                 >
                   Log In
@@ -289,7 +289,7 @@
                 <button
                   id="btn-logout"
                   disabled="true"
-                  class="btn btn-outline-light"
+                  class="btn btn-outline-light nav-button"
                   onclick="logout()"
                 >
                   Log Out
@@ -720,6 +720,9 @@
       <script defer src="js/circular.js"></script>
       <script defer src="js/custom.js"></script>
       <script src="js/auth0.js"></script>
+
+      <!-- Custom Script -->
+      <script src="./js/nav.js" defer></script>
     </body>
   </html>
 </html>
