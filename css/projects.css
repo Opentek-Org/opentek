@@ -72,7 +72,7 @@ img {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-  padding: 0px 8px 0 0;
+  padding: 0px 32px 0 0;
 }
 .custom-card-description::-webkit-scrollbar {
   width: 4px;
