@@ -341,7 +341,6 @@ p {
   font-weight: 500;
 }
 
-
 /*===========================
  *** DISCORD BANNER AREA END ***
 =============================*/
@@ -821,7 +820,7 @@ p {
 .over-item p {
   font-size: clamp(1rem, 4vw, 1.15rem);
   max-width: 50ch;
-  color: #d1d5ce;
+  color: #dee2e6;
   line-height: 26px;
 }
 
@@ -885,9 +884,10 @@ over-btn a i {
   position: relative;
   top: 35px;
 }
+
 .about-img-2 img {
   position: relative;
-  top: 120px;
+  top: 40px;
 }
 
 .style-span {
@@ -914,7 +914,7 @@ over-btn a i {
 
 .about-txt p {
   font-size: 1.125rem;
-  color: #d1d5ce;
+  color: #dee2e6;
   line-height: 27px;
   padding-bottom: 30px;
 }
@@ -955,7 +955,7 @@ over-btn a i {
 }
 
 .list {
-  color: #f0e0d0;
+  color: #dee2e6;
 }
 
 .ul-about {
@@ -1009,7 +1009,7 @@ li {
 }
 
 .footer-logo p {
-  color: #d1d5ce;
+  color: #dee2e6;
   font-family: pr;
   padding-top: 10px;
   line-height: 29px;
@@ -1054,7 +1054,7 @@ li {
 }
 
 .links ul li a {
-  color: #d1d5ce;
+  color: #dee2e6;
   text-transform: capitalize;
   line-height: 38px;
   font-size: 16px;
