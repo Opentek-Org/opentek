@@ -30,13 +30,15 @@
         "langId": "3",
         "langTitle": ["JavaScript"],
         "langName": "2-DEGREE",
-        "langDesc": "Project 2° has simulated to design the most opitimal scenario to restrain the rise in global temperature due to global warming.",
+        "langDesc": "Project 2° has simulated to design the most optimal scenario to restrain the rise in global temperature due to global warming.",
         "langurl": "https://github.com/The-CODE-Plus-Plus-Community/2-Degree-HackACode",
         "langAdmin": "The-CODE-Plus-Plus-Community"
       },
       {
         "langId": "4",
-        "langTitle": ["NodeJS, MongoDB, REST API, TypeScript, JavaScript, CI/CD, Docker, ReactJS"],
+        "langTitle": [
+          "NodeJS, MongoDB, REST API, TypeScript, JavaScript, CI/CD, Docker, ReactJS"
+        ],
         "langName": "REST-fetch",
         "langDesc": "A community-owned REST API service for testers and developers.",
         "langurl": "https://github.com/adityabisoi/Placeholder-Master",
@@ -58,7 +60,6 @@
         "langurl": "https://github.com/praveenscience/Internship-LMS-FrontEnd",
         "langAdmin": "Praveen Kumar Purushothaman"
       }
-      
     ]
   },
   {
@@ -89,7 +90,7 @@
         "langAdmin": "Srimani"
       },
       {
-      "langId": "3",
+        "langId": "3",
         "langTitle": ["Flask, Bootstrap, Python, JavaScript, jQuery"],
         "langName": "Certificate Generation and Verification System",
         "langDesc": "This project aims in developing a computerized system to maintain and generate the certificate.",
