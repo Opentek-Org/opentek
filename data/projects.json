@@ -87,7 +87,7 @@
         "langDesc": "A Flask based web application to predict breast cancer.",
         "langurl": "https://github.com/srimani-programmer/Breast-Cancer-Predictor",
         "langAdmin": "Srimani"
-      }
+      },
       {
       "langId": "3",
         "langTitle": ["Flask, Bootstrap, Python, JavaScript, jQuery"],
