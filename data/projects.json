@@ -83,7 +83,7 @@
       {
         "langId": "2",
         "langTitle": ["Python", "Flask", "Numpy"],
-        "langName": "Certificate Generation and Verification System",
+        "langName": "Breast-Cancer-Predictor",
         "langDesc": "A Flask based web application to predict breast cancer.",
         "langurl": "https://github.com/srimani-programmer/Breast-Cancer-Predictor",
         "langAdmin": "Srimani"
