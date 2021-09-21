@@ -33,7 +33,7 @@
         "langDesc": "Project 2° has simulated to design the most opitimal scenario to restrain the rise in global temperature due to global warming.",
         "langurl": "https://github.com/The-CODE-Plus-Plus-Community/2-Degree-HackACode",
         "langAdmin": "The-CODE-Plus-Plus-Community"
-      }
+      },
       {
         "langId": "4",
         "langTitle": ["NodeJS, MongoDB, REST API, TypeScript, JavaScript, CI/CD, Docker, ReactJS"],
@@ -41,9 +41,17 @@
         "langDesc": "A community-owned REST API service for testers and developers.",
         "langurl": "https://github.com/adityabisoi/Placeholder-Master",
         "langAdmin": "Aditya Bisoi"
-      }
-  {
+      },
+      {
         "langId": "5",
+        "langTitle": ["MERN, AWS, React, Node, Express, MongoDB"],
+        "langName": "HITK Community Website",
+        "langDesc": "This project aims to build the official site for the community page so that any student can use the resources shared by HITK Community.",
+        "langurl": "https://github.com/HITK-TECH-Community/Community-Website",
+        "langAdmin": "HITK TECH Community"
+      },
+      {
+        "langId": "6",
         "langTitle": ["React JS, HTML, CSS, JavaScript"],
         "langName": "DevTernShip",
         "langDesc": "An Internship Onboarding platform with an innovative learning management system and intuitive performance tools.",
