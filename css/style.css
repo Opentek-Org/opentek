@@ -350,7 +350,7 @@ p {
 =============================*/
 
 
-/*=======*/
+/*==== hamburger-to-cross start===*/
 .navbar-toggler{
   border: 0;
 }
@@ -402,14 +402,13 @@ p {
   transform: rotate(0);
 }
 
-
+/* Color of Toggler when collapsed */
 .navbar-toggler.collapsed .toggler-icon {
   background-color: #ffffff;
 }
+/*==== hamburger-to-cross ends===*/
 
 
-
-/*=======*/
 .navbar {
   width: 100%;
   z-index: 9999;
