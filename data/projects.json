@@ -33,6 +33,14 @@
         "langDesc": "Project 2° has simulated to design the most opitimal scenario to restrain the rise in global temperature due to global warming.",
         "langurl": "https://github.com/The-CODE-Plus-Plus-Community/2-Degree-HackACode",
         "langAdmin": "The-CODE-Plus-Plus-Community"
+      },
+      {
+        "langId": "4",
+        "langTitle": ["HTML, CSS, Javascript, NodeJS, PostgreSQL/MySQL"],
+        "langName": "DevTernShip",
+        "langDesc": "An Internship Onboarding platform with an innovative learning management system and intuitive performance tools.",
+        "langurl": "https://github.com/praveenscience/Internship-LMS-FrontEnd",
+        "langAdmin": "Anushka Jain"
       }
     ]
   },
@@ -114,19 +122,6 @@
         "langDesc": "A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)",
         "langurl": "https://github.com/cod-ed/simulate",
         "langAdmin": "cod-ed"
-      }
-    ]
-  },
-  {
-    "domainId": "6",
-    "Data": [
-      {
-        "langId": "0",
-        "langTitle": ["HTML, CSS, Bootstrap, Javascript, React, NodeJS, Express JS, PostgreSQL/MySQL"],
-        "langName": "DevTernShip",
-        "langDesc": "An Internship Onboarding platform with an innovative learning management system and intuitive performance tools.",
-        "langurl": "https://github.com/praveenscience/Internship-LMS-FrontEnd",
-        "langAdmin": "Anushka Jain"
       }
     ]
   }
