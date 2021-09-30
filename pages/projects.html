@@ -59,7 +59,7 @@
 
     <body id="dark-mode">
       <!-- Preloader Part Start -->
-      <div class="preloader">
+      <!-- <div class="preloader">
         <div class="frame">
           <div class="center">
             <div class="dot-1"></div>
@@ -67,7 +67,7 @@
             <div class="dot-3"></div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- Preloader Part End -->
       <!-- HEADER AREA START -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -139,15 +139,80 @@
       <section id="overview">
         <div class="container">
           <!-- <div class="row over-pa" id="program"></div> -->
-          <ul class="cards" id="project"></ul>
+          <ul class="cards-container row" id="project">
+            <!-- <li class="custom-card-item col-12 col-lg-4 m-auto">
+                    <div class="custom-card text-white d-flex flex-column justify-content-between position-relative">
+                        <div class="mb-3">
+                            <p class="custom-card-title text-capitalize fs-3 mb-2">doc2Pen</p>
+                            <p class="custom-card-description">Doc2Pen is the 1 stop shop for getting all your handmade assignments ready for submission digitally.
+                            Check it out and contribute!</p>
+                        </div>
+                        <div class="mb-3">
+                            <p class="headline text-capitalize">project admin :</p>
+                            <p class="subtitle text-capitalize">simranjit ghosh</p>
+                        </div>
+                        <div>
+                            <p class="headline text-capitalize">tech stack :</p>
+                            <ul>
+                                <li class="text-uppercase lh-base">html</li>
+                                <li class="text-uppercase lh-base">scss</li>
+                                <li class="text-uppercase lh-base">js</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="text-decoration-none"><button class="custom-card-link position-absolute rounded-circle p-2 border-0 d-flex align-items-center justify-content-center"><i class="fa fa-external-link-square-alt fs-4"></i></button></a>
+                    </div>
+                </li>
+                <li class="custom-card-item col-12 col-lg-4 m-auto">
+                  <div class="custom-card text-white d-flex flex-column justify-content-between">
+                      <div class="mb-3">
+                          <p class="custom-card-title text-capitalize fs-3 mb-2">Awesome...</p>
+                          <p class="custom-card-description">A community maintained open source project aimed at making personal portfolio for researchers, developers and analysts ...</p>
+                      </div>
+                      <div class="mb-3">
+                          <p class="headline text-capitalize">project admin :</p>
+                          <p class="subtitle text-capitalize">simranjit ghosh</p>
+                      </div>
+                      <div>
+                          <p class="headline text-capitalize">tech stack :</p>
+                          <ul>
+                              <li class="text-uppercase lh-base">html</li>
+                              <li class="text-uppercase lh-base">css</li>
+                              <li class="text-uppercase lh-base">js</li>
+                          </ul>
+                      </div>
+                      <a href="#" class="text-decoration-none"><button class="custom-card-link position-absolute rounded-circle p-2 border-0 d-flex align-items-center justify-content-center"><i class="fa fa-external-link-square-alt fs-4"></i></button></a>
+                  </div>
+              </li>
+              <li class="custom-card-item col col-lg-4 m-auto">
+                  <div class="custom-card text-white d-flex flex-column justify-content-between">
+                      <div class="mb-3">
+                          <p class="custom-card-title text-capitalize fs-3 mb-2">manthan</p>
+                          <p class="custom-card-description">We provide an online testing platform that can be used to conduct tests that are wrapped with all the necessary precautions to reduce...</p>
+                      </div>
+                      <div class="mb-3">
+                          <p class="headline text-capitalize">project admin :</p>
+                          <p class="subtitle text-capitalize">manthan</p>
+                      </div>
+                      <div>
+                          <p class="headline text-capitalize">tech stack :</p>
+                          <ul>
+                              <li class="text-uppercase lh-base">js</li>
+                          </ul>
+                      </div>
+                      <a href="#" class="text-decoration-none"><button class="custom-card-link position-absolute rounded-circle p-2 border-0 d-flex align-items-center justify-content-center"><i class="fa fa-external-link-square-alt fs-4"></i></button></a>
+                  </div>
+              </li> -->
+          </ul>
         </div>
       </section>
       <div id="error"></div>
       <!-- FOOTER AREA START -->
       <footer id="footer">
-        <div class="container">
+        <div class="container-fluid px-5">
           <div class="row">
-            <div class="col-lg-4 col-sm-6">
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-4 pb-5 pb-sm-5 pb-lg-1"
+            >
               <div class="footer-logo">
                 <a class="f-logo" href="#banner"><b>Opentek Org</b></a>
                 <p>
@@ -180,18 +245,43 @@
               </div>
             </div>
 
-            <div class="col-lg-2 col-sm-3">
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-2 offset-lg-1 pb-5 pb-sm-5 pb-lg-1"
+            >
               <div class="links">
                 <h3>Quick Links</h3>
                 <ul>
-                  <li><a href="./about.html">About Us</a></li>
-                  <!-- <li><a href="./event.html">Events</a></li>
-                            <li><a href="./program.html">Programs</a></li> -->
-                  <li><a href="./projects.html">Projects</a></li>
+                  <li><a href="./pages/about.html">About Us</a></li>
+                  <li>
+                    <a
+                      id="gated-content-5"
+                      class="hidden"
+                      href="./pages/event.html"
+                      >Events</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      id="gated-content-6"
+                      class="hidden"
+                      href="./pages/program.html"
+                      >Programs</a
+                    >
+                  </li>
+                  <li><a href="./pages/projects.html">Projects</a></li>
+                  <li>
+                    <a
+                      href="https://github.com/Opentek-Org/opentek/graphs/contributors"
+                      target="_blank"
+                      >Contributors</a
+                    >
+                  </li>
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4">
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-2 pb-5 pb-sm-5 pb-lg-1"
+            >
               <div class="links">
                 <h3>How to Contribute?</h3>
                 <ul>
@@ -209,12 +299,12 @@
                       >Issues</a
                     >
                   </li>
-                  <li><a href="./tutorial.html">Tutorials</a></li>
+                  <li><a href="./pages/tutorial.html">Tutorials</a></li>
                   <li><a href="#">Join Us!</a></li>
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3">
               <iframe
                 src="https://discord.com/widget?id=876369146961596428&theme=dark"
                 width="300"
