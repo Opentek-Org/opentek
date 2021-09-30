@@ -39,66 +39,65 @@ img {
     border-radius: 40px;
 }
 
-.cards {
+.cards-container {
+  /* display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; */
   list-style: none;
   margin: 0;
   padding: 0;
   height: 100;
 }
-
-.cards_item {
-  display: flex;
-  padding: 1rem;
+.custom-card-item {
+  max-width: 450px;
+  /* flex:none; */
+}
+.custom-card {
+  width: 100%;
+  height: 100%;
+  background-color: #182133;
+  padding: 30px;
+  border-radius: 20px;
 }
 
-@media (min-width: 40rem) {
-  .cards_item {
-    width: 50%;
-  }
+.custom-card-title {
+  font-size: 3rem;
+  color: #9771df !important;
+  font-weight: 700;
 }
 
-@media (min-width: 56rem) {
-  .cards_item {
-    width: 33.3333%;
-  }
+.custom-card-description::-webkit-scrollbar {
+  width: 4px;
+  background-color: transparent;
 }
-
-.card {
-  background-color: #080c11;
-  border-radius: 1rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+.custom-card-description::-webkit-scrollbar-thumb {
+  background-color: #9771df;
+  border-radius: 10px;
 }
-
-
-.card_content {
-  padding: 1rem;
-  background: #aa80ff;
-  backdrop-filter:  blur(50px);
+.custom-card-link {
+  width: 60px;
+  height: 60px;
+  background-color: #9771df;
+  color: white;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  -o-transition: transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
-
-
-.cardtitle {
-  color: #080c11;
-  font-size: 1.1rem;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  margin: 0px;
-  line-height: 10px;
+.custom-card-link:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
-
-.card_text {
-  color: #080c11;
-  font-size: 0.8rem;
-  line-height: 1.5;
-  margin-bottom: 1.25rem;
-  font-weight: 400;
-  
+.headline {
+  font-size: 1rem;
+  color: #a078eb;
+  font-weight: 600;
 }
 .made_by {
   font-weight: 400;
