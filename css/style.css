@@ -349,20 +349,19 @@ p {
  *** HEADER AREA START ***
 =============================*/
 
-
 /*==== hamburger-to-cross start===*/
-.navbar-toggler{
+.navbar-toggler {
   border: 0;
 }
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-    border: 0;
+  outline: none;
+  box-shadow: none;
+  border: 0;
 }
 
-.toggler-icon{
+.toggler-icon {
   width: 30px;
   height: 3px;
   background-color: #fffcfb;
@@ -371,7 +370,7 @@ p {
   transition: all 0.2s;
 }
 
-.middle-bar{
+.middle-bar {
   margin: 5px auto;
 }
 .navbar-toggler .top-bar {
@@ -407,7 +406,6 @@ p {
   background-color: #ffffff;
 }
 /*==== hamburger-to-cross ends===*/
-
 
 .navbar {
   width: 100%;
