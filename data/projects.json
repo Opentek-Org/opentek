@@ -36,6 +36,14 @@
       },
       {
         "langId": "4",
+        "langTitle": ["HTML, CSS, Javascript, NodeJS, PostgreSQL/MySQL"],
+        "langName": "DevTernShip",
+        "langDesc": "An Internship Onboarding platform with an innovative learning management system and intuitive performance tools.",
+        "langurl": "https://github.com/praveenscience/Internship-LMS-FrontEnd",
+        "langAdmin": "Anushka Jain"
+      },
+      {
+        "langId": "5",
         "langTitle": [
           "NodeJS, MongoDB, REST API, TypeScript, JavaScript, CI/CD, Docker, ReactJS"
         ],
@@ -45,20 +53,12 @@
         "langAdmin": "Aditya Bisoi"
       },
       {
-        "langId": "5",
+        "langId": "6",
         "langTitle": ["MERN, AWS, React, Node, Express, MongoDB"],
         "langName": "HITK Community Website",
         "langDesc": "This project aims to build the official site for the community page so that any student can use the resources shared by HITK Community.",
         "langurl": "https://github.com/HITK-TECH-Community/Community-Website",
         "langAdmin": "HITK TECH Community"
-      },
-      {
-        "langId": "6",
-        "langTitle": ["React JS, HTML, CSS, JavaScript"],
-        "langName": "DevTernShip",
-        "langDesc": "An Internship Onboarding platform with an innovative learning management system and intuitive performance tools.",
-        "langurl": "https://github.com/praveenscience/Internship-LMS-FrontEnd",
-        "langAdmin": "Praveen Kumar Purushothaman"
       }
     ]
   },
