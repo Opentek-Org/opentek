@@ -30,9 +30,35 @@
         "langId": "3",
         "langTitle": ["JavaScript"],
         "langName": "2-DEGREE",
-        "langDesc": "Project 2° has simulated to design the most opitimal scenario to restrain the rise in global temperature due to global warming.",
+        "langDesc": "Project 2° has simulated to design the most optimal scenario to restrain the rise in global temperature due to global warming.",
         "langurl": "https://github.com/The-CODE-Plus-Plus-Community/2-Degree-HackACode",
         "langAdmin": "The-CODE-Plus-Plus-Community"
+      },
+      {
+        "langId": "4",
+        "langTitle": ["HTML, CSS, Javascript, NodeJS, PostgreSQL/MySQL"],
+        "langName": "DevTernShip",
+        "langDesc": "An Internship Onboarding platform with an innovative learning management system and intuitive performance tools.",
+        "langurl": "https://github.com/praveenscience/Internship-LMS-FrontEnd",
+        "langAdmin": "Anushka Jain"
+      },
+      {
+        "langId": "5",
+        "langTitle": [
+          "NodeJS, MongoDB, REST API, TypeScript, JavaScript, CI/CD, Docker, ReactJS"
+        ],
+        "langName": "REST-fetch",
+        "langDesc": "A community-owned REST API service for testers and developers.",
+        "langurl": "https://github.com/adityabisoi/Placeholder-Master",
+        "langAdmin": "Aditya Bisoi"
+      },
+      {
+        "langId": "6",
+        "langTitle": ["MERN, AWS, React, Node, Express, MongoDB"],
+        "langName": "HITK Community Website",
+        "langDesc": "This project aims to build the official site for the community page so that any student can use the resources shared by HITK Community.",
+        "langurl": "https://github.com/HITK-TECH-Community/Community-Website",
+        "langAdmin": "HITK TECH Community"
       }
     ]
   },
@@ -62,6 +88,14 @@
         "langDesc": "A Flask based web application to predict breast cancer.",
         "langurl": "https://github.com/srimani-programmer/Breast-Cancer-Predictor",
         "langAdmin": "Srimani"
+      },
+      {
+        "langId": "3",
+        "langTitle": ["Flask, Bootstrap, Python, JavaScript, jQuery"],
+        "langName": "Certificate Generation and Verification System",
+        "langDesc": "This project aims in developing a computerized system to maintain and generate the certificate.",
+        "langurl": "https://github.com/vigneshshettyin/Flask-Generate-Certificate",
+        "langAdmin": "Vignesh Shetty"
       }
     ]
   },
