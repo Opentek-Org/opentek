@@ -1116,15 +1116,29 @@ li {
   text-transform: capitalize;
   line-height: 38px;
   font-size: 16px;
-  -webkit-transition: all linear 0.3s;
-  -o-transition: all linear 0.3s;
-  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
   font-family: pr;
+  position: relative;
+}
+.links ul li a::after {
+  content: "";
+  border: 1px solid #aa80ff;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  opacity: 0;
+  transition: 0.2s ease-out;
+  width: 0%;
 }
 
 .links ul li a:hover {
   color: #aa80ff;
-  padding-left: 10px;
+}
+.links ul li a:hover::after {
+  opacity: 1;
+  width: 100%;
 }
 
 .f-logo {
