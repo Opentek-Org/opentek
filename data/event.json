@@ -326,14 +326,15 @@
         {
           "event": "1",
           "details": {
-            "eventName": "eventsName",
-           "eventDate": "",
-            "eventDesc": "",
-            "eventurl": "",
-            "eventImg": ""
+            "eventName": "Season Of KDE",
+           "eventDate": "04/12/2021 - 10/05/2022",
+            "eventDesc": "Season of KDE is an outreach program hosted by the KDE community.",
+            "eventurl": "https://season.kde.org/",
+            "eventImg": "../images/events/season_Of_KDE.png"
           }
         }
       ]
     }
-  ]
+    
+]
   
