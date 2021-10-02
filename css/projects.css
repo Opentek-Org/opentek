@@ -1,8 +1,6 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
-
-
 h1 {
   font-size: 24px;
   font-weight: 400;
@@ -28,15 +26,15 @@ img {
   width: 100%;
   cursor: pointer;
   border-radius: 10px;
-  box-shadow: rgba(0,0,0,0.9);
+  box-shadow: rgba(0, 0, 0, 0.9);
   transition: all 200ms ease-in-out;
   text-decoration: none;
-  border: 1.5px solid rgba(27, 24, 24, 0.2); 
+  border: 1.5px solid rgba(27, 24, 24, 0.2);
 }
 
 .btn:hover {
-    background:  #d59cf7;
-    border-radius: 40px;
+  background: #d59cf7;
+  border-radius: 40px;
 }
 
 .cards {
@@ -74,13 +72,11 @@ img {
   overflow: hidden;
 }
 
-
 .card_content {
   padding: 1rem;
   background: #aa80ff;
-  backdrop-filter:  blur(50px);
+  backdrop-filter: blur(50px);
 }
-
 
 .cardtitle {
   color: #080c11;
@@ -98,7 +94,6 @@ img {
   line-height: 1.5;
   margin-bottom: 1.25rem;
   font-weight: 400;
-  
 }
 .made_by {
   font-weight: 400;

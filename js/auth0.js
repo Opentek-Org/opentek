@@ -27,7 +27,7 @@ const updateUI = async () => {
 
     const claims = await auth0.getIdTokenClaims();
     const pictureUrl = claims.picture;
-    console.log(pictureUrl)
+    console.log(pictureUrl);
 
     document.getElementById("avatar-img").src = pictureUrl;
     document.getElementById("avatar-img-div").classList.remove("hidden-icon");
