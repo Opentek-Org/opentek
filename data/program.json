@@ -23,6 +23,17 @@
             "eventurl": "https://numfocus.org/projects-overview",
             "eventImg": "../images/programs/numfocus.png"
           }
+        },
+        {
+          "event": "3",
+          "details": {
+            "eventName": "MLH Fellowship - Open Source Track - Spring Batch",
+            "eventDate": "January 31",
+            "eventDesc":
+              "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
+            "eventurl": "https://fellowship.mlh.io/programs/open-source",
+            "eventImg": "../images/programs/mlhFellowship.png"
+          }
         }
       ]
     },
@@ -131,6 +142,17 @@
             "eventurl": "https://lab.codingblocks.com/boss",
             "eventImg": "../images/programs/cb.png"
           }
+        },
+        {
+          "event": "2",
+          "details": {
+            "eventName": "MLH Fellowship - Open Source Track - Summer Batch",
+            "eventDate": "May 30th",
+            "eventDesc":
+              "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
+            "eventurl": "https://fellowship.mlh.io/programs/open-source",
+            "eventImg": "../images/programs/mlhFellowship.png"
+          }
         }
       ]
     },
@@ -170,6 +192,17 @@
               "Script Winter of Code is an open-source program envisioned by the Script Foundation. It aims to bring students into the world of open source development and see the power of unified problem-solving in real time.",
             "eventurl": "https://swoc.scriptindia.org/#/",
             "eventImg": "../images/programs/swoc.png"
+          }
+        },
+        {
+          "event": "2",
+          "details": {
+            "eventName": "MLH Fellowship - Open Source Track - Fall Batch",
+            "eventDate": "September 19th",
+            "eventDesc":
+              "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
+            "eventurl": "https://fellowship.mlh.io/programs/open-source",
+            "eventImg": "../images/programs/mlhFellowship.png"
           }
         }
       ]
