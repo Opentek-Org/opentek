@@ -1,6 +1,6 @@
 name: Bug
 description: Report a bug found in the Opentek source code
-labels: ["bug"]
+labels: ["bug","hacktoberfest"]
 body:
   - type: textarea
     id: description
