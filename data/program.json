@@ -146,7 +146,7 @@
         {
           "event": "2",
           "details": {
-            "eventName": "MLH Fellowship - Open Source Track - Spring Batch",
+            "eventName": "MLH Fellowship - Open Source Track - Summer Batch",
             "eventDate": "May 30th",
             "eventDesc":
               "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
@@ -197,7 +197,7 @@
         {
           "event": "2",
           "details": {
-            "eventName": "MLH Fellowship - Open Source Track - Spring Batch",
+            "eventName": "MLH Fellowship - Open Source Track - Fall Batch",
             "eventDate": "September 19th",
             "eventDesc":
               "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
