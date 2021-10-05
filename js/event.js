@@ -27,26 +27,26 @@ $("#selectoption").append(htmlc);
 fetch("../data/event.json")
   .then((data) => data.json())
   .then((data) => {
-let valu;
-$(function () {
-  $("#type").change(function () {
-    valu = $(this).val();
-    // console.log(valu);
-    let index = valu;
-    $("#rowdy").empty();
-    $("#error").empty();
-    if (valu < data.length && data[index].Data.length > 0) {
-      for (let i = 0; i < data[index].Data.length; i++) {
-        try {
-          // console.log(data);
-          var html = '<div class="row">';
-          for (i = 0; i < data[index].Data.length; i++) {
-            if (i % 3 == 0 && i != 0) {
-              html += "</div>";
-              html += '<div class="row">';
-            }
+    let valu;
+    $(function () {
+      $("#type").change(function () {
+        valu = $(this).val();
+        // console.log(valu);
+        let index = valu;
+        $("#rowdy").empty();
+        $("#error").empty();
+        if (valu < data.length && data[index].Data.length > 0) {
+          for (let i = 0; i < data[index].Data.length; i++) {
+            try {
+              // console.log(data);
+              var html = '<div class="row">';
+              for (i = 0; i < data[index].Data.length; i++) {
+                if (i % 3 == 0 && i != 0) {
+                  html += "</div>";
+                  html += '<div class="row">';
+                }
 
-            html += `<div class="col-lg-9 col-12 m-auto">
+                html += `<div class="col-lg-9 col-12 m-auto">
                     
                             <div class="over-item txt-right unique-style3 rounded-3">
                                   <div class="row">
@@ -65,19 +65,19 @@ $(function () {
                                 
                                 
                             </div></div>`;
-          }
+              }
 
-          $("#rowdy").append(html);
-        } catch (error) {
-          console.log(error);
+              $("#rowdy").append(html);
+            } catch (error) {
+              console.log(error);
+            }
+          }
+        } else {
+          var htmlz = `<div class= "container unique-style3  mb-5 pb-5">`;
+          htmlz += `<p class="text-light text-center text-no-data">No data found.Please select another month.</p>`;
+          htmlz += `</div>`;
+          $("#error").append(htmlz);
         }
-      }
-    } else {
-      var htmlz = `<div class= "container unique-style3  mb-5 pb-5">`;
-      htmlz += `<p class="text-light text-center text-no-data">No data found please select another month</p>`;
-      htmlz += `</div>`;
-      $("#error").append(htmlz);
-    }
-  })
+      });
+    });
   });
-});

@@ -1,6 +1,8 @@
-name: Bug
+name: Bug Report
 description: Report a bug found in the Opentek source code
-labels: ["bug"]
+labels: ["bug", "Hacktoberfest"]
+assignees:
+  - AnirudhPanda
 body:
   - type: textarea
     id: description
@@ -37,4 +39,3 @@ body:
       value: |
         You can also join the Discord community [here](https://discord.gg/9qyr4Mdc3Y)
         Feel free to check out other amazing repositories of the Opentek [here](https://github.com/Opentek-Org)
-        
