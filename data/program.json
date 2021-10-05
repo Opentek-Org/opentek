@@ -110,11 +110,11 @@
       {
         "event": "1",
         "details": {
-          "eventName": "Event Name",
-          "eventDate": "",
-          "eventDesc": "",
-          "eventurl": "",
-          "eventImg": ""
+          "eventName": "Red Hat Open Source Contest",
+          "eventDate": "7th April",
+          "eventDesc": "Red Hat Open Source Contest is a competition for students during which we want to show students how easy it is to participate in open source projects.",
+          "eventurl": "https://research.redhat.com/red-hat-open-source-contest/",
+          "eventImg": "../images/programs/red hat open source contest.png"
         }
       }
     ]
