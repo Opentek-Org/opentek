@@ -44,7 +44,9 @@
       },
       {
         "langId": "5",
-        "langTitle": ["NodeJS, MongoDB, REST API, TypeScript, JavaScript, CI/CD, Docker, ReactJS"],
+        "langTitle": [
+          "NodeJS, MongoDB, REST API, TypeScript, JavaScript, CI/CD, Docker, ReactJS"
+        ],
         "langTitle": ["HTML, CSS, Javascript, NodeJS, PostgreSQL/MySQL"],
         "langName": "DevTernShip",
         "langDesc": "An Internship Onboarding platform with an innovative learning management system and intuitive performance tools.",
@@ -53,7 +55,9 @@
       },
       {
         "langId": "6",
-        "langTitle": ["NodeJS, MongoDB, REST API, TypeScript, JavaScript, CI/CD, Docker, ReactJS"],
+        "langTitle": [
+          "NodeJS, MongoDB, REST API, TypeScript, JavaScript, CI/CD, Docker, ReactJS"
+        ],
         "langName": "REST-fetch",
         "langDesc": "A community-owned REST API service for testers and developers.",
         "langurl": "https://github.com/adityabisoi/Placeholder-Master",
