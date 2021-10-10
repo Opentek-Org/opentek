@@ -36,6 +36,15 @@
       },
       {
         "langId": "4",
+        "langTitle": ["HTML", "CSS", "JS"],
+        "langName": "Aec-Library-Website",
+        "langDesc": "This is a College Library Website in which you can keep a record of all the books you have issued.",
+        "langurl": "https://github.com/SauravMukherjee44/Aec-Library-Website",
+        "langAdmin": "Saurav Mukherjee"
+      },
+      {
+        "langId": "5",
+        "langTitle": ["NodeJS, MongoDB, REST API, TypeScript, JavaScript, CI/CD, Docker, ReactJS"],
         "langTitle": ["HTML, CSS, Javascript, NodeJS, PostgreSQL/MySQL"],
         "langName": "DevTernShip",
         "langDesc": "An Internship Onboarding platform with an innovative learning management system and intuitive performance tools.",
@@ -43,22 +52,28 @@
         "langAdmin": "Anushka Jain"
       },
       {
-        "langId": "5",
-        "langTitle": [
-          "NodeJS, MongoDB, REST API, TypeScript, JavaScript, CI/CD, Docker, ReactJS"
-        ],
+        "langId": "6",
+        "langTitle": ["NodeJS, MongoDB, REST API, TypeScript, JavaScript, CI/CD, Docker, ReactJS"],
         "langName": "REST-fetch",
         "langDesc": "A community-owned REST API service for testers and developers.",
         "langurl": "https://github.com/adityabisoi/Placeholder-Master",
         "langAdmin": "Aditya Bisoi"
       },
       {
-        "langId": "6",
+        "langId": "7",
         "langTitle": ["MERN, AWS, React, Node, Express, MongoDB"],
         "langName": "HITK Community Website",
         "langDesc": "This project aims to build the official site for the community page so that any student can use the resources shared by HITK Community.",
         "langurl": "https://github.com/HITK-TECH-Community/Community-Website",
         "langAdmin": "HITK TECH Community"
+      },
+      {
+        "langId": "8",
+        "langTitle": ["React JS, HTML, CSS, JavaScript"],
+        "langName": "DevTernShip",
+        "langDesc": "An Internship Onboarding platform with an innovative learning management system and intuitive performance tools.",
+        "langurl": "https://github.com/praveenscience/Internship-LMS-FrontEnd",
+        "langAdmin": "Praveen Kumar Purushothaman"
       }
     ]
   },
