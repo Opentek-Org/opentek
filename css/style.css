@@ -545,6 +545,16 @@ p {
   color: #fff;
 }
 
+.login-btn{
+  outline-color: #aa80ff;
+}
+
+.login-btn:hover{
+  border-color: #aa80ff;
+  background-color: transparent;
+  color: #aa80ff;
+}
+
 /*===========================
  *** BANNER AREA START ***
 =============================*/
