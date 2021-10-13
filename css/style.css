@@ -1198,6 +1198,17 @@ li {
   border-radius: 50%;
 }
 
+@media screen and (max-width: 989px) {
+  .avatar {
+    position: relative;
+    left: 0;
+    top: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+}
+
 .hidden {
   pointer-events: none;
 }
