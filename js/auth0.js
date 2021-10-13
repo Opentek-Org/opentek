@@ -17,6 +17,9 @@ const updateUI = async () => {
   document.getElementById("btn-logout").disabled = !isAuthenticated;
   document.getElementById("btn-login").disabled = isAuthenticated;
 
+  document.getElementById("btn-logout").hidden = !isAuthenticated;
+  document.getElementById("btn-login").hidden = isAuthenticated;
+
   if (isAuthenticated) {
     document.getElementById("gated-content-1").classList.remove("hidden");
     document.getElementById("gated-content-3").classList.remove("hidden");
@@ -27,7 +30,7 @@ const updateUI = async () => {
 
     const claims = await auth0.getIdTokenClaims();
     const pictureUrl = claims.picture;
-    console.log(pictureUrl)
+    console.log(pictureUrl);
 
     document.getElementById("avatar-img").src = pictureUrl;
     document.getElementById("avatar-img-div").classList.remove("hidden-icon");
