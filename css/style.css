@@ -437,6 +437,10 @@ p {
   margin-right: 18px;
 }
 
+.nav-item-btn{
+  line-height: 2.8;
+}
+
 .bor {
   background: #101822;
   padding: 10px 25px !important;
