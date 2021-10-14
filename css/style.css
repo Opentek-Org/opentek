@@ -45,14 +45,6 @@ img {
   z-index: 999;
 }
 
-.clr {
-  clear: both;
-}
-
-.vbox-overlay {
-  z-index: 999999;
-}
-
 h1,
 h2,
 h3,
@@ -1054,23 +1046,6 @@ li {
   display: inline-block;
   width: 1em;
   margin-left: -1em;
-}
-
-.contribute {
-  padding-top: 30px;
-}
-
-.contribute h3 {
-  font-family: pb;
-  font-size: 26px;
-  color: #fff;
-  padding-bottom: 16px;
-  padding-top: 12px;
-}
-
-.contribute a {
-  color: #fff;
-  display: block;
 }
 
 /*===========================
