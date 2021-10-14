@@ -545,11 +545,11 @@ p {
   color: #fff;
 }
 
-.login-btn{
+.login-btn {
   outline-color: #aa80ff;
 }
 
-.login-btn:hover{
+.login-btn:hover {
   border-color: #aa80ff;
   background-color: transparent;
   color: #aa80ff;
