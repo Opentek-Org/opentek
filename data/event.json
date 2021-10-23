@@ -311,10 +311,10 @@
         {
           "event": "1",
           "details": {
-            "eventName": "Lorem Ipsum",
-           "eventDate": "Lorem ipsum",
-            "eventDesc": "Lorem Ipsum",
-            "eventurl": "Lorem ipsum",
+            "eventName": "Microsoft Ignite",
+           "eventDate": "02/11/2021 - 04/11/2021",
+            "eventDesc": "Microsoft Ignite is an annual conference for developers and IT professionals hosted by Microsoft to explore the latest tools, training sessions, technical expertise, networking opportunities, and more.",
+            "eventurl": "https://myignite.microsoft.com/home",
             "eventImg": ""
           }
         }
