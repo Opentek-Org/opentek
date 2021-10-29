@@ -603,6 +603,7 @@ p {
   line-height: 45px;
   padding-bottom: 23px;
   padding-top: 16px;
+  margin-top: 10%;
 }
 
 .banner-txt p {
@@ -721,6 +722,7 @@ p {
 =============================*/
 #overview {
   padding: 80px 0;
+  margin-top: 20%;
 }
 
 .over-pa {
