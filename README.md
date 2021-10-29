@@ -157,6 +157,12 @@ Please read [CONTRIBUTE.md](https://github.com/Opentek-Org/opentek/blob/main/CON
 - **Netlify:** For Hosting
 - **Name.com:** For Domain Name
 
+## 👥 Community Partners
+
+- [ICC](https://icc-techsahead.netlify.app)
+- [SWOC](https://swoc.scriptindia.org/#/)
+- [MLH Guild](https://localhackday.mlh.io/guild)
+
 ## 👀 Future Plans
 
 - Conducting Community Own OPEN SOURCE PROGRAM
