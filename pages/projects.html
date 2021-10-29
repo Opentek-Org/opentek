@@ -294,6 +294,16 @@
       <script defer src="../js/circular.js"></script>
       <script defer src="../js/custom.js"></script>
       <script defer src="../js/projects.js"></script>
+
+      <script>
+        document.addEventListener("click", function(e) {
+      if (e.target.tagName == "A" &&
+          !e.target.hasAttribute("target"))
+       {
+          e.target.setAttribute("target", "blank");
+        }
+      });
+      </script>
       <!-- <script>
 		var video_id = 'VA770wpLX-Q';
 
