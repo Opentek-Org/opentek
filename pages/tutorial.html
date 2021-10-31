@@ -284,13 +284,11 @@
       <script defer src="../js/tutorial.js"></script>
 
       <script defer>
-        document.addEventListener("click", function(e) {
-      if (e.target.tagName == "A" &&
-          !e.target.hasAttribute("target"))
-       {
-          e.target.setAttribute("target", "blank");
-        }
-      });
+        document.addEventListener("click", function (e) {
+          if (e.target.tagName == "A" && !e.target.hasAttribute("target")) {
+            e.target.setAttribute("target", "blank");
+          }
+        });
       </script>
       <script>
         var video_id = "VA770wpLX-Q";
