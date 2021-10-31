@@ -40,5 +40,17 @@
       "title": "Eddie Jaoude",
       "subtitle": "About the Video",
       "para": "Learn the jargons of GitHub like tag/release, commit, branch, fork, project board, label, milestone, actions and much more!"
+    },
+    {
+      "tutorialId": "GbqSvJs-6W4",
+      "title": "Web Dev Simplified",
+      "subtitle": "About the Video",
+      "para": "In this video you will be guided through the process of finding your first issue and creating your first pull request."
+    },
+    {
+      "tutorialId": "loCLu8Iq1dQ",
+      "title": "Ishan Sharma",
+      "subtitle": "About the Video",
+      "para": "In this video, Kunal talks about his journey of getting into open source development and how he got the opportunity to become a Major League hacking Fellow. He talks about the benefits of contributing to open source as a developer, what are best open source orgs that you can check out to start contributing."
     }
   ]
