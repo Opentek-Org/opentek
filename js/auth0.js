@@ -31,9 +31,13 @@ const updateUI = async () => {
     // Features Event, Participate [REMOVE LISTENER]
     let tuneIn_A = document.getElementById("gated-content-1");
     console.log("tuneIn_A");
-    tuneIn_A.getElementsByTagName('a')[0].removeEventListener("click", login, true)
+    tuneIn_A
+      .getElementsByTagName("a")[0]
+      .removeEventListener("click", login, true);
     let participate_A = document.getElementById("gated-content-3");
-    participate_A.getElementsByTagName('a')[0].removeEventListener("click", login, true);
+    participate_A
+      .getElementsByTagName("a")[0]
+      .removeEventListener("click", login, true);
 
     // Footers Event, Participate [REMOVE LISTENER]
     let tuneIn_A_FOOTER = document.getElementById("gated-content-5");
@@ -50,9 +54,13 @@ const updateUI = async () => {
   } else {
     // Features Event, Programs [ADD LISTENER]
     let tuneIn_A = document.getElementById("gated-content-1");
-    tuneIn_A.getElementsByTagName('a')[0].addEventListener("click", login, true);
+    tuneIn_A
+      .getElementsByTagName("a")[0]
+      .addEventListener("click", login, true);
     let participate_A = document.getElementById("gated-content-3");
-    participate_A.getElementsByTagName('a')[0].addEventListener("click", login, true);
+    participate_A
+      .getElementsByTagName("a")[0]
+      .addEventListener("click", login, true);
 
     // Footer Event, Programs [ADD LISTENER]
     let tuneIn_A_FOOTER = document.getElementById("gated-content-5");
