@@ -1,44 +1,56 @@
 [
-    {
-      "tutorialId": "msyGybzCKRs",
-      "title": "Kunal Kushwaha",
-      "subtitle": "About the Video",
-      "para": "In this video you will understand what Open Source is and how contributing can help you."
-    },
-    {
-      "tutorialId": "uj4fy4kpaOA",
-      "title": "Love Babbar",
-      "subtitle": "About the Video",
-      "para": "This video includes overview of Git and Github, complete practical use of all the git commands IN JUST 33 MINUTES"
-    },
-    {
-      "tutorialId": "2j7fD92g-gE",
-      "title": "Simplilearn",
-      "subtitle": "About the Video",
-      "para": "This Git installation video will take you through the step by step process involved in Git installation on Windows."
-    },
-    {
-      "tutorialId": "apGV9Kg7ics",
-      "title": "Kunal Kushwaha",
-      "subtitle": "About the Video",
-      "para": "This tutorial will help you with using Git & GitHub for your personal projects and contributing to Open Source, with no prerequisites, in an easy to understand language."
-    },
-    {
-      "tutorialId": "yzeVMecydCE",
-      "title": "FreeCodeCamp",
-      "subtitle": "About the Video",
-      "para": "Learn why and how to contribute to open source software. You will learn about how to find projects to contribute to, how to make issues and PRs, how to make money from open source, and more."
-    },
-    {
-      "tutorialId": "VdF6RvLiCao",
-      "title": "Code For Cause",
-      "subtitle": "About the Video",
-      "para": "Are you a Java Developer looking for some Open Source organisations to contribute to? Here's a list of some Open Source organisations for you, & also some that take part in Google Summer of Code (GSoC) ☀️"
-    },
-    {
-      "tutorialId": "SYtPC9tHYyQ",
-      "title": "Eddie Jaoude",
-      "subtitle": "About the Video",
-      "para": "Learn the jargons of GitHub like tag/release, commit, branch, fork, project board, label, milestone, actions and much more!"
-    }
-  ]
+  {
+    "tutorialId": "msyGybzCKRs",
+    "title": "Kunal Kushwaha",
+    "subtitle": "About the Video",
+    "para": "In this video you will understand what Open Source is and how contributing can help you."
+  },
+  {
+    "tutorialId": "uj4fy4kpaOA",
+    "title": "Love Babbar",
+    "subtitle": "About the Video",
+    "para": "This video includes overview of Git and Github, complete practical use of all the git commands IN JUST 33 MINUTES"
+  },
+  {
+    "tutorialId": "2j7fD92g-gE",
+    "title": "Simplilearn",
+    "subtitle": "About the Video",
+    "para": "This Git installation video will take you through the step by step process involved in Git installation on Windows."
+  },
+  {
+    "tutorialId": "apGV9Kg7ics",
+    "title": "Kunal Kushwaha",
+    "subtitle": "About the Video",
+    "para": "This tutorial will help you with using Git & GitHub for your personal projects and contributing to Open Source, with no prerequisites, in an easy to understand language."
+  },
+  {
+    "tutorialId": "yzeVMecydCE",
+    "title": "FreeCodeCamp",
+    "subtitle": "About the Video",
+    "para": "Learn why and how to contribute to open source software. You will learn about how to find projects to contribute to, how to make issues and PRs, how to make money from open source, and more."
+  },
+  {
+    "tutorialId": "VdF6RvLiCao",
+    "title": "Code For Cause",
+    "subtitle": "About the Video",
+    "para": "Are you a Java Developer looking for some Open Source organisations to contribute to? Here's a list of some Open Source organisations for you, & also some that take part in Google Summer of Code (GSoC) ☀️"
+  },
+  {
+    "tutorialId": "SYtPC9tHYyQ",
+    "title": "Eddie Jaoude",
+    "subtitle": "About the Video",
+    "para": "Learn the jargons of GitHub like tag/release, commit, branch, fork, project board, label, milestone, actions and much more!"
+  },
+  {
+    "tutorialId": "GbqSvJs-6W4",
+    "title": "Web Dev Simplified",
+    "subtitle": "About the Video",
+    "para": "In this video you will be guided through the process of finding your first issue and creating your first pull request."
+  },
+  {
+    "tutorialId": "loCLu8Iq1dQ",
+    "title": "Ishan Sharma",
+    "subtitle": "About the Video",
+    "para": "In this video, Kunal talks about his journey of getting into open source development and how he got the opportunity to become a Major League hacking Fellow. He talks about the benefits of contributing to open source as a developer, what are best open source orgs that you can check out to start contributing."
+  }
+]

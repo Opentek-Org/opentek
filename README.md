@@ -50,10 +50,9 @@ Welcome to Opentek, your number one source for Open Source Development. We're de
 <img src="images/demo.gif" />
 </a> -->
 
-
-
 ## 😎 Features
 
+- 📱 **Progressive Web App(PWA) Supported**
 - ✨ **User Authentication**
 - ⭐ **Open Source EVENTS displayed Month-Wise (with a short desc, logo, and Website)**
 - ✔ **Open Source PROGRAMS displayed Month-Wise (with a short desc, logo, and Website)**
@@ -106,6 +105,7 @@ git pull upstream main
 git checkout -b <your_branch_name>
 
 ```
+
 **You are all set! Open [localhost:3000](http://localhost:3000/) to see the app.** (Authenticated via Auth0)
 
 If you are using **VS Code**, you can use the [live server](https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/) extension to set up your local environment. Make sure to keep your Port number as [**3000**](https://stackoverflow.com/questions/55429643/where-to-set-value-of-liveserver-settings-port-in-live-server-extension-of-visua). This is required in order to use the authentication feature via Auth0 in your local env, for which the allowed port is set to 3000 as of now .More common ports will be added ASAP.
@@ -178,13 +178,10 @@ It will motivate us!!
 
 <a href="https://www.producthunt.com/posts/opentek?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-opentek" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=310285&theme=dark" alt="Opentek - If it is about Open Source, it is on Opentek. | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
-
 ---
-
 
 ## ✌ Our Socials
 
 <a href="https://twitter.com/opentekorg" target="blank">
 <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
 </a>
-
