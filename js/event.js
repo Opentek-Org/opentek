@@ -60,7 +60,7 @@ fetch("../data/event.json")
                                       </div>
                                       </div>
                                       <div class="col-md-4 col-12">
-                                      <img src="${data[index].Data[i].details.eventImg}" height="200px" alt="" srcset=""></div>
+                                      <img src="${data[index].Data[i].details.eventImg}" height="auto" width="80%" alt="" srcset=""></div>
                                   </div>
                                 
                                 

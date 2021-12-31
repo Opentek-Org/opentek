@@ -1,5 +1,7 @@
 <h1 align="center">Opentek ⚡</h1>
 
+<h3 align="center">Everything will be addressed after 5th Jan! Stay Tuned ⚡</h3>
+
 <p align="center">
 <a href="https://github.com/Opentek-Org/opentek"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
 <a href="https://github.com/Opentek-Org/opentek"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
@@ -142,7 +144,7 @@ Please read our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for sub
 
 ## 🤷‍♂️ Want to submit an event, program, project or a tutorial to our Website?
 
-Please read [CONTRIBUTE.md](https://github.com/Opentek-Org/opentek/blob/main/CONTRIBUTE.md)
+Please read [CONTRIBUTING.md](https://github.com/Opentek-Org/opentek/blob/main/CONTRIBUTING.md)
 
 ## 💻 Built with
 

@@ -21,12 +21,29 @@ const updateUI = async () => {
   document.getElementById("btn-login").hidden = isAuthenticated;
 
   if (isAuthenticated) {
-    document.getElementById("gated-content-1").classList.remove("hidden");
-    document.getElementById("gated-content-3").classList.remove("hidden");
-    document.getElementById("gated-content-5").classList.remove("hidden");
-    document.getElementById("gated-content-6").classList.remove("hidden");
+    // document.getElementById("gated-content-1").classList.remove("hidden");
+    // document.getElementById("gated-content-3").classList.remove("hidden");
+    // document.getElementById("gated-content-5").classList.remove("hidden");
+    // document.getElementById("gated-content-6").classList.remove("hidden");
     document.getElementById("gated-content-2").classList.add("hidden-p");
     document.getElementById("gated-content-4").classList.add("hidden-p");
+
+    // Features Event, Participate [REMOVE LISTENER]
+    let tuneIn_A = document.getElementById("gated-content-1");
+    console.log("tuneIn_A");
+    tuneIn_A
+      .getElementsByTagName("a")[0]
+      .removeEventListener("click", login, true);
+    let participate_A = document.getElementById("gated-content-3");
+    participate_A
+      .getElementsByTagName("a")[0]
+      .removeEventListener("click", login, true);
+
+    // Footers Event, Participate [REMOVE LISTENER]
+    let tuneIn_A_FOOTER = document.getElementById("gated-content-5");
+    tuneIn_A_FOOTER.removeEventListener("click", login, true);
+    let participate_A_FOOTER = document.getElementById("gated-content-6");
+    participate_A_FOOTER.removeEventListener("click", login, true);
 
     const claims = await auth0.getIdTokenClaims();
     const pictureUrl = claims.picture;
@@ -35,7 +52,21 @@ const updateUI = async () => {
     document.getElementById("avatar-img").src = pictureUrl;
     document.getElementById("avatar-img-div").classList.remove("hidden-icon");
   } else {
-    document.getElementById("gated-content-1").classList.add("hidden");
+    // Features Event, Programs [ADD LISTENER]
+    let tuneIn_A = document.getElementById("gated-content-1");
+    tuneIn_A
+      .getElementsByTagName("a")[0]
+      .addEventListener("click", login, true);
+    let participate_A = document.getElementById("gated-content-3");
+    participate_A
+      .getElementsByTagName("a")[0]
+      .addEventListener("click", login, true);
+
+    // Footer Event, Programs [ADD LISTENER]
+    let tuneIn_A_FOOTER = document.getElementById("gated-content-5");
+    tuneIn_A_FOOTER.addEventListener("click", login, true);
+    let participate_A_FOOTER = document.getElementById("gated-content-6");
+    participate_A_FOOTER.addEventListener("click", login, true);
   }
 };
 
