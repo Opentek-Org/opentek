@@ -162,9 +162,9 @@ Please read [CONTRIBUTING.md](https://github.com/Opentek-Org/opentek/blob/main/C
 ## 👥Community Partners
 <p align="center">
 
-<a href="https://www.iccta.co/"><img style="margin:5px;float:right;" src="https://user-images.githubusercontent.com/74408634/147837459-9878b932-24c3-4681-b238-9af051f324bc.png" width= "25%"/></a>
-<a href="https://swoc.scriptindia.org/#/"><img style="margin:5px;float:right;" src="https://user-images.githubusercontent.com/74408634/147837603-577a1c2d-d4ba-432d-b3ce-2344c8a3a5ae.png" width= "25%"/></a>
-<a href="https://localhackday.mlh.io/guild"><img style="margin:5px;float:right;" src="https://user-images.githubusercontent.com/74408634/147837885-9eaa84e9-61da-40d1-928a-d544377eb5b0.png" width= "25%" /></a>
+<a href="https://www.iccta.co/"><img src="https://user-images.githubusercontent.com/74408634/147837459-9878b932-24c3-4681-b238-9af051f324bc.png" width= "25%"/></a>
+<a href="https://swoc.scriptindia.org/#/"><img src="https://user-images.githubusercontent.com/74408634/147837603-577a1c2d-d4ba-432d-b3ce-2344c8a3a5ae.png" width= "25%"/></a>
+<a href="https://localhackday.mlh.io/guild"><img src="https://user-images.githubusercontent.com/74408634/147837885-9eaa84e9-61da-40d1-928a-d544377eb5b0.png" width= "25%" /></a>
 </p>
 
 ## 👀 Future Plans
