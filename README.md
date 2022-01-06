@@ -44,7 +44,7 @@
 
 Welcome to Opentek, your number one source for Open Source Development. We're dedicated to giving you the very best of tools, resources, and projects, with a focus on Collaboration, Code, and Networking. Try out [Opentek](https://opentek.live/) 🙌
 
-[Read blog 📖](https://anirudhpanda.hashnode.dev/introducing-opentek)
+### [Read our blog post 📖](https://anirudhpanda.hashnode.dev/introducing-opentek)
 
 ## 🚀 Demo
 
@@ -58,15 +58,13 @@ Welcome to Opentek, your number one source for Open Source Development. We're de
 - ✨ **User Authentication**
 - ⭐ **Open Source EVENTS displayed Month-Wise (with a short desc, logo, and Website)**
 - ✔ **Open Source PROGRAMS displayed Month-Wise (with a short desc, logo, and Website)**
-- 📚 **Open Source related TUTORIALS handpicked from the best in the domain embedded in our Website (credits to the Author displayed)**
+- 📚 **Open Source related TUTORIALS hand-picked from the best in the domain embedded in our website (credits to the Author displayed)**
 - 🔥 **Domain-Specific Open Source PROJECTS from all around GitHub by amazing Open Source Developers where you can contribute (credits to Admin given)**
 - 💻 **Official Discord Channel solely dedicated to Open Source Development where you can showcase your projects and collaborate**
 - 🌈 **ANYONE!! YES ANYONE can contribute to this project and can make a difference.**
 - 💥 **Never miss out on any Events and Programs anymore and say bye-bye to the tedious google searches to find a tutorial or a Beginner-friendly project**
 
-**OPEN SOURCE TO THE MOOON 🚀 [ Join Discord ]**
-
-<a href="https://discord.com/invite/9qyr4Mdc3Y" target="blank">
+**OPEN SOURCE TO THE MOOON 🚀 Join our** <a href="https://discord.com/invite/9qyr4Mdc3Y" target="blank">
 <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
 </a>
 
@@ -97,7 +95,7 @@ git remote add upstream https://github.com/Opentek-Org/opentek.git
 git remote -v
 ```
 
-6. Always take a pull from the upstream repository to your main branch to keep it at par with the main project(updated repository).
+6. Always take a pull from the upstream repository to your main branch to keep it at up-to-date with the main project (updated repository).
 
 ```
 git pull upstream main
@@ -107,6 +105,7 @@ git pull upstream main
 
 ```
 git checkout -b <your_branch_name>
+
 ```
 
 **You are all set! Open [localhost:3000](http://localhost:3000/) to see the app.** (Authenticated via Auth0)
@@ -138,13 +137,13 @@ git push -u origin <your_branch_name>
 
 12. To create a pull request, click on compare and pull requests. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
 
-13. Voila 🎉 You have made a PR to the opentek project. Sit back patiently and relax while the project maintainers review your PR.
+13. Voila 🎉 You have made a PR to the Opentek project. Sit back patiently and relax while the project maintainers review your PR.
 
-Please read our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
 ## 🤷‍♂️ Want to submit an event, program, project or a tutorial to our Website?
 
-Please read [CONTRIBUTING.md](https://github.com/Opentek-Org/opentek/blob/main/CONTRIBUTING.md)
+Please read our [contributing guidelines](https://github.com/Opentek-Org/opentek/blob/main/CONTRIBUTE.md)
 
 ## 💻 Built with
 
