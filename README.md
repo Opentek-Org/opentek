@@ -29,7 +29,7 @@
 <!-- <p align="center"><img src="https://i.postimg.cc/NF3N8zpk/opentek-desk.png" width="550" /></p> -->
 
 <p align="center">
-    <a href="https://opentek.live/" target="blank">View Demo</a>
+    <a href="https://opentek.in/" target="blank">View Demo</a>
     ·
     <a href="https://github.com/Opentek-Org/opentek/issues/new/choose">Report Bug</a>
     ·
@@ -38,13 +38,13 @@
 
 ### Introducing Opentek 🎉
 
-<a href="https://opentek.live/" target="blank">
+<a href="https://opentek.in/" target="blank">
 <img src="https://i.postimg.cc/qMpTrLpd/1.png" />
 </a>
 
 Welcome to Opentek, your number one source for Open Source Development. We're dedicated to giving you the very best of tools, resources, and projects, with a focus on Collaboration, Code, and Networking. Try out [Opentek](https://opentek.live/) 🙌
 
-### [Read our blog post 📖](https://anirudhpanda.hashnode.dev/introducing-opentek)
+### [Read our blog post 📖](https://blog.anirudhpanda.in/introducing-opentek)
 
 ## 🚀 Demo
 
