@@ -27,6 +27,11 @@ ol {
   list-style-type: none;
 }
 
+/* hide horizontal scrollbars without breaking the page */
+html {
+  overflow-x: hidden;
+}
+
 a,
 a:focus,
 a:hover {
