@@ -64,7 +64,7 @@ Welcome to Opentek, your number one source for Open Source Development. We're de
 - 🌈 **ANYONE!! YES ANYONE can contribute to this project and can make a difference.**
 - 💥 **Never miss out on any Events and Programs anymore and say bye-bye to the tedious google searches to find a tutorial or a Beginner-friendly project**
 
-**OPEN SOURCE TO THE MOOON 🚀 Join our** <a href="https://discord.com/invite/9qyr4Mdc3Y" target="blank">
+**OPEN SOURCE TO THE MOOON 🚀 Join our** <a href="https://bit.ly/opentek-discord" target="blank">
 <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
 </a>
 
