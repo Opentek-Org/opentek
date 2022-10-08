@@ -858,6 +858,32 @@ p {
   z-index: -1;
 }
 
+/* *********************** */
+.unique-style5::after {
+  position: absolute;
+  content: "";
+  bottom: -105px;
+  left: 20px;
+  height: 230px;
+  width: 2px;
+  border: 2px solid #ededed;
+  border-color: #1d1d1d;
+  z-index: -11;
+}
+
+.unique-style5::before {
+  position: absolute;
+  content: "";
+  bottom: -106px;
+  left: 17px;
+  height: 10px;
+  border-radius: 50%;
+  width: 10px;
+  background: #aa80ff;
+  z-index: -1;
+}
+/* ************************** */
+
 .header-text h3 {
   font-size: 37px;
   font-family: pb;
