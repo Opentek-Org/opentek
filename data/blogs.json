@@ -1,0 +1,44 @@
+[
+    {
+        "blogImage":"../images/blogs/contribute.png",
+        "blogtitle": "How to Contribute to Open Source",
+        "BlogPara": "Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine Why do people contribute to open source? Plenty of reasons...",
+        "blogLink":"https://opensource.guide/how-to-contribute/"
+    },
+    {
+        "blogImage":"../images/blogs/freecodecamp.png",
+        "blogtitle":"How to Contribute to Open Source Projects – A Beginner's Guide",
+        "BlogPara":"As we continue to advance technologically, more and more products and services are being transformed into software ready services. And many of them are being made open-source...",
+        "blogLink":"https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/"
+    },
+    {
+        "blogImage":"../images/blogs/530-code-editor.jpg",
+        "blogtitle":"How to get started with Open Source",
+        "BlogPara":"Open Source Software is a computer software whose source code is made publicly available for modification and enhancements. It is released under various licenses like BSD, MIT etc. “What is open source?” is a good read...",
+        "blogLink":"https://www.hackerearth.com/getstarted-opensource/"
+    },
+    {
+        "blogImage":"../images/blogs/openSource.jpg",
+        "blogtitle":"Beginner's guide to open-source contribution",
+        "BlogPara":"Open-Source Software is a type of software whose code is publicly available to use and modify. Open-Source Contribution involves contributing to the development or improvement of open-source software...",
+        "blogLink":"https://workat.tech/general/article/open-source-contribution-guide-xmhf1k601vdj"
+    },
+    {
+        "blogImage":"../images/blogs/opensourcegithub.png",
+        "blogtitle":"Finding ways to contribute to open source on GitHub",
+        "BlogPara":"If there's a particular topic that interests you, visit github.com/topics/<topic>. For example, if you are interested in machine learning, you can find relevant projects and good first issues by visiting... ",
+        "blogLink":"https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github"
+    },
+    {
+        "blogImage":"../images/blogs/karen.png",
+        "blogtitle":"Making Your First Contribution to Open Source",
+        "BlogPara":"Open source software powers a huge portion of the Internet and many applications that we use every day. Massive projects like Linux, WordPress, and Firefox are all open source, as well as popular projects like React Native, Angular, and Kubernetes...",
+        "blogLink":"https://medium.com/bigcommerce-developer-blog/making-your-first-contribution-to-open-source-5d983dcb910e"
+    },
+    {
+        "blogImage":"../images/blogs/reasons.png",
+        "blogtitle":"Top 5 Reasons to Contribute to Open Source Project",
+        "BlogPara":"A common problem most of the beginners face in programming is getting overwhelmed with so many tools and technologies. Due to a lack of experience in coding, it is quite challenging for them to pick the right tool for a specific task...",
+        "blogLink":"https://www.geeksforgeeks.org/top-5-reasons-to-contribute-to-open-source-project/"
+    }
+]
