@@ -17,7 +17,9 @@ const getData = async () => {
                     </div>`;
                     html += `<div class="card-content">
                     <p class="style-span">${data[i].blogtitle}</p>
-                    <p style="text-align: justify;">${data[i].BlogPara}</p>
+                    <p class="blog-para">${data[i].BlogPara}</p>
+                    </div>`
+                    html += `<div class="button-holder">
                     <a  href="${data[i].blogLink}" class="read-more-btn style-span">Read More →</a>
 
                     </div></div>`;

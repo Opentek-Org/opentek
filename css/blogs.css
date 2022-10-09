@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
 
 .blogs-card-container{
     margin-top: 15%;
@@ -5,17 +12,19 @@
 
 .row{
     justify-content: center;
+    padding: 0 !important;
 }
 
 .blog-card{
     border:1px solid #d59cf7;
     box-shadow: 0 0 4px #d59cf7;
-    margin:1rem;
-    padding: .7rem;
+    margin:1rem !important;
+    padding: .3rem !important;
     width: 28%;
     color:#fff;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -25,20 +34,49 @@
 }
 
 .card-img-container img{
+    border-top-right-radius: 25px;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 .card-content{
-    height: 50%;
-    font-size: .75rem;
-    margin-top: 1rem;
-    position: relative;
+    margin-top: .5rem;
+    height:230px;
+    word-wrap: break-word;
+    word-spacing: -2px;
+    text-align:justify;
+}
+
+.blog-para{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.style-span{
+    letter-spacing: 0px;
+    font-weight: 100;
+
 }
 
 .read-more-btn{
     font-size: .7rem !important;
+    border: 1px solid #d59cf7;
+    padding: .5rem !important;
+    text-align: center;
+    margin:.3rem;
+    float: right;
+    display: block;
+    width: 40%;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.read-more-btn:hover{
+    background: linear-gradient(to left, #e633da 50%, #2bfa97 100%, #3acdff 50%);
+    opacity: .85;
+    border: none;
+  -webkit-text-fill-color:black;
 }
 
 
