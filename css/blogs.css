@@ -46,6 +46,7 @@
     word-wrap: break-word;
     word-spacing: -2px;
     text-align:justify;
+    overflow:hidden;
 }
 
 .blog-para{
@@ -91,6 +92,10 @@
     .blog-card{
         width: 70%;
         margin:1rem;
+    }
+    
+    .read-more-btn{
+        margin-top: 1rem;
     }
 
     .blog-card:nth-child(3){
