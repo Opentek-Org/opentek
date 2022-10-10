@@ -1,6 +1,5 @@
 <h1 align="center">Opentek ⚡</h1>
 
-<h3 align="center">Everything will be addressed after 5th Jan! Stay Tuned ⚡</h3>
 
 <p align="center">
 <a href="https://github.com/Opentek-Org/opentek"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
