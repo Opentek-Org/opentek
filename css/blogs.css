@@ -43,10 +43,8 @@
 .card-content{
     margin-top: .5rem;
     height:230px;
-    word-wrap: break-word;
-    word-spacing: -2px;
+    overflow: hidden;
     text-align:justify;
-    overflow:hidden;
 }
 
 .blog-para{
@@ -55,9 +53,7 @@
 }
 
 .style-span{
-    letter-spacing: 0px;
     font-weight: 100;
-
 }
 
 .read-more-btn{
@@ -82,7 +78,7 @@
 
 
 
-@media(max-width:700px){
+@media(max-width:745px){
     .blogs{
         flex-direction: column;
         align-items: center;
@@ -90,12 +86,34 @@
     }
 
     .blog-card{
-        width: 70%;
+        width: 85%;
         margin:1rem;
     }
-    
+
+    .card-img-container{
+        margin:.5rem;
+        height: 250px;
+
+    }
+
+    .card-img-container img{
+        box-shadow: 0 0 10px #d59cf7;
+        border-radius: 0;
+        border-bottom-right-radius: 45px;
+        border-top-left-radius: 45px;
+    }
+
+    .card-content{
+        padding:0 .7rem;
+        text-align: justify;
+        height: fit-content;
+        word-break: break-all;
+    }
+
     .read-more-btn{
-        margin-top: 1rem;
+        float: none;
+        margin:1rem auto;
+        width: 90%;
     }
 
     .blog-card:nth-child(3){
