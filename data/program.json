@@ -26,9 +26,39 @@
         "event": "3",
         "details": {
           "eventName": "MLH Fellowship - Open Source Track - Spring Batch",
-          "eventDate": "January 31",
+          "eventDate": "January 30",
           "eventDesc": "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
           "eventurl": "https://fellowship.mlh.io/programs/open-source",
+          "eventImg": "../images/programs/mlhFellowship.png"
+        }
+      },
+      {
+        "event": "4",
+        "details": {
+          "eventName": "MLH Fellowship - Web3 Enginnering Track - Spring Batch",
+          "eventDate": "January 30",
+          "eventDesc": "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
+          "eventurl": "https://fellowship.mlh.io/programs/web3-engineering",
+          "eventImg": "../images/programs/mlhFellowship.png"
+        }
+      },
+      {
+        "event": "5",
+        "details": {
+          "eventName": "MLH Fellowship - Software Engineering Track - Spring Batch",
+          "eventDate": "January 30",
+          "eventDesc": "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
+          "eventurl": "https://fellowship.mlh.io/programs/software-engineering",
+          "eventImg": "../images/programs/mlhFellowship.png"
+        }
+      },
+      {
+        "event": "6",
+        "details": {
+          "eventName": "MLH Fellowship - Site Reliability Engineering Track - Spring Batch",
+          "eventDate": "January 30",
+          "eventDesc": "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
+          "eventurl": "https://fellowship.mlh.io/programs/site-reliability-engineering",
           "eventImg": "../images/programs/mlhFellowship.png"
         }
       }
@@ -75,16 +105,6 @@
       {
         "event": "1",
         "details": {
-          "eventName": "Rails Girls Summer of Code",
-          "eventDate": "2nd March - 30th March (Student Registrations) ",
-          "eventDesc": "Rails Girls Summer of Code is a global fellowship program for women and non-binary coders. Students receive a three-month scholarship to work on existing Open Source projects and expand their skill set.",
-          "eventurl": "https://railsgirlssummerofcode.org/",
-          "eventImg": "../images/programs/rgsoc.png"
-        }
-      },
-      {
-        "event": "2",
-        "details": {
           "eventName": "Google Summer of Earth Engine",
           "eventDate": "15th March ",
           "eventDesc": "Google Summer of Earth Engine is a research program for Indian university students & researchers to get a chance to work with leading research organizations in the country working in environment, conservation, water resources and agricultural domains over 3 months of summer on a project and get paid to do so!",
@@ -93,7 +113,7 @@
         }
       },
       {
-        "event": "3",
+        "event": "2",
         "details": {
           "eventName": "GirlScript Summer of Code",
           "eventDate": "4th March ",
@@ -125,20 +145,40 @@
       {
         "event": "1",
         "details": {
-          "eventName": "BOSS - Bountiful Open Source Summer",
-          "eventDate": "15th May",
-          "eventDesc": "Each year we teach hundreds of students coding, programming and software development. Over the past five years (we started off in April 2014), we have helped more than 3000 students gain expertise in Android, Web, Data Science and more.",
-          "eventurl": "https://lab.codingblocks.com/boss",
-          "eventImg": "../images/programs/cb.png"
+          "eventName": "MLH Fellowship - Open Source Track - Summer Batch A",
+          "eventDate": "May 30th",
+          "eventDesc": "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
+          "eventurl": "https://fellowship.mlh.io/programs/open-source",
+          "eventImg": "../images/programs/mlhFellowship.png"
         }
       },
       {
         "event": "2",
         "details": {
-          "eventName": "MLH Fellowship - Open Source Track - Summer Batch",
+          "eventName": "MLH Fellowship - Software Engineering Track - Summer Batch A",
           "eventDate": "May 30th",
           "eventDesc": "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
-          "eventurl": "https://fellowship.mlh.io/programs/open-source",
+          "eventurl": "https://fellowship.mlh.io/programs/software-engineering",
+          "eventImg": "../images/programs/mlhFellowship.png"
+        }
+      },
+      {
+        "event": "3",
+        "details": {
+          "eventName": "MLH Fellowship - Site Reliability Engineering Track - Summer Batch A",
+          "eventDate": "January 30",
+          "eventDesc": "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
+          "eventurl": "https://fellowship.mlh.io/programs/site-reliability-engineering",
+          "eventImg": "../images/programs/mlhFellowship.png"
+        }
+      },
+      {
+        "event": "4",
+        "details": {
+          "eventName": "MLH Fellowship - Web3 Enginnering Track - Summer Batch A",
+          "eventDate": "January 30",
+          "eventDesc": "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
+          "eventurl": "https://fellowship.mlh.io/programs/web3-engineering",
           "eventImg": "../images/programs/mlhFellowship.png"
         }
       }
@@ -146,11 +186,43 @@
   },
   {
     "monthId": "5",
-    "Data": []
+    "Data": [
+      {
+        "event": "1",
+        "details": {
+          "eventName": "MLH Fellowship - Open Source Track - Summer Batch B",
+          "eventDate": "June 19th",
+          "eventDesc": "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
+          "eventurl": "https://fellowship.mlh.io/programs/open-source",
+          "eventImg": "../images/programs/mlhFellowship.png"
+        }
+      },
+      {
+        "event": "2",
+        "details": {
+          "eventName": "MLH Fellowship - Software Engineering Track - Summer Batch B",
+          "eventDate": "June 19th",
+          "eventDesc": "The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.",
+          "eventurl": "https://fellowship.mlh.io/programs/software-engineering",
+          "eventImg": "../images/programs/mlhFellowship.png"
+        }
+      }
+    ]
   },
   {
     "monthId": "6",
-    "Data": []
+    "Data": [
+      {
+        "event": "1",
+        "details": {
+          "eventName": "NumFOCUS",
+          "eventDate": "July 15 (Round 2)",
+          "eventDesc": "NumFOCUS aims to ensure that funding and resources are available to sustain projects in the scientific Data stack over the long haul. One of the ways we accomplish this vision is through programs that provide support for open source scientific computing projects: our fiscal sponsorship program and our affiliation program.",
+          "eventurl": "https://numfocus.org/projects-overview",
+          "eventImg": "../images/programs/numfocus.png"
+        }
+      }
+    ]
   },
   {
     "monthId": "7",
@@ -218,11 +290,11 @@
       {
         "event": "3",
         "details": {
-          "eventName": "NJACK Winter of Code",
-          "eventDate": "October 23",
-          "eventDesc": "NWoC (NJACK Winter of Code) is a program by NJACK (The Official Computer Science Club of IIT Patna) that helps students understand the paradigm of Open Source contribution and gives them real world software development experience.",
-          "eventurl": "https://njackwinterofcode.github.io/",
-          "eventImg": "../images/programs/nwoc.png"
+          "eventName": "NumFOCUS",
+          "eventDate": "October 15 (Round 3)",
+          "eventDesc": "NumFOCUS aims to ensure that funding and resources are available to sustain projects in the scientific Data stack over the long haul. One of the ways we accomplish this vision is through programs that provide support for open source scientific computing projects: our fiscal sponsorship program and our affiliation program.",
+          "eventurl": "https://numfocus.org/projects-overview",
+          "eventImg": "../images/programs/numfocus.png"
         }
       }
     ]
