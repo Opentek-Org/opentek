@@ -1273,3 +1273,8 @@ li {
 .hidden-p {
   display: none;
 }
+
+.over-cards:hover {
+  background-color: #6f42c1;
+  border-radius: 2%;
+}
