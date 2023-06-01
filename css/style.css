@@ -1135,6 +1135,7 @@ li {
 }
 
 .footer-social i {
+
   width: 45px;
   height: 45px;
   border: 1px solid #fff;
@@ -1148,6 +1149,7 @@ li {
   -webkit-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
   transition: all linear 0.3s;
+  margin-bottom: 12px;
 }
 
 .footer-social i:hover {
