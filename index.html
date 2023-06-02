@@ -2,6 +2,7 @@
 <html lang="en">
   <html prefix="og: https://ogp.me/ns#">
     <head>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script
         async
@@ -21,6 +22,8 @@
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       ></script>
+      
+
       <meta charset="UTF-8" />
       <meta
         name="viewport"
@@ -218,6 +221,8 @@
         href="icons/apple-splash-1136-640.jpg"
         media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
       />
+     
+    
     </head>
 
     <body id="dark-mode">
@@ -323,7 +328,7 @@
         <div class="container zindex">
           <div class="row">
             <div class="col-lg-12 banner-txt">
-              <h3 id="text">An Open Source Treasure</h3>
+              <h3 id="text" class="slide-transition">An Open Source Treasure</h3>
               <h1 id="text-down">
                 If it is about Open Source, it is on Opentek.
               </h1>
@@ -344,7 +349,7 @@
           <div class="row over-pa">
             <div class="col-lg-9 col-sm-12 m-auto">
               <div class="row">
-                <div class="col-lg-6 col-sm-6">
+                <div class="col-lg-6 col-sm-6 " data-aos="fade-right">
                   <div class="over-item txt-right unique-style3">
                     <i class="fa fa-bars over-i" aria-hidden="true"></i>
                     <div class="break"></div>
@@ -372,7 +377,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6 col-sm-6">
+                <div class="col-lg-6 col-sm-6 " data-aos="fade-left">
                   <div class="over-item txt-left unique-style">
                     <i class="far fa-check-circle over-i"></i>
                     <div class="break"></div>
@@ -400,7 +405,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6 col-sm-6">
+                <div class="col-lg-6 col-sm-6 " data-aos="fade-right">
                   <div class="over-item txt-right unique-style2">
                     <i class="far fa-star over-i" aria-hidden="true"></i>
                     <div class="break"></div>
@@ -416,7 +421,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6 col-sm-6">
+                <div class="col-lg-6 col-sm-6 " data-aos="fade-left">
                   <div class="over-item txt-left unique-style4">
                     <i class="fas fa-terminal over-i" aria-hidden="true"></i>
                     <div class="break"></div>
@@ -433,7 +438,7 @@
                   </div>
                 </div>
                 <!-- *********************** -->
-                <div class="col-lg-6 col-sm-6">
+                <div class="col-lg-6 col-sm-6  " data-aos="fade-right">
                  <div class="over-item txt-right unique-style5">
                    <i class="fas fa-blog over-i" aria-hidden="true"></i>
                    <div class="break"></div>
@@ -752,6 +757,16 @@
       <script defer src="js/circular.js"></script>
       <script defer src="js/custom.js"></script>
       <script src="js/auth0.js"></script>
+      <!-- aos data -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init(
+          {
+            ofset:300,
+            duration:1000,
+          }
+        );
+      </script>
     </body>
   </html>
 </html>
