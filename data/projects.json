@@ -78,6 +78,14 @@
         "langDesc": "An Internship Onboarding platform with an innovative learning management system and intuitive performance tools.",
         "langurl": "https://github.com/praveenscience/Internship-LMS-FrontEnd",
         "langAdmin": "Praveen Kumar Purushothaman"
+      },
+      {
+        "langId": "9",
+        "langTitle": ["HTML, Tailwind CSS"],
+        "langName": "Seamless UI",
+        "langDesc": "The next gen UI made with simple HTML and Tailwind CSS. It's compatible with simple HTML, CSS static website or a React, Vue, Angular or Next.js Complex app.",
+        "langurl": "https://github.com/Clueless-Community/seamless-ui",
+        "langAdmin": "Clueless Community"
       }
     ]
   },
@@ -167,6 +175,14 @@
         "langDesc": "A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)",
         "langurl": "https://github.com/cod-ed/simulate",
         "langAdmin": "cod-ed"
+      },
+      {
+        "langId": "1",
+        "langTitle": ["Dart"],
+        "langName": "Spectrum UI",
+        "langDesc": "User-friendly Flutter UI library that offers a variety of beautifully designed widgets and components.",
+        "langurl": "https://github.com/Clueless-Community/Spectrum-UI",
+        "langAdmin": "Clueless Community"
       }
     ]
   }
