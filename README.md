@@ -25,6 +25,10 @@
 
 </p>
 
+<p align="center"> 
+    <img src="https://komarev.com/ghpvc/?username=opentek-org&label=Repository+Visit&color=blueviolet&style=for-the-badge"/> 
+</p>
+
 <!-- <p align="center"><img src="https://i.postimg.cc/NF3N8zpk/opentek-desk.png" width="550" /></p> -->
 
 <p align="center">
