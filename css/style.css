@@ -1132,6 +1132,12 @@ li {
 
 .footer-social {
   padding-top: 11px;
+  display: flex;
+}
+
+.footer-social a {
+  position: relative;
+  display: inline-block;
 }
 
 .footer-social i {
@@ -1150,11 +1156,117 @@ li {
   transition: all linear 0.3s;
 }
 
-.footer-social i:hover {
-  background: #aa80ff;
-  color: #fff;
-  border: 1px solid #aa80ff;
+.footer-social .tooltip {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  background: #fff;
+  color: #000;
+  padding: 10px 18px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
+.footer-social a:hover .tooltip {
+  top: -70px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.footer-social .tooltip:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 10px;
+  background: #fff;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%) rotate(45deg);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.footer-social a:hover i,
+.footer-social a:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+}
+
+.footer-social a.discord-icon:hover .tooltip,
+.footer-social a.discord-icon:hover .tooltip:before {
+  background: #7289da;
+  color: white;
+}
+
+.footer-social a.twitter-icon:hover .tooltip,
+.footer-social a.twitter-icon:hover .tooltip:before {
+  background: #46c1f6;
+  color: white;
+}
+
+.footer-social a.linkedin-icon:hover .tooltip,
+.footer-social a.linkedin-icon:hover .tooltip:before {
+  background: #0e76a8;
+  color: white;
+}
+
+.footer-social a.envelope-icon:hover .tooltip,
+.footer-social a.envelope-icon:hover .tooltip:before {
+  background: #4678f6;
+  color: white;
+}
+
+.footer-social a.github-icon:hover .tooltip,
+.footer-social a.github-icon:hover .tooltip:before {
+  background: #333;
+  color: white;
+}
+
+.footer-social a.discord-icon:hover i,
+.footer-social a.discord-icon:hover .tooltip {
+  background: #7289da;
+}
+
+.footer-social a.twitter-icon:hover i,
+.footer-social a.twitter-icon:hover .tooltip {
+  background: #46c1f6;
+}
+
+.footer-social a.linkedin-icon:hover i,
+.footer-social a.linkedin-icon:hover .tooltip {
+  background: #0e76a8;
+}
+
+.footer-social a.envelope-icon:hover i,
+.footer-social a.envelope-icon:hover .tooltip {
+  background: #4678f6;
+}
+
+.footer-social a.github-icon:hover i,
+.footer-social a.github-icon:hover .tooltip {
+  background: #333;
+}
+
+
+.footer-social .tooltip {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.footer-social a:hover .tooltip {
+  top: -70px;
+}
+
+
+
+
 
 .links h3 {
   font-size: 21px;
