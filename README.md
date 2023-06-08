@@ -142,7 +142,7 @@ Please read our [Code of Conduct](CODE_OF_CONDUCT.md), and the process for submi
 
 ## 🤷‍♂️ Want to submit an event, program, project or a tutorial to our Website?
 
-Please read our [contributing guidelines](https://github.com/Opentek-Org/opentek/blob/main/CONTRIBUTE.md)
+Please read our [contributing guidelines](https://github.com/Opentek-Org/opentek/blob/main/CONTRIBUTING.md)
 
 ## 💻 Built with
 
