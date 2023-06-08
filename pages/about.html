@@ -179,14 +179,15 @@
 
 	<script defer>
 		const getData = async () => {
-			const api = "https://api.github.com/repos/Opentek-Org/opentek/contributors";
+			const api = "https://api.github.com/repos/Opentek-Org/opentek/contributors?per_page=100";
 			try {
 				let data = await fetch(api);
 				realData = await data.json();
+				console.log(realData)
 				var html = '';
 				realData.forEach(element => {
 					html += `
-						<a href="${element.html_url}">
+						<a target="_blank" href="${element.html_url}">
 							<img id="imgid" src="${element.avatar_url}" />
 						</a>;`
 				});
