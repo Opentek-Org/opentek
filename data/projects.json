@@ -95,7 +95,7 @@
         "domainIds": ["0"]
     },
     {
-        "langId": "0",
+        "langId": "10",
         "langTitle": ["Python"],
         "langName": "Jina",
         "langDesc": "Cloud-native neural search framework for 𝙖𝙣𝙮 kind of Data",
@@ -104,7 +104,7 @@
         "domainIds": ["1"]
     },
     {
-        "langId": "1",
+        "langId": "11",
         "langTitle": ["Jupyter Notebook"],
         "langName": "FACE-X",
         "langDesc": "Demonstration of different algorithms and operations on faces.",
@@ -113,7 +113,7 @@
         "domainIds": ["1"]
     },
     {
-        "langId": "2",
+        "langId": "12",
         "langTitle": ["Python", "Flask", "Numpy"],
         "langName": "Breast-Cancer-Predictor",
         "langDesc": "A Flask based web application to predict breast cancer.",
@@ -122,7 +122,7 @@
         "domainIds": ["1"]
     },
     {
-        "langId": "3",
+        "langId": "13",
         "langTitle": ["Flask, Bootstrap, Python, JavaScript, jQuery"],
         "langName": "Certificate Generation and Verification System",
         "langDesc": "This project aims in developing a computerized system to maintain and generate the certificate.",
@@ -131,7 +131,7 @@
         "domainIds": ["1"]
     },
     {
-        "langId": "0",
+        "langId": "14",
         "langTitle": ["Jupyter Notebook"],
         "langName": "FACE-X",
         "langDesc": "Demonstration of different algorithms and operations on faces.",
@@ -140,7 +140,7 @@
         "domainIds": ["2"]
     },
     {
-        "langId": "0",
+        "langId": "15",
         "langTitle": ["DS", "Algorithms"],
         "langName": "NeoAlgo",
         "langDesc": "Bringing all Data Structures and Algorithms under one Roof ⚡",
@@ -149,7 +149,7 @@
         "domainIds": ["3"]
     },
     {
-        "langId": "0",
+        "langId": "16",
         "langTitle": ["JavaScript"],
         "langName": "Manthan",
         "langDesc": "We provide an online testing platform that can be used to conduct tests that are wrapped with all the necessary precautions to reduce the chances of cheating.",
@@ -158,7 +158,7 @@
         "domainIds": ["4"]
     },
     {
-        "langId": "0",
+        "langId": "17",
         "langTitle": ["Dart"],
         "langName": "Simulate",
         "langDesc": "A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)",
@@ -167,7 +167,7 @@
         "domainIds": ["5"]
     },
     {
-        "langId": "1",
+        "langId": "18",
         "langTitle": ["Dart"],
         "langName": "Spectrum UI",
         "langDesc": "User-friendly Flutter UI library that offers a variety of beautifully designed widgets and components.",
