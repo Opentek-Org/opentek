@@ -1,5 +1,6 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+@import url('./style.css');
 
 
 
@@ -77,7 +78,7 @@ img {
 
 .card_content {
   padding: 1rem;
-  background: #aa80ff;
+  background: var(--main-color);
   backdrop-filter:  blur(50px);
 }
 

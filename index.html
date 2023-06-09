@@ -3,6 +3,8 @@
   <html prefix="og: https://ogp.me/ns#">
     <head>
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="stylesheet" href="css/color-theams.css">
+      <link rel="stylesheet" href="css/ripple-button.css">
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script
         async
@@ -22,6 +24,7 @@
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       ></script>
+      <script src="https://kit.fontawesome.com/284ffbb2b1.js" crossorigin="anonymous"></script>
       
 
       <meta charset="UTF-8" />
@@ -750,6 +753,35 @@
       </section>
       <!-- COPY_RIGHT AREA END -->
 
+      <!-- theam color area -->
+
+      <div class="theam-div open">
+        <div class="button-part">
+            <!-- <div class="dark-light" onclick="light()">
+
+                <i class="fa-solid fa-lightbulb" ></i>
+                
+            </div> -->
+            <div class="setting"  onclick="translatex()">
+                <i class="fa-solid fa-gear setting-icon" ></i>
+            </div>
+        </div>
+
+        <div class="theams">
+            <p>Theme Colors</p>
+            <div class="theme-buttons">
+                <div class="red" onclick="redtoggle()"></div>
+                <!-- <div class="orange" onclick="orangetoggle()"></div> -->
+                <div class="green" onclick="greentoggle()"></div>
+                <div class="blue" onclick="bluetoggle()"></div>
+                <div class="pink" onclick="pinktoggle()"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- theam color area end -->
+
       <!-- PWA JS -->
       <script src="./pwa.js" defer></script>
 
@@ -762,6 +794,8 @@
       <script defer src="js/circular.js"></script>
       <script defer src="js/custom.js"></script>
       <script src="js/auth0.js"></script>
+      <script src="js/color-theam.js"></script>
+      <script src="js/ripple-button.js"></script>
       <!-- aos data -->
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
