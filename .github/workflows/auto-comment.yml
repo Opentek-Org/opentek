@@ -15,16 +15,15 @@ jobs:
             <br>
             Feel free to join the community and collaborate ❤
             <br>
-            Join our Discord Community [here](https://discord.gg/fNSts9bvzX)
-
+            Join our Discord Community [here](https://discord.gg/fNSts9bvzX) and make sure to STAR the project.
 
           pullRequestOpened: >
             Hello👋 @{{ author }}, I hope you are doing well!
             <br>
             Thank you for raising your pull request and contributing to our Community 🎉
-            
+
             Please make sure you have followed our contributing guidelines. We will review it as soon as possible.
             <br>
             Feel free to join the community and collaborate ❤
             <br>
-            Join our Discord Community [here](https://discord.gg/fNSts9bvzX)
+            Join our Discord Community [here](https://discord.gg/fNSts9bvzX) and make sure to STAR the project.

@@ -1,6 +1,6 @@
 name: Bug Report
 description: Report a bug found in the Opentek source code
-labels: ["bug"]
+labels: ['bug', 'gssoc23']
 body:
   - type: textarea
     id: description
