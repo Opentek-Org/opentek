@@ -8,7 +8,7 @@ let domain = [
 ];
 
 let htmlc = `<div>`;
-htmlc += `<button value="all" id="def-filter" class="filter selected-filter">All</button>`;
+// htmlc += `<button value="all" id="def-filter" class="filter selected-filter">All</button>`;
 for (let index = 0; index < domain.length; index++) {
     htmlc += `<button value="${index}" class="filter">${domain[index]}</button>`;
   }
@@ -55,12 +55,16 @@ fetch("../data/projects.json")
     let valu;
     $(function () {
       $(".filter").click(function (e) {
-        $(".filter").removeClass('selected-filter');
-        e.target.classList.add('selected-filter');
-        valu = e.target.value
-        $("#project").empty();
-        $("#error").empty();
-        loadData(data, valu);
+        if (!e.target.matches('.selected-filter')) {
+          e.target.classList.add('selected-filter');
+          valu = e.target.value
+          $("#project").empty();
+          $("#error").empty();
+          loadData(data, valu);
+        } else {
+          e.target.classList.remove('selected-filter');
+          loadData(data, "all");
+        }
       });
       loadData(data, "all");
     });
