@@ -1,28 +1,27 @@
 let domain = [
-  "Web Development",
-  "Machine Learning",
-  "API",
-  "DSA",
-  "NODEJS",
-  "App Development",
+    "Web Development",
+    "Machine Learning",
+    "API",
+    "DSA",
+    "NODEJS",
+    "App Development",
 ];
 
 let htmlc = `<div>`;
 // htmlc += `<button value="all" id="def-filter" class="filter selected-filter">All</button>`;
 for (let index = 0; index < domain.length; index++) {
     htmlc += `<button value="${index}" class="filter">${domain[index]}</button>`;
-  }
-htmlc += '</div>'
+}
+htmlc += "</div>";
 $("#selectoption").append(htmlc);
 
-function loadData(data, valu) {
-  let index = valu;
-  if (valu == "all" || valu < domain.length) {
+function loadData(data, values) {
+    let index = values[0];
     var html = "";
     for (let i = 0; i < data.length; i++) {
-      if (valu == "all" || data[i].domainIds.includes(index))
-      try {
-          html += `
+        if (values == "all" || data[i].domainIds.some(domainId => values.includes(domainId)))
+            try {
+                html += `
           <li class="cards_item">
           <div class="card">
               <div class="card_content">
@@ -36,36 +35,32 @@ function loadData(data, valu) {
           </li>
   
           `;
-      } catch (error) {
-        console.log(error);
-      }
+            } catch (error) {
+                console.log(error);
+            }
     }
     $("#project").append(html);
-  } else {
-    var htmlz = `<div class= "container unique-style3  mb-5 pb-5">`;
-    htmlz += `<p class="text-light text-center text-no-data">No data found.Please select another month.</p>`;
-    htmlz += `</div>`;
-    $("#error").append(htmlz);
-  }
 }
 
 fetch("../data/projects.json")
-  .then((data) => data.json())
-  .then((data) => {
-    let valu;
-    $(function () {
-      $(".filter").click(function (e) {
-        if (!e.target.matches('.selected-filter')) {
-          e.target.classList.add('selected-filter');
-          valu = e.target.value
-          $("#project").empty();
-          $("#error").empty();
-          loadData(data, valu);
-        } else {
-          e.target.classList.remove('selected-filter');
-          loadData(data, "all");
-        }
-      });
-      loadData(data, "all");
+    .then((data) => data.json())
+    .then((data) => {
+        $(function () {
+            $(".filter").click(function (e) {
+                if (!e.target.matches(".selected-filter")) {
+                    e.target.classList.add("selected-filter");
+                    let values = $(".selected-filter")
+                        .map((_, el) => el.value)
+                        .get();
+                    console.log(values);
+                    $("#project").empty();
+                    $("#error").empty();
+                    loadData(data, values);
+                } else {
+                    e.target.classList.remove("selected-filter");
+                    loadData(data, "all");
+                }
+            });
+            loadData(data, "all");
+        });
     });
-  });
