@@ -55,7 +55,7 @@ img {
 .card_content {
 
     padding: 1rem;
-    background: #aa80ff;
+    background: var(--main-color);
     backdrop-filter: blur(50px);
     height: 100%;   
 
@@ -122,9 +122,9 @@ img {
 }
 
 .filter:hover {
-    border: 1px solid #aa80ff;
+    border: 1px solid var(--main-color);
 }
 
 .selected-filter {
-    background-color: #aa80ff;
+    background-color: var(--main-color);
 }
