@@ -29,7 +29,7 @@ function changeColor(){
 
             
             
-            r.style.setProperty('--main-color', '#00ADB5');
+            r.style.setProperty('--main-color', '#aa80ff');
     }
 
 }
@@ -53,6 +53,6 @@ function redtoggle(){
     }
     function bluetoggle(){
             localStorage.setItem("mode","blue")
-            r.style.setProperty('--main-color', '#00ADB5');
+            r.style.setProperty('--main-color', '#aa80ff');
     
     }
