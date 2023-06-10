@@ -1296,3 +1296,7 @@ li {
 .hidden-p {
   display: none;
 }
+
+#footer-btm i{
+  color: var(--main-color);
+}
