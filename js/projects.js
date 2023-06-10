@@ -19,7 +19,10 @@ function loadData(data, values) {
     let index = values[0];
     var html = "";
     for (let i = 0; i < data.length; i++) {
-        if (values == "all" || data[i].domainIds.some(domainId => values.includes(domainId)))
+        if (
+            values == "all" ||
+            data[i].domainIds.some((domainId) => values.includes(domainId))
+        )
             try {
                 html += `
           <li class="cards_item">
@@ -49,16 +52,18 @@ fetch("../data/projects.json")
             $(".filter").click(function (e) {
                 if (!e.target.matches(".selected-filter")) {
                     e.target.classList.add("selected-filter");
-                    let values = $(".selected-filter")
-                        .map((_, el) => el.value)
-                        .get();
-                    console.log(values);
-                    $("#project").empty();
-                    $("#error").empty();
-                    loadData(data, values);
                 } else {
                     e.target.classList.remove("selected-filter");
-                    loadData(data, "all");
+                }
+                let values = $(".selected-filter")
+                    .map((_, el) => el.value)
+                    .get();
+                $("#project").empty();
+                $("#error").empty();
+                if (values.length === 0) {
+                  loadData(data, "all");
+                } else {
+                  loadData(data, values);
                 }
             });
             loadData(data, "all");
