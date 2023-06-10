@@ -179,14 +179,15 @@
 
 	<script defer>
 		const getData = async () => {
-			const api = "https://api.github.com/repos/Opentek-Org/opentek/contributors";
+			const api = "https://api.github.com/repos/Opentek-Org/opentek/contributors?per_page=100";
 			try {
 				let data = await fetch(api);
 				realData = await data.json();
+				console.log(realData)
 				var html = '';
 				realData.forEach(element => {
 					html += `
-						<a href="${element.html_url}">
+						<a target="_blank" href="${element.html_url}">
 							<img id="imgid" src="${element.avatar_url}" />
 						</a>;`
 				});
@@ -217,20 +218,20 @@
                   <a href="https://discord.gg/9qyr4Mdc3Y" target="_blank"
                     ><i class="fab fa-discord" aria-hidden="true"></i
                   ></a>
-                  <a href="https://twitter.com/opentekorg" target="blank"
+                  <a href="https://twitter.com/opentekorg" target="_blank"
                     ><i class="fab fa-twitter" aria-hidden="true"></i
                   ></a>
                   <a
                     href="https://www.linkedin.com/company/opentekorg/"
-                    target="blank"
+                    target="_blank"
                     ><i class="fab fa-linkedin-in" aria-hidden="true"></i
                   ></a>
-                  <a href="mailto:opentekorg@gmail.com"
+                  <a href="mailto:opentekorg@gmail.com" target="_blank"
                     ><i class="fas fa-envelope" aria-hidden="true"></i
                   ></a>
                   <a
                     href="https://github.com/Opentek-Org/opentek"
-                    target="blank"
+                    target="_blank"
                     ><i class="fab fa-github" aria-hidden="true"></i
                   ></a>
                 </div>
@@ -248,7 +249,7 @@
                 <h3>Quick Links</h3>
                 <ul>
                   <li>
-                    <a href="./about.html" target="blank">About Us</a>
+                    <a href="./about.html">About Us</a>
                   </li>
                   <li>
                     <a id="gated-content-5" class="" href="./event.html"
@@ -261,7 +262,7 @@
                     >
                   </li>
                   <li>
-                    <a href="./projects.html" target="blank">Projects</a>
+                    <a href="./projects.html">Projects</a>
                   </li>
                   <li>
                     <a

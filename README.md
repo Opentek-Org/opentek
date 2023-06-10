@@ -25,6 +25,10 @@
 
 </p>
 
+<p align="center"> 
+    <img src="https://komarev.com/ghpvc/?username=opentek-org&label=Repository+Visit&color=blueviolet&style=for-the-badge"/> 
+</p>
+
 <!-- <p align="center"><img src="https://i.postimg.cc/NF3N8zpk/opentek-desk.png" width="550" /></p> -->
 
 <p align="center">
@@ -142,7 +146,7 @@ Please read our [Code of Conduct](CODE_OF_CONDUCT.md), and the process for submi
 
 ## 🤷‍♂️ Want to submit an event, program, project or a tutorial to our Website?
 
-Please read our [contributing guidelines](https://github.com/Opentek-Org/opentek/blob/main/CONTRIBUTE.md)
+Please read our [contributing guidelines](https://github.com/Opentek-Org/opentek/blob/main/CONTRIBUTING.md)
 
 ## 💻 Built with
 

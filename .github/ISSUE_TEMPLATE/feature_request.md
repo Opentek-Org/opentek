@@ -2,8 +2,8 @@
 name: Feature request
 about: Suggest an idea for this project
 title: FEATURE
-labels: enhancement, Hacktoberfest
-assignees: ""
+labels: enhancement, gssoc23
+assignees: ''
 ---
 
 **Is your feature request related to a problem? Please describe.**

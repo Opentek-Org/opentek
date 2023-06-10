@@ -1,108 +1,127 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
-
-
 h1 {
-  font-size: 24px;
-  font-weight: 400;
-  text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
 }
 
 img {
-  max-height: 100%;
-  max-width: 100%;
-  vertical-align: middle;
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
 }
 
-.btn {
-  position: relative;
-  display: block;
-  background: #e1c1f3;
-  color: rgb(3, 0, 0);
-  padding: 0.3rem;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 400;
-  display: block;
-  width: 100%;
-  cursor: pointer;
-  border-radius: 10px;
-  box-shadow: rgba(0,0,0,0.9);
-  transition: all 200ms ease-in-out;
-  text-decoration: none;
-  border: 1.5px solid rgba(27, 24, 24, 0.2); 
-}
-
-.btn:hover {
-    background:  #d59cf7;
-    border-radius: 40px;
-}
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  height: 100;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100;
 }
 
 .cards_item {
-  display: flex;
-  padding: 1rem;
+    display: flex;
+    padding: 1rem;
 }
 
 @media (min-width: 40rem) {
-  .cards_item {
-    width: 50%;
-  }
+    .cards_item {
+        width: 50%;
+    }
 }
 
 @media (min-width: 56rem) {
-  .cards_item {
-    width: 33.3333%;
-  }
+    .cards_item {
+        width: 33.3333%;
+    }
 }
 
 .card {
-  background-color: #080c11;
-  border-radius: 1rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+    background-color: #080c11;
+    border-radius: 1rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 270px;
+    position: relative;
 }
-
 
 .card_content {
-  padding: 1rem;
-  background: #aa80ff;
-  backdrop-filter:  blur(50px);
+    padding: 1rem;
+    background: #aa80ff;
+    backdrop-filter: blur(50px);
+    height: 100%;   
 }
 
-
 .cardtitle {
-  color: #080c11;
-  font-size: 1.1rem;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  margin: 0px;
-  line-height: 10px;
+    color: #080c11;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+    line-height: 10px;
 }
 
 .card_text {
-  color: #080c11;
-  font-size: 0.8rem;
-  line-height: 1.5;
-  margin-bottom: 1.25rem;
-  font-weight: 400;
-  
+    color: #080c11;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
 }
 .made_by {
-  font-weight: 400;
-  font-size: 13px;
-  margin-top: 35px;
-  text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.card_btn {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    background: #e1c1f3;
+    color: rgb(3, 0, 0);
+    padding: 0.3rem;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.9);
+    transition: all 200ms ease-in-out;
+    text-decoration: none;
+    border: 1.5px solid rgba(27, 24, 24, 0.2);
+    border-radius: 0;
+}
+
+.card_btn:hover {
+    background: #d59cf7;
+    border-radius: 0;
+}
+
+.filter {
+    background-color: transparent;
+    border: 1px solid rgba(25, 118, 210, 0.5);
+    color: white;
+    border-radius: 4px;
+    padding: 5px 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+.filter:hover {
+    border: 1px solid #aa80ff;
+}
+
+.selected-filter {
+    background-color: #aa80ff;
 }

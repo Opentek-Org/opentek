@@ -312,13 +312,25 @@ p {
   -webkit-box-shadow: 0 0 7px rgba(46, 59, 125, 0.23);
   box-shadow: 0 0 7px rgba(46, 59, 125, 0.23);
   border-radius: 50%;
-  background: #101822;
+  background: #2c3849;
   -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
   box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
+  animation: scaleBtn 1s linear infinite forwards;
+  transition: background 0.3s ease-in-out;
 }
 
 .backtotop:hover {
   cursor: pointer;
+}
+
+.backtotop:hover i {
+    background: #151f2c;
+}
+
+@keyframes scaleBtn{
+    0% {transform:scale(1, 1)}
+    50%{transform:scale(1.1, 1.1)}
+    100%{transform:scale(1, 1)}
 }
 
 /*===========================
