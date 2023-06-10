@@ -10,7 +10,7 @@ let r = document.querySelector(':root');
 function changeColor(){
     if((localStorage.getItem("mode"))=="red"){
 
-            r.style.setProperty('--main-color', '#FC2947');
+            r.style.setProperty('--main-color', '#00C4FF');
     }
    
     else if((localStorage.getItem("mode"))=="green"){
@@ -36,7 +36,7 @@ function changeColor(){
 
 function redtoggle(){
     localStorage.setItem("mode","red")
-    r.style.setProperty('--main-color', '#FC2947');
+    r.style.setProperty('--main-color', '#00C4FF');
     
     }
    
