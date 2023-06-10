@@ -56,3 +56,5 @@ function redtoggle(){
             r.style.setProperty('--main-color', '#aa80ff');
     
     }
+
+    changeColor()
