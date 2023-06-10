@@ -30,8 +30,8 @@ function loadData(data, valu) {
               <span class="cardtitle">Project Admin-${data[i].langAdmin}</span>
               <h6 class="card_title">Tech Stack- ${data[i].langTitle}</h6>
               <p class="card_text">${data[i].langDesc}</p>
-              <button class="btn card_btn" onclick="window.location.href='${data[i].langurl}'"target="blank">Repo Url</button>
               </div>
+              <button class="btn card_btn" onclick="window.location.href='${data[i].langurl}'"target="blank">Repo Url</button>
           </div>
           </li>
   
