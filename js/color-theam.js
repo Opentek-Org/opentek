@@ -7,23 +7,52 @@ function translatex(){
 
 let r = document.querySelector(':root');
 
+function changeColor(){
+    if((localStorage.getItem("mode"))=="red"){
+
+            r.style.setProperty('--main-color', '#FC2947');
+    }
+   
+    else if((localStorage.getItem("mode"))=="green"){
+
+            
+            r.style.setProperty('--main-color', '#127C56');
+
+    }
+    else if((localStorage.getItem("mode"))=="pink"){
+
+            
+
+            r.style.setProperty('--main-color', '#FF55BB');
+    }
+    else if(localStorage.getItem("mode")=="blue"){
+
+            
+            
+            r.style.setProperty('--main-color', '#00ADB5');
+    }
+
+}
+
 function redtoggle(){
-    r.style.setProperty('--main-color', '#00C4FF');
-
-}
-// function orangetoggle(){
-//     r.style.setProperty('--main-color', '#fa5b0f');
-
-// }
-function greentoggle(){
-    r.style.setProperty('--main-color', '#127C56');
-
-}
-function pinktoggle(){
-    r.style.setProperty('--main-color', '#FF55BB');
-
-}
-function bluetoggle(){
-    r.style.setProperty('--main-color', '#aa80ff');
-
-}
+    localStorage.setItem("mode","red")
+    r.style.setProperty('--main-color', '#FC2947');
+    
+    }
+   
+    function greentoggle(){
+            localStorage.setItem("mode","green")
+            r.style.setProperty('--main-color', '#127C56');
+    
+    
+    }
+    function pinktoggle(){
+            localStorage.setItem("mode","pink")
+            r.style.setProperty('--main-color', '#FF55BB');
+    
+    }
+    function bluetoggle(){
+            localStorage.setItem("mode","blue")
+            r.style.setProperty('--main-color', '#00ADB5');
+    
+    }
