@@ -12,6 +12,9 @@ let htmlc = `<div>`;
 for (let index = 0; index < domain.length; index++) {
     htmlc += `<button value="${index}" class="filter">${domain[index]}</button>`;
 }
+
+htmlc += `<button class="hide" id="clear-filter">Clear Filters</button>`;
+
 htmlc += "</div>";
 $("#selectoption").append(htmlc);
 
@@ -61,11 +64,18 @@ fetch("../data/projects.json")
                 $("#project").empty();
                 $("#error").empty();
                 if (values.length === 0) {
-                  loadData(data, "all");
+                    $("#clear-filter").addClass("hide");
+                    loadData(data, "all");
                 } else {
-                  loadData(data, values);
+                    $("#clear-filter").removeClass("hide");
+                    loadData(data, values);
                 }
             });
+            $("#clear-filter").click(() => {
+              $("#clear-filter").addClass("hide");
+              $(".filter").removeClass("selected-filter");
+              loadData(data, "all");
+            })
             loadData(data, "all");
         });
     });

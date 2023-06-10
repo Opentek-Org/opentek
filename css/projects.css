@@ -108,7 +108,7 @@ img {
     border-radius: 0;
 }
 
-.filter {
+.filter, #clear-filter {
     background-color: transparent;
     border: 1px solid rgba(25, 118, 210, 0.5);
     color: white;
@@ -118,10 +118,14 @@ img {
     margin: 10px;
 }
 
-.filter:hover {
+.filter:hover, #clear-filter:hover {
     border: 1px solid #aa80ff;
 }
 
 .selected-filter {
     background-color: #aa80ff;
+}
+
+.hide {
+    display: none;
 }
