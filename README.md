@@ -45,7 +45,7 @@
 <img src="https://i.postimg.cc/qMpTrLpd/1.png" />
 </a>
 
-Welcome to Opentek, your number one source for Open Source Development. We're dedicated to giving you the very best of tools, resources, and projects, with a focus on Collaboration, Code, and Networking. Try out [Opentek](https://opentek.live/) 🙌
+Welcome to Opentek, your number one source for Open Source Development. We're dedicated to giving you the very best of tools, resources, and projects, with a focus on Collaboration, Code, and Networking. Try out [Opentek](https://opentek.in/) 🙌
 
 ### [Read our blog post 📖](https://blog.anirudhpanda.in/introducing-opentek)
 
