@@ -8,7 +8,7 @@ function translatex(){
 let r = document.querySelector(':root');
 
 function changeColor(){
-    if((localStorage.getItem("mode"))=="red"){
+    if((localStorage.getItem("mode"))=="lightblue"){
 
             r.style.setProperty('--main-color', '#00C4FF');
     }
@@ -34,8 +34,8 @@ function changeColor(){
 
 }
 
-function redtoggle(){
-    localStorage.setItem("mode","red")
+function lightbluetoggle(){
+    localStorage.setItem("mode","lightblue")
     r.style.setProperty('--main-color', '#00C4FF');
     
     }
