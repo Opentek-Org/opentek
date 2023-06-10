@@ -13,6 +13,7 @@ img {
   vertical-align: middle;
 }
 
+
 .btn {
   position: relative;
   display: block;
@@ -36,6 +37,7 @@ img {
   background: #d59cf7;
   border-radius: 40px;
 }
+
 
 .cards {
   display: flex;
@@ -64,6 +66,7 @@ img {
 }
 
 .card {
+
   background-color: #080c11;
   border-radius: 1rem;
   box-shadow: rgba(99, 98, 98, 0.09) 0px 2px 1px,
@@ -78,8 +81,10 @@ img {
 .card:hover {
   transform: scale(1.05);
   box-shadow: rgba(45, 44, 44, 0.56) 0px 22px 70px 4px;
+
 }
 .card_content {
+
     text-align: center;
   padding: 1rem;
   background: linear-gradient(50deg, #aa80ff, #b08cf8, #b2a1d4, #beb4d2);
@@ -95,6 +100,7 @@ img {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
     rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
     rgba(0, 0, 0, 0.07) 0px 16px 16px;
+
 }
 
 .cardtitle {
@@ -121,6 +127,32 @@ img {
   font-size: 13px;
   margin-top: 35px;
   text-align: center;
+}
+
+.card_btn {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    background: #e1c1f3;
+    color: rgb(3, 0, 0);
+    padding: 0.3rem;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.9);
+    transition: all 200ms ease-in-out;
+    text-decoration: none;
+    border: 1.5px solid rgba(27, 24, 24, 0.2);
+    border-radius: 0;
+}
+
+.card_btn:hover {
+    background: #d59cf7;
+    border-radius: 0;
 }
 
 .filter {
