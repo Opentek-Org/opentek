@@ -1,5 +1,6 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+@import url('./style.css');
 
 h1 {
     font-size: 24px;
@@ -52,10 +53,12 @@ img {
 }
 
 .card_content {
+
     padding: 1rem;
-    background: #aa80ff;
+    background: var(--main-color);
     backdrop-filter: blur(50px);
     height: 100%;   
+
 }
 
 .cardtitle {
@@ -119,9 +122,9 @@ img {
 }
 
 .filter:hover {
-    border: 1px solid #aa80ff;
+    border: 1px solid var(--main-color);
 }
 
 .selected-filter {
-    background-color: #aa80ff;
+    background-color: var(--main-color);
 }
