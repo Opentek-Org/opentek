@@ -369,6 +369,11 @@ p {
 
 /*==== hamburger-to-cross start===*/
 
+.navbar{
+  position: fixed;
+  padding-top: 2rem;
+}
+
 .navbar-toggler {
   border: 0;
 }
