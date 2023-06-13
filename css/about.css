@@ -1,6 +1,9 @@
+@import url('./style.css');
+
+
 .banner-about {
   font-family: pb;
-  color: #aa80ff;
+  color: var(--main-color);
   padding-bottom: 23px;
 
   /* padding-top: 16px; */
@@ -30,7 +33,7 @@
 
 .ul-tag ::before {
   content: "\2022";
-  color: #aa80ff;
+  color: var(--main-color);
   font-weight: bolder;
   font-size: medium;
   display: inline-block;
@@ -66,7 +69,7 @@ li {
   left: -25px;
   width: 170px;
   height: 140px;
-  background: #aa80ff;
+  background: var(--main-color);
   z-index: -1;
   -webkit-clip-path: polygon(
     34% 32%,
@@ -99,7 +102,7 @@ li {
   left: -25px;
   width: 170px;
   height: 140px;
-  background: #aa80ff;
+  background: var(--main-color);
   z-index: -1;
   -webkit-clip-path: polygon(
     34% 32%,
@@ -131,7 +134,7 @@ li {
 
 .team-item img {
   border-radius: 30% 84% 28% 76% / 87% 23% 69% 29%;
-  border: 6px solid #aa80ff;
+  border: 6px solid var(--main-color);
   width: 40vh;
 }
 
@@ -163,12 +166,12 @@ li {
 .team-item a {
   font-family: pb;
   font-size: 16px;
-  color: #aa80ff;
+  color: var(--main-color);
 }
 
 .team-btn a {
   padding: 14px 20px;
-  background: #aa80ff;
+  background: var(--main-color);
   color: #fff;
   font-size: 18px;
   font-family: pb;

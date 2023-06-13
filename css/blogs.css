@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
-
+@import url('./style.css');
 
 *{
     box-sizing: border-box;
@@ -16,8 +16,8 @@
 }
 
 .blog-card{
-    border:1px solid #d59cf7;
-    box-shadow: 0 0 4px #d59cf7;
+    border:1px solid var(--main-color);
+    box-shadow: 0 0 4px var(--main-color);
     margin:1rem !important;
     padding: .3rem !important;
     width: 28%;
@@ -62,7 +62,7 @@
 
 .read-more-btn{
     font-size: .7rem !important;
-    border: 1px solid #d59cf7;
+    border: 1px solid var(--main-color);
     padding: .5rem !important;
     text-align: center;
     margin:.3rem;
@@ -100,7 +100,7 @@
     }
 
     .card-img-container img{
-        box-shadow: 0 0 10px #d59cf7;
+        box-shadow: 0 0 10px var(--main-color);
         border-radius: 0;
         border-bottom-right-radius: 45px;
         border-top-left-radius: 45px;

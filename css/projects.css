@@ -1,5 +1,6 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+@import url('./style.css');
 
 h1 {
   font-size: 24px;
@@ -85,6 +86,7 @@ img {
 }
 .card_content {
 
+
     text-align: center;
   padding: 1rem;
   background: linear-gradient(50deg, #aa80ff, #b08cf8, #b2a1d4, #beb4d2);
@@ -100,6 +102,11 @@ img {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
     rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
     rgba(0, 0, 0, 0.07) 0px 16px 16px;
+
+    padding: 1rem;
+    backdrop-filter: blur(50px);
+    height: 100%;   
+
 
 }
 
@@ -166,9 +173,14 @@ img {
 }
 
 .filter:hover {
+
   border: 1px solid #aa80ff;
 }
 
 .selected-filter {
   background-color: #aa80ff;
+
+    border: 1px solid var(--main-color);
 }
+
+

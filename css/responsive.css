@@ -1,3 +1,4 @@
+@import url('./style.css');
 .navbar-toggler:not(:disabled):not(.disabled) {
   cursor: pointer;
   background: none;
@@ -87,7 +88,7 @@
   }
 
   .menu-item .bor {
-    color: #aa80ff;
+    color: var(--main-color);
   }
 
   .bor::after {
@@ -287,7 +288,7 @@
   }
 
   .team-item img {
-    border: 4px solid #aa80ff;
+    border: 4px solid var(--main-color);
   }
 
   .footer-social {
