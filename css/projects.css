@@ -1,6 +1,11 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
+body
+{
+    overflow: hidden;
+}
+
 h1 {
     font-size: 24px;
     font-weight: 400;
