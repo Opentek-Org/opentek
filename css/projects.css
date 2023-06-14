@@ -106,3 +106,8 @@ img {
   margin-top: 35px;
   text-align: center;
 }
+
+#overview {
+  padding: 20px 0;
+  margin-top: 10px;
+}
