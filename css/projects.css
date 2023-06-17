@@ -128,3 +128,8 @@ img {
 .selected-filter {
     background-color: var(--main-color);
 }
+
+#overview {
+  padding: 20px 0;
+  margin-top: 10px;
+}
