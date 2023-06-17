@@ -89,13 +89,12 @@ img {
     position: absolute;
     bottom: 0;
     display: block;
-    background: #e1c1f3;
+    background: var(--clr-back-light);
     color: rgb(3, 0, 0);
     padding: 0.3rem;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 400;
-    display: block;
     width: 100%;
     padding-bottom: 0.5rem;
     cursor: pointer;
@@ -107,8 +106,12 @@ img {
 }
 
 .card_btn:hover {
-    background: #d59cf7;
+    background: var(--clr-back-dark);
     border-radius: 0;
+}
+
+.card_btn a{
+    color: rgb(3, 0, 0);
 }
 
 .filter {

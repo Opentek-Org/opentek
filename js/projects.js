@@ -31,7 +31,7 @@ function loadData(data, valu) {
               <h6 class="card_title">Tech Stack- ${data[i].langTitle}</h6>
               <p class="card_text">${data[i].langDesc}</p>
               </div>
-              <button class="btn card_btn" onclick="window.location.href='${data[i].langurl}'"target="blank">Repo Url</button>
+              <a href="${data[i].langurl}" target="_blank"><button class="btn card_btn">Repo Url</button></a>
           </div>
           </li>
   
