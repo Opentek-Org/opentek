@@ -145,7 +145,8 @@ img {
 border: 1px solid black;
 border-radius: 8px;
 background: #E1C0F2;
-width: fit-content;
+width: fit-content;    font-weight: 500;
+
 /* position: absolute;
 bottom: 1rem; */
 }

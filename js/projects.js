@@ -34,7 +34,7 @@ function loadData(data, valu) {
               </div>
               <p class="card_text">${data[i].langDesc}</p>
               </div>
-              <button class="btn card_btn" onclick="window.location.href='${data[i].langurl}'"target="blank">Repo Url</button>
+              <button class="btn card_btn" onclick="window.location.href='${data[i].langurl}'"target="blank">GitHub Repository</button>
           </div>
           </li>
   
