@@ -52,35 +52,65 @@ img {
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
+    padding: 1rem;
+    gap: 12px;
     overflow: hidden;
-    height: 270px;
     position: relative;
+    background: var(--main-color);
 }
 
 .card_content {
 
-    padding: 1rem;
-    background: var(--main-color);
     backdrop-filter: blur(50px);
     height: 100%;   
-
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
-.cardtitle {
+
+.card_title{
     color: #080c11;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+    width: 100%;
     font-weight: 500;
-    letter-spacing: 1px;
     text-transform: capitalize;
-    margin: 0px;
-    line-height: 10px;
+    /* margin-bottom: 20px; */
 }
 
+.card-project-properties{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.card-project-admin-name {
+    color: #080c11;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+   
+
+}
+.card-stack{
+    color: #080c11;
+    font-size: 16px;
+    font-weight: 500;
+    width: fit-content;
+    text-transform: capitalize;
+    background: #E1C0F2;
+
+    padding: 0.3rem;
+    border-radius: 8px;
+    border: 1px solid black;
+
+}
 .card_text {
     color: #080c11;
     font-size: 0.8rem;
     line-height: 1.5;
-    margin-bottom: 1.25rem;
     font-weight: 400;
 }
 .made_by {
@@ -90,7 +120,7 @@ img {
     text-align: center;
 }
 
-.card_btn {
+/* .card_btn {
     position: absolute;
     bottom: 0;
     display: block;
@@ -109,12 +139,23 @@ img {
     text-decoration: none;
     border: 1.5px solid rgba(27, 24, 24, 0.2);
     border-radius: 0;
+} */
+
+.card_btn{
+border: 1px solid black;
+border-radius: 8px;
+background: #E1C0F2;
+width: fit-content;
+/* position: absolute;
+bottom: 1rem; */
 }
 
-.card_btn:hover {
-    background: #d59cf7;
-    border-radius: 0;
-}
+
+ .card_btn:hover {
+    background: #000000;
+    color: white;
+    /* border-radius: 0; */
+} 
 
 .filter {
     background-color: transparent;
@@ -132,6 +173,9 @@ img {
 
 .selected-filter {
     background-color: var(--main-color);
+    color: #000000;
+    border: var(--main-color);
+    /* border: none; */
 }
 
 #overview {
