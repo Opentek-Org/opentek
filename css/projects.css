@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 @import url('./style.css');
 
+body
+{
+    overflow: hidden;
+}
+
 h1 {
   font-size: 24px;
   font-weight: 400;
@@ -183,4 +188,8 @@ img {
     border: 1px solid var(--main-color);
 }
 
+#overview {
+  padding: 20px 0;
+  margin-top: 10px;
+}
 
