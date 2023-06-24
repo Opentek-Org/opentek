@@ -5,7 +5,7 @@
 
 
 :root{
-  --main-color:#aa80ff;
+  --main-or:#aa80ff;
 }
 
 html::-webkit-scrollbar-track {
@@ -1335,3 +1335,91 @@ li {
 #footer-btm i{
   color: var(--main-color);
 }
+
+
+/* ----------------------TESTIMONIAL SECTION STARTS----------------------*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+figure.snip1390 {
+  font-family: pb;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  font-size: 14px;
+  background-color: #2C3447;
+  padding: 30px;
+  border-radius: 15px;
+  background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 20px;
+  left: 50px;
+}
+figure.snip1390 *,
+figure.snip1390 *:before,
+figure.snip1390 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1390 figcaption {
+  width: 90%;
+}
+figure.snip1390 h2,
+figure.snip1390 h4,
+figure.snip1390 blockquote {
+  margin: 0;
+}
+figure.snip1390 h2,
+figure.snip1390 h4 {
+  font-weight: 300;
+}
+figure.snip1390 h2 {
+  color: #ffffff;
+}
+figure.snip1390 h4 {
+  color: #a6a6a6;
+}
+figure.snip1390 blockquote {
+  font-size: 1em;
+  padding: 45px 20px 40px 50px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+}
+figure.snip1390 blockquote:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 40px;
+  opacity: 0.25;
+  font-style: normal;
+  top: 0px;
+  left: 20px;
+}
+/* figure.snip1390 .profile {
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+  margin-right: 10px;
+  border: solid 5px #A6A57A;
+} */
+figure.snip1390:last-child {
+  margin-right: 0;
+}
+
+/*--------------------- TESTIMONIAL SECTION ENDS---------------------------* /
