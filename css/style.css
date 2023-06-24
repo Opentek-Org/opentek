@@ -352,6 +352,8 @@ p {
   background-color: rgba(88, 101, 242, var(--tw-bg-opacity));
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
+  position:absolute;
+  z-index:2;
 }
 
 .discord-banner p {
@@ -442,7 +444,7 @@ p {
 
 .navbar {
   width: 100%;
-  z-index: 9999;
+  z-index: 1;
   -weebkit-transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;

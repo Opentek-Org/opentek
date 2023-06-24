@@ -177,6 +177,15 @@
   },
   {
     "langId": "19",
+    "langTitle": ["HTML", "CSS", "JS"],
+    "langName": "Foodies",
+    "langDesc": "Foodies is the 1-stop FoodHub for getting all types of Dishes. <br/>Check it out and contribute!",
+    "langurl": "https://github.com/Paramhans-Singh/Foodie",
+    "langAdmin": "Paramhans Singh",
+    "domainIds": ["0"]
+  },
+  {
+    "langId": "20",
     "langTitle": ["React JS, HTML, CSS, JavaScript"],
     "langName": "TechNodes Community Website",
     "langDesc": "This is  Technodes Community website",
