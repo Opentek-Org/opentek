@@ -1,5 +1,11 @@
 [
     {
+        "blogImage":"../images/blogs/Reputation-in Tech -ia-Open-Source.jpg",
+        "blogtitle": "Reputation in Tech via Open Source",
+        "BlogPara": "In this article, we will discuss the importance of Reputation in the tech industry and the role of open source in building a reputation in the tech industry.",
+        "blogLink":"https://arindam1729.hashnode.dev/reputation-in-tech-via-open-source"
+    },
+    {
         "blogImage":"../images/blogs/contribute.png",
         "blogtitle": "How to Contribute to Open Source",
         "BlogPara": "Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine Why do people contribute to open source? Plenty of reasons...",
