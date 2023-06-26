@@ -6,6 +6,8 @@
 
 :root{
   --main-color:#aa80ff;
+  --clr-back-light: #E1C1F3; 
+  --clr-back-dark: #D59CF7;
 }
 
 html::-webkit-scrollbar-track {
