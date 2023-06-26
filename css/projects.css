@@ -100,7 +100,7 @@ img {
     font-weight: 500;
     width: fit-content;
     text-transform: capitalize;
-    background: #E1C0F2;
+    background: var(--clr-back-light);
 
     padding: 0.3rem;
     border-radius: 8px;
@@ -121,23 +121,22 @@ img {
 }
 
 .card_btn {
-    position: absolute;
-    bottom: 0;
+    margin: auto;
+
     display: block;
     background: var(--clr-back-light);
     color: rgb(3, 0, 0);
     padding: 0.3rem;
     font-size: 18px;
     text-transform: uppercase;
-    font-weight: 400;
-    width: 100%;
-    padding-bottom: 0.5rem;
+    font-weight: 500;
+    width: fit-content;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.9);
     transition: all 200ms ease-in-out;
     text-decoration: none;
-    border: 1.5px solid rgba(27, 24, 24, 0.2);
-    border-radius: 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
 }
 
 
