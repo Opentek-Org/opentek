@@ -192,5 +192,14 @@
     "langurl": "https://github.com/TechNodes2-0/TechNode-Community-Website ",
     "langAdmin": "Technode Team",
     "domainIds": ["0"]
-  }
+  },
+  {
+    "langId": "21",
+    "langTitle": [Google Cloud, API, JavaScript],
+    "langName": "Medical Chatbot",
+    "langDesc": "This whole ChatBot we created to learn and our main motive is to digitalize the medical field because India is very behind in medical technologies.",
+    "langurl": "https://github.com/Parmesh119/Medical-Chatbot-using-Dialogue-of-Google-cloud",
+    "langAdmin": "Parmesh Bhatt",
+    "domainIds": ["0"]
+  },
 ]
