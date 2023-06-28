@@ -48,7 +48,7 @@
 }
 .chatbot__header {
   position: relative;
-  background-color: #227ebb;
+  background-color: #2653c5;
   text-align: center;
   padding: 16px 0;
 }
@@ -78,7 +78,7 @@
   font-size: 1.3rem;
   white-space: pre-wrap;
   color: #202020;
-  background-color: #019ef9;
+  background-color: #2653c5;
   border-radius: 10px 10px 0 10px;
   padding: 12px 16px;
 }
@@ -96,7 +96,7 @@
   height: 32px;
   line-height: 32px;
   color: #f3f7f8;
-  background-color: #227ebb;
+  background-color: #2653c5;
   border-radius: 4px;
   text-align: center;
   align-self: flex-end;
@@ -106,6 +106,11 @@
   justify-content: flex-end;
   margin: 20px 0;
 }
+
+.outgoing p{
+  color: white;
+}
+
 .incoming {
   margin: 20px 0;
 }
@@ -116,7 +121,7 @@
   display: flex;
   gap: 5px;
   align-items: center;
-  border-top: 1px solid #227ebb;
+  border-top: 1px solid #2653c5;
   background: #f3f7f8;
   padding: 5px 20px;
 }
@@ -124,7 +129,7 @@
   width: 80%;
   min-height: 20px;
   max-height: 80px;
-  font-size: 2rem;
+  font-size: 1.3rem;
   padding: 16px 15px 16px 0;
   color: #202020;
   border: none;
@@ -157,7 +162,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #227ebb;
+    background: #2653c5;
     color: #f3f7f8;
     border: none;
     border-radius: 50%;
