@@ -381,7 +381,7 @@ p {
 
 .navbar{
   position: fixed;
-  padding-top: 2rem;
+  padding-top: 2.5rem !important;
 }
 
 .navbar-toggler {
