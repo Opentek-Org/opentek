@@ -24,7 +24,7 @@ const generateResponse = (incomingChatLi) => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "X-RapidAPI-Key": "API_KEY", //enter key imp*
+      "X-RapidAPI-Key": "dbb81355ffmsh45efafb43429ff6p182be6jsnbb49b4e3833a", //enter key imp*
       "X-RapidAPI-Host": "chatgpt53.p.rapidapi.com",
     },
     body: JSON.stringify({
