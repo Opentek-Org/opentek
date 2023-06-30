@@ -209,7 +209,7 @@
     bottom: 5em;
     width: 80%;
     height: 65%;
-    border-radius: 0;
+    border-radius: 15px;
   }
 
   .chatbot__box {
@@ -218,7 +218,7 @@
   }
 
   .chatbot__chat p {
-    font-size: 1em;
+    font-size: .9em;
   }
 
   .chatbot__header span {
@@ -227,11 +227,21 @@
 
   .chatbot__input-box span {
     position: relative;
-    left: 1.5em;
+    font-size: 1.6em;
     bottom: .2em;
   }
 
   .chatbot__header b {
-    font-size: .8em;
+    font-size: .7em;
   }
+
+  .chatbot__textarea{
+    overflow-y: scroll;    
+    font-size: 1em;
+  }
+
+  .chatbot__input-box{
+    overflow: hidden;
+  }
+
 }
