@@ -2,10 +2,10 @@
 0.0 *** Common CSS START ***
 =============================*/
 
-
-
-:root{
-  --main-color:#aa80ff;
+:root {
+  --main-color: #aa80ff;
+  --clr-back-light: #e1c1f3;
+  --clr-back-dark: #d59cf7;
 }
 
 html::-webkit-scrollbar-track {
@@ -330,13 +330,19 @@ p {
 }
 
 .backtotop:hover i {
-    background: #151f2c;
+  background: #151f2c;
 }
 
-@keyframes scaleBtn{
-    0% {transform:scale(1, 1)}
-    50%{transform:scale(1.1, 1.1)}
-    100%{transform:scale(1, 1)}
+@keyframes scaleBtn {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }
 
 /*===========================
@@ -352,6 +358,8 @@ p {
   background-color: rgba(88, 101, 242, var(--tw-bg-opacity));
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
+  position: absolute;
+  z-index: 2;
 }
 
 .discord-banner p {
@@ -375,9 +383,9 @@ p {
 
 /*==== hamburger-to-cross start===*/
 
-.navbar{
+.navbar {
   position: fixed;
-  padding-top: 2rem;
+  padding-top: 2.5rem !important;
 }
 
 .navbar-toggler {
@@ -442,7 +450,7 @@ p {
 
 .navbar {
   width: 100%;
-  z-index: 9999;
+  z-index: 1;
   -weebkit-transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
@@ -1087,11 +1095,10 @@ over-btn a i {
   transition: all linear 0.3s;
 } */
 
-.about-txt a:hover{
+.about-txt a:hover {
   border: 2px solid var(--main-color);
   color: var(--main-color);
   background-color: transparent;
-  
 }
 
 .list {
@@ -1158,8 +1165,39 @@ li {
   text-align: justify;
 }
 
-.footer-social {
-  padding-top: 11px;
+.footer-social a:hover i.fa-discord {
+  background: #5865f2;
+  color: #fff;
+  border: 1px solid #5865f2;
+  transform: scale(1.1);
+}
+
+.footer-social a:hover i.fa-twitter {
+  background: #1da1f2;
+  color: #fff;
+  border: 1px solid #1da1f2;
+  transform: scale(1.1);
+}
+
+.footer-social a:hover i.fa-linkedin-in {
+  background: #0077b5;
+  color: #fff;
+  border: 1px solid #0077b5;
+  transform: scale(1.1);
+}
+
+.footer-social a:hover i.fa-envelope {
+  background: #e4405f;
+  color: #fff;
+  border: 1px solid #e4405f;
+  transform: scale(1.1);
+}
+
+.footer-social a:hover i.fa-github {
+  background: #181717;
+  color: #fff;
+  border: 1px solid #181717;
+  transform: scale(1.1);
 }
 
 .footer-social i {
@@ -1173,15 +1211,11 @@ li {
   background: white;
   font-size: 20px;
   margin-right: 13px;
-  -webkit-transition: all linear 0.3s;
-  -o-transition: all linear 0.3s;
-  transition: all linear 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 .footer-social i:hover {
-  background: var(--main-color);
-  color: #fff;
-  border: 1px solid var(--main-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .links h3 {
@@ -1302,6 +1336,6 @@ li {
   display: none;
 }
 
-#footer-btm i{
+#footer-btm i {
   color: var(--main-color);
 }

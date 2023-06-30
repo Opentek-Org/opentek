@@ -1,4 +1,5 @@
 let domain = [
+  "All domains",
   "Web Development",
   "Machine Learning",
   "API",
@@ -27,11 +28,13 @@ function loadData(data, valu) {
           <div class="card">
               <div class="card_content">
               <p class="card_title">${data[i].langName}</p>
-              <span class="cardtitle">Project Admin-${data[i].langAdmin}</span>
-              <h6 class="card_title">Tech Stack- ${data[i].langTitle}</h6>
+              <div class="card-project-properties"> 
+              <span class="card-project-admin-name">Project Admin : ${data[i].langAdmin}</span>
+              <h6 class="card-stack"> ${data[i].langTitle}</h6>
+              </div>
               <p class="card_text">${data[i].langDesc}</p>
               </div>
-              <button class="btn card_btn" onclick="window.location.href='${data[i].langurl}'"target="blank">Repo Url</button>
+              <a href="${data[i].langurl}" target="_blank"><button class="btn card_btn">Github Repository</button></a>
           </div>
           </li>
   
