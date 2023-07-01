@@ -12,6 +12,7 @@
     padding: 10px;
     gap: 10px;
     transition: all 0.4s ease;
+    z-index: 999;
   }
   
   
@@ -50,15 +51,12 @@
     
   }
   .setting{
-    
     background-color: white;
-    
     width: 30px;
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
     text-align: center;
     border-radius: 50%;
     margin-top: 10px;
