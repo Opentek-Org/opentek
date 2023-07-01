@@ -7,7 +7,8 @@ const chatbotCloseBtn = document.querySelector('.chatbot__header span');
 let userMessage;
 // Need GPT key
 const inputInitHeight = chatInput.scrollHeight;
-const API_KEY = 'Enter API key here' //Important
+const API_KEY = 'Enter API key' //Important
+
 
 const createChatLi = (message, className) => {
   const chatLi = document.createElement('li');
@@ -24,7 +25,7 @@ const generateResponse = (incomingChatLi) => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "X-RapidAPI-Key": "API_KEY", //enter key imp*
+      "X-RapidAPI-Key": "API_KEY ", //enter key imp*
       "X-RapidAPI-Host": "chatgpt53.p.rapidapi.com",
     },
     body: JSON.stringify({
