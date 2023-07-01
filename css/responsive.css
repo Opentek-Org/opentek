@@ -42,7 +42,7 @@
   .navbar-light .navbar-nav .nav-link {
     margin: 18px;
     color: #fff;
-    line-height: 0;
+    line-height:0;
   }
 
   .nav-bg {
@@ -52,7 +52,7 @@
   .menu-item {
     background: #101822;
     text-align: center;
-    padding: 15px 0;
+    padding: 15px 0;`
   }
 
   .navbar::after {
@@ -114,6 +114,10 @@
 
   #text-down {
     font-size: small !important;
+  }
+
+  .banner-txt{
+    z-index: 1;
   }
 
   .banner-txt h3 {
@@ -392,5 +396,12 @@
 
   .footer-social {
     padding-top: 5px;
+  }
+}
+
+@media (max-width:400px){
+  .backtotop{
+    right: .6em;
+    bottom: 5em;
   }
 }
