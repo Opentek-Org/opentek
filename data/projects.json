@@ -202,4 +202,14 @@
     "langAdmin": "Parmesh Bhatt",
     "domainIds": ["0"]
   },
+
+   {
+     "langId": "22",
+     "langTitle": ["React.js, Chakra UI, Firebase"],
+     "langName": "Chat App",
+     "langDesc": "The project is a chat app that allows communication between two users.",
+     "langurl": "https://github.com/abrehan2/chat-app.git",
+     "langAdmin": "Abdul Rehan",
+     "domainIds": ["1"]
+   }
 ]
