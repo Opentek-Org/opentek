@@ -46,9 +46,6 @@
   },
   {
     "langId": "5",
-    "langTitle": [
-      "NodeJS, MongoDB, REST API, TypeScript, JavaScript, CI/CD, Docker, ReactJS"
-    ],
     "langTitle": ["HTML, CSS, Javascript, NodeJS, PostgreSQL/MySQL"],
     "langName": "DevTernShip",
     "langDesc": "An Internship Onboarding platform with an innovative learning management system and intuitive performance tools.",
@@ -201,5 +198,15 @@
     "langurl": "https://github.com/Parmesh119/Medical-Chatbot-using-Dialogue-of-Google-cloud",
     "langAdmin": "Parmesh Bhatt",
     "domainIds": ["0"]
+  },
+
+  {
+    "langId": "22",
+    "langTitle": ["React.js, Bootstrap, Chakra UI"],
+    "langName": "Chat App",
+    "langDesc": "The project is a chat app that allows communication between two users.",
+    "langurl": "https://github.com/abrehan2/chat-app",
+    "langAdmin": "Abdul Rehan",
+    "domainIds": ["1"]
   }
 ]
