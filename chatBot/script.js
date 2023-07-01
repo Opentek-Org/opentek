@@ -9,6 +9,7 @@ let userMessage;
 const inputInitHeight = chatInput.scrollHeight;
 const API_KEY = 'Enter API key' //Important
 
+
 const createChatLi = (message, className) => {
   const chatLi = document.createElement('li');
   chatLi.classList.add('chatbot__chat', className);
