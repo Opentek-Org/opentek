@@ -1,3 +1,6 @@
+// Smoothscroll-polyfill
+smoothscroll.polyfill();
+
 (function ($) {
   "use strict";
 
@@ -36,6 +39,7 @@
       },
     ],
   });
+
   // Review slide js
   $(".review-main").slick({
     slidesToShow: 2,
@@ -71,6 +75,7 @@
       },
     ],
   });
+
   // Blog slide js
   $(".blog-main").slick({
     slidesToShow: 2,
@@ -106,18 +111,21 @@
       },
     ],
   });
-  //animation scroll js
-  var html_body = $("html, body");
-  $(".navbar a , .scroll-down a , .backtotop a").on("click", function () {
+
+  // Animation scroll js
+  var htmlBody = $("html, body");
+  $(".navbar a, .scroll-down a, .backtotop a").on("click", function () {
     if (
       location.pathname.replace(/^\//, "") ==
         this.pathname.replace(/^\//, "") &&
       location.hostname == this.hostname
     ) {
       var target = $(this.hash);
-      target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+      target = target.length
+        ? target
+        : $("[name=" + this.hash.slice(1) + "]");
       if (target.length) {
-        html_body.animate(
+        htmlBody.animate(
           {
             scrollTop: target.offset().top - 75,
           },
@@ -127,16 +135,18 @@
       }
     }
   });
-  // preloader
+
+  // Preloader
   $(window).on("load", function () {
     $(".preloader").delay(1000).fadeOut(1000);
   });
+
   // Closes responsive menu when a scroll link is clicked
   $(".nav-link").on("click", function () {
     $(".navbar-collapse").collapse("hide");
   });
 
-  // smooth scroll js
+  // Smooth scroll js
   $(window).scroll(function () {
     var scrolling = $(this).scrollTop();
     var stikey = $(".sticky-top");
@@ -152,7 +162,8 @@
       $(".backtotop").fadeOut(500);
     }
   });
-  //scorllspy js
+
+  // Scrollspy js
   $("body").scrollspy({
     target: ".navbar",
     offset: 70,
