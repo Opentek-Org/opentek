@@ -1,4 +1,5 @@
 /* Slider */
+@import url('./style.css');
 .slick-slider
 {
     position: relative;

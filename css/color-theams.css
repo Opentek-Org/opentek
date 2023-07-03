@@ -1,0 +1,110 @@
+.display{
+    display: none;
+  }
+  
+  .theam-div{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    /* align-items: center; */
+    top: 80px;
+    right: 10px;
+    padding: 10px;
+    gap: 10px;
+    transition: all 0.4s ease;
+    z-index: 999;
+  }
+  
+  
+  .button-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10px;
+    /* padding: 10px;
+    background-color: white;
+    border-radius: 5px; */
+  }
+  
+  .button-part i{
+    cursor: pointer;
+    
+    color: black;
+    /* margin-bottom: 10px; */
+  }
+  
+  
+  .dark-light{
+    background-color: white;
+    
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    border-radius: 50%;
+    /* margin-top: 5px; */
+    cursor: pointer;
+    
+  }
+  .setting{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .theams{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  .theme-buttons{
+    display: flex;
+    
+  }
+  
+  .theme-buttons div{
+    width: 25px;
+    height: 25px;
+    /* border: 2px solid var(--bg-black-1200); */
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    
+  }
+  
+  /* .orange{
+    background-color:#fa5b0f;
+  } */
+  
+  .blue{
+    background-color: #aa80ff;
+  }
+  
+  
+  .pink{
+    background-color: #FF55BB;
+  }
+  
+  .green{
+    background-color: #127C56;
+  }
+  
+  .lightblue{
+    background-color: #00C4FF;
+  }
+  
+   .open{
+    transform: translateX(170px);
+  }

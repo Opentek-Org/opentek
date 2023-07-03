@@ -3,7 +3,67 @@ smoothscroll.polyfill();
 
 (function ($) {
   "use strict";
+// Helper function to initialize a slider
+  function initSlickSlider(selector, slidesToShow) {
+    $(selector).slick({
+      slidesToShow,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      speed: 2000,
+      arrows: false,
+      centerMode: true,
+      centerPadding: "0px",
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    });
+  }
 
+  // Lazy load the sliders using Intersection Observer
+  function lazyLoadSlider(sliderSelector, slidesToShow) {
+    const sliders = document.querySelectorAll(sliderSelector);
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          initSlickSlider(entry.target, slidesToShow);
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+
+    sliders.forEach((slider) => {
+      observer.observe(slider);
+    });
+  }
+
+  // Call lazyLoadSlider function for each slider container
+  lazyLoadSlider(".product-main", 4);
+  lazyLoadSlider(".review-main", 2);
+  lazyLoadSlider(".blog-main", 2);
+  
   // market slide js
   $(".product-main").slick({
     slidesToShow: 4,
