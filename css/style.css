@@ -55,7 +55,7 @@ img {
 
 .zindex {
   position: relative;
-  z-index: 999;
+  z-index: 2;
 }
 
 .clr {
@@ -446,7 +446,7 @@ p {
 
 .navbar {
   width: 100%;
-  z-index: 1;
+  z-index: 3;
   -weebkit-transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
