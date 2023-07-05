@@ -1,5 +1,11 @@
 [
     {
+        "blogImage":"../images/blogs/Awesome Open-source programs.jpg",
+        "blogtitle": "Check Out These Awesome Open Source Programs You Can Apply to!",
+        "BlogPara": "In this article, we will discuss about the open-source program happening in this year and one developer can participate in that.",
+        "blogLink":"https://blog.rohansasne.tech/check-out-these-awesome-open-source-programs-you-can-apply-to"
+    },
+    {
         "blogImage":"../images/blogs/Reputation-in Tech -ia-Open-Source.jpg",
         "blogtitle": "Reputation in Tech via Open Source",
         "BlogPara": "In this article, we will discuss the importance of Reputation in the tech industry and the role of open source in building a reputation in the tech industry.",
