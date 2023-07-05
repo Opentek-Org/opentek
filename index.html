@@ -126,6 +126,7 @@
 <body id="dark-mode">
   <!-- Preloader Part Start -->
   <div class="preloader">
+
     <div class="frame">
       <div class="center">
         <div class="dot-1"></div>
@@ -602,11 +603,53 @@
   <!-- chatbot code -->
 
   <!--   Chat Bot   -->
-  <button class="chatbot__button">
-    <span class="material-symbols-outlined">mode_comment</span>
-    <span class="material-symbols-outlined">close</span>
-  </button>
-  <div class="chatbot">
+  <div class="alan-btn"></div>
+  <script type="text/javascript"
+ src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
+<script>
+
+
+
+
+
+
+  var alanBtnInstance = alanBtn({
+    key: "3a41c2735a5252b764a5a62bdae65be32e956eca572e1d8b807a3e2338fdd0dc/stage",
+    bottom: '50px',
+   left : '50px' ,  
+   zIndex: 10,
+    onCommand: function (commandData) {
+      if (commandData && commandData.command === 'openURL') {
+                    if (commandData.target === '_blank'){
+                      window.open(commandData.url,'_newtab' + Math.floor(Math.random()*999999));
+                    } else {
+                      window.location.href = commandData.url;
+                    }
+                  }
+                
+            },
+            onButtonState: async function (status) {
+      if (status === "ONLINE") {
+        if (!this.greetingWasSaid) {
+          await alanBtnInstance.activate();
+          this.greetingWasSaid = true;
+        }
+      }
+    },
+    rootEl: document.getElementById("alan-btn"),
+  });
+
+
+
+
+
+
+
+
+
+</script>
+
+  <!-- <div class="chatbot">
     <div class="chatbot__header">
       <h3 class="chatbox__title"><b>Opentek 24/7</b></h3>
       <span class="material-symbols-outlined">close</span>
@@ -624,7 +667,7 @@
       <textarea class="chatbot__textarea" placeholder="Enter a message..." required></textarea>
       <span id="send-btn" class="material-symbols-outlined">send</span>
     </div>
-  </div>
+  </div> -->
   <!--  chat bot finish  -->
 
 
