@@ -1,57 +1,87 @@
 [
   {
     "langId": "0",
-    "langTitle": ["HTML", "SCSS", "JS"],
+    "langTitle": [
+      "HTML",
+      "SCSS",
+      "JS"
+    ],
     "langName": "Doc2Pen",
     "langDesc": "Doc2Pen is the 1 stop shop for getting all your handmade assignments ready for submission digitally. <br/>Check it out and contribute!",
     "langurl": "https://github.com/smaranjitghose/doc2pen",
     "langAdmin": "Smaranjit Ghose",
-    "domainIds": ["0"]
+    "domainIds": [
+      "0"
+    ]
   },
   {
     "langId": "1",
-    "langTitle": ["HTML", "CSS", "JS"],
+    "langTitle": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
     "langName": "Awesome Portfolio Website",
     "langDesc": "A community maintained open source project aimed at making personal portfolio for researchers, developers and analysts simple, fast and less cumbersome.",
     "langurl": "https://github.com/smaranjitghose/awesome-portfolio-websites",
     "langAdmin": "Smaranjit Ghose",
-    "domainIds": ["0"]
+    "domainIds": [
+      "0"
+    ]
   },
   {
     "langId": "2",
-    "langTitle": ["JavaScript"],
+    "langTitle": [
+      "JavaScript"
+    ],
     "langName": "Manthan",
     "langDesc": "We provide an online testing platform that can be used to conduct tests that are wrapped with all the necessary precautions to reduce the chances of cheating.",
     "langurl": "https://github.com/Manthan933/Manthan",
     "langAdmin": "Manthan",
-    "domainIds": ["0"]
+    "domainIds": [
+      "0"
+    ]
   },
   {
     "langId": "3",
-    "langTitle": ["JavaScript"],
+    "langTitle": [
+      "JavaScript"
+    ],
     "langName": "2-DEGREE",
     "langDesc": "Project 2° has simulated to design the most optimal scenario to restrain the rise in global temperature due to global warming.",
     "langurl": "https://github.com/The-CODE-Plus-Plus-Community/2-Degree-HackACode",
     "langAdmin": "The-CODE-Plus-Plus-Community",
-    "domainIds": ["0"]
+    "domainIds": [
+      "0"
+    ]
   },
   {
     "langId": "4",
-    "langTitle": ["HTML", "CSS", "JS"],
+    "langTitle": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
     "langName": "Aec-Library-Website",
     "langDesc": "This is a College Library Website in which you can keep a record of all the books you have issued.",
     "langurl": "https://github.com/SauravMukherjee44/Aec-Library-Website",
     "langAdmin": "Saurav Mukherjee",
-    "domainIds": ["0"]
+    "domainIds": [
+      "0"
+    ]
   },
   {
     "langId": "5",
-    "langTitle": ["HTML, CSS, Javascript, NodeJS, PostgreSQL/MySQL"],
+    "langTitle": [
+      "HTML, CSS, Javascript, NodeJS, PostgreSQL/MySQL"
+    ],
     "langName": "DevTernShip",
     "langDesc": "An Internship Onboarding platform with an innovative learning management system and intuitive performance tools.",
     "langurl": "https://github.com/praveenscience/Internship-LMS-FrontEnd",
     "langAdmin": "Anushka Jain",
-    "domainIds": ["0"]
+    "domainIds": [
+      "0"
+    ]
   },
   {
     "langId": "6",
@@ -62,151 +92,238 @@
     "langDesc": "A community-owned REST API service for testers and developers.",
     "langurl": "https://github.com/adityabisoi/Placeholder-Master",
     "langAdmin": "Aditya Bisoi",
-    "domainIds": ["0"]
+    "domainIds": [
+      "0"
+    ]
   },
   {
     "langId": "7",
-    "langTitle": ["MERN, AWS, React, Node, Express, MongoDB"],
+    "langTitle": [
+      "MERN, AWS, React, Node, Express, MongoDB"
+    ],
     "langName": "HITK Community Website",
     "langDesc": "This project aims to build the official site for the community page so that any student can use the resources shared by HITK Community.",
     "langurl": "https://github.com/HITK-TECH-Community/Community-Website",
     "langAdmin": "HITK TECH Community",
-    "domainIds": ["0"]
+    "domainIds": [
+      "0"
+    ]
   },
   {
     "langId": "8",
-    "langTitle": ["React JS, HTML, CSS, JavaScript"],
+    "langTitle": [
+      "React JS, HTML, CSS, JavaScript"
+    ],
     "langName": "DevTernShip",
     "langDesc": "An Internship Onboarding platform with an innovative learning management system and intuitive performance tools.",
     "langurl": "https://github.com/praveenscience/Internship-LMS-FrontEnd",
     "langAdmin": "Praveen Kumar Purushothaman",
-    "domainIds": ["0"]
+    "domainIds": [
+      "0"
+    ]
   },
   {
     "langId": "9",
-    "langTitle": ["HTML, Tailwind CSS"],
+    "langTitle": [
+      "HTML, Tailwind CSS"
+    ],
     "langName": "Seamless UI",
     "langDesc": "The next gen UI made with simple HTML and Tailwind CSS. It's compatible with simple HTML, CSS static website or a React, Vue, Angular or Next.js Complex app.",
     "langurl": "https://github.com/Clueless-Community/seamless-ui",
     "langAdmin": "Clueless Community",
-    "domainIds": ["0"]
+    "domainIds": [
+      "0"
+    ]
   },
   {
     "langId": "10",
-    "langTitle": ["Python"],
+    "langTitle": [
+      "Python"
+    ],
     "langName": "Jina",
     "langDesc": "Cloud-native neural search framework for 𝙖𝙣𝙮 kind of Data",
     "langurl": "https://github.com/jina-ai/jina",
     "langAdmin": "Jina AI",
-    "domainIds": ["1"]
+    "domainIds": [
+      "1"
+    ]
   },
   {
     "langId": "11",
-    "langTitle": ["Jupyter Notebook"],
+    "langTitle": [
+      "Jupyter Notebook"
+    ],
     "langName": "FACE-X",
     "langDesc": "Demonstration of different algorithms and operations on faces.",
     "langurl": "https://github.com/akshitagupta15june/Face-X",
     "langAdmin": "AKSHITA GUPTA",
-    "domainIds": ["1"]
+    "domainIds": [
+      "1"
+    ]
   },
   {
     "langId": "12",
-    "langTitle": ["Python", "Flask", "Numpy"],
+    "langTitle": [
+      "Python",
+      "Flask",
+      "Numpy"
+    ],
     "langName": "Breast-Cancer-Predictor",
     "langDesc": "A Flask based web application to predict breast cancer.",
     "langurl": "https://github.com/srimani-programmer/Breast-Cancer-Predictor",
     "langAdmin": "Srimani",
-    "domainIds": ["1"]
+    "domainIds": [
+      "1"
+    ]
   },
   {
     "langId": "13",
-    "langTitle": ["Flask, Bootstrap, Python, JavaScript, jQuery"],
+    "langTitle": [
+      "Flask, Bootstrap, Python, JavaScript, jQuery"
+    ],
     "langName": "Certificate Generation and Verification System",
     "langDesc": "This project aims in developing a computerized system to maintain and generate the certificate.",
     "langurl": "https://github.com/vigneshshettyin/Flask-Generate-Certificate",
     "langAdmin": "Vignesh Shetty",
-    "domainIds": ["1"]
+    "domainIds": [
+      "1"
+    ]
   },
   {
     "langId": "14",
-    "langTitle": ["Jupyter Notebook"],
+    "langTitle": [
+      "Jupyter Notebook"
+    ],
     "langName": "FACE-X",
     "langDesc": "Demonstration of different algorithms and operations on faces.",
     "langurl": "https://github.com/akshitagupta15june/Face-X",
     "langAdmin": "AKSHITA GUPTA",
-    "domainIds": ["2"]
+    "domainIds": [
+      "2"
+    ]
   },
   {
     "langId": "15",
-    "langTitle": ["DS", "Algorithms"],
+    "langTitle": [
+      "DS",
+      "Algorithms"
+    ],
     "langName": "NeoAlgo",
     "langDesc": "Bringing all Data Structures and Algorithms under one Roof ⚡",
     "langurl": "https://github.com/TesseractCoding/NeoAlgo",
     "langAdmin": "Tesseract Coding",
-    "domainIds": ["3"]
+    "domainIds": [
+      "3"
+    ]
   },
   {
     "langId": "16",
-    "langTitle": ["JavaScript"],
+    "langTitle": [
+      "JavaScript"
+    ],
     "langName": "Manthan",
     "langDesc": "We provide an online testing platform that can be used to conduct tests that are wrapped with all the necessary precautions to reduce the chances of cheating.",
     "langurl": "https://github.com/Manthan933/Manthan",
     "langAdmin": "Manthan",
-    "domainIds": ["4"]
+    "domainIds": [
+      "4"
+    ]
   },
   {
     "langId": "17",
-    "langTitle": ["Dart"],
+    "langTitle": [
+      "Dart"
+    ],
     "langName": "Simulate",
     "langDesc": "A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)",
     "langurl": "https://github.com/cod-ed/simulate",
     "langAdmin": "cod-ed",
-    "domainIds": ["5"]
+    "domainIds": [
+      "5"
+    ]
   },
   {
     "langId": "18",
-    "langTitle": ["Dart"],
+    "langTitle": [
+      "Dart"
+    ],
     "langName": "Spectrum UI",
     "langDesc": "User-friendly Flutter UI library that offers a variety of beautifully designed widgets and components.",
     "langurl": "https://github.com/Clueless-Community/Spectrum-UI",
     "langAdmin": "Clueless Community",
-    "domainIds": ["5s"]
+    "domainIds": [
+      "5s"
+    ]
   },
   {
     "langId": "19",
-    "langTitle": ["HTML", "CSS", "JS"],
+    "langTitle": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
     "langName": "Foodies",
     "langDesc": "Foodies is the 1-stop FoodHub for getting all types of Dishes. <br/>Check it out and contribute!",
     "langurl": "https://github.com/Paramhans-Singh/Foodie",
     "langAdmin": "Paramhans Singh",
-    "domainIds": ["0"]
+    "domainIds": [
+      "0"
+    ]
   },
   {
     "langId": "20",
-    "langTitle": ["React JS, HTML, CSS, JavaScript"],
+    "langTitle": [
+      "React JS, HTML, CSS, JavaScript"
+    ],
     "langName": "TechNodes Community Website",
     "langDesc": "This is  Technodes Community website",
     "langurl": "https://github.com/TechNodes2-0/TechNode-Community-Website ",
     "langAdmin": "Technode Team",
-    "domainIds": ["0"]
+    "domainIds": [
+      "0"
+    ]
   },
   {
     "langId": "21",
-    "langTitle": ["Google Cloud, API, JavaScript"],
+    "langTitle": [
+      "Google Cloud, API, JavaScript"
+    ],
     "langName": "Medical Chatbot",
     "langDesc": "This whole ChatBot we created to learn and our main motive is to digitalize the medical field because India is very behind in medical technologies.",
     "langurl": "https://github.com/Parmesh119/Medical-Chatbot-using-Dialogue-of-Google-cloud",
     "langAdmin": "Parmesh Bhatt",
-    "domainIds": ["0"]
+    "domainIds": [
+      "0"
+    ]
   },
-
   {
     "langId": "22",
-    "langTitle": ["React.js, Bootstrap, Chakra UI"],
+    "langTitle": [
+      "React.js",
+      "Bootstrap",
+      "Chakra UI"
+    ],
     "langName": "Chat App",
     "langDesc": "The project is a chat app that allows communication between two users.",
     "langurl": "https://github.com/abrehan2/chat-app",
     "langAdmin": "Abdul Rehan",
-    "domainIds": ["1"]
+    "domainIds": [
+      "1"
+    ]
+  },
+  {
+    "langId": "23",
+    "langTitle": [
+      "NEXT.JS",
+      "TailwindCSS",
+      "Typescript"
+    ],
+    "langName": "AI Fusion",
+    "langDesc": "AI Fusion is your ultimate destination for streamlined access to a curated collection of powerful AI tools, prompts and datasets.",
+    "langurl": "https://github.com/PriyansuMaurya/AI-Fusion",
+    "langAdmin": "Priyanshu Maurya",
+    "domainIds": [
+      "1"
+    ]
   }
 ]
