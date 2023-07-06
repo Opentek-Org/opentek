@@ -20,7 +20,7 @@ function loadData(data, valu) {
   let index = valu;
   if (valu == "all" || valu < domain.length) {
     var html = "";
-    for (let i = 0; i < data.length; i++) {
+    for (let i = data.length -1; i >= 0 ; i--) {
       if (valu == "all" || data[i].domainIds.includes(index))
       try {
           html += `
