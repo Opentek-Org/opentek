@@ -146,7 +146,7 @@ function generateStars(rating) {
 }
 
 axios
-  .get("http://localhost:3000/testimonials")
+  .get("https://opentek.onrender.com/testimonials")
   .then((response) => {
     // Store the fetched data in the 'data' array
     data = response.data;
@@ -178,13 +178,16 @@ if (modalOpenButton) {
         const testimonial = { name, position, quote, rating, image };
 
         try {
-          const response = await fetch("http://localhost:3000/testimonials", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(testimonial),
-          });
+          const response = await fetch(
+            "https://opentek.onrender.com/testimonials",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(testimonial),
+            }
+          );
 
           if (response.ok) {
             const result = await response.json();
