@@ -459,6 +459,97 @@
           style="width: 250px; height: 230px" /></a>
     </div>
   </main>
+
+
+
+  <div class="row header-text text-center about-header">
+    <div class="col-lg-12">
+      <h3>TESTI<span>MON</span>IALS</h3>
+    </div>
+    <div class="about-txt text-white ">
+    <button type="button" id="modal"  data-aos="fade-left" data-toggle="modal" data-target="#exampleModal">
+      Add Testimonial
+    </button>
+    </div>
+    
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="exampleModalLabel">Testimonial</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body bg-dark bg-opacity-50">
+          <form id="testimonialForm">
+            <div class="form-row">
+              <div class="form-group col-md-6 text-white">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group col-md-6 text-white">
+                <label for="position">Position</label>
+                <input type="text" class="form-control" id="position" placeholder="Enter your position">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6 text-white">
+                <label for="quote">Quote</label>
+                <textarea class="form-control" id="quote" rows="3" placeholder="Enter your quote"></textarea>
+              </div>
+              <div class="form-group col-md-6 text-white">
+                <label for="rating">Rating</label>
+                <input type="number" class="form-control" id="rating" placeholder="Enter your rating">
+              </div>
+            </div>
+            <div class="form-group text-white">
+              <label for="avatar">Avatar URL</label>
+              <input type="text" class="form-control" id="avatar" placeholder="Enter the URL of your avatar">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="submit"  class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+   <section style="color: #000; background-color: #010101;">
+    <div class="container py-5 ">
+      
+      <div id="testimonialCarousel" class="carousel slide" data-ride="carousel" >
+        <!-- Indicators -->
+       
+        <div class="carousel-inner ">
+      
+  </div>
+  <a class="carousel-control-prev d-none" href="#testimonialCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next d-none" href="#testimonialCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+  <ol class="carousel-indicators d-none">
+         
+  </ol>
+  </div>
+    
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js"></script>
+
+
+
+
+  <!-- FOOTER AREA START -->
+  <script src="./paste.js"></script>
   <!-- FOOTER AREA START -->
   <footer id="footer">
     <div class="container-fluid px-5">
