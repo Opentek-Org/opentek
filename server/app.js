@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const rateLimit = require("express-rate-limit");
 require("dotenv").config();
 // Connect to MongoDB Atlas
 mongoose
@@ -50,11 +51,27 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
+const limiter = rateLimit({
+  windowMs: 60 * 60 * 1000, // 15 minutes
+  max: 100, // Limit each IP to 100 requests per windowMs
+  message: "Too many requests from this IP, please try again later.",
+});
+app.use(limiter);
 // Handle POST requests to /testimonials
 app.post("/testimonials", async (req, res) => {
   try {
     const testimonialData = req.body;
-    const testimonial = await Testimonial.create(req.body);
+
+    // Check if testimonial with the same name already exists
+    const existingTestimonial = await Testimonial.findOne({
+      name: testimonialData.name,
+    });
+
+    if (existingTestimonial) {
+      return res.status(409).json({ error: "Testimonial already exists" });
+    }
+
+    const testimonial = await Testimonial.create(testimonialData);
 
     res.status(201).json({ testimonial });
   } catch (error) {
