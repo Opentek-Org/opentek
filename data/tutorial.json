@@ -58,5 +58,35 @@
     "title": "Eddie Jaoude",
     "subtitle": "About the Video",
     "para": "In this video how to find the open-source project using advance search in GitHub"
+  },
+  {
+    "tutorialId": "W7AewHnxMig",
+    "title": "Ben Kadel",
+    "subtitle": "About the Video",
+    "para": "In this video I want to really quickly show you an extremely powerful search and filter functionality that is built into github.com that allows you to find repositories that are of interest to you, that are relevant to your skill-sets or just repos that are easy for beginners or in specific programming languages!"
+  },
+  {
+    "tutorialId": "ZIkkPzTuOXw",
+    "title": "Kunal Kushwaha",
+    "subtitle": "About the Video",
+    "para": "In this video, I have explained how you can find good first issues in open source projects and get your contributor journey started."
+  },
+  {
+    "tutorialId": "x4hsV_q_YQc",
+    "title": "Kunal Kushwaha",
+    "subtitle": "About the Video",
+    "para": "Here are 25+ Paid Open Source Programs and Internships that you can apply to. I share some of the rare programs that provide great exposure, stipends upto $10,000 that not many students know about."
+  },
+  {
+    "tutorialId": "MT6M_sqAuZo",
+    "title": "Ben Awad",
+    "subtitle": "About the Video",
+    "para": "In this video you will know How to become an expert in open source, And Open source is kind of fun."
+  },
+  {
+    "tutorialId": "Uszj_k0DGsg",
+    "title": "FreeCodeCamp",
+    "subtitle": "About the Video",
+    "para": "Git has the power to make you a better software developer. But you'll have to go beyond the basic 'commit, push, pull' to use it effectively! In this course, we'll look at some of the more advanced concepts and tools to make you more productive and confident with Git."
   }
 ]
