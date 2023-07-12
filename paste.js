@@ -176,6 +176,19 @@ if (modalOpenButton) {
         const image = document.getElementById("avatar").value;
 
         const testimonial = { name, position, quote, rating, image };
+        // Regular expression pattern for URL validation
+        const urlPattern =
+          /^(https?:\/\/)?([\w.]+)\.([a-z]{2,6}\.?)(\/[\w.]*)*\/?$/i;
+
+        if (!urlPattern.test(image)) {
+          alert("Please enter a valid URL");
+          return; // Exit the function if the URL is invalid
+        }
+
+        if (isNaN(rating) || rating < 1 || rating > 5) {
+          alert("Please enter a rating between 1 and 5");
+          return; // Exit the function if the rating is invalid
+        }
 
         try {
           const response = await fetch(
@@ -192,19 +205,21 @@ if (modalOpenButton) {
           if (response.ok) {
             const result = await response.json();
             console.log("Testimonial saved successfully. ID:", result.id);
-
-            // Optionally display a success message or redirect to a success page
+            alert("Testimonial saved successfully");
+            location.reload(); // Refresh the page
           } else {
             console.error(
               "Error saving testimonial:",
               response.status,
               response.statusText
             );
-            // Optionally display an error message to the user
+            alert("Error saving testimonial");
+            location.reload(); // Refresh the page
           }
         } catch (error) {
           console.error("Error saving testimonial:", error);
-          // Optionally display an error message to the user
+          alert("Error saving testimonial");
+          location.reload(); // Refresh the page
         }
       });
     }

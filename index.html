@@ -502,11 +502,13 @@
               <div class="form-group col-md-6 text-white">
                 <label for="rating">Rating</label>
                 <input type="number" class="form-control" id="rating" placeholder="Enter your rating">
+                <span id="rating-error" class="text-danger"></span>
               </div>
             </div>
             <div class="form-group text-white">
               <label for="avatar">Avatar URL</label>
               <input type="text" class="form-control" id="avatar" placeholder="Enter the URL of your avatar">
+              <span id="avatar-error" class="text-danger"></span>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -721,7 +723,45 @@
 
 
 </script>
+<script>
+    // Get the input element and error message span
+    const avatarInput = document.getElementById('avatar');
+  const avatarError = document.getElementById('avatar-error');
 
+  // Add an event listener for input changes
+  avatarInput.addEventListener('input', function () {
+    // Get the entered URL
+    const url = avatarInput.value;
+
+    // Regular expression pattern for URL validation
+    const urlPattern = /^(https?:\/\/)?([\w.]+)\.([a-z]{2,6}\.?)(\/[\w.]*)*\/?$/i;
+    
+
+    // Check if the URL matches the pattern
+    if (urlPattern.test(url)) {
+      // Valid URL, clear the error message
+      avatarError.textContent = '';
+    } else {
+      // Invalid URL, display an error message
+      avatarError.textContent = 'Please enter a valid URL';
+    }
+  });
+</script>
+
+<script>
+  const ratingInput = document.getElementById('rating');
+  const ratingError = document.getElementById('rating-error');
+
+  ratingInput.addEventListener('input', function () {
+    const rating = parseInt(ratingInput.value);
+
+    if (isNaN(rating) || rating < 1 || rating > 5) {
+      ratingError.textContent = 'Please enter a rating between 1 and 5';
+    } else {
+      ratingError.textContent = '';
+    }
+  });
+</script>
   <!-- <div class="chatbot">
     <div class="chatbot__header">
       <h3 class="chatbox__title"><b>Opentek 24/7</b></h3>
