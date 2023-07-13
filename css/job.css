@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.website-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 5fr);
+  grid-gap: 20px;
+  
+}
+
+.website-card {
+  margin: 0;
+  background-color: #8797A5;
+  border-radius: 10px;
+ 
+}
+
+
+.website-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: 1s ease;
+  
+}
+
+.website-image:hover
+{
+  -webkit-transform: scale(0.9);
+-ms-transform: scale(0.9);
+transform: scale(0.9);
+transition: 1s ease;
+}
+
+.website-heading {
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  padding: 15px;
+  color: #FFFFFF;
+}
+
+.website-description {
+  margin-top: -5px;
+  text-align: left;
+  padding: 15px;
+  font-size: 18px;
+  color: #FDF5E6;
+}
+
+button
+{
+  margin: 12px;
+  padding: 5px;
+  background-color: #CCCCCC;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 2px solid #CCCCCC;
+}
+
+button a:active
+{
+  color: #333333;
+}
+
+button a:focus
+{
+  outline: none;
+}
+
+button:hover{
+  background-color:#BFBFBF;
+}
+
+.website-link
+{
+  padding: 10px;
+  color: #333333;
+}
+
+.website-link:hover
+{
+  color: #FFFFFF;
+}
