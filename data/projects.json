@@ -340,5 +340,20 @@
     "domainIds": [
       "1"
     ]
+  },
+  {
+    "langId": "25",
+    "langTitle": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ],
+    "langName": "Temperature Converter",
+    "langDesc": "A simple temperature converter website built using HTML, CSS, and JavaScript. The website allows users to convert temperature in Celsius, Fahrenheit, and Kelvin.",
+    "langurl": "https://github.com/blindaks/temperature-converter",
+    "langAdmin": "Akrati Verma",
+    "domainIds": [
+      "1"
+    ]
   }
 ]
