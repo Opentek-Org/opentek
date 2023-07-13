@@ -325,5 +325,20 @@
     "domainIds": [
       "1"
     ]
+  },
+  {
+    "langId": "24",
+    "langTitle": [
+      "REACT.JS",
+      "TailwindCSS",
+      "Javascript"
+    ],
+    "langName": "Tic-Tac-Toe",
+    "langDesc": "Tic-Tac-Toe is a simple game with modern UI/UX.",
+    "langurl": "https://github.com/AlimurtuzaCodes/Tic-Tac-Toe",
+    "langAdmin": "Alimurtuza Patrawala",
+    "domainIds": [
+      "1"
+    ]
   }
 ]
