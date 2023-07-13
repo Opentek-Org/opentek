@@ -359,7 +359,7 @@ p {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   position: absolute;
-  z-index: 2;
+  z-index: 10000;
 }
 
 .discord-banner p {
