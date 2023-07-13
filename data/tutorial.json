@@ -59,6 +59,12 @@
     "subtitle": "About the Video",
     "para": "In this video how to find the open-source project using advance search in GitHub"
   },
+
+    "tutorialId": "1-LLMmKjj5I&t",
+    "title": "Hrakirat singh",
+    "subtitle": "About the Video",
+    "para": "in this video you will learn about how to get ahead of 99% of software engineers"
+
   {
     "tutorialId": "W7AewHnxMig",
     "title": "Ben Kadel",
@@ -89,4 +95,5 @@
     "subtitle": "About the Video",
     "para": "Git has the power to make you a better software developer. But you'll have to go beyond the basic 'commit, push, pull' to use it effectively! In this course, we'll look at some of the more advanced concepts and tools to make you more productive and confident with Git."
   }
+
 ]
