@@ -462,6 +462,109 @@
           style="width: 250px; height: 230px" /></a>
     </div>
   </main>
+
+
+
+  <div class="row header-text text-center about-header">
+    <div class="col-lg-12">
+      <h3>TESTI<span>MON</span>IALS</h3>
+    </div>
+    <div class="about-txt text-white ">
+    <button type="button" id="modal"  data-aos="fade-left" data-toggle="modal" data-target="#exampleModal">
+      Add Testimonial
+    </button>
+    </div>
+    
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="exampleModalLabel">Testimonial</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body bg-dark bg-opacity-50">
+          <form id="testimonialForm">
+            <div class="form-row">
+              <div class="form-group col-md-6 text-white">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group col-md-6 text-white">
+                <label for="position">Position</label>
+                <input type="text" class="form-control" id="position" placeholder="Enter your position">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6 text-white">
+                <label for="quote">Quote</label>
+                <textarea class="form-control" id="quote" rows="3" placeholder="Enter your quote"></textarea>
+              </div>
+              <div class="form-group col-md-6 text-white">
+                <label for="rating">Rating</label>
+                <input type="number" class="form-control" id="rating" placeholder="Enter your rating">
+                <span id="rating-error" class="text-danger"></span>
+              </div>
+            </div>
+            <div class="form-group text-white">
+              <label for="avatar">Avatar URL</label>
+              <input type="text" class="form-control" id="avatar" placeholder="Enter the URL of your avatar">
+              <span id="avatar-error" class="text-danger"></span>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="submit"  class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <section style="color: #000; background-color: #010101;">
+    <div class="my-5 text-center container ">
+      <div class="row d-flex align-items-center">
+        <div class="col-1 d-flex align-items-center justify-content-center">
+          <a class="carousel-control-prev " href="#testimonialCarousel" role="button" data-slide="prev">
+            <div class="carousel-nav-icon">
+              <i class="fa-solid fa-arrow-left  fa-xl" style="color: var(--main-color);"></i>
+             
+             </div>
+            </a>
+            </div>
+            <div class="col-10">
+      <div id="testimonialCarousel" class="carousel slide" data-ride="carousel" >
+        <!-- Indicators -->
+       
+        <div class="carousel-inner ">
+      
+  </div>
+
+  </div>
+  </div>
+  <div class="col-1 d-flex align-items-center justify-content-center"> <a class="carousel-control-next " href="#testimonialCarousel" role="button" data-slide="next">
+    <div class="carousel-nav-icon">
+      <i class="fa-solid fa-arrow-right  fa-xl" style="color: var(--main-color);"></i>
+    </div>
+  </a>
+  </div>
+  <ol class="carousel-indicators d-none">
+         
+  </ol>
+</div>
+  </div>
+    
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js"></script>
+
+
+
+
+  <!-- FOOTER AREA START -->
+  <script src="./paste.js"></script>
   <!-- FOOTER AREA START -->
   <footer id="footer">
     <div class="container-fluid px-5">
@@ -633,7 +736,47 @@
 
 
 </script>
+<script>
+    // Get the input element and error message span
+    const avatarInput = document.getElementById('avatar');
+  const avatarError = document.getElementById('avatar-error');
 
+  // Add an event listener for input changes
+  avatarInput.addEventListener('input', function () {
+    // Get the entered URL
+    const url = avatarInput.value;
+
+    // Regular expression pattern for URL validation
+    // const urlPattern = /^(https?:\/\/)?([\w.]+)\.([a-z]{2,6}\.?)(\/[\w.]*)*\/?$/i;
+    const urlPattern = /^(https?:\/\/)?([\w.]+)\.([a-z]{2,6}\.?)(\/[\w.]*)*(\?[\w=&-]*)?(#.*)?$/i;
+
+    
+
+    // Check if the URL matches the pattern
+    if (urlPattern.test(url)) {
+      // Valid URL, clear the error message
+      avatarError.textContent = '';
+    } else {
+      // Invalid URL, display an error message
+      avatarError.textContent = 'Please enter a valid URL';
+    }
+  });
+</script>
+
+<script>
+  const ratingInput = document.getElementById('rating');
+  const ratingError = document.getElementById('rating-error');
+
+  ratingInput.addEventListener('input', function () {
+    const rating = parseInt(ratingInput.value);
+
+    if (isNaN(rating) || rating < 1 || rating > 5) {
+      ratingError.textContent = 'Please enter a rating between 1 and 5';
+    } else {
+      ratingError.textContent = '';
+    }
+  });
+</script>
   <!-- <div class="chatbot">
     <div class="chatbot__header">
       <h3 class="chatbox__title"><b>Opentek 24/7</b></h3>
