@@ -177,8 +177,7 @@ if (modalOpenButton) {
 
         const testimonial = { name, position, quote, rating, image };
         // Regular expression pattern for URL validation
-        const urlPattern =
-          /^(https?:\/\/)?([\w.]+)\.([a-z]{2,6}\.?)(\/[\w.]*)*\/?$/i;
+         const urlPattern = /^(https?:\/\/)?([\w.]+)\.([a-z]{2,6}\.?)(\/[\w.]*)*(\?[\w=&-]*)?(#.*)?$/i;
 
         if (!urlPattern.test(image)) {
           alert("Please enter a valid URL");
