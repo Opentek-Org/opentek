@@ -24,10 +24,6 @@
   font-size: 28px;
 }
 
-.nav-bg i {
-  color: #fff;
-}
-
 .navbar-toggler {
   border: none;
 }
@@ -52,7 +48,7 @@
   .menu-item {
     background: #101822;
     text-align: center;
-    padding: 15px 0;`
+    padding: 15px 0;
   }
 
   .navbar::after {
