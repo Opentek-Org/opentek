@@ -109,21 +109,9 @@
       "0"
     ]
   },
+  
   {
     "langId": "8",
-    "langTitle": [
-      "React JS, HTML, CSS, JavaScript"
-    ],
-    "langName": "DevTernShip",
-    "langDesc": "An Internship Onboarding platform with an innovative learning management system and intuitive performance tools.",
-    "langurl": "https://github.com/praveenscience/Internship-LMS-FrontEnd",
-    "langAdmin": "Praveen Kumar Purushothaman",
-    "domainIds": [
-      "0"
-    ]
-  },
-  {
-    "langId": "9",
     "langTitle": [
       "HTML, Tailwind CSS"
     ],
@@ -136,7 +124,7 @@
     ]
   },
   {
-    "langId": "10",
+    "langId": "9",
     "langTitle": [
       "Python"
     ],
@@ -149,7 +137,7 @@
     ]
   },
   {
-    "langId": "11",
+    "langId": "10",
     "langTitle": [
       "Jupyter Notebook"
     ],
@@ -162,7 +150,7 @@
     ]
   },
   {
-    "langId": "12",
+    "langId": "11",
     "langTitle": [
       "Python",
       "Flask",
@@ -177,7 +165,7 @@
     ]
   },
   {
-    "langId": "13",
+    "langId": "12",
     "langTitle": [
       "Flask, Bootstrap, Python, JavaScript, jQuery"
     ],
@@ -189,21 +177,9 @@
       "1"
     ]
   },
+
   {
-    "langId": "14",
-    "langTitle": [
-      "Jupyter Notebook"
-    ],
-    "langName": "FACE-X",
-    "langDesc": "Demonstration of different algorithms and operations on faces.",
-    "langurl": "https://github.com/akshitagupta15june/Face-X",
-    "langAdmin": "AKSHITA GUPTA",
-    "domainIds": [
-      "2"
-    ]
-  },
-  {
-    "langId": "15",
+    "langId": "13",
     "langTitle": [
       "DS",
       "Algorithms"
@@ -216,34 +192,10 @@
       "3"
     ]
   },
+ 
+
   {
-    "langId": "16",
-    "langTitle": [
-      "JavaScript"
-    ],
-    "langName": "Manthan",
-    "langDesc": "We provide an online testing platform that can be used to conduct tests that are wrapped with all the necessary precautions to reduce the chances of cheating.",
-    "langurl": "https://github.com/Manthan933/Manthan",
-    "langAdmin": "Manthan",
-    "domainIds": [
-      "4"
-    ]
-  },
-  {
-    "langId": "17",
-    "langTitle": [
-      "Dart"
-    ],
-    "langName": "Simulate",
-    "langDesc": "A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)",
-    "langurl": "https://github.com/cod-ed/simulate",
-    "langAdmin": "cod-ed",
-    "domainIds": [
-      "5"
-    ]
-  },
-  {
-    "langId": "18",
+    "langId": "14",
     "langTitle": [
       "Dart"
     ],
@@ -256,7 +208,7 @@
     ]
   },
   {
-    "langId": "19",
+    "langId": "15",
     "langTitle": [
       "HTML",
       "CSS",
@@ -271,7 +223,7 @@
     ]
   },
   {
-    "langId": "20",
+    "langId": "16",
     "langTitle": [
       "React JS, HTML, CSS, JavaScript"
     ],
@@ -284,7 +236,7 @@
     ]
   },
   {
-    "langId": "21",
+    "langId": "17",
     "langTitle": [
       "Google Cloud, API, JavaScript"
     ],
@@ -297,7 +249,7 @@
     ]
   },
   {
-    "langId": "22",
+    "langId": "18",
     "langTitle": [
       "React.js",
       "Bootstrap",
@@ -312,7 +264,7 @@
     ]
   },
   {
-    "langId": "23",
+    "langId": "19",
     "langTitle": [
       "NEXT.JS",
       "TailwindCSS",
@@ -327,7 +279,7 @@
     ]
   },
   {
-    "langId": "24",
+    "langId": "20",
     "langTitle": [
       "REACT.JS",
       "TailwindCSS",
