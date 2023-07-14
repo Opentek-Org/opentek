@@ -549,7 +549,7 @@ p {
 
 .nav-bg {
   background: #101822 !important;
-  padding: 25px 0;
+  padding: 25px 16px;
   -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
   box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
 }
