@@ -1339,12 +1339,6 @@ li {
 #footer-btm i {
   color: var(--main-color);
 }
-footer .container-fluid {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 @media (max-width: 767px) {
   footer .row {
     flex-direction: column;
