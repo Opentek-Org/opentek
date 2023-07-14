@@ -1339,7 +1339,7 @@ li {
 #footer-btm i {
   color: var(--main-color);
 }
-@media (max-width: 767px) {
+@media (max-width: 990px) {
   footer .row {
     flex-direction: column;
     text-align: center;
