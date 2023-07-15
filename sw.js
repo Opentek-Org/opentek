@@ -55,7 +55,7 @@ const resourcesToPrecache = [
   "/css/projects.css",
   "/css/responsive.css.css",
   "/css/slick.css",
-  "/images/Opentek.png",
+  "/images/Opentek.webp",
   "/js/auth0.js",
   "/js/bootstrap.min.js",
   "/js/circular.js",
