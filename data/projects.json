@@ -221,7 +221,7 @@
     "langTitle": [
       "HTML",
       "CSS",
-      "JS"
+      "JavaScript"
     ],
     "langName": "Foodies",
     "langDesc": "Foodies is the 1-stop FoodHub for getting all types of Dishes. <br/>Check it out and contribute!",
@@ -234,7 +234,7 @@
   {
     "langId": "17",
     "langTitle": [
-      "React JS, HTML, CSS, JavaScript"
+      "React.Js, HTML, CSS, JavaScript"
     ],
     "langName": "TechNodes Community Website",
     "langDesc": "This is  Technodes Community website",
@@ -260,7 +260,7 @@
   {
     "langId": "19",
     "langTitle": [
-      "React.js",
+      "React.Js",
       "Bootstrap",
       "Chakra UI"
     ],
@@ -275,7 +275,7 @@
   {
     "langId": "20",
     "langTitle": [
-      "NEXT.JS",
+      "NEXT.Js",
       "TailwindCSS",
       "Typescript"
     ],
@@ -290,7 +290,7 @@
   {
     "langId": "21",
     "langTitle": [
-      "REACT.JS",
+      "React.Js",
       "TailwindCSS",
       "Javascript"
     ],
@@ -300,6 +300,23 @@
     "langAdmin": "Alimurtuza Patrawala",
     "domainIds": [
       "1"
+    ]
+  },
+  {
+    "langId": "22",
+    "langTitle": [
+      "React.Js",
+      "Node.Js",
+      "Javascript",
+      "HTML",
+      "CSS3"
+    ],
+    "langName": "PetMe",
+    "langDesc": "PetMe is an all-in-one platform that allows animals to be adopted, donated to pet lovers, and provides emergency medical care to stray animals in need",
+    "langurl": "https://github.com/akshitagupta15june/PetMe",
+    "langAdmin": "Shwet Khatri",
+    "domainIds": [
+      "0"
     ]
   }
 ]
