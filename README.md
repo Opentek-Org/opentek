@@ -45,7 +45,7 @@
 <img src="https://i.postimg.cc/qMpTrLpd/1.png" />
 </a>
 
-Welcome to Opentek, your number one source for Open Source Development. We're dedicated to giving you the very best of tools, resources, and projects, with a focus on Collaboration, Code, and Networking. Try out [Opentek](https://opentek.in/) 🙌
+Welcome to Opentek, your No.1 source for Open Source Development. We're dedicated to giving you the very best of tools, resources, and projects, with a focus on Collaboration, Code, and Networking. Try out [Opentek](https://opentek.in/) 🙌
 
 ### [Read our blog post 📖](https://blog.anirudhpanda.in/introducing-opentek)
 
@@ -73,14 +73,14 @@ Welcome to Opentek, your number one source for Open Source Development. We're de
 
 ## 🛠️ Installation Steps
 
-1. Fork this repository
+1. Fork this repository.
 2. Clone your forked copy of the project.
 
 ```bash
 git clone --depth 1 https://github.com/<your username>/opentek.git
 ```
 
-3. Change the working directory
+3. Change the working directory.
 
 ```bash
 cd opentek
@@ -98,7 +98,7 @@ git remote add upstream https://github.com/Opentek-Org/opentek.git
 git remote -v
 ```
 
-6. Always take a pull from the upstream repository to your main branch to keep it at up-to-date with the main project (updated repository).
+6. Always take a pull from the upstream repository to your main branch to keep it up-to-date with the main project (updated repository).
 
 ```
 git pull upstream main
@@ -127,19 +127,19 @@ Once the Docker image is built, you can run a container using the following comm
 docker run -p 3000:3000 opentek.
 Open your web browser and visit http://localhost:3000 to access the Opentek application running inside the Docker container.
 
-If you are using **VS Code**, you can use the [live server](https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/) extension to set up your local environment. Make sure to keep your Port number as [**3000**](https://stackoverflow.com/questions/55429643/where-to-set-value-of-liveserver-settings-port-in-live-server-extension-of-visua). This is required in order to use the authentication feature via Auth0 in your local env, for which the allowed port is set to 3000 as of now .More common ports will be added ASAP.
+If you are using **VS Code**, you can use the [live server](https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/) extension to set up your local environment. Make sure to keep your Port number as [**3000**](https://stackoverflow.com/questions/55429643/where-to-set-value-of-liveserver-settings-port-in-live-server-extension-of-visua). This is required in order to use the authentication feature via Auth0 in your local env, for which the allowed port is set to 3000 as of now. More common ports will be added ASAP.
 
 8. Perfom your desired changes to the code base.
 
 [![giphy.gif](https://i.postimg.cc/Fs75yYVT/giphy.gif)](https://postimg.cc/jL0FKd9f)
 
-9. Track your changes
+9. Track your changes.
 
 ```
 git add .
 ```
 
-10. Commit your changes .
+10. Commit your changes.
 
 ```
 git commit -m "Relevant message"
@@ -152,7 +152,7 @@ git push -u origin <your_branch_name>
 
 ```
 
-12. To create a pull request, click on compare and pull requests. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
+12. To create a pull request, click on "Compare and pull requests". Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
 
 13. Voila 🎉 You have made a PR to the Opentek project. Sit back patiently and relax while the project maintainers review your PR.
 
@@ -185,13 +185,13 @@ Please read our [contributing guidelines](https://github.com/Opentek-Org/opentek
 
 ## 👀 Future Plans
 
-- Conducting Community Own OPEN SOURCE PROGRAM
+- Conducting Community Own OPEN SOURCE PROGRAM.
 - Sorting out projects according to beginners, intermediate and advanced levels.
 - Participating in various Open Source programs with this project.
 - Collaborating with various communities and create opportunities.
-- Adding Hackathon Page and Updating it according to month-wise.
-- Animations
-- In-Built blog posts related to Open Source and Networking.
+- Adding Hackathon Page and updating it month-wise.
+- Animations.
+- In-built blog posts related to Open Source and Networking.
 - Creating projects under Opentek and Open Sourcing them.
 
 ## 🌟 Deploy
