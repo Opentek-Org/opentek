@@ -46,6 +46,12 @@ const Testimonial = mongoose.model("Testimonial", testimonialSchema);
 
 // Create the Express app
 const app = express();
+app.set('view engine', 'ejs');
+
+// Serve the HTML file with the environment variables
+app.get('/', (req, res) => {
+  res.render('index', { apiEndpoint: "/testimonials", adminKey: process.env.KEY });
+});
 
 // Configure body-parser middleware to parse JSON
 app.use(bodyParser.json());
@@ -154,3 +160,24 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
+
+app.delete("/testimonials/:id", async (req, res) => {
+  try {
+    const testimonialId = req.params.id;
+
+    // Check if the testimonial with the given ID exists
+    const existingTestimonial = await Testimonial.findByIdAndDelete(testimonialId);
+    if (!existingTestimonial) {
+      return res.status(404).json({ error: "Testimonial not found" });
+    }
+
+    // Delete the testimonial from the database
+    // await existingTestimonial.remove();
+
+    res.status(200).json({ message: "Testimonial deleted successfully" });
+  } catch (error) {
+    console.error("Error deleting testimonial:", error);
+    res.status(500).json({ error: "Error deleting testimonial" });
+  }
+});
+
