@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Testimonials</title>
+</head>
+
+<body>
+    <div class="bg-gray-900 min-h-screen py-10">
+        <div class="container mx-auto px-4">
+          <h1 class="text-4xl font-bold text-white text-center mb-8">Testimonials</h1>
+          <div id="testimonialsContainer" class="grid grid-cols-1 md:grid-cols-3 gap-4"></div>
+        </div>
+      </div>
+
+  <script>
+    // Use the environment variables from the backend here
+    const apiEndpoint = '<%= apiEndpoint %>';
+    const adminKey = '<%= adminKey %>';
+
+    function generateStars(rating) {
+      const stars = [];
+      for (let i = 0; i < 5; i++) {
+        stars.push(`<li class="${i < rating ? 'text-pink-500' : 'text-gray-300'} mr-1 fas fa-star"></li>`);
+      }
+      return stars.join('');
+    }
+
+    async function deleteTestimonial(id) {
+      try {
+        // Replace 'YOUR_API_ENDPOINT' with the actual URL of your backend API endpoint
+        const apidelete = `${apiEndpoint}/${id}`;
+
+        const response = await fetch(apidelete, {
+          method: 'DELETE',
+        });
+
+        if (response.ok) {
+          // Testimonial deleted successfully, fetch updated testimonials
+          fetchTestimonials();
+        } else {
+          console.error('Failed to delete testimonial:', response.statusText);
+        }
+      } catch (error) {
+        console.error('Error deleting testimonial:', error);
+      }
+    }
+
+    async function fetchTestimonials() {
+      try {
+        // Prompt user for the access key
+        const enteredKey = prompt('Enter the access key:');
+
+        if (enteredKey === adminKey) {
+          const response = await fetch(apiEndpoint);
+          const data = await response.json();
+
+          // If the entered key is correct, display testimonials
+          const testimonialsContainer = document.getElementById('testimonialsContainer');
+          testimonialsContainer.innerHTML = '';
+
+          data.testimonials.forEach(testimonial => {
+            const card = document.createElement('div');
+            card.classList.add('bg-black', 'border-2', 'pink-border', 'rounded', 'shadow-lg', 'p-6', 'relative');
+
+            // Construct the card HTML using template literals and the cardData object
+            card.innerHTML = `
+              <div class="flex justify-center mb-4">
+                <img src="${testimonial.image}" class="w-20 h-20 rounded-full shadow-1-strong" />
+              </div>
+              <h5 class="text-white font-bold">${testimonial.name}</h5>
+              <h6 class="text-white font-bold my-3">${testimonial.position}</h6>
+              <ul class="flex justify-center mb-3">
+                ${generateStars(testimonial.rating)}
+              </ul>
+              <p class="text-white">
+                <i class="fas fa-quote-left pe-2 text-white"></i>${testimonial.quote}
+              </p>
+            `;
+
+            // Add the delete button to the card
+            const deleteButton = document.createElement('button');
+            deleteButton.classList.add('absolute', 'top-2', 'right-2', 'text-white', 'px-2', 'py-1', 'bg-red-600', 'rounded');
+            deleteButton.innerText = 'Delete';
+            deleteButton.addEventListener('click', () => {
+              const confirmed = confirm('Are you sure you want to delete this testimonial?');
+              if (confirmed) {
+                deleteTestimonial(testimonial._id); // Replace '_id' with the actual ID property name in your data
+              }
+            });
+
+            card.appendChild(deleteButton);
+            testimonialsContainer.appendChild(card);
+          });
+        } else {
+          // If the entered key is incorrect, display an error message
+          alert('Incorrect key. You are not authorized to access the testimonials.');
+        }
+      } catch (error) {
+        console.error('Error fetching testimonials:', error);
+      }
+    }
+
+    // Fetch testimonials when the page loads
+    fetchTestimonials();
+  </script>
+</body>
+
+</html>

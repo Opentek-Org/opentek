@@ -15,7 +15,7 @@ const getData = async () => {
       <a href=https://www.youtube.com/embed/${data[i].tutorialId}?autoplay=1>
       <img id="ytimg" height="100%" width="100%" src=https://img.youtube.com/vi/${data[i].tutorialId}/hqdefault.jpg alt='ytvideo'>
       <div class" text-center" >
-      <span id="butt"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></span>
+      <span id="butt"><img src="https://img.icons8.com/color/48/000000/youtube-play.webp"/></span>
       </div>
       </a>
       </div>   `;
