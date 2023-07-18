@@ -316,5 +316,20 @@
     "domainIds": [
       "1"
     ]
+  },
+  {
+    "langId": "26",
+    "langTitle": [
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ],
+    "langName": "Essentia",
+    "langDesc": "A skincare products wesite made using HTML, CSS, and Botstrap.",
+    "langurl": "https://github.com/blindaks/essentia",
+    "langAdmin": "Akrati Verma",
+    "domainIds": [
+      "1"
+    ]
   }
 ]
