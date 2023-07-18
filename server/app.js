@@ -4,6 +4,10 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const rateLimit = require("express-rate-limit");
 require("dotenv").config();
+
+// Custom Error Classes (defined in errors.js)
+const { TestimonialNotFoundError, DuplicateTestimonialError, InternalServerError } = require('./errors');
+
 // Connect to MongoDB Atlas
 mongoose
   .connect(process.env.MONGODB_URI, {
@@ -63,6 +67,7 @@ const limiter = rateLimit({
   message: "Too many requests from this IP, please try again later.",
 });
 app.use(limiter);
+
 // Handle POST requests to /testimonials
 app.post("/testimonials", async (req, res) => {
   try {
@@ -74,17 +79,22 @@ app.post("/testimonials", async (req, res) => {
     });
 
     if (existingTestimonial) {
-      return res.status(409).json({ error: "Testimonial already exists" });
+      throw new DuplicateTestimonialError();
     }
 
     const testimonial = await Testimonial.create(testimonialData);
 
     res.status(201).json({ testimonial });
   } catch (error) {
+    if (error instanceof DuplicateTestimonialError) {
+      return res.status(error.statusCode).json({ error: error.message });
+    }
+
     console.error("Error saving testimonial:", error);
     res.status(500).json({ error: "Error saving testimonial" });
   }
 });
+
 app.post("/temptestimonials", async (req, res) => {
   try {
     const data = [
@@ -149,16 +159,11 @@ app.post("/temptestimonials", async (req, res) => {
 app.get("/testimonials", async (req, res) => {
   try {
     const testimonials = await Testimonial.find();
-    res.status(201).json({ testimonials });
+    res.status(200).json({ testimonials });
   } catch (error) {
     console.error("Error retrieving testimonials:", error);
     res.status(500).json({ error: "Error retrieving testimonials" });
   }
-});
-// Start the server
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-  console.log(`Server is listening on port ${port}`);
 });
 
 app.delete("/testimonials/:id", async (req, res) => {
@@ -168,16 +173,34 @@ app.delete("/testimonials/:id", async (req, res) => {
     // Check if the testimonial with the given ID exists
     const existingTestimonial = await Testimonial.findByIdAndDelete(testimonialId);
     if (!existingTestimonial) {
-      return res.status(404).json({ error: "Testimonial not found" });
+      throw new TestimonialNotFoundError();
     }
-
-    // Delete the testimonial from the database
-    // await existingTestimonial.remove();
 
     res.status(200).json({ message: "Testimonial deleted successfully" });
   } catch (error) {
+    if (error instanceof TestimonialNotFoundError) {
+      return res.status(error.statusCode).json({ error: error.message });
+    }
+
     console.error("Error deleting testimonial:", error);
     res.status(500).json({ error: "Error deleting testimonial" });
   }
 });
+
+// Error Handling Middleware
+app.use((err, req, res, next) => {
+  if (err instanceof InternalServerError) {
+    return res.status(err.statusCode).json({ error: err.message });
+  }
+
+  console.error("Unhandled error:", err);
+  res.status(500).json({ error: "Internal Server Error" });
+});
+
+// Start the server
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server is listening on port ${port}`);
+});
+
 
