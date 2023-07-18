@@ -1,0 +1,37 @@
+name: " Project Addition in opentek ✨"
+description: "Add a new project to the list"
+title: 'chore: project addition by '
+labels: ['good first issue', 'gssoc23']
+body:
+  - type: textarea
+    id: about
+    attributes:
+      label: About
+      description: Briefly describe the new project you want to add to the list.
+    validations:
+      required: true
+  - type: textarea
+    id: project-add
+    attributes:
+      label: Add a Screenshot of your project to the list
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 'Record'
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+        - label: I want to work on this issue
+  - type: dropdown # Adding a dropdown
+    id: project-type
+    attributes:
+      label: 'Select the Project Type'
+      options:
+        - Frontend
+        - Backend
+        - App Development
+        - API
+        - ML
+        - DSA
