@@ -318,5 +318,22 @@
     "domainIds": [
       "0"
     ]
+  },
+  {
+    "langId": "23",
+    "langTitle": [
+      "React.Js",
+      "echo3d",
+      "Javascript",
+      "HTML",
+      "CSS3"
+    ],
+    "langName": "Moksh",
+    "langDesc": "Moksh is a spiritual productivity tool designed for individuals who want to unlock their potential and achieve true balance in life",
+    "langurl": "https://github.com/akshitagupta15june/Moksh",
+    "langAdmin": "AKSHITA GUPTA",
+    "domainIds": [
+      "1"
+    ]
   }
 ]
