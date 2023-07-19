@@ -25,24 +25,55 @@
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script src="https://kit.fontawesome.com/284ffbb2b1.js" crossorigin="anonymous"></script>
 
-
+  <meta name="viewport" content="width=device-width, intial-scale=1.0" />
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description"
-    content="Welcome to Opentek, your number one source for Open Source Development. We're dedicated to giving you the very best of tools, resources, and projects, with a focus on Collaboration, Code, and Networking. Open Source Resources for beginners where they can find everything related to Open Source and learn how to start with it." />
-  <meta name="keywords"
-    content="OpenSource, CommunityWork, OpenSourceDevelopment, Collaboration, Networking, Side-Projects, Projects, Hackathons, OpenSourcePrograms, Development, Webdev, ML, Android, Startup, GSSOC, GSOC, GSOD, GoogleSeasonOfDocs, GoogleSummerOfCode, LFXMentorship,Girlscript-summer-of-code" />
-  <meta name="author" content="Opentek" />
-  <meta property="og:title" content="Opentek" />
-  <meta property="og:description"
-    content="Welcome to Opentek, your number one source for Open Source Development. We're dedicated to giving you the very best of tools, resources, and projects, with a focus on Collaboration, Code, and Networking." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://opentek.in/" />
-  <meta property="og:image" content="https://i.postimg.cc/HszfCMfq/Opentek-logo.webp" />
-  <meta name="theme-color" content="#080B11" />
 
   <title>Opentek | Home</title>
-  <link rel="icon" href="images/Opentek.webp" type="image/gif" sizes="16x16" />
+  <link rel="icon" href="https://i.postimg.cc/HszfCMfq/Opentek-logo.webp" type="image/gif" sizes="16x16" />
+
+
+  <!-- SEO SETTINGS (mrprayag) -->
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="en">
+  <meta name="revisit-after" content="7 days">
+  <meta name="distribution" content="global">
+  <meta name="geo.region" content="india">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta http-equiv="content-language" content="en">
+  <meta name="description"
+    content="To empower Open Source and create an environment of excellent individuals who believe in the power of Open Source and Community Building.">
+  <meta name="keywords"
+    content="learners,build environment,Programs,learn,enhance skills,Projects,Tutorials,code collab,showcase-worthy work,networking,pitch ideas,brainstorming,likeminded people">
+
+  <!-- LINKS SEO (mrprayag077) -->
+  <link rel="canonical" href="https://opentek.in/">
+  <meta name="og:description"
+    content="To empower Open Source and create an environment of excellent individuals who believe in the power of Open Source and Community Building.">
+
+
+  <!-- SEO for social-media-links sharing (mrprayag077) -->
+  <meta name="og:title"
+    content="To empower Open Source and create an environment of excellent individuals who believe in the power of Open Source and Community Building.">
+  <meta name="twitter:card" content="https://opentek.in/">
+  <meta name="twitter:site" content="@AnirudhPanda ">
+  <meta name="twitter:image" content="https://opentek.in/">
+  <meta
+    content="learners,build environment,Programs,learn,enhance skills,Projects,Tutorials,code collab,showcase-worthy work,networking,pitch ideas,brainstorming,likeminded people"
+    name="keywords" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="https://i.postimg.cc/HszfCMfq/Opentek-logo.webp" />
+  <meta name="theme-color" content="#ffffff" />
+
+
+  <!--Firebase SDK-->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
   <!--font-awesome icons link-->
   <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
@@ -58,12 +89,6 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/slick.css" />
-
-  <!--Firebase SDK-->
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
-
 
   <!--main style file-->
   <link rel="stylesheet" href="css/style.css" />
@@ -195,7 +220,8 @@
               <button id="btn-logout" disabled="true" class="btn btn-outline-light login-btn" onclick="logout()">
                 Log Out
               </button>
-              <button id="btn-save" disabled="true" class="btn btn-outline-light login-btn" onclick="location.href='pages/saved.html'">
+              <button id="btn-save" disabled="true" class="btn btn-outline-light login-btn"
+                onclick="location.href='pages/saved.html'">
                 Saved
               </button>
             </li>
@@ -203,7 +229,7 @@
               <div id="avatar-img-div" class="hidden-icon">
                 <img id="avatar-img" class="avatar" src="" />
               </div>
-            </li>          
+            </li>
           </ul>
         </div>
       </div>
@@ -592,16 +618,27 @@
               ~ Linus Torvalds
             </p>
             <div class="footer-social">
-              <a href="https://discord.gg/9qyr4Mdc3Y" target="_blank"><i class="fab fa-discord"
-                  aria-hidden="true"></i></a>
-              <a href="https://twitter.com/opentekorg" target="_blank"><i class="fab fa-twitter"
-                  aria-hidden="true"></i></a>
-              <a href="https://www.linkedin.com/company/opentekorg/" target="_blank"><i class="fab fa-linkedin-in"
-                  aria-hidden="true"></i></a>
-              <a href="mailto:opentekorg@gmail.com" target="_blank"><i class="fas fa-envelope"
-                  aria-hidden="true"></i></a>
-              <a href="https://github.com/Opentek-Org/opentek" target="_blank"><i class="fab fa-github"
-                  aria-hidden="true"></i></a>
+              <a href="https://discord.gg/9qyr4Mdc3Y" target="_blank" aria-label="Join with us on Discord"
+                title="Discord (External Link)" rel="noopener noreferrer">
+                <i class="fab fa-discord" aria-hidden="true"></i>
+              </a>
+
+              <a href="https://twitter.com/opentekorg" target="_blank" aria-label="Follow us on Iwitter"
+                title="Twitter (External Link)" rel="noopener noreferrer">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/opentekorg/" target="_blank" aria-label="Follow us on Linkedin"
+                title="Linkedin (External Link)" rel="noopener noreferrer">
+                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+              <a href="mailto:opentekorg@gmail.com" target="_blank" aria-label="Mail us on"
+                title="Preferred Mail Application (External Link)" rel="noopener noreferrer">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+              </a>
+              <a href="https://github.com/Opentek-Org/opentek" target="_blank" aria-label="Follow us on Github"
+                title="Github (External Link)" rel="noopener noreferrer">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -611,7 +648,7 @@
             <h3>Quick Links</h3>
             <ul>
               <li>
-                <a href="/pages/about.html" target="blank">About Us</a>
+                <a href="/pages/about.html" target="_blank">About Us</a>
               </li>
               <li>
                 <a id="gated-content-5" class="" href="./event.html">Events</a>
@@ -620,7 +657,7 @@
                 <a id="gated-content-6" class="" href="./program.html">Programs</a>
               </li>
               <li>
-                <a href="./projects.html" target="blank">Projects</a>
+                <a href="/pages/projects.html" target="_blank">Projects</a>
               </li>
               <li>
                 <a href="https://github.com/Opentek-Org/opentek/graphs/contributors" target="_blank">Contributors</a>
@@ -738,9 +775,6 @@
 
 
 
-
-
-
   </script>
   <script>
     // Get the input element and error message span
@@ -815,14 +849,12 @@
   <script src="./chatBot/script.js"></script>
 
   <!-- Optional JavaScript -->
-  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
-  <script src="js/auth0.js"></script>
+  <script src="js/auth.js"></script>
   <script defer src="js/jquery-3.3.1.min.js"></script>
   <script defer src="js/bootstrap.min.js"></script>
   <script defer src="js/slick.min.js"></script>
   <script defer src="js/circular.js"></script>
   <script defer src="js/custom.js"></script>
-  <script src="js/auth0.js"></script>
   <script src="js/color-theam.js"></script>
   <script src="js/ripple-button.js"></script>
   <!-- aos data -->
