@@ -1,6 +1,6 @@
-name: Bug Report
+name: 🐞 Bug Report
 description: Report a bug found in the Opentek source code
-labels: ['bug', 'gssoc23']
+labels: ["bug", "gssoc23"]
 body:
   - type: textarea
     id: description
@@ -23,13 +23,31 @@ body:
       description: Is there anything else we should know about this bug?
     validations:
       required: false
-  - type: checkboxes
-    id: terms
+  - type: dropdown
+    id: browsers
     attributes:
-      label: Do you want to work on this issue?
-      description: We are here to assist you
+      label: What browser are you seeing the problem on?
+      multiple: true
       options:
-        - label: I want to work on this issue.
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: checkboxes
+    id: no-duplicate-checklist
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "I have checked the [existing issues](https://github.com/Opentek-Org/opentek/issues)"
+          required: true
+
+        - label: "I have read the [Contributing Guidelines](https://github.com/Opentek-Org/opentek/blob/main/CONTRIBUTING.md)"
+          required: true
+
+        - label: "I want to work on this issue. (optional)"
+          required: false
+
+        - label: "I am a GSSoC'23 contributor"
           required: false
 
   - type: markdown
