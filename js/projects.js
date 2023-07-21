@@ -1,5 +1,25 @@
 const fetchAuthConfig = () => fetch("/auth_config.json");
 
+
+//toastr
+toastr.options = {
+  "closeButton": true,
+  "debug": false,
+  "newestOnTop": false,
+  "progressBar": true,
+  "positionClass": "toast-top-right",
+  "preventDuplicates": false,
+  "showDuration": "300",
+  "hideDuration": "1000",
+  "timeOut": "5000",
+  "extendedTimeOut": "1000",
+  "showEasing": "swing",
+  "hideEasing": "linear",
+  "showMethod": "fadeIn",
+  "hideMethod": "fadeOut"
+}
+
+
 fetchAuthConfig()
   .then((response) => response.json())
   .then((firebaseConfig) => {
@@ -86,11 +106,12 @@ function loadData(data, db, user) {
     if (url) {
       navigator.clipboard.writeText(url)
         .then(() => {
-          alert('URL copied to clipboard:', url);
+          toastr["info"]("URL copied to clipboard:")
+
           // You can show a success message or perform any other action here
         })
         .catch((error) => {
-          console.log('Error copying URL to clipboard:', error);
+          toastr["error"]('Error copying URL to clipboard:', error);
           // You can show an error message or perform any other action here
         });
     }
@@ -106,11 +127,11 @@ function loadData(data, db, user) {
         saved: firebase.firestore.FieldValue.arrayUnion(langId)
       })
         .then(() => {
-          alert('Project Saved!');
+          toastr["success"]('Project Saved!');
           // You can show a success message or perform any other action here
         })
         .catch((error) => {
-          alert('Error saving langID:', error);
+          toastr["success"]('Error saving langID:', error);
           // You can show an error message or perform any other action here
         });
     }
