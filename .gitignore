@@ -1,7 +1,7 @@
 # add auth_config.json to .gitignore
 # auth_config.json is used by the auth0-spa-js SDK to configure the Auth0Client
 
-.auth_config.json
+auth_config.json
 
 # Logs
 logs
