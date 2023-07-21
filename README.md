@@ -63,6 +63,8 @@ Welcome to Opentek, your No.1 source for Open Source Development. We're dedicate
 - ✔ **Open Source PROGRAMS displayed Month-Wise (with a short desc, logo, and Website)**
 - 📚 **Open Source related TUTORIALS hand-picked from the best in the domain embedded in our website (credits to the Author displayed)**
 - 🔥 **Domain-Specific Open Source PROJECTS from all around GitHub by amazing Open Source Developers where you can contribute (credits to Admin given)**
+- 📌 **Save PROJECTS work on them later**
+- 📤 **Share the PROJECTS with others and spread the open-source spirit!**
 - 💻 **Official Discord Channel solely dedicated to Open Source Development where you can showcase your projects and collaborate**
 - 🌈 **ANYONE!! YES ANYONE can contribute to this project and can make a difference.**
 - 💥 **Never miss out on any Events and Programs anymore and say bye-bye to the tedious google searches to find a tutorial or a Beginner-friendly project**
@@ -111,8 +113,7 @@ git checkout -b <your_branch_name>
 
 ```
 
-**You are all set! Open [localhost:3000](http://localhost:3000/) to see the app.** (Authenticated via Auth0)
-
+**You are all set! Use a live server or simply run `index.html` to see the app.** 
 ## Docker Setup
 Opentek provides a Docker setup that allows you to run the application in a containerized environment. To use Docker with Opentek, follow these steps:
 
@@ -125,12 +126,14 @@ Build the Docker image using the provided Dockerfile by running the following co
 
 Once the Docker image is built, you can run a container using the following command:
 ```
-docker run -p 3000:3000 opentek.
+docker run -p 80:80 opentek.
 ```
 
-Open your web browser and visit http://localhost:3000 to access the Opentek application running inside the Docker container.
+Open your web browser and visit http://localhost to access the Opentek application running inside the Docker container.
 
-If you are using **VS Code**, you can use the [live server](https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/) extension to set up your local environment. Make sure to keep your Port number as [**3000**](https://stackoverflow.com/questions/55429643/where-to-set-value-of-liveserver-settings-port-in-live-server-extension-of-visua). This is required in order to use the authentication feature via Auth0 in your local env, for which the allowed port is set to 3000 as of now. More common ports will be added ASAP.
+If you are using VS Code, you can use the live server extension to set up your local environment. Simply right-click on index.html and choose "Open with Live Server" to view the application locally.
+
+Now you can access the application on the default port 80 without any authentication requirements. Happy coding! 🚀🌐
 
 8. Perfom your desired changes to the code base.
 
@@ -167,11 +170,11 @@ Please read our [contributing guidelines](https://github.com/Opentek-Org/opentek
 
 ## 💻 Built with
 
-- **Auth0:** User Authentication
 - **HTML5:** Skeleton
 - **CSS3:** Styling
 - **Bootstrap 4 and 5:** Rich Styling
 - **JavaScript (Server and Client Side) :** For Loading Data
+- **Firebase:** User Authentication and secure project storage using Firestore database. 
 - **Font Awesome:** For Icons
 - **Iconscout:** For Icons
 - **Rough Notation:** A small JavaScript library to create and animate annotations on a web page
