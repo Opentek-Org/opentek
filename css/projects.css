@@ -1,181 +1,173 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
-@import url('./style.css');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+@import url("./style.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
 
-body
-{
-    overflow: hidden;
-    font-family: 'Poppins', sans-serif;
+body {
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
 }
 
 img {
-    max-height: 100%;
-    max-width: 100%;
-    vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
-.container{
-    text-align: center;
+.container {
+  text-align: center;
 }
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    height: 100;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100;
 }
 
 .cards_item {
-    display: flex;
-    padding: 1rem;
+  display: flex;
+  padding: 1rem;
 }
 
 @media (min-width: 40rem) {
-    .cards_item {
-        width: 50%;
-    }
+  .cards_item {
+    width: 50%;
+  }
 }
 
 @media (min-width: 56rem) {
-    .cards_item {
-        width: 33.3333%;
-    }
+  .cards_item {
+    width: 33.3333%;
+  }
 }
 
 .card {
-    background-color: #090e14;
-    border-radius: 1rem;
-    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    gap: 12px;
-    overflow: hidden;
-    position: relative;
-    background: var(--main-color);
-    border: 3px solid white;
+  background-color: #090e14;
+  border-radius: 1rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 12px;
+  overflow: hidden;
+  position: relative;
+  background: var(--main-color);
+  border: 3px solid white;
 }
 
 .card_content {
-    backdrop-filter: blur(50px);
-    height: 100%;   
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    align-items: center;
-    justify-content: center;
+  backdrop-filter: blur(50px);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.card_title{
-    color: #080c11;
-    font-size: 1.4rem;
-    width: 100%;
-    font-weight: 500;
-    text-transform: capitalize;
-    /* margin-bottom: 20px; */
+.card_title {
+  color: #080c11;
+  font-size: 1.4rem;
+  width: 100%;
+  font-weight: 500;
+  text-transform: capitalize;
+  /* margin-bottom: 20px; */
 }
 
-.card-project-properties{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
+.card-project-properties {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
 }
 .card-project-admin-name {
-    color: #080c11;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: capitalize;
-
-   
-
+  color: #080c11;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
 }
-.card-stack{
-    color: #080c11;
-    font-size: 16px;
-    font-weight: 500;
-    width: fit-content;
-    text-transform: capitalize;
-    background: var(--clr-back-light);
+.card-stack {
+  color: #080c11;
+  font-size: 16px;
+  font-weight: 500;
+  width: fit-content;
+  text-transform: capitalize;
+  background: var(--clr-back-light);
 
-    padding: 0.3rem;
-    border-radius: 8px;
-    border: 1px solid black;
-
+  padding: 0.3rem;
+  border-radius: 8px;
+  border: 1px solid black;
 }
 .card_text {
-    color: #080c11;
-    font-size: 0.8rem;
-    line-height: 1.5;
-    font-weight: 400;
+  color: #080c11;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  font-weight: 400;
 }
 .made_by {
-    font-weight: 400;
-    font-size: 13px;
-    margin-top: 35px;
-    text-align: center;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
 }
 
 .card_btn {
-    margin: auto;
+  margin: auto;
 
-    display: block;
-    background: var(--clr-back-light);
-    color: rgb(3, 0, 0);
-    padding: 0.3rem;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 500;
-    width: fit-content;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.9);
-    transition: all 200ms ease-in-out;
-    text-decoration: none;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 8px;
+  display: block;
+  background: var(--clr-back-light);
+  color: rgb(3, 0, 0);
+  padding: 0.3rem;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: fit-content;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.9);
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 8px;
 }
 
-
-
 .card_btn:hover {
-    background: var(--clr-back-dark);
-    color: white;
-    /* border-radius: 0; */
-} 
+  background: var(--clr-back-dark);
+  color: white;
+  /* border-radius: 0; */
+}
 
-.card_btn a{
-    color: rgb(3, 0, 0);
+.card_btn a {
+  color: rgb(3, 0, 0);
 }
 
 .filter {
-    background-color: transparent;
-    border: 1px solid rgba(25, 118, 210, 0.5);
-    color: white;
-    border-radius: 4px;
-    padding: 5px 15px;
-    text-align: center;
-    margin: 10px;
+  background-color: transparent;
+  border: 1px solid rgba(25, 118, 210, 0.5);
+  color: white;
+  border-radius: 4px;
+  padding: 5px 15px;
+  text-align: center;
+  margin: 10px;
 }
 
 .filter:hover {
-    border: 1px solid var(--main-color);
+  border: 1px solid var(--main-color);
 }
 
 .selected-filter {
-    background-color: var(--main-color);
-    color: #000000;
-    border: var(--main-color);
-    /* border: none; */
+  background-color: var(--main-color);
+  color: #000000;
+  border: var(--main-color);
+  /* border: none; */
 }
 
 #overview {
@@ -184,238 +176,241 @@ img {
 }
 
 .not-found-card {
-    background-color: #090e14;
-    border-radius: 1rem;
-    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    gap: 12px;
-    overflow: hidden;
-    position: relative;
-    background: var(--main-color);
-    border: 3px solid white;
-    margin: 50px auto;
-    padding: 10px 50px;
-    font-size: 16px;
+  background-color: #090e14;
+  border-radius: 1rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 12px;
+  overflow: hidden;
+  position: relative;
+  background: var(--main-color);
+  border: 3px solid white;
+  margin: 50px auto;
+  padding: 10px 50px;
+  font-size: 16px;
 }
-#shareBtn{
-    letter-spacing: 2px;
-    font-weight: 600;
-    box-shadow: none;
-    background-color: #eee;
-    color: #7d2ae8;
-    border: none;
-}
-
-.modal{
-    top: 20%;
+#shareBtn {
+  letter-spacing: 2px;
+  font-weight: 600;
+  box-shadow: none;
+  background-color: #eee;
+  color: #7d2ae8;
+  border: none;
 }
 
-.btn-close{
-    box-shadow: none;
-    border: none;
-    outline: none;
+.modal {
+  top: 20%;
 }
 
-.modal-body .icons{
-    margin: 15px 0px 20px 0px;
+.btn-close {
+  box-shadow: none;
+  border: none;
+  outline: none;
 }
 
-.modal-body .icons a{
-    /* text-decoration: none;
+.modal-body .icons {
+  margin: 15px 0px 20px 0px;
+}
+
+.modal-body .icons a {
+  /* text-decoration: none;
     border: 1px solid transparent;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-right: 20px;
     transition: all 0.3s ease-in-out; */
-    width: 50px;
-    height: 50px;
-    /* Create a perfect circle by setting border-radius to 50% */
-    border-radius: 50%;
-    /* Add any other styles you want for the icon container, such as background color, border, etc. */
- 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 50px;
+  height: 50px;
+  /* Create a perfect circle by setting border-radius to 50% */
+  border-radius: 50%;
+  /* Add any other styles you want for the icon container, such as background color, border, etc. */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.modal-body .icons a:nth-child(1){
-    color: #030509;
-    border-color: #B7D4FB;
+.modal-body .icons a:nth-child(1) {
+  color: #030509;
+  border-color: #b7d4fb;
 }
 
-.modal-body .icons a:nth-child(1):hover{
-    background-color: #1877F2;
-    color: #fff;
+.modal-body .icons a:nth-child(1):hover {
+  background-color: #1877f2;
+  color: #fff;
 }
 
-.modal-body .icons a:nth-child(2){
-    color: #46C1F6;
-    border-color: #b6e7fc;
+.modal-body .icons a:nth-child(2) {
+  color: #46c1f6;
+  border-color: #b6e7fc;
 }
 
-.modal-body .icons a:nth-child(2):hover{
-    background-color: #46C1F6;
-    color: #fff;
+.modal-body .icons a:nth-child(2):hover {
+  background-color: #46c1f6;
+  color: #fff;
 }
 
-.modal-body .icons a:nth-child(3){
-    color: #e1306c;
-    border-color: #f5bccf;
+.modal-body .icons a:nth-child(3) {
+  color: #e1306c;
+  border-color: #f5bccf;
 }
 
-.modal-body .icons a:nth-child(3):hover{
-    background-color: #e1306c;
-    color: #fff;
+.modal-body .icons a:nth-child(3):hover {
+  background-color: #e1306c;
+  color: #fff;
 }
 
-.modal-body .icons a:nth-child(4){
-    color: #25d366;
-    border-color: #bef4d2;
+.modal-body .icons a:nth-child(4) {
+  color: #25d366;
+  border-color: #bef4d2;
 }
 
-.modal-body .icons a:nth-child(4):hover{
-    background-color: #25d366;
-    color: #fff;
+.modal-body .icons a:nth-child(4):hover {
+  background-color: #25d366;
+  color: #fff;
 }
 
-
-.modal-body .icons a:nth-child(5){
-    color: #cc0029;
-    border-color: #b3e6ff;
+.modal-body .icons a:nth-child(5) {
+  color: #cc0029;
+  border-color: #b3e6ff;
 }
 
-.modal-body .icons a:nth-child(5):hover{
-    background-color: #0088cc;
-    color: #fff;
+.modal-body .icons a:nth-child(5):hover {
+  background-color: #0088cc;
+  color: #fff;
 }
 
-.modal-body .icons a:nth-child(6){
-    color: #00cc00;
-    border-color: #b3e6ff;
+.modal-body .icons a:nth-child(6) {
+  color: #00cc00;
+  border-color: #b3e6ff;
 }
 
-.modal-body .icons a:nth-child(6):hover{
-    background-color: #0088cc;
-    color: #fff;
+.modal-body .icons a:nth-child(6):hover {
+  background-color: #0088cc;
+  color: #fff;
 }
-.modal-body .icons a:nth-child(7){
-    color: #cc0000;
-    border-color: #b3e6ff;
-}
-
-.modal-body .icons a:nth-child(7):hover{
-    background-color: #0088cc;
-    color: #fff;
-}
-.modal-body .icons a:nth-child(8){
-    color: #0014cc;
-    border-color: #b3e6ff;
+.modal-body .icons a:nth-child(7) {
+  color: #cc0000;
+  border-color: #b3e6ff;
 }
 
-.modal-body .icons a:nth-child(8):hover{
-    background-color: #0088cc;
-    color: #fff;
+.modal-body .icons a:nth-child(7):hover {
+  background-color: #0088cc;
+  color: #fff;
+}
+.modal-body .icons a:nth-child(8) {
+  color: #0014cc;
+  border-color: #b3e6ff;
 }
 
-.modal-body .icons a:nth-child(9){
-    color: #cc0000;
-    border-color: #b3e6ff;
+.modal-body .icons a:nth-child(8):hover {
+  background-color: #0088cc;
+  color: #fff;
 }
 
-.modal-body .icons a:nth-child(9):hover{
-    background-color: #0088cc;
-    color: #fff;
-}
-.modal-body .icons a:nth-child(10){
-    color: #0a00cc;
-    border-color: #b3e6ff;
+.modal-body .icons a:nth-child(9) {
+  color: #cc0000;
+  border-color: #b3e6ff;
 }
 
-.modal-body .icons a:nth-child(10):hover{
-    background-color: #0088cc;
-    color: #fff;
+.modal-body .icons a:nth-child(9):hover {
+  background-color: #0088cc;
+  color: #fff;
 }
-.modal-body .icons a:hover{
-    border-color: transparent;
-}
-
-.modal-body .icons a span{
-    transition: all 0.09s ease-in-out;
+.modal-body .icons a:nth-child(10) {
+  color: #0a00cc;
+  border-color: #b3e6ff;
 }
 
-.modal-body .icons a:hover span{
-    transform: scaleX(1.1);
+.modal-body .icons a:nth-child(10):hover {
+  background-color: #0088cc;
+  color: #fff;
+}
+.modal-body .icons a:hover {
+  border-color: transparent;
 }
 
-.modal-body .field{
-    margin: 15px 0px -5px 0px;
-    height: 45px;
-    border: 1px solid #dfdfdf;
-    border-radius: 5px;
-    padding: 0 5px;
+.modal-body .icons a span {
+  transition: all 0.09s ease-in-out;
 }
 
-.modal-body .field.active{
-    border-color: #7d2ae8;
+.modal-body .icons a:hover span {
+  transform: scaleX(1.1);
 }
 
-.field span{
-    width: 50px;
-    font-size: 1.1rem;
+.modal-body .field {
+  margin: 15px 0px -5px 0px;
+  height: 45px;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  padding: 0 5px;
 }
 
-.field.active span{
-    color: #7d2ae8;
+.modal-body .field.active {
+  border-color: #7d2ae8;
 }
 
-.field input{
-    border: none;
-    outline: none;
-    font-size: 0.89rem;
-    width: 100%;
-    height: 100%;
+.field span {
+  width: 50px;
+  font-size: 1.1rem;
 }
 
-.field button{
-    padding: 5px 16px;
-    color: #fff;
-    background: #7d2ae8;
-    border: 2px solid transparent;
-    border-radius: 5px;
-    font-weight: 500;
+.field.active span {
+  color: #7d2ae8;
+}
+
+.field input {
+  border: none;
+  outline: none;
+  font-size: 0.89rem;
+  width: 100%;
+  height: 100%;
+}
+
+.field button {
+  padding: 5px 16px;
+  color: #fff;
+  background: #7d2ae8;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-weight: 500;
 }
 
 @media (max-width: 330px) {
-    .modal-body .icons a{
-        margin-right: 15px;
-        width: 35px;
-        height: 35px;
-    }
+  .modal-body .icons a {
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+  }
 }
 
-
-  
 .icon_container {
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 .twitter-share-button {
+  border-radius: 15px !important;
+  margin-top: 20px;
+  background-color: #0d0b0b !important; /* Set the background color to your desired color */
+  border-radius: 5px; /* Adjust the border radius to create rounded corners */
+  padding: 8px 20px; /* Adjust the padding to create spacing inside the button */
+  display: inline-block; /* Ensure the button is displayed as an inline element */
+  color: white !important; /* Set the text color to white or any other color that suits your design */
+  text-decoration: none; /* Replace with your desired background color */
+  /* Optional: Add padding to the icon container for better visual appearance */
+}
 
-    margin-top: 20px;
-    background-color: #0d0b0b !important; /* Set the background color to your desired color */
-    border-radius: 5px; /* Adjust the border radius to create rounded corners */
-    padding: 8px 20px; /* Adjust the padding to create spacing inside the button */
-    display: inline-block; /* Ensure the button is displayed as an inline element */
-    color: white; /* Set the text color to white or any other color that suits your design */
-    text-decoration: none; /* Replace with your desired background color */
-   /* Optional: Add padding to the icon container for better visual appearance */
-  }
-  .twitter-share-button i {
-    margin-right: 8px;
-  }
-  .save_icon {
-    margin-right: 10px; /* Adjust the margin-right value as needed */
-  }
+.twitter-share-button:hover {
+  background-color: rgba(0, 0, 0, 0.814) !important;
+  transition: 0.3s ease-in-out;
+  transform: scale(0.98);
+}
+.twitter-share-button i {
+  margin-right: 8px;
+}
+.save_icon {
+  margin-right: 10px; /* Adjust the margin-right value as needed */
+}
