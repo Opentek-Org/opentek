@@ -1184,6 +1184,45 @@ li {
 }
 
 /*===========================
+*** Tutorial AREA START ***
+=============================*/
+.read{
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+#description{
+  width: 50vw;
+  background-color: #101822;
+  color: white;
+  position: fixed;
+  margin: auto 25vw;
+  margin-top: 25vh;
+  top: 20px;
+  z-index: 3;
+  border-radius: 10px;
+  padding: 20px;
+  display: none;
+}
+
+#description i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+#vidpara{
+  text-align: center;
+}
+
+#vidpara *{
+ margin: 10px;
+}
+
+/*===========================
  *** FOOTER AREA START ***
 =============================*/
 
