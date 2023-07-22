@@ -1,8 +1,8 @@
 name: ✨ Feature Request
 description: Suggest a feature request
-title: '[Feat]: '
+title: "[Feat]: "
 labels:
-  - '⭐ goal: addition'
+  - "⭐ goal: addition"
 body:
   - type: textarea
     id: what-feature
@@ -39,4 +39,19 @@ body:
       placeholder: Attach screenshots to visualize your idea
     validations:
       required: false
+  - type: checkboxes
+    id: no-duplicate-checklist
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "I have checked the [existing issues](https://github.com/Opentek-Org/opentek/issues)"
+          required: true
 
+        - label: "I have read the [Contributing Guidelines](https://github.com/Opentek-Org/opentek/blob/main/CONTRIBUTING.md)"
+          required: true
+
+        - label: "I want to work on this issue. (optional)"
+          required: false
+
+        - label: "I am a GSSoC'23 contributor"
+          required: false

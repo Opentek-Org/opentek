@@ -1,7 +1,7 @@
 name: " Project Addition in opentek ✨"
 description: "Add a new project to the list"
-title: 'chore: project addition by '
-labels: ['good first issue', 'gssoc23']
+title: "chore: project addition by "
+labels: ["good first issue", "gssoc23"]
 body:
   - type: textarea
     id: about
@@ -19,15 +19,15 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: 'Record'
+      label: "Record"
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
         - label: I want to work on this issue
-  - type: dropdown # Adding a dropdown
+  - type: dropdown
     id: project-type
     attributes:
-      label: 'Select the Project Type'
+      label: "Select the Project Type"
       options:
         - Frontend
         - Backend
