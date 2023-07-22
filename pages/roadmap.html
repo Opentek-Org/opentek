@@ -53,6 +53,7 @@
 
       <!--main style file-->
       <link rel="stylesheet" href="../css/style.css" />
+      <link rel="stylesheet" href="../css/roadmaps.css" />
       <link rel="stylesheet" href="../css/projects.css" />
       <link rel="stylesheet" href="../css/responsive.css" />
       <link rel="stylesheet" href="../css/color-theams.css" />
@@ -128,10 +129,7 @@
                 <a class="nav-link" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./about.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#selectoption">Projects</a>
+                <a class="nav-link" href="./projects.html">Projects</a>
               </li>
               <!-- <li class="nav-item">
                         <a class="nav-link" href="./event.html">Events</a>
@@ -162,30 +160,29 @@
         <div class="container zindex">
           <div class="row">
             <div class="col-lg-12 banner-txt">
-              <h3 id="text">Projects</h3>
+              <h3 id="text">Road Maps</h3>
               <h1 id="text-down" class="fs-5 text-center m-4">
-                Find Open Source <span style="color: #2df5a3">projects</span> in
-                various domains and contribute.
+                Find <span style="color: #2df5a3">Road Maps</span> that leads to right goals.
               </h1>
             </div>
           </div>
         </div>
       </section>
-      <div class="justify-content-center">
-        <div
-          class="container col-md-8 justify-content-center"
-          id="selectoption"
-        ></div>
-      </div>
       <section>
         <div class="container">
           <!-- <div class="row over-pa" id="program"></div> -->
-          <ul class="cards" id="project"></ul>
+          <ul class="cards" id="roadmapslist">
+          </ul>
         </div>
       </section>
       <div id="error"></div>
+      <div id="roadmap">
+        <i class="fa fa-times" aria-hidden="true" onclick="closeRoadMap()"></i>
+        <div id="roadimg">
+        </div>
+        <button class="btn m-auto btn-outline-light">Download</button>
+      </div>
       <!-- FOOTER AREA START -->
-      <footer id="footer">
         <div class="container-fluid px-5">
           <div class="row">
             <div
@@ -363,7 +360,7 @@
       <!-- <script defer src="../js/jquery.isotope.min.html"></script> -->
       <script defer src="../js/circular.js"></script>
       <script defer src="../js/custom.js"></script>
-      <script defer src="../js/projects.js"></script>
+      <script defer src="../js/roadmap.js"></script>
       <script defer src="../js/color-theam.js"></script>
 
       <script defer>

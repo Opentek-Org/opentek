@@ -1,0 +1,34 @@
+#roadmap{
+width: 90%;
+height: 90vh;
+margin: 5vh 5%;
+background-color: #000;
+position: fixed;
+z-index: 3;
+border-radius: 10px;
+display: none;
+top: 0;
+color: whitesmoke;
+}
+
+#roadmap i{
+    padding: 10px;
+    background-color: red;
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+#roadmap .card{
+    background-color: black;
+}
+
+#roadimg{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+#roadimg button{
+    width: 200px;
+}
