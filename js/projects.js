@@ -78,7 +78,7 @@ function loadData(data, db, user) {
 
                 <i class="fa fa-heart save_icon" data-lang-id="${data[i].langId}"></i>
                 <button type="button" class="twitter-share-button" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!" data-url="${data[i].langurl}">
-                <i class="fa-solid fa-share fa-bounce" style="color: #e11919;"></i>Share
+                <i class="fa-solid fa-share " style="color: #e11919;"></i>Share
             </button>
 
               </div>
