@@ -199,3 +199,223 @@ img {
     padding: 10px 50px;
     font-size: 16px;
 }
+#shareBtn{
+    letter-spacing: 2px;
+    font-weight: 600;
+    box-shadow: none;
+    background-color: #eee;
+    color: #7d2ae8;
+    border: none;
+}
+
+.modal{
+    top: 20%;
+}
+
+.btn-close{
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.modal-body .icons{
+    margin: 15px 0px 20px 0px;
+}
+
+.modal-body .icons a{
+    /* text-decoration: none;
+    border: 1px solid transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out; */
+    width: 50px;
+    height: 50px;
+    /* Create a perfect circle by setting border-radius to 50% */
+    border-radius: 50%;
+    /* Add any other styles you want for the icon container, such as background color, border, etc. */
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-body .icons a:nth-child(1){
+    color: #030509;
+    border-color: #B7D4FB;
+}
+
+.modal-body .icons a:nth-child(1):hover{
+    background-color: #1877F2;
+    color: #fff;
+}
+
+.modal-body .icons a:nth-child(2){
+    color: #46C1F6;
+    border-color: #b6e7fc;
+}
+
+.modal-body .icons a:nth-child(2):hover{
+    background-color: #46C1F6;
+    color: #fff;
+}
+
+.modal-body .icons a:nth-child(3){
+    color: #e1306c;
+    border-color: #f5bccf;
+}
+
+.modal-body .icons a:nth-child(3):hover{
+    background-color: #e1306c;
+    color: #fff;
+}
+
+.modal-body .icons a:nth-child(4){
+    color: #25d366;
+    border-color: #bef4d2;
+}
+
+.modal-body .icons a:nth-child(4):hover{
+    background-color: #25d366;
+    color: #fff;
+}
+
+
+.modal-body .icons a:nth-child(5){
+    color: #cc0029;
+    border-color: #b3e6ff;
+}
+
+.modal-body .icons a:nth-child(5):hover{
+    background-color: #0088cc;
+    color: #fff;
+}
+
+.modal-body .icons a:nth-child(6){
+    color: #00cc00;
+    border-color: #b3e6ff;
+}
+
+.modal-body .icons a:nth-child(6):hover{
+    background-color: #0088cc;
+    color: #fff;
+}
+.modal-body .icons a:nth-child(7){
+    color: #cc0000;
+    border-color: #b3e6ff;
+}
+
+.modal-body .icons a:nth-child(7):hover{
+    background-color: #0088cc;
+    color: #fff;
+}
+.modal-body .icons a:nth-child(8){
+    color: #0014cc;
+    border-color: #b3e6ff;
+}
+
+.modal-body .icons a:nth-child(8):hover{
+    background-color: #0088cc;
+    color: #fff;
+}
+
+.modal-body .icons a:nth-child(9){
+    color: #cc0000;
+    border-color: #b3e6ff;
+}
+
+.modal-body .icons a:nth-child(9):hover{
+    background-color: #0088cc;
+    color: #fff;
+}
+.modal-body .icons a:nth-child(10){
+    color: #0a00cc;
+    border-color: #b3e6ff;
+}
+
+.modal-body .icons a:nth-child(10):hover{
+    background-color: #0088cc;
+    color: #fff;
+}
+.modal-body .icons a:hover{
+    border-color: transparent;
+}
+
+.modal-body .icons a span{
+    transition: all 0.09s ease-in-out;
+}
+
+.modal-body .icons a:hover span{
+    transform: scaleX(1.1);
+}
+
+.modal-body .field{
+    margin: 15px 0px -5px 0px;
+    height: 45px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.modal-body .field.active{
+    border-color: #7d2ae8;
+}
+
+.field span{
+    width: 50px;
+    font-size: 1.1rem;
+}
+
+.field.active span{
+    color: #7d2ae8;
+}
+
+.field input{
+    border: none;
+    outline: none;
+    font-size: 0.89rem;
+    width: 100%;
+    height: 100%;
+}
+
+.field button{
+    padding: 5px 16px;
+    color: #fff;
+    background: #7d2ae8;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+@media (max-width: 330px) {
+    .modal-body .icons a{
+        margin-right: 15px;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+  
+.icon_container {
+margin-top: 20px;
+}
+
+.twitter-share-button {
+
+    margin-top: 20px;
+    background-color: #0d0b0b !important; /* Set the background color to your desired color */
+    border-radius: 5px; /* Adjust the border radius to create rounded corners */
+    padding: 8px 20px; /* Adjust the padding to create spacing inside the button */
+    display: inline-block; /* Ensure the button is displayed as an inline element */
+    color: white; /* Set the text color to white or any other color that suits your design */
+    text-decoration: none; /* Replace with your desired background color */
+   /* Optional: Add padding to the icon container for better visual appearance */
+  }
+  .twitter-share-button i {
+    margin-right: 8px;
+  }
+  .save_icon {
+    margin-right: 10px; /* Adjust the margin-right value as needed */
+  }
