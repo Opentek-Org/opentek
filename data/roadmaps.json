@@ -6,7 +6,7 @@
 },
     {    "id": 2,
         "title" :"Full Stack development (MERN)",
-        "description": "Front-end web development, also known as client-side development, is the process of creating the user interface (UI) and user experience (UX) components of a website or web application. Front-end developers are responsible for translating design concepts into interactive and visually appealing digital experiences that users can interact with directly through their web browsers."
-
+        "description": "Front-end web development, is the process of creating the user interface (UI) and user experience (UX) components of a website or web application. Developers are responsible for translating design concepts into interactive and visually appealing digital experiences that users can interact with directly.",
+        "roadmap": "MERNStackDev"
     }
 ]
