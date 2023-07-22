@@ -246,40 +246,40 @@ img {
     border-color: #B7D4FB;
 }
 
-.modal-body .icons a:nth-child(1):hover{
+/* .modal-body .icons a:nth-child(1):hover{
     background-color: #1877F2;
     color: #fff;
-}
+} */
 
 .modal-body .icons a:nth-child(2){
     color: #46C1F6;
     border-color: #b6e7fc;
 }
 
-.modal-body .icons a:nth-child(2):hover{
+/* .modal-body .icons a:nth-child(2):hover{
     background-color: #46C1F6;
     color: #fff;
-}
+} */
 
 .modal-body .icons a:nth-child(3){
     color: #e1306c;
     border-color: #f5bccf;
 }
 
-.modal-body .icons a:nth-child(3):hover{
+/* .modal-body .icons a:nth-child(3):hover{
     background-color: #e1306c;
     color: #fff;
-}
+} */
 
 .modal-body .icons a:nth-child(4){
     color: #25d366;
     border-color: #bef4d2;
 }
 
-.modal-body .icons a:nth-child(4):hover{
+/* .modal-body .icons a:nth-child(4):hover{
     background-color: #25d366;
     color: #fff;
-}
+} */
 
 
 .modal-body .icons a:nth-child(5){
@@ -287,57 +287,57 @@ img {
     border-color: #b3e6ff;
 }
 
-.modal-body .icons a:nth-child(5):hover{
+/* .modal-body .icons a:nth-child(5):hover{
     background-color: #0088cc;
     color: #fff;
-}
+} */
 
 .modal-body .icons a:nth-child(6){
     color: #00cc00;
     border-color: #b3e6ff;
 }
 
-.modal-body .icons a:nth-child(6):hover{
+/* .modal-body .icons a:nth-child(6):hover{
     background-color: #0088cc;
     color: #fff;
-}
+} */
 .modal-body .icons a:nth-child(7){
     color: #cc0000;
     border-color: #b3e6ff;
 }
 
-.modal-body .icons a:nth-child(7):hover{
+/* .modal-body .icons a:nth-child(7):hover{
     background-color: #0088cc;
     color: #fff;
-}
+} */
 .modal-body .icons a:nth-child(8){
     color: #0014cc;
     border-color: #b3e6ff;
 }
 
-.modal-body .icons a:nth-child(8):hover{
+/* .modal-body .icons a:nth-child(8):hover{
     background-color: #0088cc;
     color: #fff;
-}
+} */
 
 .modal-body .icons a:nth-child(9){
     color: #cc0000;
     border-color: #b3e6ff;
 }
 
-.modal-body .icons a:nth-child(9):hover{
+/* .modal-body .icons a:nth-child(9):hover{
     background-color: #0088cc;
     color: #fff;
-}
+} */
 .modal-body .icons a:nth-child(10){
     color: #0a00cc;
     border-color: #b3e6ff;
 }
 
-.modal-body .icons a:nth-child(10):hover{
+/* .modal-body .icons a:nth-child(10):hover{
     background-color: #0088cc;
     color: #fff;
-}
+} */
 .modal-body .icons a:hover{
     border-color: transparent;
 }
