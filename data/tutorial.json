@@ -60,7 +60,7 @@
     "para": "In this video how to find the open-source project using advance search in GitHub"
   },
   {
-    "tutorialId": "1-LLMmKjj5I&t",
+    "tutorialId": "1-LLMmKjj5I",
     "title": "Hrakirat singh",
     "subtitle": "About the Video",
     "para": "in this video you will learn about how to get ahead of 99% of software engineers"
@@ -94,6 +94,19 @@
     "title": "FreeCodeCamp",
     "subtitle": "About the Video",
     "para": "Git has the power to make you a better software developer. But you'll have to go beyond the basic 'commit, push, pull' to use it effectively! In this course, we'll look at some of the more advanced concepts and tools to make you more productive and confident with Git."
+  },
+  {
+    "tutorialId": "nn9fF2wz3h4",
+    "title": "Aman Dhattarwal",
+    "subtitle": "About the Video",
+    "para": "Google Summer of Code | All about GSOC | Step by Step Explanation | How to prepare for GSOC?"
+  },
+  {
+    "tutorialId": "B67X9xtOyuI",
+    "title": "Apna College ",
+    "subtitle": "About the Video",
+    "para":"5 Github Hacks that you should know | for Coders"
+
   }
 
 ]

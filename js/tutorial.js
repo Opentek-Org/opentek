@@ -23,13 +23,28 @@ const getData = async () => {
       <span class="style-span">${data[i].title}</span>
       <h5 style="color: white; padding:8px 0px 8px 0px;">${data[i].subtitle}</h5>
       <div>
-          <p style="text-align: justify;">${data[i].para}</p>
+          <p style="text-align: justify;">${data[i].para.slice(0, 100)}
+          <span id=read${i} class="read"></span>
+          </p>
           
       </div>
         </div></div>`;
     }
 
     $("#rowdy").append(html);
+for(let i = 0; i<data.length; i++){
+  if(data[i].para.length > 100){
+    $(`#read${i}`).text("...Read More")
+    $(`#read${i}`).click(()=>{
+    $("#vidpara").html(`
+     <h3>${data[i].title}</h3>
+    <p>${data[i].para}</p> 
+     <a href=https://www.youtube.com/embed/${data[i].tutorialId}?autoplay=1><button class="btn btn-outline-light">Play Video</button></a>`)
+    $("#description").css("display", "block")
+
+    })
+  }
+}
   } catch (error) {
     console.log(error);
   }
@@ -37,3 +52,7 @@ const getData = async () => {
 };
 
 getData();
+
+$("#description i").click(()=>{
+  $("#description").css("display", "none")
+})
