@@ -1226,8 +1226,8 @@ li {
 }
 
 .footer-social a:hover i.fa-envelope {
-  background: #e4405f;
-  color: #fff;
+  background: linear-gradient(45deg, #0066ff 30%,rgb(232, 57, 57)0 60% ,#ffcc00 70%, #00cc00 90% );
+  color:aliceblue;
   border: 1px solid #e4405f;
   transform: scale(1.1);
 }
