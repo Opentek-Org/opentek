@@ -303,7 +303,7 @@
     ]
   },
   {
-    "langId": "25",
+    "langId": "22",
     "langTitle": [
       "HTML",
       "CSS",
@@ -318,7 +318,7 @@
     ]
   },
   {
-    "langId": "26",
+    "langId": "23",
     "langTitle": [
       "HTML",
       "CSS",
@@ -328,6 +328,21 @@
     "langDesc": "A skincare products wesite made using HTML, CSS, and Botstrap.",
     "langurl": "https://github.com/blindaks/essentia",
     "langAdmin": "Akrati Verma",
+    "domainIds": [
+      "1"
+    ]
+  },
+  {
+    "langId": "24",
+    "langTitle": [
+      "NEXT.JS",
+      "Tailwind CSS",
+      "Firebase"
+    ],
+    "langName": "GyanaGuru",
+    "langDesc": "The GyanaGuru website is an online learning platform that provides access to high-quality educational resources in a wide range of subjects.",
+    "langurl": "https://github.com/PiyushKalyanpy/GyanaGuru",
+    "langAdmin": "Piyush Kalyan",
     "domainIds": [
       "1"
     ]
