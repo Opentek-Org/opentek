@@ -38,13 +38,19 @@
     gap: 12px;
     overflow: hidden;
     position: relative;
-    border: 3px solid white;
+    border: 3px solid var(--main-color);
     background-color: #101822;
 }
 
 .raodmap-card .card_title,
 .raodmap-card .card_text {
     color: whitesmoke;
+}
+
+.raodmap-card .card_text {
+    height: 100px;
+    overflow-y: hidden;
+    padding-right: 5px;
 }
 
 #roadimg {
@@ -63,3 +69,18 @@
     width: 106px;
     margin: auto;
 }
+
+.btnhover:hover{
+    background-color: var(--main-color) !important;
+    color: whitesmoke;
+}
+
+.card_text::-webkit-scrollbar{
+    width: 3px;
+    background-color: transparent;
+}
+
+.card_text::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+  
