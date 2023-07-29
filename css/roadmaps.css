@@ -1,0 +1,86 @@
+#roadmap {
+    width: 80%;
+    height: max-content;
+    margin: 2vh 10%;
+    background-color: #101822;
+    position: fixed;
+    z-index: 3;
+    border-radius: 10px;
+    display: none;
+    top: 0;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+#roadmap i {
+    padding: 10px;
+    background-color: transparent;
+    position: absolute;
+    border: 2px solid white;
+    top: 10px;
+    right: 10px;
+    color: whitesmoke;
+}
+
+#roadmap i:hover{
+    background-color: white;
+    color: black;
+    transition:.50s;
+    cursor: pointer;
+}
+
+.raodmap-card {
+    border-radius: 1rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 12px;
+    overflow: hidden;
+    position: relative;
+    border: 3px solid var(--main-color);
+    background-color: #101822;
+}
+
+.raodmap-card .card_title,
+.raodmap-card .card_text {
+    color: whitesmoke;
+}
+
+.raodmap-card .card_text {
+    height: 100px;
+    overflow-y: hidden;
+    padding-right: 5px;
+}
+
+#roadimg {
+    width: 90%;
+    margin: auto;
+    padding: 20px auto;
+}
+
+#roadimg img {
+    margin: 20px 5%;
+    width: 90%;
+    height: 70vh;
+}
+
+.btn-div {
+    width: 106px;
+    margin: auto;
+}
+
+.btnhover:hover{
+    background-color: var(--main-color) !important;
+    color: whitesmoke;
+}
+
+.card_text::-webkit-scrollbar{
+    width: 3px;
+    background-color: transparent;
+}
+
+.card_text::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+  
