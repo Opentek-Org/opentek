@@ -474,32 +474,32 @@
             <div class="form-row">
               <div class="form-group col-md-6 text-white">
                 <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" aria-label="Name">
               </div>
               <div class="form-group col-md-6 text-white">
                 <label for="position">Position</label>
-                <input type="text" class="form-control" id="position" placeholder="Enter your position">
+                <input type="text" class="form-control" id="position" placeholder="Enter your position" aria-label="Position">
               </div>
             </div>
             <div class="form-row">
               <div class="form-group col-md-6 text-white">
                 <label for="quote">Quote</label>
-                <textarea class="form-control" id="quote" rows="3" placeholder="Enter your quote"></textarea>
+                <textarea class="form-control" id="quote" rows="3" placeholder="Enter your quote" aria-label="Quote"></textarea>
               </div>
               <div class="form-group col-md-6 text-white">
                 <label for="rating">Rating</label>
-                <input type="number" class="form-control" id="rating" placeholder="Enter your rating">
+                <input type="number" class="form-control" id="rating" placeholder="Enter your rating" aria-label="Rating">
                 <span id="rating-error" class="text-danger"></span>
               </div>
             </div>
             <div class="form-group text-white">
               <label for="avatar">Avatar URL</label>
-              <input type="text" class="form-control" id="avatar" placeholder="Enter the URL of your avatar">
-              <span id="avatar-error" class="text-danger"></span>
+              <input type="text" class="form-control" id="avatar" placeholder="Enter the URL of your avatar" aria-label="Avatar URL">
+              <span id="avatar-error" class="text-danger" role="alert" aria-live="assertive"></span>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button>
+              <button type="submit" class="btn btn-primary" aria-label="Submit">Submit</button>
             </div>
           </form>
         </div>
