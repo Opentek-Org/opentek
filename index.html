@@ -214,6 +214,10 @@
               <button id="btn-login" disabled="true" class="btn btn-outline-light login-btn" onclick="login()">
                 Log In
               </button>
+              <button id="btn-save" disabled="true" class="btn btn-outline-light login-btn"
+                onclick="location.href='pages/saved.html'">
+                Saved
+              </button>
               <button id="btn-logout" disabled="true" class="btn btn-outline-light login-btn" onclick="logout()">
                 Log Out
               </button>
@@ -845,9 +849,15 @@
   <!-- openAI chat bot js -->
   <script src="./chatBot/script.js"></script>
 
+  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+
+  <script src="js/auth.js"></script>
   <!-- Optional JavaScript -->
   <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
   <script src="js/auth0.js"></script>
+
   <script defer src="js/jquery-3.3.1.min.js"></script>
   <script defer src="js/bootstrap.min.js"></script>
   <script defer src="js/slick.min.js"></script>

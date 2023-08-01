@@ -12,6 +12,7 @@ const updateUI = async () => {
   const user = firebase.auth().currentUser;
   const isAuthenticated = !!user;
 
+
   document.getElementById("btn-logout").disabled = !isAuthenticated;
   document.getElementById("btn-login").disabled = isAuthenticated;
   document.getElementById("btn-save").disabled = !isAuthenticated;
