@@ -37,7 +37,7 @@
     <a href="https://github.com/Opentek-Org/opentek/issues/new/choose">Request Feature</a>
 </p>
 
-### Introducing Opentek🎉
+### Introducing Opentek 🎉
 
 <a href="https://opentek.in/" target="blank">
 <img src="https://i.postimg.cc/qMpTrLpd/1.png" />
@@ -49,16 +49,16 @@ Welcome to Opentek, your No.1 source for Open Source Development. We're dedicate
 
 ## Table of Content
 
-- [Tech Stack](#Introducing-Opentek🎉)
-- [Demo-🚀](#Demo-🚀)
-- [😎-Features](#😎-Features)
-- [Contact](#🛠️-Installation-Steps)
-- [💻-Built-with](#💻-Built-with)
-- [👥Community-Partners](#👥Community-Partners)
-- [👀-Future-Plans](#👀-Future-Plans)
-- [🌟-Deploy)](#🌟-Deploy)
-- [🙏-Support](#🙏-Support)
-- [✌-Our-Socials](#✌-Our-Socials)
+- [Introducing Opentek 🎉](#Introducing-Opentek-🎉)
+- [🚀 Demo](#🚀-Demo)
+- [😎 Features](#features)
+- [🛠️ Installation Steps](#🛠️-Installation-Steps)
+- [💻 Built with](#💻-Built-with)
+- [👥 Community Partners](#👥-Community-Partners)
+- [👀 Future Plans](#👀-Future-Plans)
+- [🌟 Deploy)](#🌟-Deploy)
+- [🙏 Support](#🙏-Support)
+- [✌ Our Socials](#✌-Our-Socials)
 
 ## 🚀 Demo 
 
@@ -192,7 +192,7 @@ Please read our [contributing guidelines](https://github.com/Opentek-Org/opentek
 - **Netlify:** For Hosting
 - **Name.com:** For Domain Name
 
-## 👥Community Partners
+## 👥 Community Partners
 
 <p align="center">
 <a href="https://www.iccta.co/"><img src="https://user-images.githubusercontent.com/74408634/147837459-9878b932-24c3-4681-b238-9af051f324bc.png" width= "25%"/></a>&nbsp;&nbsp;
