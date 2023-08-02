@@ -29,8 +29,6 @@
     <img src="https://komarev.com/ghpvc/?username=opentek-org&label=Repository+Visit&color=blueviolet&style=for-the-badge"/> 
 </p>
 
-<!-- <p align="center"><img src="https://i.postimg.cc/NF3N8zpk/opentek-desk.png" width="550" /></p> -->
-
 <p align="center">
     <a href="https://opentek.in/" target="blank">View Demo</a>
     ·
@@ -39,7 +37,7 @@
     <a href="https://github.com/Opentek-Org/opentek/issues/new/choose">Request Feature</a>
 </p>
 
-### Introducing Opentek 🎉
+### Introducing Opentek🎉
 
 <a href="https://opentek.in/" target="blank">
 <img src="https://i.postimg.cc/qMpTrLpd/1.png" />
@@ -49,7 +47,20 @@ Welcome to Opentek, your No.1 source for Open Source Development. We're dedicate
 
 ### [Read our blog post 📖](https://blog.anirudhpanda.in/introducing-opentek)
 
-## 🚀 Demo
+## Table of Content
+
+- [Tech Stack](#Introducing-Opentek🎉)
+- [Demo-🚀](#Demo-🚀)
+- [😎-Features](#😎-Features)
+- [Contact](#🛠️-Installation-Steps)
+- [💻-Built-with](#💻-Built-with)
+- [👥Community-Partners](#👥Community-Partners)
+- [👀-Future-Plans](#👀-Future-Plans)
+- [🌟-Deploy)](#🌟-Deploy)
+- [🙏-Support](#🙏-Support)
+- [✌-Our-Socials](#✌-Our-Socials)
+
+## 🚀 Demo 
 
 <!-- <a href="https://opentek.live/" target="blank">
 <img src="images/demo.gif" />
