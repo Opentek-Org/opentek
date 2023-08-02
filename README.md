@@ -52,11 +52,11 @@ Welcome to Opentek, your No.1 source for Open Source Development. We're dedicate
 - [Introducing Opentek 🎉](#Introducing-Opentek-🎉)
 - [🚀 Demo](#🚀-Demo)
 - [😎 Features](#features)
-- [🛠️ Installation Steps](#🛠️-Installation-Steps)
+- [🛠️ Installation Steps](#🛠-Installation-Steps)
 - [💻 Built with](#💻-Built-with)
 - [👥 Community Partners](#👥-Community-Partners)
 - [👀 Future Plans](#👀-Future-Plans)
-- [🌟 Deploy)](#🌟-Deploy)
+- [🌟 Deploy](#🌟-Deploy)
 - [🙏 Support](#🙏-Support)
 - [✌ Our Socials](#✌-Our-Socials)
 
