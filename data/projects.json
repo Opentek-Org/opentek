@@ -346,5 +346,20 @@
     "domainIds": [
       "1"
     ]
+  },
+  {
+    "langId": "25",
+    "langTitle": [
+      "HTML3",
+      "Bootstrap",
+      "API"
+    ],
+    "langName": "Linkedin Replica (Clone)",
+    "langDesc": "Clone of a popular website Linkedin with more optimized code.",
+    "langurl": "https://github.com/SyedImtiyaz-1/LinkedIn-Dupe",
+    "langAdmin": "Syed Imtiyaz Ali",
+    "domainIds": [
+      "1"
+    ]
   }
 ]
