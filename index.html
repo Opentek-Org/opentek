@@ -1,824 +1,1146 @@
 <!DOCTYPE html>
 <html lang="en">
-<html prefix="og: https://ogp.me/ns#">
+  <html prefix="og: https://ogp.me/ns#">
+    <head>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="stylesheet" href="css/color-theams.css" />
+      <link rel="stylesheet" href="css/ripple-button.css" />
+      <!-- material cdn -->
+      <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+        rel="stylesheet"
+      />
+      <!-- chat bot css -->
+      <link rel="stylesheet" href="./chatBot/style.css" />
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-GMVFYVMXD6"
+      ></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
 
-<head>
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="css/color-theams.css">
-  <link rel="stylesheet" href="css/ripple-button.css">
-  <!-- material cdn -->
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-  <!-- chat bot css -->
-  <link rel="stylesheet" href="./chatBot/style.css">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMVFYVMXD6"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+        gtag("config", "G-GMVFYVMXD6");
+      </script>
+      <script
+        data-ad-client="ca-pub-6863208875908240"
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      ></script>
+      <script
+        src="https://kit.fontawesome.com/284ffbb2b1.js"
+        crossorigin="anonymous"
+      ></script>
 
-    gtag("config", "G-GMVFYVMXD6");
-  </script>
-  <script data-ad-client="ca-pub-6863208875908240" async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script src="https://kit.fontawesome.com/284ffbb2b1.js" crossorigin="anonymous"></script>
+      <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+      <meta charset="UTF-8" />
 
-  <meta name="viewport" content="width=device-width, intial-scale=1.0" />
-  <meta charset="UTF-8" />
+      <title>Opentek | Home</title>
+      <link
+        rel="icon"
+        href="https://i.postimg.cc/HszfCMfq/Opentek-logo.webp"
+        type="image/gif"
+        sizes="16x16"
+      />
 
-  <title>Opentek | Home</title>
-  <link rel="icon" href="https://i.postimg.cc/HszfCMfq/Opentek-logo.webp" type="image/gif" sizes="16x16" />
+      <!-- SEO SETTINGS (mrprayag) -->
+      <meta name="robots" content="index, follow" />
+      <meta name="language" content="en" />
+      <meta name="revisit-after" content="7 days" />
+      <meta name="distribution" content="global" />
+      <meta name="geo.region" content="india" />
+      <meta
+        name="googlebot"
+        content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+      />
+      <meta http-equiv="content-language" content="en" />
+      <meta
+        name="description"
+        content="To empower Open Source and create an environment of excellent individuals who believe in the power of Open Source and Community Building."
+      />
+      <meta
+        name="keywords"
+        content="learners,build environment,Programs,learn,enhance skills,Projects,Tutorials,code collab,showcase-worthy work,networking,pitch ideas,brainstorming,likeminded people"
+      />
 
+      <!-- LINKS SEO (mrprayag077) -->
+      <link rel="canonical" href="https://opentek.in/" />
+      <meta
+        name="og:description"
+        content="To empower Open Source and create an environment of excellent individuals who believe in the power of Open Source and Community Building."
+      />
 
-  <!-- SEO SETTINGS (mrprayag) -->
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="en">
-  <meta name="revisit-after" content="7 days">
-  <meta name="distribution" content="global">
-  <meta name="geo.region" content="india">
-  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <meta http-equiv="content-language" content="en">
-  <meta name="description"
-    content="To empower Open Source and create an environment of excellent individuals who believe in the power of Open Source and Community Building.">
-  <meta name="keywords"
-    content="learners,build environment,Programs,learn,enhance skills,Projects,Tutorials,code collab,showcase-worthy work,networking,pitch ideas,brainstorming,likeminded people">
+      <!-- SEO for social-media-links sharing (mrprayag077) -->
+      <meta
+        name="og:title"
+        content="To empower Open Source and create an environment of excellent individuals who believe in the power of Open Source and Community Building."
+      />
+      <meta name="twitter:card" content="https://opentek.in/" />
+      <meta name="twitter:site" content="@AnirudhPanda " />
+      <meta name="twitter:image" content="https://opentek.in/" />
+      <meta
+        content="learners,build environment,Programs,learn,enhance skills,Projects,Tutorials,code collab,showcase-worthy work,networking,pitch ideas,brainstorming,likeminded people"
+        name="keywords"
+      />
 
-  <!-- LINKS SEO (mrprayag077) -->
-  <link rel="canonical" href="https://opentek.in/">
-  <meta name="og:description"
-    content="To empower Open Source and create an environment of excellent individuals who believe in the power of Open Source and Community Building.">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="manifest" href="/manifest.json" />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta
+        name="msapplication-TileImage"
+        content="https://i.postimg.cc/HszfCMfq/Opentek-logo.webp"
+      />
+      <meta name="theme-color" content="#ffffff" />
 
+      <!--font-awesome icons link-->
+      <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      />
 
-  <!-- SEO for social-media-links sharing (mrprayag077) -->
-  <meta name="og:title"
-    content="To empower Open Source and create an environment of excellent individuals who believe in the power of Open Source and Community Building.">
-  <meta name="twitter:card" content="https://opentek.in/">
-  <meta name="twitter:site" content="@AnirudhPanda ">
-  <meta name="twitter:image" content="https://opentek.in/">
-  <meta
-    content="learners,build environment,Programs,learn,enhance skills,Projects,Tutorials,code collab,showcase-worthy work,networking,pitch ideas,brainstorming,likeminded people"
-    name="keywords" />
+      <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+        rel="stylesheet"
+      />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="manifest" href="/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="https://i.postimg.cc/HszfCMfq/Opentek-logo.webp" />
-  <meta name="theme-color" content="#ffffff" />
+      <!-- MDB -->
+      <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+        rel="stylesheet"
+      />
 
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" href="css/slick.css" />
 
+      <!--main style file-->
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/responsive.css" />
 
+      <!-- PWA -->
+      <link rel="apple-touch-icon" href="icons/apple-icon-180.webp" />
+      <link rel="manifest" href="./manifest.json" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-2048-2732.webp"
+        media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-2732-2048.webp"
+        media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-1668-2388.webp"
+        media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-2388-1668.webp"
+        media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-1536-2048.webp"
+        media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-2048-1536.webp"
+        media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-1668-2224.webp"
+        media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-2224-1668.webp"
+        media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-1620-2160.webp"
+        media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-2160-1620.webp"
+        media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-1284-2778.webp"
+        media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-2778-1284.webp"
+        media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-1170-2532.webp"
+        media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-2532-1170.webp"
+        media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-1125-2436.webp"
+        media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-2436-1125.webp"
+        media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-1242-2688.webp"
+        media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-2688-1242.webp"
+        media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-828-1792.webp"
+        media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-1792-828.webp"
+        media="(device-width: 414px) and (device-height: 896px) and (-webkit-dewebpe-pixel-ratio: 2) and (orientation: landscape)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-1242-2208.webp"
+        media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-2208-1242.webp"
+        media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-750-1334.webp"
+        media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-1334-750.webp"
+        media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-640-1136.webp"
+        media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+      />
+      <link
+        rel="apple-touch-startup-image"
+        href="icons/apple-splash-1136-64webp"
+        media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+      />
+    </head>
 
-  <!--font-awesome icons link-->
-  <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet" />
-
-  <!-- MDB -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/slick.css" />
-
-  <!--main style file-->
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/responsive.css" />
-
-  <!-- PWA -->
-  <link rel="apple-touch-icon" href="icons/apple-icon-180.webp" />
-  <link rel="manifest" href="./manifest.json" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2048-2732.webp"
-    media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2732-2048.webp"
-    media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1668-2388.webp"
-    media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2388-1668.webp"
-    media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1536-2048.webp"
-    media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2048-1536.webp"
-    media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1668-2224.webp"
-    media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2224-1668.webp"
-    media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1620-2160.webp"
-    media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2160-1620.webp"
-    media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1284-2778.webp"
-    media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2778-1284.webp"
-    media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1170-2532.webp"
-    media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2532-1170.webp"
-    media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1125-2436.webp"
-    media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2436-1125.webp"
-    media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1242-2688.webp"
-    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2688-1242.webp"
-    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-828-1792.webp"
-    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1792-828.webp"
-    media="(device-width: 414px) and (device-height: 896px) and (-webkit-dewebpe-pixel-ratio: 2) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1242-2208.webp"
-    media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2208-1242.webp"
-    media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-750-1334.webp"
-    media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1334-750.webp"
-    media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-640-1136.webp"
-    media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1136-64webp"
-    media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-
-
-</head>
-
-<body id="dark-mode">
-  <!-- Preloader Part Start -->
-  <div class="preloader">
-
-    <div class="frame">
-      <div class="center">
-        <div class="dot-1"></div>
-        <div class="dot-2"></div>
-        <div class="dot-3"></div>
-      </div>
-    </div>
-  </div>
-  <!-- Preloader Part End -->
-
-  <!-- Discord Banner Start-->
-  <div class="discord-banner">
-    <a href="https://discord.com/invite/a3P6n2tNDs" target="_blank">
-      <p>
-        Join us on Discord! <i class="fab fa-discord"></i>
-
-      </p>
-    </a>
-  </div>
-  <!-- Discord Banner End-->
-
-  <!-- HEADER AREA START -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="z-index:1000">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Opentek<b>.</b></a>
-
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="toggler-icon top-bar"></span>
-          <span class="toggler-icon middle-bar"></span>
-          <span class="toggler-icon bottom-bar"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto menu-item">
-            <li class="nav-item">
-              <a class="nav-link" href="#banner">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#overview">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/jobs.html">Job Portal</a>
-            </li>
-            <li class="nav-item nav-item-btn">
-              <!-- <a class="nav-link bor" href="#" data-toggle="modal" data-target="#exampleModal">Contact</a> -->
-              <button id="btn-login" disabled="true" class="btn btn-outline-light login-btn" onclick="login()">
-                Log In
-              </button>
-              <button id="btn-save" disabled="true" class="btn btn-outline-light login-btn"
-                onclick="location.href='pages/saved.html'">
-                Saved
-              </button>
-              <button id="btn-logout" disabled="true" class="btn btn-outline-light login-btn" onclick="logout()">
-                Log Out
-              </button>
-            </li>
-            <li class="nav-item">
-              <div id="avatar-img-div" class="hidden-icon">
-                <img id="avatar-img" class="avatar" src="" />
-              </div>
-            </li>
-          </ul>
+    <body id="dark-mode">
+      <!-- Preloader Part Start -->
+      <div class="preloader">
+        <div class="frame">
+          <div class="center">
+            <div class="dot-1"></div>
+            <div class="dot-2"></div>
+            <div class="dot-3"></div>
+          </div>
         </div>
       </div>
-      <!-- <div class="setting" onclick="translatex()">
+      <!-- Preloader Part End -->
+
+      <!-- Discord Banner Start-->
+      <div class="discord-banner">
+        <a href="https://discord.com/invite/a3P6n2tNDs" target="_blank">
+          <p>Join us on Discord! <i class="fab fa-discord"></i></p>
+        </a>
+      </div>
+      <!-- Discord Banner End-->
+
+      <!-- HEADER AREA START -->
+      <header>
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light sticky-top"
+          style="z-index: 1000"
+        >
+          <div class="container">
+            <a class="navbar-brand" href="index.html">Opentek<b>.</b></a>
+
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="toggler-icon top-bar"></span>
+              <span class="toggler-icon middle-bar"></span>
+              <span class="toggler-icon bottom-bar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto menu-item">
+                <li class="nav-item">
+                  <a class="nav-link homehover" href="#banner">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#overview">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/jobs.html">Job Portal</a>
+                </li>
+                <li class="nav-item nav-item-btn">
+                  <!-- <a class="nav-link bor" href="#" data-toggle="modal" data-target="#exampleModal">Contact</a> -->
+                  <button
+                    id="btn-login"
+                    disabled="true"
+                    class="btn btn-outline-light login-btn"
+                    onclick="login()"
+                  >
+                    Log In
+                  </button>
+                  <button
+                    id="btn-save"
+                    disabled="true"
+                    class="btn btn-outline-light login-btn"
+                    onclick="location.href='pages/saved.html'"
+                  >
+                    Saved
+                  </button>
+                  <button
+                    id="btn-logout"
+                    disabled="true"
+                    class="btn btn-outline-light login-btn"
+                    onclick="logout()"
+                  >
+                    Log Out
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <div id="avatar-img-div" class="hidden-icon">
+                    <img id="avatar-img" class="avatar" src="" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="setting" onclick="translatex()">
         <i class="fa-solid fa-gear setting-icon"></i>
       </div> -->
-      <div class="theam-div open">
-        <div class="button-part">
-          <!-- <div class="dark-light" onclick="light()">
+          <div class="theam-div open">
+            <div class="button-part">
+              <!-- <div class="dark-light" onclick="light()">
 
             <i class="fa-solid fa-lightbulb" ></i>
             
         </div> -->
-          <div class="setting" onclick="translatex()">
-            <i class="fa-solid fa-gear setting-icon"></i>
-          </div>
-        </div>
+              <div class="setting" onclick="translatex()">
+                <i class="fa-solid fa-gear setting-icon"></i>
+              </div>
+            </div>
 
-        <div class="theams">
-          <p>Theme Colors</p>
-          <div class="theme-buttons">
-            <div class="lightblue" onclick="lightbluetoggle()"></div>
-            <!-- <div class="orange" onclick="orangetoggle()"></div> -->
-            <div class="green" onclick="greentoggle()"></div>
-            <div class="blue" onclick="bluetoggle()"></div>
-            <div class="pink" onclick="pinktoggle()"></div>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!-- HEADER AREA ENDS -->
-
-  <!-- BANNER AREA START -->
-  <main>
-    <section id="banner">
-      <div class="design-layer"></div>
-      <div class="backtotop">
-        <a href="#banner"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
-      </div>
-      <div class="container zindex">
-        <div class="row">
-          <div class="col-lg-12 banner-txt">
-            <h3 id="text" class="slide-transition">An Open Source Treasure</h3>
-            <h1 id="text-down">
-              If it is about Open Source, it is on Opentek.
-            </h1>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- BANNER AREA ENDS -->
-
-    <!-- FEATURE AREA START -->
-    <section id="overview">
-      <div class="container">
-        <div class="row header-text text-center">
-          <div class="col-lg-12">
-            <h3>FEA<span>TU</span>RES</h3>
-          </div>
-        </div>
-        <div class="row over-pa">
-          <div class="col-lg-9 col-sm-12 m-auto">
-            <div class="row">
-              <div class="col-lg-6 col-sm-6 " data-aos="fade-right">
-                <div class="over-item txt-right unique-style3">
-                  <i class="fa fa-bars over-i" aria-hidden="true"></i>
-                  <div class="break"></div>
-                  <h3>Events</h3>
-                  <p>
-                    Find all the Open Source Events happening around the globe
-                    month-wise and never miss any opportunity to learn and
-                    grow from the experts 😉
-                  </p>
-                  <div class="over-btn" id="gated-content-1">
-                    <a href="./pages/event.html">Tune In</a>
-                  </div>
-                  <div id="gated-content-2">
-                    <p style="font-family: 'Caveat', cursive; font-size: large">
-                      Log In Required!
-                    </p>
-                    <p class="hidden-icon" style="font-family: 'Caveat', cursive; font-size: large">
-                      Log In Required!
-                    </p>
-                  </div>
-                </div>
+            <div class="theams">
+              <p>Theme Colors</p>
+              <div class="theme-buttons">
+                <div class="lightblue" onclick="lightbluetoggle()"></div>
+                <!-- <div class="orange" onclick="orangetoggle()"></div> -->
+                <div class="green" onclick="greentoggle()"></div>
+                <div class="blue" onclick="bluetoggle()"></div>
+                <div class="pink" onclick="pinktoggle()"></div>
               </div>
-              <div class="col-lg-6 col-sm-6 " data-aos="fade-left">
-                <div class="over-item txt-left unique-style">
-                  <i class="far fa-check-circle over-i"></i>
-                  <div class="break"></div>
-                  <h3>Programs</h3>
-                  <p>
-                    Participate in these programs listed month-wise and take
-                    your Open Source journey to the next level and earn some
-                    swags 😍
-                  </p>
-                  <div class="over-btn" id="gated-content-3">
-                    <a href="./pages/program.html">Participate</a>
-                  </div>
-                  <div id="gated-content-4">
-                    <p style="font-family: 'Caveat', cursive; font-size: large">
-                      Log In Required!
-                    </p>
-                    <p class="hidden-icon" style="font-family: 'Caveat', cursive; font-size: large">
-                      Log In Required!
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-sm-6 " data-aos="fade-right">
-                <div class="over-item txt-right unique-style2">
-                  <i class="far fa-star over-i" aria-hidden="true"></i>
-                  <div class="break"></div>
-                  <h3>Projects</h3>
-                  <p>
-                    Domain-specific projects from Beginner to Advanced level
-                    are available that you can contribute to and sharpen your
-                    skills. Follow Contributing guidelines, choose your domain
-                    and get started 💯
-                  </p>
-                  <div class="over-btn">
-                    <a href="./pages/projects.html">Start Building</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-sm-6 " data-aos="fade-left">
-                <div class="over-item txt-left unique-style4">
-                  <i class="fas fa-terminal over-i" aria-hidden="true"></i>
-                  <div class="break"></div>
-                  <h3>Tutorials</h3>
-                  <p>
-                    What is Open Source? How to make your first PR? <br />
-                    Know all of it and much more from the gurus.
-                    <br />
-                    Specially curated videos to get you started 📚
-                  </p>
-                  <div class="over-btn">
-                    <a href="./pages/tutorial.html">Start Learning</a>
-                  </div>
-                </div>
-              </div>
-              <!-- *********************** -->
-              <div class="col-lg-6 col-sm-6  " data-aos="fade-right">
-                <div class="over-item txt-right unique-style5">
-                  <i class="fas fa-blog over-i" aria-hidden="true"></i>
-                  <div class="break"></div>
-                  <h3>Blogs</h3>
-                  <p>
-                    Contributing to Open Source can be a rewarding way to learn, teach, and build experience in just
-                    about any skill you can imagine. <br />
-                    To know more about Open Source contribution, read some articles and blogs on it.
-                  </p>
-                  <div class="over-btn">
-                    <a href="./pages/blog.html">Read Blogs</a>
-                  </div>
-                </div>
-              </div>
-              <!-- ******************* -->
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- FEATURE AREA ENDS -->
+        </nav>
+      </header>
+      <!-- HEADER AREA ENDS -->
 
-    <!-- ABOUT AREA START -->
-    <section id="about">
-      <div class="container">
-        <div class="row header-text text-center about-header">
-          <div class="col-lg-12">
-            <h3>AB<span>O</span>UT</h3>
+      <!-- BANNER AREA START -->
+      <main>
+        <section id="banner">
+          <div class="design-layer"></div>
+          <div class="backtotop">
+            <a href="#banner"
+              ><i class="fa fa-arrow-up" aria-hidden="true"></i
+            ></a>
           </div>
-        </div>
-        <div class="row about-pa">
-          <div class="col-lg-10 col-md-12 m-auto about-item">
+          <div class="container zindex">
             <div class="row">
-              <div class="col-lg-4 col-sm-8 m-sm-auto col-md-5 text-center">
-                <div class="about-img col-md">
-                  <img src="images/about1.svg" alt="about-img" class="img-fluid" />
-                </div>
+              <div class="col-lg-12 banner-txt">
+                <h3 id="text" class="slide-transition">
+                  An Open Source Treasure
+                </h3>
+                <h1 id="text-down">
+                  If it is about Open Source, it is on Opentek.
+                </h1>
               </div>
-              <div class="col-lg-1 col-md-1"></div>
-              <div class="col-lg-7 col-md-6">
-                <div class="about-txt" data-aos="fade-left">
-                  <span class="style-span">About Us</span>
-                  <h3>OUR MISSION</h3>
-                  <p>
-                    To empower Open Source and create an environment of
-                    excellent individuals who believe in the power of Open
-                    Source and Community Building.
-                  </p>
-                  <p class="style-p tab-hider">
-                    Collaborate --> Learn --> Try --> Fail --> Learn -->
-                    Iterate --> Build
-                  </p>
-                  <a href="pages/about.html" data-aos="fade-left" data-aos-delay="400">Read More</a>
+            </div>
+          </div>
+        </section>
+        <!-- BANNER AREA ENDS -->
+
+        <!-- FEATURE AREA START -->
+        <section id="overview">
+          <div class="container">
+            <div class="row header-text text-center">
+              <div class="col-lg-12">
+                <h3>FEA<span>TU</span>RES</h3>
+              </div>
+            </div>
+            <div class="row over-pa">
+              <div class="col-lg-9 col-sm-12 m-auto">
+                <div class="row">
+                  <div class="col-lg-6 col-sm-6" data-aos="fade-right">
+                    <div class="over-item txt-right unique-style3">
+                      <i class="fa fa-bars over-i" aria-hidden="true"></i>
+                      <div class="break"></div>
+                      <h3>Events</h3>
+                      <p>
+                        Find all the Open Source Events happening around the
+                        globe month-wise and never miss any opportunity to learn
+                        and grow from the experts 😉
+                      </p>
+                      <div class="over-btn" id="gated-content-1">
+                        <a href="./pages/event.html">Tune In</a>
+                      </div>
+                      <div id="gated-content-2">
+                        <p
+                          style="
+                            font-family: 'Caveat', cursive;
+                            font-size: large;
+                          "
+                        >
+                          Log In Required!
+                        </p>
+                        <p
+                          class="hidden-icon"
+                          style="
+                            font-family: 'Caveat', cursive;
+                            font-size: large;
+                          "
+                        >
+                          Log In Required!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-6" data-aos="fade-left">
+                    <div class="over-item txt-left unique-style">
+                      <i class="far fa-check-circle over-i"></i>
+                      <div class="break"></div>
+                      <h3>Programs</h3>
+                      <p>
+                        Participate in these programs listed month-wise and take
+                        your Open Source journey to the next level and earn some
+                        swags 😍
+                      </p>
+                      <div class="over-btn" id="gated-content-3">
+                        <a href="./pages/program.html">Participate</a>
+                      </div>
+                      <div id="gated-content-4">
+                        <p
+                          style="
+                            font-family: 'Caveat', cursive;
+                            font-size: large;
+                          "
+                        >
+                          Log In Required!
+                        </p>
+                        <p
+                          class="hidden-icon"
+                          style="
+                            font-family: 'Caveat', cursive;
+                            font-size: large;
+                          "
+                        >
+                          Log In Required!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-6" data-aos="fade-right">
+                    <div class="over-item txt-right unique-style2">
+                      <i class="far fa-star over-i" aria-hidden="true"></i>
+                      <div class="break"></div>
+                      <h3>Projects</h3>
+                      <p>
+                        Domain-specific projects from Beginner to Advanced level
+                        are available that you can contribute to and sharpen
+                        your skills. Follow Contributing guidelines, choose your
+                        domain and get started 💯
+                      </p>
+                      <div class="over-btn">
+                        <a href="./pages/projects.html">Start Building</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-6" data-aos="fade-left">
+                    <div class="over-item txt-left unique-style4">
+                      <i class="fas fa-terminal over-i" aria-hidden="true"></i>
+                      <div class="break"></div>
+                      <h3>Tutorials</h3>
+                      <p>
+                        What is Open Source? How to make your first PR? <br />
+                        Know all of it and much more from the gurus.
+                        <br />
+                        Specially curated videos to get you started 📚
+                      </p>
+                      <div class="over-btn">
+                        <a href="./pages/tutorial.html">Start Learning</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- *********************** -->
+                  <div class="col-lg-6 col-sm-6" data-aos="fade-right">
+                    <div class="over-item txt-right unique-style5">
+                      <i class="fas fa-blog over-i" aria-hidden="true"></i>
+                      <div class="break"></div>
+                      <h3>Blogs</h3>
+                      <p>
+                        Contributing to Open Source can be a rewarding way to
+                        learn, teach, and build experience in just about any
+                        skill you can imagine. <br />
+                        To know more about Open Source contribution, read some
+                        articles and blogs on it.
+                      </p>
+                      <div class="over-btn">
+                        <a href="./pages/blog.html">Read Blogs</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ******************* -->
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-10 m-auto about-item col-md-12">
-            <div class="row">
-              <div class="col-lg-7 col-md-6">
-                <div class="about-txt sm-reduce-pa">
-                  <span class="style-span">What exactly is Opentek?</span>
-                  <div class="list">
-                    <ul class="ul-about" data-aos="fade-right">
-                      <li>
-                        Brings everything related to Open Source under one
-                        Umbrella.
-                      </li>
-                      <li>
-                        No more spending hours on Internet finding events,
-                        resources and programs.
-                      </li>
-                      <li>
-                        Completely Open Source - Anyone can contribute to
-                        this!
-                      </li>
-                      <li>
-                        Long term goal is to build a community that truly
-                        believes in Open Source and building in public.
-                      </li>
-                    </ul>
-                    <a data-aos="fade-right" data-aos-delay="400" href="https://bit.ly/opentek-discord" target="_blank"
-                      rel="noopener noreferrer">Join Discord!</a>
+        </section>
+        <!-- FEATURE AREA ENDS -->
+
+        <!-- ABOUT AREA START -->
+        <section id="about">
+          <div class="container">
+            <div class="row header-text text-center about-header">
+              <div class="col-lg-12">
+                <h3>AB<span>O</span>UT</h3>
+              </div>
+            </div>
+            <div class="row about-pa">
+              <div class="col-lg-10 col-md-12 m-auto about-item">
+                <div class="row">
+                  <div class="col-lg-4 col-sm-8 m-sm-auto col-md-5 text-center">
+                    <div class="about-img col-md">
+                      <img
+                        src="images/about1.svg"
+                        alt="about-img"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-1 col-md-1"></div>
+                  <div class="col-lg-7 col-md-6">
+                    <div class="about-txt" data-aos="fade-left">
+                      <span class="style-span">About Us</span>
+                      <h3>OUR MISSION</h3>
+                      <p>
+                        To empower Open Source and create an environment of
+                        excellent individuals who believe in the power of Open
+                        Source and Community Building.
+                      </p>
+                      <p class="style-p tab-hider">
+                        Collaborate --> Learn --> Try --> Fail --> Learn -->
+                        Iterate --> Build
+                      </p>
+                      <a
+                        href="pages/about.html"
+                        data-aos="fade-left"
+                        data-aos-delay="400"
+                        >Read More</a
+                      >
+                    </div>
                   </div>
                 </div>
-                <div class="row counter-main"></div>
               </div>
-              <div class="col-lg-1 col-md-1"></div>
-              <div class="col-lg-4 text-center mob-hide sm-hide col-md-5">
-                <div class="about-img-2 ai-two">
-                  <img src="images/about2.svg" alt="about-img" class="img-fluid" />
+              <div class="col-lg-10 m-auto about-item col-md-12">
+                <div class="row">
+                  <div class="col-lg-7 col-md-6">
+                    <div class="about-txt sm-reduce-pa">
+                      <span class="style-span">What exactly is Opentek?</span>
+                      <div class="list">
+                        <ul class="ul-about" data-aos="fade-right">
+                          <li>
+                            Brings everything related to Open Source under one
+                            Umbrella.
+                          </li>
+                          <li>
+                            No more spending hours on Internet finding events,
+                            resources and programs.
+                          </li>
+                          <li>
+                            Completely Open Source - Anyone can contribute to
+                            this!
+                          </li>
+                          <li>
+                            Long term goal is to build a community that truly
+                            believes in Open Source and building in public.
+                          </li>
+                        </ul>
+                        <a
+                          data-aos="fade-right"
+                          data-aos-delay="400"
+                          href="https://bit.ly/opentek-discord"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >Join Discord!</a
+                        >
+                      </div>
+                    </div>
+                    <div class="row counter-main"></div>
+                  </div>
+                  <div class="col-lg-1 col-md-1"></div>
+                  <div class="col-lg-4 text-center mob-hide sm-hide col-md-5">
+                    <div class="about-img-2 ai-two">
+                      <img
+                        src="images/about2.svg"
+                        alt="about-img"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-10 m-auto about-item col-md-12">
+                <div class="row">
+                  <div class="col-lg-4 col-sm-8 m-sm-auto text-center col-md-5">
+                    <div class="about-img">
+                      <img
+                        src="images/about3.svg"
+                        alt="about-img"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-1 col-md-1"></div>
+                  <div class="col-lg-7 col-md-6">
+                    <div class="about-txt">
+                      <span class="style-span">Contribute!</span>
+                      <h3>How can you help us?</h3>
+                      <div class="list">
+                        <ul class="ul-about" data-aos="fade-left">
+                          <li>
+                            If you are a Project Admin, submit your project and
+                            help everyone to start their Open Source
+                            contributions on your project.
+                          </li>
+                          <li>
+                            If you know about any events or programs that are
+                            not listed already.
+                          </li>
+                          <li>
+                            By helping us in organizing various events related
+                            to Open Source.
+                          </li>
+                          <li>
+                            Be it small or large, every { Contribution }
+                            matters!
+                          </li>
+                        </ul>
+                        <a
+                          data-aos="fade-left"
+                          data-aos-delay="500"
+                          href="https://github.com/Opentek-Org/opentek"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >Contribute</a
+                        >
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-10 m-auto about-item col-md-12">
-            <div class="row">
-              <div class="col-lg-4 col-sm-8 m-sm-auto text-center col-md-5">
-                <div class="about-img">
-                  <img src="images/about3.svg" alt="about-img" class="img-fluid" />
-                </div>
-              </div>
-              <div class="col-lg-1 col-md-1"></div>
-              <div class="col-lg-7 col-md-6">
-                <div class="about-txt">
-                  <span class="style-span">Contribute!</span>
-                  <h3>How can you help us?</h3>
-                  <div class="list">
-                    <ul class="ul-about" data-aos="fade-left">
-                      <li>
-                        If you are a Project Admin, submit your project and
-                        help everyone to start their Open Source contributions
-                        on your project.
-                      </li>
-                      <li>
-                        If you know about any events or programs that are not listed
-                        already.
-                      </li>
-                      <li>
-                        By helping us in organizing various events related to
-                        Open Source.
-                      </li>
-                      <li>
-                        Be it small or large, every { Contribution } matters!
-                      </li>
-                    </ul>
-                    <a data-aos="fade-left" data-aos-delay='500' href="https://github.com/Opentek-Org/opentek"
-                      target="_blank" rel="noopener noreferrer">Contribute</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        </section>
+        <!-- ABOUT AREA ENDS -->
+
+        <div class="d-flex justify-content-center">
+          <a
+            href="https://www.producthunt.com/posts/opentek?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-opentek"
+            target="_blank"
+            ><img
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=310285&theme=dark"
+              alt="Opentek - If it is about Open Source, it is on Opentek. | Product Hunt"
+              style="width: 250px; height: 230px"
+          /></a>
         </div>
-      </div>
-    </section>
-    <!-- ABOUT AREA ENDS -->
+      </main>
 
-    <div class="d-flex justify-content-center">
-      <a href="https://www.producthunt.com/posts/opentek?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-opentek"
-        target="_blank"><img
-          src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=310285&theme=dark"
-          alt="Opentek - If it is about Open Source, it is on Opentek. | Product Hunt"
-          style="width: 250px; height: 230px" /></a>
-    </div>
-  </main>
-
-
-
-  <div class="row header-text text-center about-header">
-    <div class="col-lg-12">
-      <h3>TESTI<span>MON</span>IALS</h3>
-    </div>
-    <div class="about-txt text-white ">
-      <button type="button" id="modal" data-aos="fade-left" data-toggle="modal" data-target="#exampleModal">
-        Add Testimonial
-      </button>
-    </div>
-
-  </div>
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header bg-primary text-white">
-          <h5 class="modal-title" id="exampleModalLabel">Testimonial</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+      <div class="row header-text text-center about-header">
+        <div class="col-lg-12">
+          <h3>TESTI<span>MON</span>IALS</h3>
+        </div>
+        <div class="about-txt text-white">
+          <button
+            type="button"
+            id="modal"
+            data-aos="fade-left"
+            data-toggle="modal"
+            data-target="#exampleModal"
+          >
+            Add Testimonial
           </button>
         </div>
-        <div class="modal-body bg-dark bg-opacity-50">
-          <form id="testimonialForm">
-            <div class="form-row">
-              <div class="form-group col-md-6 text-white">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name" aria-label="Name">
-              </div>
-              <div class="form-group col-md-6 text-white">
-                <label for="position">Position</label>
-                <input type="text" class="form-control" id="position" placeholder="Enter your position" aria-label="Position">
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group col-md-6 text-white">
-                <label for="quote">Quote</label>
-                <textarea class="form-control" id="quote" rows="3" placeholder="Enter your quote" aria-label="Quote"></textarea>
-              </div>
-              <div class="form-group col-md-6 text-white">
-                <label for="rating">Rating</label>
-                <input type="number" class="form-control" id="rating" placeholder="Enter your rating" aria-label="Rating">
-                <span id="rating-error" class="text-danger"></span>
-              </div>
-            </div>
-            <div class="form-group text-white">
-              <label for="avatar">Avatar URL</label>
-              <input type="text" class="form-control" id="avatar" placeholder="Enter the URL of your avatar" aria-label="Avatar URL">
-              <span id="avatar-error" class="text-danger" role="alert" aria-live="assertive"></span>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button>
-              <button type="submit" class="btn btn-primary" aria-label="Submit">Submit</button>
-            </div>
-          </form>
-        </div>
-
       </div>
-    </div>
-  </div>
-
-  <section style="color: #000; background-color: #010101;">
-    <div class="my-5 text-center container ">
-      <div class="row d-flex align-items-center">
-        <div class="col-1 d-flex align-items-center justify-content-center">
-          <a class="carousel-control-prev " href="#testimonialCarousel" role="button" data-slide="prev">
-            <div class="carousel-nav-icon">
-              <i class="fa-solid fa-arrow-left  fa-xl" style="color: var(--main-color);"></i>
-
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+              <h5 class="modal-title" id="exampleModalLabel">Testimonial</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
-          </a>
-        </div>
-        <div class="col-10">
-          <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-
-            <div class="carousel-inner ">
-
+            <div class="modal-body bg-dark bg-opacity-50">
+              <form id="testimonialForm">
+                <div class="form-row">
+                  <div class="form-group col-md-6 text-white">
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="Enter your name"
+                      aria-label="Name"
+                    />
+                  </div>
+                  <div class="form-group col-md-6 text-white">
+                    <label for="position">Position</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="position"
+                      placeholder="Enter your position"
+                      aria-label="Position"
+                    />
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6 text-white">
+                    <label for="quote">Quote</label>
+                    <textarea
+                      class="form-control"
+                      id="quote"
+                      rows="3"
+                      placeholder="Enter your quote"
+                      aria-label="Quote"
+                    ></textarea>
+                  </div>
+                  <div class="form-group col-md-6 text-white">
+                    <label for="rating">Rating</label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="rating"
+                      placeholder="Enter your rating"
+                      aria-label="Rating"
+                    />
+                    <span id="rating-error" class="text-danger"></span>
+                  </div>
+                </div>
+                <div class="form-group text-white">
+                  <label for="avatar">Avatar URL</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="avatar"
+                    placeholder="Enter the URL of your avatar"
+                    aria-label="Avatar URL"
+                  />
+                  <span
+                    id="avatar-error"
+                    class="text-danger"
+                    role="alert"
+                    aria-live="assertive"
+                  ></span>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    Close
+                  </button>
+                  <button
+                    type="submit"
+                    class="btn btn-primary"
+                    aria-label="Submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
             </div>
-
-          </div>
-        </div>
-        <div class="col-1 d-flex align-items-center justify-content-center"> <a class="carousel-control-next "
-            href="#testimonialCarousel" role="button" data-slide="next">
-            <div class="carousel-nav-icon">
-              <i class="fa-solid fa-arrow-right  fa-xl" style="color: var(--main-color);"></i>
-            </div>
-          </a>
-        </div>
-        <ol class="carousel-indicators d-none">
-
-        </ol>
-      </div>
-    </div>
-
-  </section>
-  <script src="https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js"></script>
-
-
-
-
-  <!-- FOOTER AREA START -->
-  <script src="./paste.js"></script>
-  <!-- FOOTER AREA START -->
-  <footer id="footer">
-    <div class="container-fluid px-5">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-4 pb-5 pb-sm-5 pb-lg-1">
-          <div class="footer-logo">
-            <a class="f-logo" href="#banner"><b>Opentek Org</b></a>
-            <p>
-              <i>
-                In open source, we feel strongly that to really do something
-                well, you have to get a lot of people involved.
-              </i>
-              <br />
-              ~ Linus Torvalds
-            </p>
-            <div class="footer-social">
-              <a href="https://discord.gg/9qyr4Mdc3Y" target="_blank" aria-label="Join with us on Discord"
-                title="Discord (External Link)" rel="noopener noreferrer">
-                <i class="fab fa-discord" aria-hidden="true"></i>
-              </a>
-
-              <a href="https://twitter.com/opentekorg" target="_blank" aria-label="Follow us on Iwitter"
-                title="Twitter (External Link)" rel="noopener noreferrer">
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.linkedin.com/company/opentekorg/" target="_blank" aria-label="Follow us on Linkedin"
-                title="Linkedin (External Link)" rel="noopener noreferrer">
-                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-              </a>
-              <a href="mailto:opentekorg@gmail.com" target="_blank" aria-label="Mail us on"
-                title="Preferred Mail Application (External Link)" rel="noopener noreferrer">
-                <i class="fas fa-envelope" aria-hidden="true"></i>
-              </a>
-              <a href="https://github.com/Opentek-Org/opentek" target="_blank" aria-label="Follow us on Github"
-                title="Github (External Link)" rel="noopener noreferrer">
-                <i class="fab fa-github" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-12 col-md-12 col-lg-2 offset-lg-1 pb-5 pb-sm-5 pb-lg-1">
-          <div class="links">
-            <h3>Quick Links</h3>
-            <ul>
-              <li>
-                <a href="/pages/about.html" target="_blank">About Us</a>
-              </li>
-              <li>
-                <a id="gated-content-5" class="" href="pages/event.html" target="_self">Events</a>
-              </li>
-              <li>
-                <a id="gated-content-6" class="" href="pages/program.html" target="_self">Programs</a>
-              </li>
-              <li>
-                <a href="/pages/projects.html" target="_blank">Projects</a>
-              </li>
-              <li>
-                <a href="/pages/roadmap.html" target="_blank">Road Maps</a>
-              </li>
-              <li>
-                <a href="https://github.com/Opentek-Org/opentek/graphs/contributors" target="_blank">Contributors</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-2 pb-5 pb-sm-5 pb-lg-1">
-          <div class="links">
-            <h3>How to Contribute?</h3>
-            <ul>
-              <li>
-                <a href="https://github.com/Opentek-Org/opentek" target="_blank">Contribute</a>
-              </li>
-              <li>
-                <a href="https://github.com/Opentek-Org/opentek/issues" target="_blank">Issues</a>
-              </li>
-              <li><a href="/pages/tutorial.html">Tutorials</a></li>
-              <li>
-                <a href="https://github.com/Opentek-Org/support" target="_blank">Join Us!</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-3">
-          <iframe src="https://discord.com/widget?id=876369146961596428&theme=dark" width="300" height="350"
-            allowtransparency="true" frameborder="0"
-            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- FOOTER AREA END -->
-
-  <!-- COPY_RIGHT AREA START -->
-  <section id="footer-btm">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="fop-btm text-center">
-            <h2>
-              Built with <i class="fa-solid fa-heart"></i> by
-              <br>
-              <a href="https://github.com/AnirudhPanda" target="_blank" rel="noopener noreferrer">Anirudh</a>
-              <a href="https://github.com/Opentek-Org" target="blank">& Opentek Community</a>
-              <br>
-              &copy;2023 [opentek] All Right Reserved
-            </h2>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- COPY_RIGHT AREA END -->
 
-  <!-- chatbot code -->
+      <section style="color: #000; background-color: #010101">
+        <div class="my-5 text-center container">
+          <div class="row d-flex align-items-center">
+            <div class="col-1 d-flex align-items-center justify-content-center">
+              <a
+                class="carousel-control-prev"
+                href="#testimonialCarousel"
+                role="button"
+                data-slide="prev"
+              >
+                <div class="carousel-nav-icon">
+                  <i
+                    class="fa-solid fa-arrow-left fa-xl"
+                    style="color: var(--main-color)"
+                  ></i>
+                </div>
+              </a>
+            </div>
+            <div class="col-10">
+              <div
+                id="testimonialCarousel"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <!-- Indicators -->
 
-  <!--   Chat Bot   -->
-  <div class="alan-btn"></div>
-  <script type="text/javascript" src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
-  <script>
+                <div class="carousel-inner"></div>
+              </div>
+            </div>
+            <div class="col-1 d-flex align-items-center justify-content-center">
+              <a
+                class="carousel-control-next"
+                href="#testimonialCarousel"
+                role="button"
+                data-slide="next"
+              >
+                <div class="carousel-nav-icon">
+                  <i
+                    class="fa-solid fa-arrow-right fa-xl"
+                    style="color: var(--main-color)"
+                  ></i>
+                </div>
+              </a>
+            </div>
+            <ol class="carousel-indicators d-none"></ol>
+          </div>
+        </div>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js"></script>
 
+      <!-- FOOTER AREA START -->
+      <script src="./paste.js"></script>
+      <!-- FOOTER AREA START -->
+      <footer id="footer">
+        <div class="container-fluid px-5">
+          <div class="row">
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-4 pb-5 pb-sm-5 pb-lg-1"
+            >
+              <div class="footer-logo">
+                <a class="f-logo" href="#banner"><b>Opentek Org</b></a>
+                <p>
+                  <i>
+                    In open source, we feel strongly that to really do something
+                    well, you have to get a lot of people involved.
+                  </i>
+                  <br />
+                  ~ Linus Torvalds
+                </p>
+                <div class="footer-social">
+                  <a
+                    href="https://discord.gg/9qyr4Mdc3Y"
+                    target="_blank"
+                    aria-label="Join with us on Discord"
+                    title="Discord (External Link)"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-discord" aria-hidden="true"></i>
+                  </a>
 
+                  <a
+                    href="https://twitter.com/opentekorg"
+                    target="_blank"
+                    aria-label="Follow us on Iwitter"
+                    title="Twitter (External Link)"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/opentekorg/"
+                    target="_blank"
+                    aria-label="Follow us on Linkedin"
+                    title="Linkedin (External Link)"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                  </a>
+                  <a
+                    href="mailto:opentekorg@gmail.com"
+                    target="_blank"
+                    aria-label="Mail us on"
+                    title="Preferred Mail Application (External Link)"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                  </a>
+                  <a
+                    href="https://github.com/Opentek-Org/opentek"
+                    target="_blank"
+                    aria-label="Follow us on Github"
+                    title="Github (External Link)"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
 
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-2 offset-lg-1 pb-5 pb-sm-5 pb-lg-1"
+            >
+              <div class="links">
+                <h3>Quick Links</h3>
+                <ul>
+                  <li>
+                    <a href="/pages/about.html" target="_blank">About Us</a>
+                  </li>
+                  <li>
+                    <a
+                      id="gated-content-5"
+                      class=""
+                      href="pages/event.html"
+                      target="_self"
+                      >Events</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      id="gated-content-6"
+                      class=""
+                      href="pages/program.html"
+                      target="_self"
+                      >Programs</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/pages/projects.html" target="_blank">Projects</a>
+                  </li>
+                  <li>
+                    <a href="/pages/roadmap.html" target="_blank">Road Maps</a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/Opentek-Org/opentek/graphs/contributors"
+                      target="_blank"
+                      >Contributors</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-2 pb-5 pb-sm-5 pb-lg-1"
+            >
+              <div class="links">
+                <h3>How to Contribute?</h3>
+                <ul>
+                  <li>
+                    <a
+                      href="https://github.com/Opentek-Org/opentek"
+                      target="_blank"
+                      >Contribute</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/Opentek-Org/opentek/issues"
+                      target="_blank"
+                      >Issues</a
+                    >
+                  </li>
+                  <li><a href="/pages/tutorial.html">Tutorials</a></li>
+                  <li>
+                    <a
+                      href="https://github.com/Opentek-Org/support"
+                      target="_blank"
+                      >Join Us!</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+              <iframe
+                src="https://discord.com/widget?id=876369146961596428&theme=dark"
+                width="300"
+                height="350"
+                allowtransparency="true"
+                frameborder="0"
+                sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- FOOTER AREA END -->
 
+      <!-- COPY_RIGHT AREA START -->
+      <section id="footer-btm">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="fop-btm text-center">
+                <h2>
+                  Built with <i class="fa-solid fa-heart"></i> by
+                  <br />
+                  <a
+                    href="https://github.com/AnirudhPanda"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Anirudh</a
+                  >
+                  <a href="https://github.com/Opentek-Org" target="blank"
+                    >& Opentek Community</a
+                  >
+                  <br />
+                  &copy;2023 [opentek] All Right Reserved
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- COPY_RIGHT AREA END -->
 
+      <!-- chatbot code -->
 
-    var alanBtnInstance = alanBtn({
-      key: "3a41c2735a5252b764a5a62bdae65be32e956eca572e1d8b807a3e2338fdd0dc/stage",
-      left: '50px',
-      bottom: '50px',
+      <!--   Chat Bot   -->
+      <div class="alan-btn"></div>
+      <script
+        type="text/javascript"
+        src="https://studio.alan.app/web/lib/alan_lib.min.js"
+      ></script>
+      <script>
+        var alanBtnInstance = alanBtn({
+          key: "3a41c2735a5252b764a5a62bdae65be32e956eca572e1d8b807a3e2338fdd0dc/stage",
+          left: "50px",
+          bottom: "50px",
 
+          onCommand: function (commandData) {
+            if (commandData && commandData.command === "openURL") {
+              if (commandData.target === "_blank") {
+                window.open(
+                  commandData.url,
+                  "_newtab" + Math.floor(Math.random() * 999999)
+                );
+              } else {
+                window.location.href = commandData.url;
+              }
+            }
+          },
 
-      onCommand: function (commandData) {
-        if (commandData && commandData.command === 'openURL') {
-          if (commandData.target === '_blank') {
-            window.open(commandData.url, '_newtab' + Math.floor(Math.random() * 999999));
+          rootEl: document.getElementById("alan-btn"),
+        });
+      </script>
+      <script>
+        // Get the input element and error message span
+        const avatarInput = document.getElementById("avatar");
+        const avatarError = document.getElementById("avatar-error");
+
+        // Add an event listener for input changes
+        avatarInput.addEventListener("input", function () {
+          // Get the entered URL
+          const url = avatarInput.value;
+
+          // Regular expression pattern for URL validation
+          // const urlPattern = /^(https?:\/\/)?([\w.]+)\.([a-z]{2,6}\.?)(\/[\w.]*)*\/?$/i;
+          const urlPattern =
+            /^(https?:\/\/)?([\w.]+)\.([a-z]{2,6}\.?)(\/[\w.]*)*(\?[\w=&-]*)?(#.*)?$/i;
+
+          // Check if the URL matches the pattern
+          if (urlPattern.test(url)) {
+            // Valid URL, clear the error message
+            avatarError.textContent = "";
           } else {
-            window.location.href = commandData.url;
+            // Invalid URL, display an error message
+            avatarError.textContent = "Please enter a valid URL";
           }
-        }
+        });
+      </script>
 
-      },
+      <script>
+        const ratingInput = document.getElementById("rating");
+        const ratingError = document.getElementById("rating-error");
 
-      rootEl: document.getElementById("alan-btn"),
-    });
+        ratingInput.addEventListener("input", function () {
+          const rating = parseInt(ratingInput.value);
 
-
-
-
-
-
-
-
-
-  </script>
-  <script>
-    // Get the input element and error message span
-    const avatarInput = document.getElementById('avatar');
-    const avatarError = document.getElementById('avatar-error');
-
-    // Add an event listener for input changes
-    avatarInput.addEventListener('input', function () {
-      // Get the entered URL
-      const url = avatarInput.value;
-
-      // Regular expression pattern for URL validation
-      // const urlPattern = /^(https?:\/\/)?([\w.]+)\.([a-z]{2,6}\.?)(\/[\w.]*)*\/?$/i;
-      const urlPattern = /^(https?:\/\/)?([\w.]+)\.([a-z]{2,6}\.?)(\/[\w.]*)*(\?[\w=&-]*)?(#.*)?$/i;
-
-
-
-      // Check if the URL matches the pattern
-      if (urlPattern.test(url)) {
-        // Valid URL, clear the error message
-        avatarError.textContent = '';
-      } else {
-        // Invalid URL, display an error message
-        avatarError.textContent = 'Please enter a valid URL';
-      }
-    });
-  </script>
-
-  <script>
-    const ratingInput = document.getElementById('rating');
-    const ratingError = document.getElementById('rating-error');
-
-    ratingInput.addEventListener('input', function () {
-      const rating = parseInt(ratingInput.value);
-
-      if (isNaN(rating) || rating < 1 || rating > 5) {
-        ratingError.textContent = 'Please enter a rating between 1 and 5';
-      } else {
-        ratingError.textContent = '';
-      }
-    });
-  </script>
-  <!-- <div class="chatbot">
+          if (isNaN(rating) || rating < 1 || rating > 5) {
+            ratingError.textContent = "Please enter a rating between 1 and 5";
+          } else {
+            ratingError.textContent = "";
+          }
+        });
+      </script>
+      <!-- <div class="chatbot">
     <div class="chatbot__header">
       <h3 class="chatbox__title"><b>Opentek 24/7</b></h3>
       <span class="material-symbols-outlined">close</span>
@@ -837,47 +1159,41 @@
       <span id="send-btn" class="material-symbols-outlined">send</span>
     </div>
   </div> -->
-  <!--  chat bot finish  -->
+      <!--  chat bot finish  -->
 
+      <!-- theam color area end -->
 
+      <!-- PWA JS -->
+      <script src="./pwa.js" defer></script>
 
-  <!-- theam color area end -->
+      <!-- openAI chat bot js -->
+      <script src="./chatBot/script.js"></script>
 
-  <!-- PWA JS -->
-  <script src="./pwa.js" defer></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
 
-  <!-- openAI chat bot js -->
-  <script src="./chatBot/script.js"></script>
+      <script src="js/auth.js"></script>
+      <!-- Optional JavaScript -->
+      <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
+      <script src="js/auth0.js"></script>
 
-  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
-
-  <script src="js/auth.js"></script>
-  <!-- Optional JavaScript -->
-  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
-  <script src="js/auth0.js"></script>
-
-  <script defer src="js/jquery-3.3.1.min.js"></script>
-  <script defer src="js/bootstrap.min.js"></script>
-  <script defer src="js/slick.min.js"></script>
-  <script defer src="js/circular.js"></script>
-  <script defer src="js/custom.js"></script>
-  <script src="js/auth0.js"></script>
-  <script src="js/color-theam.js"></script>
-  <script src="js/ripple-button.js"></script>
-  <!-- aos data -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init(
-      {
-        ofset: 300,
-        duration: 1000,
-      }
-    );
-  </script>
-</body>
-
-</html>
-
+      <script defer src="js/jquery-3.3.1.min.js"></script>
+      <script defer src="js/bootstrap.min.js"></script>
+      <script defer src="js/slick.min.js"></script>
+      <script defer src="js/circular.js"></script>
+      <script defer src="js/custom.js"></script>
+      <script src="js/auth0.js"></script>
+      <script src="js/color-theam.js"></script>
+      <script src="js/ripple-button.js"></script>
+      <!-- aos data -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          ofset: 300,
+          duration: 1000,
+        });
+      </script>
+    </body>
+  </html>
 </html>
