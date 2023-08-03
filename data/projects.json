@@ -361,5 +361,20 @@
     "domainIds": [
       "1"
     ]
+  },
+  {
+    "langId": "26",
+    "langTitle": [
+      "Java",
+      "Data Structures",
+      "Algorithms"
+    ],
+    "langName": "DSA Preperation",
+    "langDesc": "DSA preperation repo. for the better understanding of DSA.",
+    "langurl": "https://github.com/SyedImtiyaz-1/Java",
+    "langAdmin": "Syed Imtiyaz Ali",
+    "domainIds": [
+      "1"
+    ]
   }
 ]
