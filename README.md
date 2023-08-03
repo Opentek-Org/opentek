@@ -29,8 +29,6 @@
     <img src="https://komarev.com/ghpvc/?username=opentek-org&label=Repository+Visit&color=blueviolet&style=for-the-badge"/> 
 </p>
 
-<!-- <p align="center"><img src="https://i.postimg.cc/NF3N8zpk/opentek-desk.png" width="550" /></p> -->
-
 <p align="center">
     <a href="https://opentek.in/" target="blank">View Demo</a>
     ·
@@ -49,7 +47,20 @@ Welcome to Opentek, your No.1 source for Open Source Development. We're dedicate
 
 ### [Read our blog post 📖](https://blog.anirudhpanda.in/introducing-opentek)
 
-## 🚀 Demo
+## Table of Content
+
+- [Introducing Opentek 🎉](#Introducing-Opentek-🎉)
+- [🚀 Demo](#🚀-Demo)
+- [😎 Features](#features)
+- [🛠️ Installation Steps](#🛠-Installation-Steps)
+- [💻 Built with](#💻-Built-with)
+- [👥 Community Partners](#👥-Community-Partners)
+- [👀 Future Plans](#👀-Future-Plans)
+- [🌟 Deploy](#🌟-Deploy)
+- [🙏 Support](#🙏-Support)
+- [✌ Our Socials](#✌-Our-Socials)
+
+## 🚀 Demo 
 
 <!-- <a href="https://opentek.live/" target="blank">
 <img src="images/demo.gif" />
@@ -181,7 +192,7 @@ Please read our [contributing guidelines](https://github.com/Opentek-Org/opentek
 - **Netlify:** For Hosting
 - **Name.com:** For Domain Name
 
-## 👥Community Partners
+## 👥 Community Partners
 
 <p align="center">
 <a href="https://www.iccta.co/"><img src="https://user-images.githubusercontent.com/74408634/147837459-9878b932-24c3-4681-b238-9af051f324bc.png" width= "25%"/></a>&nbsp;&nbsp;
