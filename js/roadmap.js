@@ -2,7 +2,8 @@
 const roadmapImage = {
     frontendDev: "../images/roadmaps/frontenddev.jpg",
     MERNStackDev: "../images/roadmaps/MERNStackDev.jpg",
-    Datascience:  "../images/roadmaps/DataScience.jpg"
+    Datascience:  "../images/roadmaps/DataScience.jpg",
+    backendDev :"../images/roadmaps/Backend.jpg"
 }
 
 // Function to add cards in the roadmap page

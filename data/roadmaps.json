@@ -14,6 +14,12 @@
         "title": "Data Science",
         "description": "Data science involves extracting insights and knowledge from data through various processes, including data collection, cleaning, analysis, and interpretation. Data scientists use statistical and machine learning techniques to uncover trends, patterns, and valuable information from large datasets.",
         "roadmap": "Datascience"
+    },
+    {
+        "id": 4,
+        "title": "Backend Web Development",
+        "description": "Backend web development focuses on the server-side of web applications. It involves creating the logic, databases, and APIs that power the functionality of a website or web application. Backend developers ensure that the data is processed and delivered efficiently to the front-end.",
+        "roadmap": "backendDev"
     }
 
 ]
