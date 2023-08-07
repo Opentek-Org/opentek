@@ -35,17 +35,17 @@ transition: 1s ease;
   margin-top: 30px;
   font-size: 25px;
   font-family: 'Poppins', sans-serif;
-  text-align: left;
+  text-align: center;
   padding: 15px;
-  color: #FFFFFF;
+  color: #232C2F;
 }
 
 .website-description {
   margin-top: -5px;
-  text-align: left;
+  text-align: center;
   padding: 15px;
   font-size: 18px;
-  color: #FDF5E6;
+  color: #232C2F;
 }
 
 button
@@ -60,7 +60,7 @@ button
 
 button a:active
 {
-  color: #333333;
+  color: #232C2F;
 }
 
 button a:focus
