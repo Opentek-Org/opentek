@@ -181,16 +181,21 @@ Please read our [contributing guidelines](https://github.com/Opentek-Org/opentek
 
 ## 💻 Built with
 
-- **HTML5:** Skeleton
-- **CSS3:** Styling
-- **Bootstrap 4 and 5:** Rich Styling
-- **JavaScript (Server and Client Side) :** For Loading Data
-- **Firebase:** User Authentication and secure project storage using Firestore database. 
-- **Font Awesome:** For Icons
-- **Iconscout:** For Icons
-- **Rough Notation:** A small JavaScript library to create and animate annotations on a web page
-- **Netlify:** For Hosting
-- **Name.com:** For Domain Name
+<div align=center>
+
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap 4 and 5](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
+
+![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
+![Iconscout](https://img.shields.io/badge/Iconscout-02C6FF?style=for-the-badge&logo=maildotru&logoColor=white)
+![Rough Notation](https://img.shields.io/badge/Rough%20Notation-FFF176?style=for-the-badge&logo=javascript&logoColor=222)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Name.com](https://img.shields.io/badge/Name.com-033082?style=for-the-badge&logo=maildotru&logoColor=white)
+
+</div>
 
 ## 👥 Community Partners
 
