@@ -4,7 +4,7 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 
 # Initialize Firebase Admin SDK
-cred = credentials.Certificate("path/to/your/serviceKey.json")
+cred = credentials.Certificate(r"C:\Users\ANIRUDH PANDA\Downloads\opentek-serviceKey.json")
 firebase_admin.initialize_app(cred)
 
 # Create a Firestore client
@@ -12,7 +12,7 @@ db = firestore.client()
 
 # Read data from projects.json file
 try:
-    with open("path/to/your/projects.json", encoding="utf-8") as json_file:
+    with open(r"C:\Users\ANIRUDH PANDA\OneDrive\Desktop\opentek\data\projects.json", encoding='utf-8') as json_file:
         data = json.load(json_file)
 except FileNotFoundError:
     print("Error: JSON file not found.")
