@@ -146,7 +146,7 @@ If you are using VS Code, you can use the live server extension to set up your l
 
 Now you can access the application on the default port 80 without any authentication requirements. Happy coding! 🚀🌐
 
-8. Perfom your desired changes to the code base.
+8. Perform your desired changes to the code base.
 
 [![giphy.gif](https://i.postimg.cc/Fs75yYVT/giphy.gif)](https://postimg.cc/jL0FKd9f)
 
@@ -169,13 +169,13 @@ git push -u origin <your_branch_name>
 
 ```
 
-12. To create a pull request, click on "Compare and pull requests". Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
+12. To create a pull request, click on "Compare and pull requests". Please ensure you compare your feature branch to the desired branch of the repo you are supposed to make a PR to.
 
-13. Voila 🎉 You have made a PR to the Opentek project. Sit back patiently and relax while the project maintainers review your PR.
+13. Voila 🎉 You have made a PR for the Opentek project. Sit back patiently and relax while the project maintainers review your PR.
 
 Please read our [Code of Conduct](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
-## 🤷‍♂️ Want to submit an event, program, project or a tutorial to our Website?
+## 🤷‍♂️ Want to submit an event, program, project, or tutorial to our Website?
 
 Please read our [contributing guidelines](https://github.com/Opentek-Org/opentek/blob/main/CONTRIBUTING.md)
 
@@ -184,8 +184,8 @@ Please read our [contributing guidelines](https://github.com/Opentek-Org/opentek
 - **HTML5:** Skeleton
 - **CSS3:** Styling
 - **Bootstrap 4 and 5:** Rich Styling
-- **JavaScript (Server and Client Side) :** For Loading Data
-- **Firebase:** User Authentication and secure project storage using Firestore database. 
+- **JavaScript (Server and Client Side):** For Loading Data
+- **Firebase:** User Authentication and secure project storage using the Firestore database. 
 - **Font Awesome:** For Icons
 - **Iconscout:** For Icons
 - **Rough Notation:** A small JavaScript library to create and animate annotations on a web page
@@ -205,7 +205,7 @@ Please read our [contributing guidelines](https://github.com/Opentek-Org/opentek
 - Conducting Community Own OPEN SOURCE PROGRAM.
 - Sorting out projects according to beginners, intermediate and advanced levels.
 - Participating in various Open Source programs with this project.
-- Collaborating with various communities and create opportunities.
+- Collaborating with various communities and creating opportunities.
 - Adding Hackathon Page and updating it month-wise.
 - Animations.
 - In-built blog posts related to Open Source and Networking.
