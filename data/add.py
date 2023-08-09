@@ -11,12 +11,22 @@ firebase_admin.initialize_app(cred)
 db = firestore.client()
 
 # Read data from projects.json file
-with open(r"C:\Users\ANIRUDH PANDA\OneDrive\Desktop\opentek\data\projects.json", encoding='utf-8') as json_file:
-    data = json.load(json_file)
+try:
+    with open(r"C:\Users\ANIRUDH PANDA\OneDrive\Desktop\opentek\data\projects.json", encoding='utf-8') as json_file:
+        data = json.load(json_file)
+except FileNotFoundError:
+    print("Error: JSON file not found.")
+    exit(1)
+except json.JSONDecodeError:
+    print("Error: JSON file is not valid.")
+    exit(1)
 
 # Add data to Firestore collection
 for item in data:
-    doc_ref = db.collection('projects').document()
-    doc_ref.set(item)
+    try:
+        doc_ref = db.collection("projects").add(item)
+    except Exception as e:
+        print("Error adding data to Firestore:", str(e))
 
 print("Data added to Firestore successfully!")
+
