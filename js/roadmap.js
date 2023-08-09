@@ -85,28 +85,28 @@ function closeRoadMap(){
   
 // Function to download roadmap iamge
 function downloadRoadMap(){
-   const image = $("#roadmapImage").attr("src").slice(2);
-   const url = "http://127.0.0.1:5501/"+image;
-   const fileName = image.substring(image.lastIndexOf("/")+1);
-  
+  const image = $("#roadmapImage").attr("src").slice(2);
+  const url = "https://opentek.in"+image;
+  const fileName = image.substring(image.lastIndexOf("/")+1);
+  console.log(url)
 
-   fetch(url)
-    .then(response => response.blob())
-    .then(blob => {
-      // Create a temporary anchor element
-      const downloadLink = document.createElement('a');
-      downloadLink.href = URL.createObjectURL(blob);
-      downloadLink.download = fileName || 'image.jpg';
+  fetch(url)
+   .then(response => response.blob())
+   .then(blob => {
+     // Create a temporary anchor element
+     const downloadLink = document.createElement('a');
+     downloadLink.href = URL.createObjectURL(blob);
+     downloadLink.download = fileName || 'image.jpg';
 
-      // Trigger a click event on the anchor element
-      downloadLink.click();
+     // Trigger a click event on the anchor element
+     downloadLink.click();
 
-      // Clean up the temporary anchor and blob object
-      URL.revokeObjectURL(downloadLink.href);
-      downloadLink.remove();
-    })
-    .catch(error => {
-      console.error('Error downloading the image:', error);
-    });
+     // Clean up the temporary anchor and blob object
+     URL.revokeObjectURL(downloadLink.href);
+     downloadLink.remove();
+   })
+   .catch(error => {
+     console.error('Error downloading the image:', error);
+   });
 
 }
