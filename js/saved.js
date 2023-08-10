@@ -81,7 +81,18 @@ function loadData(data, db) {
           <a href="${data[i].langurl}" target="_blank"><button class="btn card_btn">Github Repository</button></a>
           <div class="icon_container">
 
-            <i class="fa fa-heart save_icon" data-lang-id="${data[i].langId}"></i>
+          <label class="bookmark" style="margin-top: 20px;">
+          <input type="checkbox"   class="save_icon" data-lang-id="${data[i].langId}" checked />
+          <div>
+            <svg class="background" viewBox="0 0 16 24" stroke="currentColor" >
+              <path d="M0.5,23.124911 L6.9318135,16.6008331 C6.93933086,16.5932441 6.93933086,16.5932441 6.94691994,16.5857267 C7.53686305,16.0041267 8.48658644,16.01089 9.0681865,16.6008331 L15.5,23.124911 L15.5,2.02869001 C15.5,1.18283629 14.8268205,0.5 14,0.5 L2,0.5 C1.17317953,0.5 0.5,1.18283629 0.5,2.02869001 L0.5,23.124911 Z"></path>
+            </svg>
+            <svg class="active" viewBox="0 0 16 24" fill="currentColor" >
+              <path d="M2,0 L14,0 C15.1045695,0 16,0.908275455 16,2.02869001 L16,23.7565572 C16,23.8910069 15.8925483,24 15.76,24 C15.696348,24 15.6353031,23.9743516 15.5902944,23.9286973 L8.71212433,16.9518598 C8.32439096,16.5585644 7.69124204,16.5540555 7.29794663,16.9417889 C7.29456578,16.9451219 7.29120871,16.948479 7.28787567,16.9518598 L0.409705627,23.9286973 C0.315979797,24.0237676 0.164020203,24.0237676 0.0702943725,23.9286973 C0.0252856417,23.8830429 0,23.8211222 0,23.7565572 L0,2.02869001 C0,0.908275455 0.8954305,0 2,0 Z"></path>
+            </svg>
+          </div>
+        </label>
+        
             <button type="button" class="twitter-share-button" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!" data-url="${data[i].langurl}">
             <i class="fa-solid fa-share " style="color: #e11919;"></i>Share
         </button>

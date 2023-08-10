@@ -388,7 +388,10 @@ img {
 }
 
 .icon_container {
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  margin-left:50px;
+  display:flex;
+  flex-direction: row;
 }
 
 .twitter-share-button {
@@ -412,5 +415,12 @@ img {
   margin-right: 8px;
 }
 .save_icon {
-  margin-right: 10px; /* Adjust the margin-right value as needed */
+
+
+  margin-top:200px;/* Adjust the margin-right value as needed */
+}
+
+.bookmark{
+  margin-right: 20px; 
+  margin-top:10px;
 }
