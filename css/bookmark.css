@@ -1,0 +1,119 @@
+.bookmark {
+zoom:1.5;
+    --active: #ff4141;
+    --border: #3F4656;
+    --duration: 1.2s;
+
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: 14px;
+    height: 14px;
+
+    margin-right: 15px;
+    margin-top: 15px;
+
+    
+ 
+  }
+  .bookmark:active {
+    transform: scale(0.9);
+  }
+  .bookmark input {
+    display: none;
+  }
+  .bookmark input + div {
+    position: absolute;
+    perspective: 160px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .bookmark input + div svg {
+    margin: 0 auto;
+    display: block;
+    width: 16px;
+    height: 24px;
+  }
+  .bookmark input + div svg.background {
+    color: var(--border);
+    stroke-width: 1px;
+    fill: none;
+  }
+  .bookmark input + div svg.active {
+    color: var(--active);
+    z-index: 2;
+    position: absolute;
+    left: 4px;
+    top: 0;
+    transform-origin: 50% 0;
+    -webkit-animation: flipBack var(--duration) ease-in forwards;
+            animation: flipBack var(--duration) ease-in forwards;
+  }
+  .bookmark input:checked + div svg.active {
+    -webkit-animation: flip var(--duration) ease-out forwards;
+            animation: flip var(--duration) ease-out forwards;
+  }
+  
+  @-webkit-keyframes flip {
+    0% {
+      transform: rotateX(90deg);
+    }
+    32.5% {
+      transform: rotateX(30deg);
+    }
+    65% {
+      transform: rotateX(-50deg);
+    }
+    100% {
+      transform: rotateX(0deg);
+    }
+  }
+  
+  @keyframes flip {
+    0% {
+      transform: rotateX(90deg);
+    }
+    32.5% {
+      transform: rotateX(30deg);
+    }
+    65% {
+      transform: rotateX(-50deg);
+    }
+    100% {
+      transform: rotateX(0deg);
+    }
+  }
+  @-webkit-keyframes flipBack {
+    0% {
+      transform: rotateX(0deg);
+    }
+    35% {
+      transform: rotateX(-50deg);
+    }
+    67.5% {
+      transform: rotateX(30deg);
+    }
+    100% {
+      transform: rotateX(90deg);
+    }
+  }
+  @keyframes flipBack {
+    0% {
+      transform: rotateX(0deg);
+    }
+    35% {
+      transform: rotateX(-50deg);
+    }
+    67.5% {
+      transform: rotateX(30deg);
+    }
+    100% {
+      transform: rotateX(90deg);
+    }
+  }
+
+  .background,
+.active {
+  width: 0px;
+  height: 10px;
+}
